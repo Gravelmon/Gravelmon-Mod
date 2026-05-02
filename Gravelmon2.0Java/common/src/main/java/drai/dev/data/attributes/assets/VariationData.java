@@ -59,13 +59,22 @@ public class VariationData {
         var aspectsArray = new JsonArray();
         aspects.forEach(aspectsArray::add);
         var hasGenderDifferences = false;
-        if (worldRepresentablePokemon instanceof Pokemon pokemon) hasGenderDifferences = pokemon.hasGenderDifferences();
+        String femaleModelAffix = "";
+        String femalePoserAffix = "";
+        if (worldRepresentablePokemon instanceof Pokemon pokemon) {
+            hasGenderDifferences = pokemon.hasGenderDifferences();
+            if(hasGenderDifferences) {
+                var genderDifferences = pokemon.getGenderDifferences();
+                if(genderDifferences.modelDifference) femaleModelAffix = "_female";
+                if(genderDifferences.animationDifference) femalePoserAffix = "_female";
+            }
+        }
         var model = isFemale && hasGenderDifferences
                 ? (!worldRepresentablePokemon.isModeled() ? worldRepresentablePokemon.getFemalePlaceholderModelName() : this.model.get())
                 : this.model.get();
         jsonObject.add("aspects", aspectsArray);
-        jsonObject.addProperty("model", "cobblemon:" + model.replaceAll("placeholder\\\\","") + ".geo");
-        jsonObject.addProperty("poser", ("cobblemon:" + (worldRepresentablePokemon.isModeled() ? poser.get() :
+        jsonObject.addProperty("model", "cobblemon:" + model.replaceAll("placeholder\\\\","") + femaleModelAffix + ".geo");
+        jsonObject.addProperty("poser", ("cobblemon:" + (worldRepresentablePokemon.isModeled() ? poser.get()+femalePoserAffix :
                 worldRepresentablePokemon.getPlaceholderModelName(isFemale))).replaceAll("\\\\","/"));
         jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, worldRepresentablePokemon, isShiny, isFemale));
         var layerArray = new JsonArray();

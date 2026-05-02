@@ -2,7 +2,6 @@ package drai.dev.data.pokemon;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.*;
-import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -36,10 +35,10 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected final List<Aspect> aspects = new ArrayList<>();
     protected final int weight;
     protected final List<EvolutionEntry> evolutions = new ArrayList<>();
-    protected boolean cannotDynamax = false;
     protected final List<String> dexEntries = new ArrayList<>();
     protected final List<PokemonSpawnData> spawnData = new ArrayList<>();
-    protected boolean hasGenderDifferences = false;
+    protected boolean cannotDynamax = false;
+    protected GenderDifferences genderDifferences;
     protected int lightLevelMinSleep = 0;
     protected int lightLevelMaxSleep = 6;
     protected double swimSpeed = 0.1;
@@ -473,5 +472,23 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public boolean canSwimInWater() {
         return canSwimInWater;
+    }
+
+    public static class GenderDifferences {
+        public final boolean textureDifference;
+        public final boolean modelDifference;
+        public final boolean animationDifference;
+
+        public GenderDifferences(boolean textureDifference, boolean modelDifference, boolean animationDifference) {
+            this.textureDifference = textureDifference;
+            this.modelDifference = modelDifference;
+            this.animationDifference = animationDifference;
+        }
+
+        public GenderDifferences(){
+            this.textureDifference = true;
+            this.modelDifference = false;
+            this.animationDifference = false;
+        }
     }
 }

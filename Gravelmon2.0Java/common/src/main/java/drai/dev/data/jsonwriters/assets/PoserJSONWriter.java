@@ -53,6 +53,7 @@ public class PoserJSONWriter {
     private static void writePokemon(WorldRepresentablePokemon worldRepresentablePokemon, String gameName, String resourcesDir, Gson gson) throws IOException {
         if(worldRepresentablePokemon.isModeled()) createPoserFile(worldRepresentablePokemon.getPosingFileData(),gameName.toLowerCase() + "_" + worldRepresentablePokemon.getCleanName(), resourcesDir, gson);
         if(worldRepresentablePokemon instanceof Pokemon pokemon){
+            if(pokemon.hasGenderDifferences() && pokemon.getGenderDifferences().animationDifference) createPoserFile(worldRepresentablePokemon.getPosingFileData(true),gameName.toLowerCase() + "_" + worldRepresentablePokemon.getCleanName()+"_female", resourcesDir, gson);
             for(PokemonForm form: pokemon.getForms()){
                 if(!form.isModeled()) continue;
                 createPoserFile(form.getPosingFileData(), gameName.toLowerCase() + "_" +form.getCleanName()+"_"+worldRepresentablePokemon.getCleanName(), resourcesDir, gson);

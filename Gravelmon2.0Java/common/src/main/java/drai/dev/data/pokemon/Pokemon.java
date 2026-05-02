@@ -240,8 +240,8 @@ public class Pokemon extends AbstractPokemon {
 
     public void processAssets(String resourcesDir) {
         spawnData.forEach(pokemonSpawnData -> pokemonSpawnData.setPokemon(this));
-        processPokemonAssets(resourcesDir, hasGenderDifferences);
-        forms.forEach(form -> form.processPokemonAssets(resourcesDir, hasGenderDifferences));
+        processPokemonAssets(resourcesDir, hasGenderDifferences());
+        forms.forEach(form -> form.processPokemonAssets(resourcesDir, hasGenderDifferences()));
     }
 
     public static @Nullable Pokemon getPokemonById(String evolutionEntry) {
@@ -287,8 +287,12 @@ public class Pokemon extends AbstractPokemon {
         isNew = aNew;
     }
 
-    public void setHasGenderDifferences(boolean hasGenderDifferences) {
-        this.hasGenderDifferences = hasGenderDifferences;
+    public void setHasGenderDifferences(boolean hasGenderedTexture) {
+        this.genderDifferences = new GenderDifferences(hasGenderedTexture, false, false);
+    }
+
+    public void setHasGenderDifferences(boolean hasGenderedTexture, boolean hasGenderedModel, boolean hasAnimationDifference) {
+        this.genderDifferences = new GenderDifferences(hasGenderedTexture, hasGenderedModel, hasAnimationDifference);
     }
 
     public String getCleanName() {
@@ -321,7 +325,11 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public boolean hasGenderDifferences() {
-        return hasGenderDifferences;
+        return genderDifferences != null;
+    }
+
+    public GenderDifferences getGenderDifferences() {
+        return genderDifferences;
     }
 
     public void setNameDifferentInLangFile(boolean nameDifferentInLangFile) {
