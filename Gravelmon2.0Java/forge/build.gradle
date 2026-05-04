@@ -53,7 +53,7 @@ dependencies {
     }
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
-    modImplementation("maven.modrinth:cobblemon-paleontology:0.0.3-Beta")
+    modImplementation("maven.modrinth:cobblemon-paleontology:1.7.3+0.6.0-Beta-Neo")
     modImplementation "maven.modrinth:midnightlib:uGySRC8x"
     modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown_neoforge}")
 
