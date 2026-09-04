@@ -33,9 +33,7 @@ dependencies {
 
     modImplementation("com.cobblemon:neoforge:${property("cobblemon_version")}") { isTransitive = false }
     //Needed for cobblemon
-    forgeRuntimeLibrary("thedarkcolour:kotlinforforge-neoforge:${property("kotlin_for_forge_version")}") {
-        exclude("net.neoforged.fancymodloader", "loader")
-    }
+    implementation("thedarkcolour:kotlinforforge-neoforge:${property("kotlin_for_forge_version")}")
 
     implementation(project(":common", configuration = "namedElements"))
     "developmentNeoForge"(project(":common", configuration = "namedElements")) {
@@ -45,6 +43,9 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${property("junit_version")}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${property("junit_version")}")
+    val midnightlib = "eu.midnightdust:midnightlib:${property("midnightlib_version")}-neoforge"
+    modImplementation(midnightlib)
+    include(midnightlib)
 }
 
 tasks {
