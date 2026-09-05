@@ -28,11 +28,8 @@ public abstract class WorldRepresentablePokemon {
     protected String gameName;
     protected String name;
     protected File textureDirectory;
-    protected File modelFile;
     protected Image placeholderImage;
     protected Image femalePlaceholderImage;
-    protected JsonObject modelJSON;
-    protected boolean hasSeparateFemaleModel;
     private final SpeciesFileData speciesFileData;
     private final PosingFileData posingFileData;
     private final PosingFileData femalePosingFileData;
@@ -136,11 +133,11 @@ public abstract class WorldRepresentablePokemon {
         var modelName = getModelName();
         var modelLocation = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\"+ modelName;
         if(!new File(modelLocation+ ".geo.json").exists()){
-            Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
+            Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation + ".geo.json");
         }
-        if(hasGenderDifferences || hasSeparateFemaleModel) {
+        if(hasGenderDifferences) {
             if(!new File(modelLocation+ "_female.geo.json").exists()){
-                Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
+                Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation + "_female.geo.json");
             }
         };
 
@@ -149,22 +146,23 @@ public abstract class WorldRepresentablePokemon {
         var animationLocation = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\animations\\"+animationFileName;
         if(!new File(animationLocation).exists()){
             Cobblemon.LOGGER.warn("Animation {} does not exist", animationFileName);
-        }
-        try {
-            JsonObject jsonAnimation = (JsonObject) JsonParser.parseReader(new FileReader(animationLocation));
-            var animationMap = new HashMap<String, String>();
-            jsonAnimation.getAsJsonObject("animations").keySet().forEach(key -> {
-                        var splitAnimation = key.replaceAll("animation\\.", "").split("\\.");
-                        if(splitAnimation.length == 2){
-                            animationMap.put(splitAnimation[1], splitAnimation[0]);
-                        }
-                    });
-            posingFileData.animations.forEach(animationData -> {
-                checkAnimationsExists(animationData, animationMap, animationFileName);
+        } else {
+            try {
+                JsonObject jsonAnimation = (JsonObject) JsonParser.parseReader(new FileReader(animationLocation));
+                var animationMap = new HashMap<String, String>();
+                jsonAnimation.getAsJsonObject("animations").keySet().forEach(key -> {
+                    var splitAnimation = key.replaceAll("animation\\.", "").split("\\.");
+                    if(splitAnimation.length == 2){
+                        animationMap.put(splitAnimation[1], splitAnimation[0]);
+                    }
+                });
+                posingFileData.animations.forEach(animationData -> {
+                    checkAnimationsExists(animationData, animationMap, animationFileName);
 
-            });
-        } catch (FileNotFoundException e) {
-            Cobblemon.LOGGER.warn("Animation {} is invalid", animationFileName);
+                });
+            } catch (FileNotFoundException e) {
+                Cobblemon.LOGGER.warn("Animation {} is invalid", animationFileName);
+            }
         }
     }
 
@@ -285,30 +283,6 @@ public abstract class WorldRepresentablePokemon {
             }
         }
         return image;
-    }
-
-    public void addAnimation(AnimationData animationData){
-        posingFileData.animations.add(animationData);
-    }
-
-    public File getTextureDirectory() {
-        return textureDirectory;
-    }
-
-    public File getModelFile() {
-        return modelFile;
-    }
-
-    public Image getPlaceholderImage() {
-        return placeholderImage;
-    }
-
-    public Image getFemalePlaceholderImage() {
-        return femalePlaceholderImage;
-    }
-
-    public JsonObject getModelJSON() {
-        return modelJSON;
     }
 
     public SpeciesFileData getSpeciesFileData() {

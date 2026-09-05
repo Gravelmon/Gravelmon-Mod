@@ -1,10 +1,59 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import java.nio.file.Files
 
 plugins {
     id 'dev.architectury.loom' version '1.13-SNAPSHOT' apply false
     id 'architectury-plugin' version '3.4-SNAPSHOT'
     id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
     id 'org.jetbrains.kotlin.jvm' version "2.1.10"
+}
+
+
+def gravelmonZipUrl = "https://drive.usercontent.google.com/download?id=1jtJ3oYVAGlqpuIm7asf3Phn_xWV5PklE&export=download&authuser=0"
+
+tasks.register("fetchGravelmonFiles") {
+    group = "gravelmon"
+    description = "fetch gravelmon files"
+
+    def zipFile = layout.buildDirectory.file("gravelmon/gravelmon.zip").get().asFile
+    def outputDir = layout.buildDirectory.dir("gravelmon/output").get().asFile
+
+    outputs.dir(outputDir)
+
+    doLast {
+        zipFile.parentFile.mkdirs()
+
+        zipFile.withOutputStream { out ->
+            new URL(gravelmonZipUrl).openConnection().with { conn ->
+                conn.setRequestProperty("User-Agent", "Gradle")
+                conn.inputStream.withCloseable { input ->
+                    out << input
+                }
+            }
+        }
+        println "Downloaded size: ${zipFile.length()} bytes"
+
+        println "Unzipping..."
+
+        def zip = zipFile
+        def fabricDir = file("fabric/run")
+        def forgeDir = file("forge/run")
+
+        fabricDir.mkdirs()
+        forgeDir.mkdirs()
+
+        copy {
+            from zipTree(zip)
+            into fabricDir
+        }
+
+        copy {
+            from zipTree(zip)
+            into forgeDir
+        }
+
+        println "Done."
+    }
 }
 
 architectury {

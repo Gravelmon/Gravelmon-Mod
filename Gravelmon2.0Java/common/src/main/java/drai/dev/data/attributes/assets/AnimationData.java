@@ -316,4 +316,20 @@ public class AnimationData extends BasicAnimationData {
         }
         return this;
     }
+
+    public AnimationData withHoldingConditional() {
+        return this.addConditionalAnimation(new ConditionalAnimation("hold_item", "q.is_holding_item"));
+    }
+
+    public AnimationData withGroundRidingConditional() {
+        return this.addConditionalAnimation(new ConditionalAnimation("ride_ground_run", "q.is_ridden"));
+    }
+
+    public AnimationData withAirRidingConditional() {
+        return this.addConditionalAnimation(new ConditionalAnimation("ride_air_fly", "q.is_ridden"));
+    }
+
+    public AnimationData withRiderOverlayConditional() {
+        return this.addConditionalAnimation(new ConditionalAnimation("rider_overlay", "q.is_ridden"));
+    }
 }
