@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "drai.dev.gravelmon.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "drai.dev.gravelmon.fabric.mixin.GravelmonFabricMixinPlugin",
+  "mixins": [
+    "CobblemonPaleontologistMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

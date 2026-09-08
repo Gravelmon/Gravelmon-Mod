@@ -14,6 +14,8 @@ loom {
 
 dependencies {
     minecraft("com.mojang:minecraft:${property("minecraft_version")}")
+    modImplementation("dev.architectury:architectury:${property("architectury_version")}")
+
     mappings(loom.officialMojangMappings())
     modImplementation("com.cobblemon:mod:${property("cobblemon_version")}") { isTransitive = false }
 
@@ -28,6 +30,8 @@ dependencies {
             module = "modmenu"
         )
     }
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${property("megashowdown_fabric")}")
+    modImplementation("maven.modrinth:tbBs6vYE:y8VQ3hHk")
 }
 
 tasks.test {

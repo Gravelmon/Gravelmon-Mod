@@ -8,12 +8,13 @@
   },
   "mixins": [
     "CobblemonPlacedFeaturesMixin",
-    "PokeBallMixin",
+    "GravelsExtendedBattlesMixin",
     "accessors.PokeBallAccessor",
     "accessors.PokeBallsAccessor"
   ],
   "client": [
     "client.ModelWidgetMixin",
-    "client.PokemonClientDelegateMixin"
+    "client.PokemonClientDelegateMixin",
+    "client.VaryingModelRepositoryMixin"
   ]
 }

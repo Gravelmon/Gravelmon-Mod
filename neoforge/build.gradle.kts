@@ -39,7 +39,7 @@ dependencies {
     "developmentNeoForge"(project(":common", configuration = "namedElements")) {
         isTransitive = false
     }
-    shadowBundle(project(":common", configuration = "transformProductionFabric"))
+    shadowBundle(project(":common", configuration = "transformProductionNeoforge"))
     modImplementation(files("libs/gravels_extended_battles-neoforge-${property("geb_version")}.jar"))
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${property("junit_version")}")
@@ -47,6 +47,7 @@ dependencies {
     val midnightlib = "eu.midnightdust:midnightlib:${property("midnightlib_version")}-neoforge"
     modImplementation(midnightlib)
     include(midnightlib)
+    modImplementation("maven.modrinth:tbBs6vYE:Dx0Od6Zz")
 }
 
 tasks {
