@@ -1,12 +1,15 @@
 package drai.dev.gravelmon
 
+import com.cobblemon.mod.common.ResourcePackActivationBehaviour
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
+import com.cobblemon.mod.common.client.CobblemonPack
 import dev.architectury.injectables.annotations.ExpectPlatform
 import drai.dev.gravelmon.pokeball.GravelmonPokeBalls
 import drai.dev.gravelmon.registries.GravelmonBlocks
 import drai.dev.gravelmon.registries.GravelmonFossilItems
 import drai.dev.gravelmon.registries.GravelmonItems
 import drai.dev.gravelsextendedbattles.BanListManager
+import net.minecraft.server.packs.PackType
 import net.minecraft.world.item.Item
 
 object Gravelmon {
@@ -18,6 +21,7 @@ object Gravelmon {
         GravelmonBlocks.touch()
         GravelmonItems.touch()
         registerItems()
+        platformInit()
     }
 
     @ExpectPlatform
@@ -43,4 +47,11 @@ object Gravelmon {
         }
         return allowedFossils
     }
+
+    @JvmStatic
+    val builtinPacks = listOf(
+        CobblemonPack(id = "fakemonstarters", name = "Gravelmon Starters", packType = PackType.SERVER_DATA, activationBehaviour = ResourcePackActivationBehaviour.DEFAULT_ENABLED),
+        CobblemonPack(id = "botanypotsCompat", name = "Gravelmon BotanyPots Compatibility", packType = PackType.SERVER_DATA, activationBehaviour = ResourcePackActivationBehaviour.DEFAULT_ENABLED, neededMods = setOf("botany_pots")),
+        CobblemonPack(id = "immersiveengineering", name = "Gravelmon Immersive Engineering Compatibility", packType = PackType.SERVER_DATA, activationBehaviour = ResourcePackActivationBehaviour.DEFAULT_ENABLED, neededMods = setOf("immersive_engineering")),
+    )
 }

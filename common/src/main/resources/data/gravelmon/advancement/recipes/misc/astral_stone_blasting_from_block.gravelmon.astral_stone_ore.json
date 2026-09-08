@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_astral_stone_ore_block_item": {
+    "has_astral_stone_ore": {
       "conditions": {
         "items": [
           {
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_astral_stone_ore_block_item"
+      "has_astral_stone_ore"
     ]
   ],
   "rewards": {

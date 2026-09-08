@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.neoforge.paleontologistcompat;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
 import it.unimi.dsi.fastutil.ints.*;
@@ -15,7 +16,7 @@ import java.util.*;
 
 public class PaleontologistOverride {
     public static void addGravelmonFossils(VillagerProfession paleontologist, VillagerTradesEvent event, CallbackInfo ci) {
-        GravelmonItems.registerLate(() -> {
+        GravelmonItems.registerLate(() -> PokemonSpecies.INSTANCE.getObservable().subscribe(s-> {
             if (event.getType() == ModVillagers.PALEONTOLOGIST.value()) {
                 Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 
@@ -49,7 +50,7 @@ public class PaleontologistOverride {
                 addGravelmonFossils(trades.get(4));
                 addGravelmonFossils(trades.get(5));
             }
-        });
+        }));
         ci.cancel();
     }
 

@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.utils
 
 import com.cobblemon.mod.common.pokemon.RenderablePokemon
+import java.io.File
 import java.util.*
 
 fun getCleanName(name: String): String {
@@ -24,3 +25,5 @@ fun isParsableAsInt(str: String): Boolean {
         return false // If an exception is thrown, return false
     }
 }
+
+fun getFileNameWithoutExtension(path: String) = File(path).nameWithoutExtension

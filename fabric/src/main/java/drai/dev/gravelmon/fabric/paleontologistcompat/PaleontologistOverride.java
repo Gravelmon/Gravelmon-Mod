@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.fabric.paleontologistcompat;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.object.builder.v1.trade.*;
@@ -11,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.*;
 
 public class PaleontologistOverride {
     public static void addGravelmonFossils(VillagerProfession paleontologist, CallbackInfo ci) {
-        GravelmonItems.registerLate(() -> {
+        GravelmonItems.registerLate(() -> PokemonSpecies.INSTANCE.getObservable().subscribe(s->{
             TradeOfferHelper.registerVillagerOffers(paleontologist, 1, factories -> {
                 factories.add((entity, random) -> new MerchantOffer(
                         new ItemCost(Items.EMERALD, 16),
@@ -52,7 +53,7 @@ public class PaleontologistOverride {
             addGravelmonFossils(paleontologist, 3);
             addGravelmonFossils(paleontologist, 4);
             addGravelmonFossils(paleontologist, 5);
-        });
+        }));
         ci.cancel();
     }
 
