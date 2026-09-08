@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:galvantula",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": [
+        "x_form"
+      ],
+      "model": "cobblemon:xenoverse_galvantulax.geo",
+      "poser": "cobblemon:xenoverse_galvantulax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/galvantulax/galvantulax.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x_form",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_galvantulax.geo",
+      "poser": "cobblemon:xenoverse_galvantulax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/galvantulax/galvantulax_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

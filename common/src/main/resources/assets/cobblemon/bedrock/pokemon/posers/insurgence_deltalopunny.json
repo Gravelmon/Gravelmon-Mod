@@ -1,0 +1,54 @@
+{
+  "portraitScale": 2.0,
+  "portraitTranslation": [
+    -0.2,
+    1.9,
+    0.0
+  ],
+  "profileScale": 0.5,
+  "profileTranslation": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('deltalopunny', q.look('head_ai'))",
+        "q.bedrock('deltalopunny', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('deltalopunny', q.look('head_ai'))",
+        "q.bedrock('deltalopunny', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

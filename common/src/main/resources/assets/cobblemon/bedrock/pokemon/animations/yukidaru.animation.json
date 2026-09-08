@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yukidaru.ground_idle": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": [0, 0, 30],
+					"position": [-4, 3, 0]
+				},
+				"left_arm2": {
+					"rotation": [0, 20, 0],
+					"position": [0, 0, 2]
+				},
+				"right_arm": {
+					"rotation": [0, 0, -30],
+					"position": [4, 3, 0]
+				},
+				"right_arm2": {
+					"rotation": [0, -20, 0],
+					"position": [0, 0, 2]
+				}
+			}
+		},
+		"cry": {
+			"loop": true
+		},
+		"blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"left_eye_closed": {
+					"position": {
+						"0.0": [0, 0, -1.01],
+						"0.125": [0, 0, -1.01],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"right_eye_closed": {
+					"position": {
+						"0.0": [0, 0, -1.01],
+						"0.125": [0, 0, -1.01],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

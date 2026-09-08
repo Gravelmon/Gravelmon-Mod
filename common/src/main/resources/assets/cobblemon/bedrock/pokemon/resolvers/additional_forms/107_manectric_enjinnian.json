@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:manectric",
+  "order": 107,
+  "variations": [
+    {
+      "aspects": [
+        "enjinnian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_72_by_68.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_68",
+      "texture": "cobblemon:textures/pokemon/enjin/enjinnianmanectric.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

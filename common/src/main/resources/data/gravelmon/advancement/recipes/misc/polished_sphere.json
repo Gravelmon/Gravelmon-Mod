@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "hasRAGGED_PEBBLE": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gravelmon:ragged_pebble"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gravelmon:polished_sphere"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "hasRAGGED_PEBBLE"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gravelmon:polished_sphere"
+    ]
+  }
+}

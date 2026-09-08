@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:smoliv",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:cutout_gravelmon_50_by_40.geo",
+      "poser": "cobblemon:cutout_gravelmon_50_by_40",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsmoliv.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

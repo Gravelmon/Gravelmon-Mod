@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1.2999999523162842,
+  "portraitTranslation": [
+    -0.35,
+    0.7,
+    0.0
+  ],
+  "profileScale": 0.6499999761581421,
+  "profileTranslation": [
+    0.0,
+    0.9,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('spiritomb_x', q.look('head_ai'))",
+        "q.bedrock('spiritomb_x', 'ground_idle')",
+        "q.bedrock('spiritomb_x', 'orbs')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('spiritomb_x', q.look('head_ai'))",
+        "q.bedrock('spiritomb_x', 'ground_walk')",
+        "q.bedrock('spiritomb_x', 'orbs')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

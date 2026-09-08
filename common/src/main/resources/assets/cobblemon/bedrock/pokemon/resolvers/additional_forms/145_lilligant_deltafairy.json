@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:lilligant",
+  "order": 145,
+  "variations": [
+    {
+      "aspects": [
+        "deltafairy"
+      ],
+      "model": "cobblemon:cutout_gravelmon_108_by_142.geo",
+      "poser": "cobblemon:cutout_gravelmon_108_by_142",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltafairylilligant.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

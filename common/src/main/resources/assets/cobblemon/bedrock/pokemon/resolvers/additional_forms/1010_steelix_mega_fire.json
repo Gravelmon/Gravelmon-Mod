@@ -1,0 +1,105 @@
+{
+  "species": "cobblemon:steelix",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega_fire"
+      ],
+      "model": "cobblemon:insurgence_steelix_mega_fire.geo",
+      "poser": "cobblemon:insurgence_steelix_mega_fire",
+      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame",
+          "emissive": true,
+          "translucent": false,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame1.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame2.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame3.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_fire",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_steelix_mega_fire.geo",
+      "poser": "cobblemon:insurgence_steelix_mega_fire",
+      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame",
+          "emissive": true,
+          "translucent": false,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame1_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame2_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame3_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame4_shiny.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

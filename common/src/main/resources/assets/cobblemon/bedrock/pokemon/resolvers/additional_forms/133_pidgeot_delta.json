@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:pidgeot",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltapidgeot.geo",
+      "poser": "cobblemon:insurgence_deltapidgeot",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltapidgeot/deltapidgeot.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltapidgeot.geo",
+      "poser": "cobblemon:insurgence_deltapidgeot",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltapidgeot/deltapidgeot_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:electabuzz",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon_112_by_120.geo",
+      "poser": "cobblemon:cutout_gravelmon_112_by_120",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaelectabuzz.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

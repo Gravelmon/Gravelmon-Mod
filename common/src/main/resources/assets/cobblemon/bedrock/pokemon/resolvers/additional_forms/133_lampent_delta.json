@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:lampent",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon_110_by_106.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_106",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltalampent.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

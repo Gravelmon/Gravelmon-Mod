@@ -1,0 +1,81 @@
+{
+  "portraitScale": 0.30000001192092896,
+  "portraitTranslation": [
+    -0.6,
+    1.5,
+    0.0
+  ],
+  "profileScale": 0.30000001192092896,
+  "profileTranslation": [
+    -0.2,
+    1.3,
+    0.0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('arkhaos', 'cry')",
+    "faint": "q.bedrock_primary('arkhaos', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('arkhaos', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('arkhaos', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('arkhaos', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('arkhaos', 'air_fly')"
+      ],
+      "poseTypes": [
+        "FLY",
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:girafarig",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_220_by_164.geo",
+      "poser": "cobblemon:cutout_gravelmon_220_by_164",
+      "texture": "cobblemon:textures/pokemon/insurgence/girafarig_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

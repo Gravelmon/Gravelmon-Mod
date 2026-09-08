@@ -1,0 +1,81 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltagallade.geo",
+      "poser": "cobblemon:insurgence_deltagallade",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagallade/deltagallade.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/deltagallade/deltagallade_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltagallade.geo",
+      "poser": "cobblemon:insurgence_deltagallade",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagallade/deltagallade_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/deltagallade/deltagallade_emissive_shiny.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gravelmon:orange_apricorn",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "gravelmon:orange_apricorn",
+              "properties": {
+                "age": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gravelmon:orange_apricorn_seed",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "gravelmon:orange_apricorn",
+              "properties": {
+                "age": "3"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

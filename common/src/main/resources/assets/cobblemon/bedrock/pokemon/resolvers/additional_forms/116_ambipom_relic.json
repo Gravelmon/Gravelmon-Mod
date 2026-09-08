@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:ambipom",
+  "order": 116,
+  "variations": [
+    {
+      "aspects": [
+        "relic"
+      ],
+      "model": "cobblemon:cutout_gravelmon_110_by_90.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_90",
+      "texture": "cobblemon:textures/pokemon/phoenixrising/relicambipom.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

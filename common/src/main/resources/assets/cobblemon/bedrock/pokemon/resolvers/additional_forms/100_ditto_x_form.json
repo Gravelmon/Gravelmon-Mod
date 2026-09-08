@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": [
+        "x_form"
+      ],
+      "model": "cobblemon:xenoverse_dittox.geo",
+      "poser": "cobblemon:xenoverse_dittox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/dittox/dittox.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x_form",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_dittox.geo",
+      "poser": "cobblemon:xenoverse_dittox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/dittox/dittox_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

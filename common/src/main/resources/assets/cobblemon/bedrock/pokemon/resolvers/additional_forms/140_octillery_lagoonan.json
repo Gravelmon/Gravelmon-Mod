@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:octillery",
+  "order": 140,
+  "variations": [
+    {
+      "aspects": [
+        "lagoonan"
+      ],
+      "model": "cobblemon:cutout_gravelmon_63_by_51.geo",
+      "poser": "cobblemon:cutout_gravelmon_63_by_51",
+      "texture": "cobblemon:textures/pokemon/lagoone/lagoonanoctillery.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mockroach.ground_idle": {
+			"loop": true,
+			"bones": {
+				"arm_right_top": {
+					"rotation": [0, 25, 0]
+				},
+				"arm_right_top2": {
+					"rotation": [0, 0, -87.5]
+				},
+				"arm_right_top3": {
+					"rotation": [0, 0, 45]
+				},
+				"arm_right_bot": {
+					"rotation": [0, 12.5, 47.5]
+				},
+				"arm_right_bot2": {
+					"rotation": [0, 0, -87.5]
+				},
+				"arm_right_bot3": {
+					"rotation": [0, 0, 45]
+				},
+				"arm_left_top": {
+					"rotation": [0, 0, -30]
+				},
+				"arm_left_top2": {
+					"rotation": [0, 0, 10]
+				},
+				"arm_left_top3": {
+					"rotation": [0, 0, 67.5]
+				},
+				"arm_left_bot": {
+					"rotation": [0, -27.5, -32.5]
+				},
+				"arm_left_bot2": {
+					"rotation": [0, 0, 17.5]
+				},
+				"arm_left_bot3": {
+					"rotation": [0, 0, -35]
+				},
+				"leg_right": {
+					"rotation": [32.5, 70, 0],
+					"position": [-0.25, -0.75, 0]
+				},
+				"leg_right2": {
+					"rotation": [-72.5, 0, 0]
+				},
+				"foot_right2": {
+					"rotation": [40, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [129.15442, -83.95879, -29.7458],
+					"position": [0, 1.5, -1]
+				},
+				"leg_left2": {
+					"rotation": [-82.5, 0, 0]
+				},
+				"foot_left": {
+					"rotation": [-16.68517, -0.07901, 2.36162]
+				},
+				"foot_left2": {
+					"rotation": [37.5, 0, 0]
+				},
+				"body": {
+					"position": [0, -0.875, 0]
+				},
+				"torso": {
+					"rotation": [0, -25, 22.5],
+					"position": [1.5, 0, 0]
+				},
+				"wing_right": {
+					"position": [-0.9763, -0.21644, 0]
+				},
+				"head_attached": {
+					"rotation": [13.03579, 16.53338, -16.16982],
+					"position": [-8.64156, -3.30885, 0]
+				},
+				"antenna_left": {
+					"rotation": [0, 0, -35]
+				},
+				"antenna_left2": {
+					"rotation": [0, 0, 42.5]
+				},
+				"antenna_right": {
+					"rotation": [0, 0, 40]
+				},
+				"antenna_right2": {
+					"rotation": [0, 0, -45]
+				},
+				"wing_left": {
+					"position": [0.9763, -0.21644, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:venonat",
+  "order": 186,
+  "variations": [
+    {
+      "aspects": [
+        "theossian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_40_by_62.geo",
+      "poser": "cobblemon:cutout_gravelmon_40_by_62",
+      "texture": "cobblemon:textures/pokemon/theos/theossianvenonat.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

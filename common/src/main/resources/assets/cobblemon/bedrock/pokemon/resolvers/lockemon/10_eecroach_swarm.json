@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:eecroach",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "swarm"
+      ],
+      "model": "cobblemon:cutout_gravelmon_78_by_90.geo",
+      "poser": "cobblemon:cutout_gravelmon_78_by_90",
+      "texture": "cobblemon:textures/pokemon/lockemon/swarm_eecroach.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

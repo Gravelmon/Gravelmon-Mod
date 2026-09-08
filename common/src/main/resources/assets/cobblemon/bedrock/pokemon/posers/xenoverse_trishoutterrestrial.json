@@ -1,0 +1,29 @@
+{
+  "portraitScale": 2.5,
+  "portraitTranslation": [
+    0.0,
+    1.1,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('trishout_terrestrial', q.look('head_ai'))",
+        "q.bedrock('trishout_terrestrial', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [
+        "q.bedrock_quirk('trishout_terrestrial', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

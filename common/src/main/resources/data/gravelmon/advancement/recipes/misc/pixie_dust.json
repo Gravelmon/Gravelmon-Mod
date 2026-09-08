@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "hasMYSTICSTONE": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gravelmon:mystic_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gravelmon:pixie_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "hasMYSTICSTONE"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gravelmon:pixie_dust"
+    ]
+  }
+}

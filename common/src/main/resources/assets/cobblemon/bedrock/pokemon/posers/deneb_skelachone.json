@@ -1,0 +1,63 @@
+{
+  "portraitScale": 1.7999999523162842,
+  "portraitTranslation": [
+    -0.4,
+    0.0,
+    0.0
+  ],
+  "profileScale": 0.5799999833106995,
+  "profileTranslation": [
+    0.0,
+    0.9,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('skelachone', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "q.bedrock('skelachone', 'water_swim')"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('skelachone', 'water_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:petilil",
+  "order": 186,
+  "variations": [
+    {
+      "aspects": [
+        "theossian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_25_by_51.geo",
+      "poser": "cobblemon:cutout_gravelmon_25_by_51",
+      "texture": "cobblemon:textures/pokemon/theos/theossianpetilil.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

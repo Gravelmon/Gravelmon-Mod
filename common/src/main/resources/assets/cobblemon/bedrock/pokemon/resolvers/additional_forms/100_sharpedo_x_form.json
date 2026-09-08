@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:sharpedo",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": [
+        "x_form"
+      ],
+      "model": "cobblemon:xenoverse_sharpedox.geo",
+      "poser": "cobblemon:xenoverse_sharpedox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sharpedox/sharpedox.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x_form",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_sharpedox.geo",
+      "poser": "cobblemon:xenoverse_sharpedox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sharpedox/sharpedox_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

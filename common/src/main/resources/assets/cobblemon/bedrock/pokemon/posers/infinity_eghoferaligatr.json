@@ -1,0 +1,27 @@
+{
+  "portraitScale": 0.5,
+  "portraitTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
+  "profileScale": 0.5,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('feraligatr_egho', q.look('head_ai'))",
+        "q.bedrock('feraligatr_egho', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

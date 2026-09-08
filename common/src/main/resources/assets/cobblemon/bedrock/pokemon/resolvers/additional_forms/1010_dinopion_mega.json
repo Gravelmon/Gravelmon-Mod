@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:dinopion",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_184_by_190.geo",
+      "poser": "cobblemon:cutout_gravelmon_184_by_190",
+      "texture": "cobblemon:textures/pokemon/solarlightlunardark/dinopion_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

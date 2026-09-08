@@ -1,0 +1,99 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('birigiri', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLY",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('birigiri', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "q.bedrock('birigiri', 'water_swim')"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('birigiri', 'water_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('birigiri', 'ground_sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "isTouchingWater": false,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "water_sleeping": {
+      "poseName": "water_sleeping",
+      "animations": [
+        "q.bedrock('birigiri', 'water_sleep')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "isTouchingWater": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

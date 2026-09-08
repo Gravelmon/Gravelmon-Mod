@@ -1,0 +1,61 @@
+{
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.3,
+    1.0,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.6825,
+    -20.0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('eghonoctowl', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('eghonoctowl', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "FLOAT",
+        "SWIM",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghonoctowl', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('eghonoctowl', q.look('head_ai'))",
+        "q.bedrock('eghonoctowl', q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right'))",
+        "q.bedrock('eghonoctowl', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER",
+        "FLY"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghonoctowl', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

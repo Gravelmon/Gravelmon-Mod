@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:aegislash",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": [
+        "x_form"
+      ],
+      "model": "cobblemon:xenoverse_aegislashx.geo",
+      "poser": "cobblemon:xenoverse_aegislashx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/aegislashx/aegislashx.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x_form",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_aegislashx.geo",
+      "poser": "cobblemon:xenoverse_aegislashx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/aegislashx/aegislashx_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

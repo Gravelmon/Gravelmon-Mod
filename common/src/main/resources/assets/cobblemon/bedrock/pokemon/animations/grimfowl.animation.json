@@ -1,0 +1,240 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.grimfowl.ground_idle": {
+			"loop": true,
+			"bones": {
+				"waist": {
+					"rotation": [15, 0, 0]
+				},
+				"tail": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"torso": {
+					"rotation": [-13.17581, -0.77164, -1.53785]
+				},
+				"neck": {
+					"rotation": [-10, 0, 0]
+				},
+				"head": {
+					"rotation": [10, 0, 0]
+				},
+				"wing_left": {
+					"rotation": [91.71972, 2.8779, 85.69949],
+					"position": [1.5, 3, 0]
+				},
+				"wing3_left": {
+					"rotation": [-7.5, -15, 107.5],
+					"position": [0, -4, 0]
+				},
+				"foot_right": {
+					"rotation": [0, 32.5, 0]
+				},
+				"toeback_right": {
+					"rotation": [0, -22.5, 0]
+				},
+				"leg_left": {
+					"rotation": [0, -32.5, 0]
+				},
+				"toeback_left": {
+					"rotation": [0, 22.5, 0]
+				},
+				"bone": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"mustache_left": {
+					"rotation": [0, 0, 37.5]
+				},
+				"mustache2": {
+					"rotation": [10, 0, 27.5]
+				},
+				"mustache3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"mustache_right": {
+					"rotation": [0, 0, -37.5]
+				},
+				"mustache4": {
+					"rotation": [10, 0, -27.5]
+				},
+				"mustache5": {
+					"rotation": [22.5, 0, 0]
+				},
+				"wing_right": {
+					"rotation": [91.71972, -2.8779, -85.6995],
+					"position": [-1.5, 3, 0]
+				},
+				"wing3_right": {
+					"rotation": [-7.5, 15, -107.5],
+					"position": [0, -4, 0]
+				}
+			}
+		},
+		"animation.grimfowl.air_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-37.5, 0, 0],
+					"position": [0, 8, 0]
+				},
+				"tail": {
+					"rotation": [32.5, 0, 0]
+				},
+				"torso": {
+					"rotation": [25, 0, 0]
+				},
+				"neck": {
+					"rotation": [27.5, 0, 0]
+				},
+				"jaw": {
+					"rotation": [67.5, 0, 0]
+				},
+				"wing_left": {
+					"rotation": [79.42154, 5.11931, -15.27164],
+					"position": [0, 6, 0]
+				},
+				"wing2_left": {
+					"rotation": [0, -22.5, 0]
+				},
+				"leg_right": {
+					"rotation": [-14.34325, 28.23489, 14.34325]
+				},
+				"toe1_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw1_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toe2_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw2_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toe3_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw3_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toeback_right": {
+					"rotation": [-45, 0, 0]
+				},
+				"backclaw_right": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [-14.34325, -28.23489, -14.34325]
+				},
+				"toe1_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw1_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toe2_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw2_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toe3_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"claw3_left": {
+					"rotation": [22.5, 0, 0]
+				},
+				"toeback_left": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"backclaw_left": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"wing3_left": {
+					"rotation": [0, 5, 0]
+				},
+				"bone": {
+					"rotation": [-15, 0, 0]
+				},
+				"mustache_left": {
+					"rotation": [0, 0, 37.5]
+				},
+				"mustache2": {
+					"rotation": [10, 0, 27.5]
+				},
+				"mustache3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"wing_right": {
+					"rotation": [79.4215, -5.1193, 15.2716],
+					"position": [0, 6, 0]
+				},
+				"wing2_right": {
+					"rotation": [0, 22.5, 0]
+				},
+				"wing3_right": {
+					"rotation": [0, 5, 0]
+				},
+				"mustache_right": {
+					"rotation": [0, 0, -37.5]
+				},
+				"mustache4": {
+					"rotation": [10, 0, -27.5]
+				},
+				"mustache5": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		},
+		"animation.grimfowl.cry": {
+			"animation_length": 2,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [5, 0, 0],
+						"1.75": [5, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-7.5, 0, 0],
+						"1.75": [-7.5, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.1667": [0, 0, 0],
+						"0.4167": [40, 0, 0],
+						"1.75": [40, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.grimfowl.blink": {
+			"animation_length": 0.16667,
+			"bones": {
+				"eyelids": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"0.125": [0, 0, -1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyes_open": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

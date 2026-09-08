@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:shiftry",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega_i"
+      ],
+      "model": "cobblemon:cutout_gravelmon_188_by_126.geo",
+      "poser": "cobblemon:cutout_gravelmon_188_by_126",
+      "texture": "cobblemon:textures/pokemon/insurgence/shiftry_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

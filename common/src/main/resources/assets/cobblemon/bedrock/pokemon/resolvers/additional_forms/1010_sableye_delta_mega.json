@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:sableye",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "delta_mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_136_by_134.geo",
+      "poser": "cobblemon:cutout_gravelmon_136_by_134",
+      "texture": "cobblemon:textures/pokemon/insurgence/sableye_delta_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

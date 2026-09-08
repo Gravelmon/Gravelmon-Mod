@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:primarina",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:cutout_gravelmon_58_by_64.geo",
+      "poser": "cobblemon:cutout_gravelmon_58_by_64",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochprimarina.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

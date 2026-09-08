@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:flowger",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "blue"
+      ],
+      "model": "cobblemon:cutout_gravelmon_512_by_450.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_450",
+      "texture": "cobblemon:textures/pokemon/sage/blue_flowger.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:shyleon",
+  "order": 153,
+  "variations": [
+    {
+      "aspects": [
+        "terrestrial"
+      ],
+      "model": "cobblemon:xenoverse_shyleonterrestrial.geo",
+      "poser": "cobblemon:xenoverse_shyleonterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonterrestrial/shyleonterrestrial.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terrestrial",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_shyleonterrestrial.geo",
+      "poser": "cobblemon:xenoverse_shyleonterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonterrestrial/shyleonterrestrial_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

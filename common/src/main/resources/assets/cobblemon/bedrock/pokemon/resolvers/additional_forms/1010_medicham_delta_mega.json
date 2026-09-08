@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:medicham",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "delta_mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_174_by_156.geo",
+      "poser": "cobblemon:cutout_gravelmon_174_by_156",
+      "texture": "cobblemon:textures/pokemon/insurgence/medicham_delta_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spiritomb_x.ground_walk": {
+			"loop": true,
+			"bones": {
+				"spiritomb": {
+					"rotation": ["math.sin(q.anim_time*90*8)*4", 0, 0],
+					"position": [0, "math.abs(math.sin(q.anim_time*90*4)*2)", 0]
+				},
+				"bush": {
+					"rotation": ["0-math.sin(q.anim_time*90*8)*6", 0, 0]
+				},
+				"bone4": {
+					"rotation": [0, "2*math.sin(q.anim_time*90*8)*4", "-2*math.cos(q.anim_time*90*8)*4"]
+				},
+				"bone": {
+					"rotation": [0, "2*math.sin(q.anim_time*90*8)*4", "-2*math.cos(q.anim_time*90*8)*4"]
+				},
+				"bone2": {
+					"rotation": [0, "2*math.cos(q.anim_time*90*8)*4", "-2*math.sin(q.anim_time*90*8)*4"]
+				},
+				"bone3": {
+					"rotation": ["-2*math.sin(q.anim_time*90*8)*4", "2*math.cos(q.anim_time*90*8)*4", 0]
+				}
+			}
+		},
+		"animation.spiritomb_x.ground_idle": {
+			"loop": true,
+			"bones": {
+				"stem": {
+					"rotation": [0, 0, "math.sin(q.anim_time*90*2)*4"]
+				},
+				"face": {
+					"rotation": [0, 0, "math.sin(q.anim_time*90*1)*4"]
+				},
+				"mouth_open": {
+					"position": [0, 0, 1]
+				},
+				"mouth_closed": {
+					"rotation": [0, 0, "math.sin(q.anim_time*90*1)*2"]
+				}
+			}
+		},
+		"animation.spiritomb_x.orbs": {
+			"loop": true,
+			"bones": {
+				"back": {
+					"rotation": [0, 0, "-(query.anim_time)*40"],
+					"scale": "1+math.sin(query.anim_time*90*1.5)*0.075"
+				},
+				"orbs": {
+					"rotation": [0, 0, "(query.anim_time)*80"]
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

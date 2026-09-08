@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:regalient",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_101_by_101.geo",
+      "poser": "cobblemon:cutout_gravelmon_101_by_101",
+      "texture": "cobblemon:textures/pokemon/atlas/regalient_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

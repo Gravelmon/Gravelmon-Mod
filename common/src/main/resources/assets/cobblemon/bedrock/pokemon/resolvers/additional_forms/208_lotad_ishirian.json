@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:lotad",
+  "order": 208,
+  "variations": [
+    {
+      "aspects": [
+        "ishirian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_47_by_27.geo",
+      "poser": "cobblemon:cutout_gravelmon_47_by_27",
+      "texture": "cobblemon:textures/pokemon/ishiria/ishirianlotad.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

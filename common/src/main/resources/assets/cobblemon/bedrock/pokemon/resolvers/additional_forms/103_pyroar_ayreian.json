@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:pyroar",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_76_by_77.geo",
+      "poser": "cobblemon:cutout_gravelmon_76_by_77",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpyroar.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "female"
+      ],
+      "model": "cobblemon:cutout_gravelmon_86_by_79.geo",
+      "poser": "cobblemon:cutout_gravelmon_86_by_79",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpyroar_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

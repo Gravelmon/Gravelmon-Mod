@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:hattrem",
+  "order": 99,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_297_by_295.geo",
+      "poser": "cobblemon:cutout_gravelmon_297_by_295",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianhattrem.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

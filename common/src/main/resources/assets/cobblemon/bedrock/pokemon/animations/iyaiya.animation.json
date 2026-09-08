@@ -1,0 +1,92 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.iyaiya.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [7.5, 0, 0]
+				},
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [0, -2.5, 55]
+				},
+				"tail": {
+					"rotation": [0, -60, 0]
+				},
+				"tail2": {
+					"rotation": [-17.0883, -53.77546, 13.92809]
+				},
+				"left_leg": {
+					"rotation": [0, 10, 0]
+				},
+				"right_arm": {
+					"rotation": [0, 2.5, -55]
+				},
+				"right_leg": {
+					"rotation": [0, -10, 0]
+				}
+			}
+		},
+		"animation.iyaiya.faint": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [7.5, 0, 0]
+				},
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [0, -2.5, 55]
+				},
+				"tail": {
+					"rotation": [0, -60, 0]
+				},
+				"tail2": {
+					"rotation": [-17.0883, -53.77546, 13.92809]
+				},
+				"left_leg": {
+					"rotation": [0, 10, 0]
+				},
+				"right_arm": {
+					"rotation": [0, 2.5, -55]
+				},
+				"right_leg": {
+					"rotation": [0, -10, 0]
+				}
+			}
+		},
+		"animation.iyaiya.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [7.5, 0, 0]
+				},
+				"head": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [0, -2.5, 55]
+				},
+				"tail": {
+					"rotation": [0, 0, 0]
+				},
+				"tail2": {
+					"rotation": [0, 0, 0]
+				},
+				"left_leg": {
+					"rotation": [0, 10, 0]
+				},
+				"right_arm": {
+					"rotation": [0, 2.5, -55]
+				},
+				"right_leg": {
+					"rotation": [0, -10, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "S": {
+      "item": "cobblemon:thunder_stone"
+    },
+    "T": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "pattern": [
+    "PTS",
+    "TET",
+    "STP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gravelmon:bolt_orb"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " t ",
+        "lcr",
+        " b "
+    ],
+    "key": {
+        "t": {
+            "item": "minecraft:gold_nugget"
+        },
+        "l": {
+            "item": "minecraft:gold_ingot"
+        },
+        "c": {
+            "item": "cobblemon:poke_ball"
+        },
+        "r": {
+            "item": "minecraft:gold_ingot"
+        },
+        "b": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result":
+    {
+        "id": "gravelmon:gs_ball",
+        "count": 1
+    }
+}

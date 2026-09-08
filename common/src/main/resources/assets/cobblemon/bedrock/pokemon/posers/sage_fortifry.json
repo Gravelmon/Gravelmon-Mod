@@ -1,0 +1,70 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('fortifry', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [],
+      "poseTypes": [
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "q.bedrock('fortifry', 'water_swim')"
+      ],
+      "poseTypes": [
+        "SWIM",
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('fortifry', 'water_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT",
+        "STAND"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

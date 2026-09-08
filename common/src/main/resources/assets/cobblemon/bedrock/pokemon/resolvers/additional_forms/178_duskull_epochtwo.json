@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:duskull",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epochtwo"
+      ],
+      "model": "cobblemon:cutout_gravelmon_54_by_44.geo",
+      "poser": "cobblemon:cutout_gravelmon_54_by_44",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochduskullone.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

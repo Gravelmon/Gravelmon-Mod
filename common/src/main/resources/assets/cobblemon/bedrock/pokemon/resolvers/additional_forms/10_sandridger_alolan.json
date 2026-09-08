@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:sandridger",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "alolan"
+      ],
+      "model": "cobblemon:cutout_gravelmon_182_by_182.geo",
+      "poser": "cobblemon:cutout_gravelmon_182_by_182",
+      "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

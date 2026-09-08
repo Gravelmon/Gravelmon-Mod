@@ -1,0 +1,81 @@
+{
+  "species": "cobblemon:venonat",
+  "order": 25,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:blazingemerald_hoennianvenonat.geo",
+      "poser": "cobblemon:blazingemerald_hoennianvenonat",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoennianvenonat/hoennianvenonat.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazingemerald/hoennianvenonat/hoennianvenonat_emissive.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:blazingemerald_hoennianvenonat.geo",
+      "poser": "cobblemon:blazingemerald_hoennianvenonat",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoennianvenonat/hoennianvenonat_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazingemerald/hoennianvenonat/hoennianvenonat_emissive_shiny.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

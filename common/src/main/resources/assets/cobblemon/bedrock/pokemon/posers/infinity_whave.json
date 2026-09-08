@@ -1,0 +1,113 @@
+{
+  "portraitScale": 1.840000033378601,
+  "portraitTranslation": [
+    -0.5,
+    -1.25,
+    0.0
+  ],
+  "profileScale": 0.6800000071525574,
+  "profileTranslation": [
+    0.2,
+    0.5,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('whave', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('whave', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "q.bedrock('whave', 'water_swim')"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('whave', 'water_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "surface_idle": {
+      "poseName": "surface_idle",
+      "animations": [
+        "q.bedrock('whave', 'surface_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "surface_swim": {
+      "poseName": "surface_swim",
+      "animations": [
+        "q.bedrock('whave', 'surface_swim')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('whave', 'blink')",
+        "q.bedrock_quirk('whave', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

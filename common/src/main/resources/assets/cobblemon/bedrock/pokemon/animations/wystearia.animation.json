@@ -1,0 +1,197 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wystearia.ground_idle": {
+			"loop": true,
+			"bones": {
+				"Wstearia": {
+					"rotation": [12.5, 0, 0],
+					"position": [-0.4, -2, 8]
+				},
+				"Body": {
+					"rotation": [-60, 0, 0],
+					"position": [0, 4, -18]
+				},
+				"Middlebody": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"Lowerbody": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"Rightleg": {
+					"rotation": [-33.0561, -12.7015, -21.2346]
+				},
+				"Leftleg": {
+					"rotation": [-7.5, 0, 22.5]
+				},
+				"bone": {
+					"rotation": [20, 0, -27.5]
+				},
+				"bone2": {
+					"rotation": [12.5, 0, 0]
+				},
+				"bone3": {
+					"rotation": [25, 0, 0]
+				},
+				"bone4": {
+					"rotation": [57.5, 0, 0]
+				},
+				"bone5": {
+					"rotation": [30, 0, 0]
+				},
+				"bone8": {
+					"rotation": [22.5, 0, 0]
+				},
+				"bone9": {
+					"rotation": [27.5, 0, 0]
+				},
+				"bone10": {
+					"rotation": [17.5, 0, 0]
+				},
+				"bone11": {
+					"rotation": [20, 0, 0]
+				},
+				"bone12": {
+					"rotation": [35, 0, 0]
+				},
+				"bone13": {
+					"rotation": [0, 0, 52.5]
+				},
+				"bone14": {
+					"rotation": [47.5, 0, 0]
+				},
+				"bone15": {
+					"rotation": [37.26251, -4.55749, 5.96275]
+				},
+				"bone16": {
+					"rotation": [30, -10, 0]
+				},
+				"bone17": {
+					"rotation": [40, 0, 0]
+				},
+				"upperleaf": {
+					"rotation": [12.5, 0, 0]
+				},
+				"rightleaf": {
+					"rotation": [0, -15, 0]
+				},
+				"leftleaf": {
+					"rotation": [0, 22.5, 0]
+				},
+				"backleaf": {
+					"rotation": [85, 0, 0]
+				},
+				"backleaf3": {
+					"rotation": [50, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"backleaf2": {
+					"rotation": [35, 0, 0]
+				}
+			}
+		},
+		"rotate.model": {
+			"animation_length": 5,
+			"bones": {
+				"Wstearia": {
+					"rotation": [0, 0, 0]
+				},
+				"Body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"wystearia pose": {
+			"loop": true,
+			"bones": {
+				"Wstearia": {
+					"rotation": [12.5, 0, 0],
+					"position": [0, -1, 8]
+				},
+				"Body": {
+					"rotation": [-60, 0, 0],
+					"position": [0, -1, -16]
+				},
+				"Middlebody": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"Lowerbody": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"Rightleg": {
+					"rotation": [-33.0561, -12.7015, -21.2346]
+				},
+				"Leftleg": {
+					"rotation": [-7.5, 0, 22.5]
+				},
+				"bone": {
+					"rotation": [20, 0, -27.5]
+				},
+				"bone2": {
+					"rotation": [12.5, 0, 0]
+				},
+				"bone3": {
+					"rotation": [25, 0, 0]
+				},
+				"bone4": {
+					"rotation": [57.5, 0, 0]
+				},
+				"bone5": {
+					"rotation": [30, 0, 0]
+				},
+				"bone8": {
+					"rotation": [22.5, 0, 0]
+				},
+				"bone9": {
+					"rotation": [27.5, 0, 0]
+				},
+				"bone10": {
+					"rotation": [17.5, 0, 0]
+				},
+				"bone11": {
+					"rotation": [20, 0, 0]
+				},
+				"bone12": {
+					"rotation": [35, 0, 0]
+				},
+				"bone13": {
+					"rotation": [0, 0, 52.5]
+				},
+				"bone14": {
+					"rotation": [47.5, 0, 0]
+				},
+				"bone15": {
+					"rotation": [37.26251, -4.55749, 5.96275]
+				},
+				"bone16": {
+					"rotation": [30, -10, 0]
+				},
+				"bone17": {
+					"rotation": [40, 0, 0]
+				},
+				"upperleaf": {
+					"rotation": [12.5, 0, 0]
+				},
+				"rightleaf": {
+					"rotation": [0, -15, 0]
+				},
+				"leftleaf": {
+					"rotation": [0, 22.5, 0]
+				},
+				"backleaf": {
+					"rotation": [25, 0, 0]
+				},
+				"backleaf3": {
+					"rotation": [50, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"backleaf2": {
+					"rotation": [35, 0, 0]
+				}
+			}
+		}
+	}
+}

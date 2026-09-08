@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:azumarill",
+  "order": 132,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "model": "cobblemon:cutout_gravelmon_144_by_150.geo",
+      "poser": "cobblemon:cutout_gravelmon_144_by_150",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoazumarill.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

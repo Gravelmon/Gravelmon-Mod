@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bluffin.ground_idle": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": [0, 0, 52.5]
+				},
+				"right_arm": {
+					"rotation": [0, 0, -52.5]
+				},
+				"tail_1": {
+					"rotation": [-62.5, 0, 0]
+				},
+				"tail_2": {
+					"rotation": [50, 0, 0],
+					"position": [0, 0.05, -0.05]
+				},
+				"tail_3": {
+					"rotation": [12.5, 0, 0]
+				}
+			}
+		},
+		"animation.bluffin.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.025],
+						"0.0833": [0, 0, -0.025],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.025],
+						"0.0833": [0, 0, -0.025],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

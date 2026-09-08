@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 173,
+  "variations": [
+    {
+      "aspects": [
+        "malex"
+      ],
+      "model": "cobblemon:xenoverse_pikachumalex.geo",
+      "poser": "cobblemon:xenoverse_pikachumalex",
+      "texture": "cobblemon:textures/pokemon/xenoverse/pikachumalex/pikachumalex.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "malex",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_pikachumalex.geo",
+      "poser": "cobblemon:xenoverse_pikachumalex",
+      "texture": "cobblemon:textures/pokemon/xenoverse/pikachumalex/pikachumalex_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

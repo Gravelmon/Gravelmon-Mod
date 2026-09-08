@@ -1,0 +1,30 @@
+{
+  "portraitScale": 2.299999952316284,
+  "portraitTranslation": [
+    -0.35,
+    1.1,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    -0.0,
+    0.7,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('wartortle_egho', q.look('head_ai'))",
+        "q.bedrock('wartortle_egho', q.look('head_ai'))",
+        "q.bedrock('wartortle_egho', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [
+        "q.bedrock_quirk('wartortle_egho', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

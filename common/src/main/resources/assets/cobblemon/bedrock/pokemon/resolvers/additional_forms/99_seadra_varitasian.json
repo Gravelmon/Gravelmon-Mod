@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:seadra",
+  "order": 99,
+  "variations": [
+    {
+      "aspects": [
+        "varitasian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_152_by_152.geo",
+      "poser": "cobblemon:cutout_gravelmon_152_by_152",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianseadra.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

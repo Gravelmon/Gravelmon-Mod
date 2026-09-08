@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    -0.57,
+    1.64,
+    0.0
+  ],
+  "profileScale": 0.5199999809265137,
+  "profileTranslation": [
+    -0.06,
+    1.04,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('wereyena', q.look('head_ai'))",
+        "q.bedrock('wereyena', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

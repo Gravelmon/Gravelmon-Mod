@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mintch.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["(math.cos(query.anim_time*480-45)*1)", 0, "-(math.cos(query.anim_time*240-45)*2)"]
+				},
+				"wing_left": {
+					"rotation": [0.7522, 2.38422, 85.01565]
+				},
+				"wing_left2": {
+					"rotation": [13.50373, -79.73774, -12.54324]
+				},
+				"wing_left3": {
+					"rotation": [0, -17.5, 0]
+				},
+				"wing_right": {
+					"rotation": [0.7522, 2.38422, -85.0157]
+				},
+				"wing_right2": {
+					"rotation": [13.50373, 79.7377, 12.5432]
+				},
+				"wing_right3": {
+					"rotation": [0, 17.5, 0]
+				}
+			}
+		},
+		"animation.mintch.ground_walk": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": ["(math.cos(query.anim_time*320*4)*8)", 0, "-(math.cos(query.anim_time*640-45)*1)"]
+				},
+				"wing_left": {
+					"rotation": [0.7522, 2.38422, 85.01565]
+				},
+				"wing_left2": {
+					"rotation": [13.50373, -79.73774, -12.54324]
+				},
+				"wing_left3": {
+					"rotation": [0, -17.5, 0]
+				},
+				"wing_right": {
+					"rotation": [0.7522, 2.38422, -85.0157]
+				},
+				"wing_right2": {
+					"rotation": [13.50373, 79.7377, 12.5432]
+				},
+				"wing_right3": {
+					"rotation": [0, 17.5, 0]
+				},
+				"root": {
+					"position": [0, "math.clamp(math.sin(q.anim_time*320*4+90*4)*4,0,180)", 0]
+				},
+				"legs": {
+					"rotation": ["math.clamp(math.sin(q.anim_time*320*4+90*4)*28,0,180)", 0, 0]
+				}
+			}
+		},
+		"animation.mintch.cry": {
+			"animation_length": 1.5,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": ["(math.cos(query.anim_time*(480*3)-70)*8)-8", 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"wing_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.625": [0, "(math.cos(query.anim_time*480*3)*4)-8", 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"wing_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.625": [0, "-(math.cos(query.anim_time*480*3)*4)+8", 0],
+						"1.5": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.mintch.cry"
+				}
+			}
+		}
+	}
+}

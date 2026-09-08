@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "hasDRAGONSCALE": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cobblemon:dragon_scale"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gravelmon:silver_scale"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "hasDRAGONSCALE"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gravelmon:silver_scale"
+    ]
+  }
+}

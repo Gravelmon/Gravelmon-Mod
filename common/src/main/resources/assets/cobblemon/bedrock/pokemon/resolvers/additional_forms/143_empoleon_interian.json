@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:empoleon",
+  "order": 143,
+  "variations": [
+    {
+      "aspects": [
+        "interian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_95_by_95.geo",
+      "poser": "cobblemon:cutout_gravelmon_95_by_95",
+      "texture": "cobblemon:textures/pokemon/interregional/interianempoleon.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

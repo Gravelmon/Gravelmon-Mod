@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:milotic",
+  "order": 1012,
+  "variations": [
+    {
+      "aspects": [
+        "mega_d"
+      ],
+      "model": "cobblemon:cutout_gravelmon_178_by_134.geo",
+      "poser": "cobblemon:cutout_gravelmon_178_by_134",
+      "texture": "cobblemon:textures/pokemon/daybreak/milotic_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

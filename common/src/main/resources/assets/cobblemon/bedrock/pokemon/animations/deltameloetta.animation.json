@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.deltameloetta.ground_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["1-1*(math.sin(q.anim_time*80*4)*1+0)", 0, 0],
+					"position": [0, "0+0.05*(math.sin(q.anim_time*80*4)*1+0)", 0]
+				},
+				"ear2": {
+					"rotation": [0, -6, -15],
+					"position": [-0.5, 0, 0]
+				},
+				"mic": {
+					"rotation": [20.56695, -16.45236, 17.6604]
+				},
+				"hips": {
+					"position": ["0.15-0.15*(math.sin(q.anim_time*80*4)*1+1)", 0, "0.05-0.05*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"skirt": {
+					"rotation": [0, 0, "-15+3*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"left_leg": {
+					"rotation": [0, 0, "-2-1*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"right_leg": {
+					"rotation": [0, 0, "3-2*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"left_arm": {
+					"rotation": [5, "2*(math.sin(q.anim_time*80*4)*1+1)", "-50-3*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"right_arm": {
+					"rotation": [5, "2*(math.sin(q.anim_time*80*4)*1+1)", "50+3*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"top": {
+					"rotation": ["-1+2*(math.sin(q.anim_time*80*4)*1+1)", 0, "-2+2*(math.sin(q.anim_time*80*4)*1+1)"]
+				},
+				"open": {
+					"position": [0, 0, 1]
+				},
+				"left_elbow": {
+					"rotation": [0, 0, 85]
+				},
+				"right_elbow": {
+					"rotation": [0, 0, -80]
+				}
+			}
+		},
+		"animation.deltameloetta.air_fly": {
+			"loop": true,
+			"bones": {
+				"meloetta": {
+					"position": [0, "1*(math.sin(q.anim_time*80*2)*1+1)", 0]
+				},
+				"left_leg": {
+					"rotation": ["15+10*(math.sin(q.anim_time*80*2)*1+1) ", 0, 0]
+				},
+				"left_foot": {
+					"rotation": ["25+3*(math.sin(q.anim_time*80*2)*1+1) ", 0, 0]
+				},
+				"right_leg": {
+					"rotation": ["15+10*(math.sin(q.anim_time*80*2)*1+1) ", 0, 0]
+				},
+				"right_foot": {
+					"rotation": ["25+3*(math.sin(q.anim_time*80*2)*1+1) ", 0, 0]
+				},
+				"left_arm": {
+					"rotation": [0, "20-7*(math.sin(q.anim_time*80*2)*1+1)", -47.5]
+				},
+				"right_arm": {
+					"rotation": [0, "-20+7*(math.sin(q.anim_time*80*2)*1+1)", 47.5]
+				},
+				"open": {
+					"position": [0, 0, 0.5]
+				}
+			}
+		}
+	}
+}

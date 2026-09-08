@@ -1,0 +1,29 @@
+{
+  "portraitScale": 1.600000023841858,
+  "portraitTranslation": [
+    -0.4,
+    1.6,
+    0.0
+  ],
+  "profileScale": 0.47999998927116394,
+  "profileTranslation": [
+    0.0,
+    1.04,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('aguanaut', q.look('head_ai'))",
+        "q.bedrock('aguanaut', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [
+        "q.bedrock_quirk('aguanaut', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

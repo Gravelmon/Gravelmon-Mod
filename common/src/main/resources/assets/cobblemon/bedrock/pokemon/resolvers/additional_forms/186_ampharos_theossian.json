@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:ampharos",
+  "order": 186,
+  "variations": [
+    {
+      "aspects": [
+        "theossian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_71_by_76.geo",
+      "poser": "cobblemon:cutout_gravelmon_71_by_76",
+      "texture": "cobblemon:textures/pokemon/theos/theossianampharos.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

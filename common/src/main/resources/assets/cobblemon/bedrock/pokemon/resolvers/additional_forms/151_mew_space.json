@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:mew",
+  "order": 151,
+  "variations": [
+    {
+      "aspects": [
+        "space"
+      ],
+      "model": "cobblemon:insurgence_spacemew.geo",
+      "poser": "cobblemon:insurgence_spacemew",
+      "texture": "cobblemon:textures/pokemon/insurgence/spacemew/spacemew.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "space",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_spacemew.geo",
+      "poser": "cobblemon:insurgence_spacemew",
+      "texture": "cobblemon:textures/pokemon/insurgence/spacemew/spacemew_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

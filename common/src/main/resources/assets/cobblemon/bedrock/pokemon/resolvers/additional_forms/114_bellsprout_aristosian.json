@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:bellsprout",
+  "order": 114,
+  "variations": [
+    {
+      "aspects": [
+        "aristosian"
+      ],
+      "model": "cobblemon:cutout_gravelmon_59_by_48.geo",
+      "poser": "cobblemon:cutout_gravelmon_59_by_48",
+      "texture": "cobblemon:textures/pokemon/aristos/aristosianbellsprout.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

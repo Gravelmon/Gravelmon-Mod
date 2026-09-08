@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:shulong",
+  "order": 153,
+  "variations": [
+    {
+      "aspects": [
+        "terrestrial"
+      ],
+      "model": "cobblemon:xenoverse_shulongterrestrial.geo",
+      "poser": "cobblemon:xenoverse_shulongterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shulongterrestrial/shulongterrestrial.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terrestrial",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_shulongterrestrial.geo",
+      "poser": "cobblemon:xenoverse_shulongterrestrial",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shulongterrestrial/shulongterrestrial_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

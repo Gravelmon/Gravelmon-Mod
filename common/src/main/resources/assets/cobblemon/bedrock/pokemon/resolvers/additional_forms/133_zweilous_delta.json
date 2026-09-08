@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:zweilous",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:cutout_gravelmon_130_by_106.geo",
+      "poser": "cobblemon:cutout_gravelmon_130_by_106",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltazweilous.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "female"
+      ],
+      "model": "cobblemon:cutout_gravelmon_130_by_106.geo",
+      "poser": "cobblemon:cutout_gravelmon_130_by_106",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltazweilous_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:hatenazemi",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "seven"
+      ],
+      "model": "cobblemon:cutout_gravelmon_43_by_36.geo",
+      "poser": "cobblemon:cutout_gravelmon_43_by_36",
+      "texture": "cobblemon:textures/pokemon/deneb/7_hatenazemi.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

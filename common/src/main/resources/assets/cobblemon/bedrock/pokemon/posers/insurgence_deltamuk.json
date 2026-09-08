@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [
+    -0.2,
+    -0.2,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    -0.04,
+    0.43,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('deltamuk', q.look('head_ai'))",
+        "q.bedrock('deltamuk', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

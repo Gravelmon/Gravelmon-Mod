@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:persian",
+  "order": 170,
+  "variations": [
+    {
+      "aspects": [
+        "cefiranfire"
+      ],
+      "model": "cobblemon:cutout_gravelmon_128_by_130.geo",
+      "poser": "cobblemon:cutout_gravelmon_128_by_130",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranpersianfire.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

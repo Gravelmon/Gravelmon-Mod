@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:drifblim",
+  "order": 181,
+  "variations": [
+    {
+      "aspects": [
+        "nodorran"
+      ],
+      "model": "cobblemon:cutout_gravelmon_72_by_89.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_89",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorrandrifblim.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

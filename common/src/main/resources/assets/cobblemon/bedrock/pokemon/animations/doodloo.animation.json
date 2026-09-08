@@ -1,0 +1,201 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.doodloo.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, "(math.cos(query.anim_time*240)*6)"]
+				},
+				"left_arm1": {
+					"rotation": [0, 0, "(math.cos(query.anim_time*240-90)*8)+45"]
+				},
+				"left_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)+35", "(math.cos(query.anim_time*240-180)*8)-75"]
+				},
+				"left_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger1": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-360)*8)+35", 0]
+				},
+				"left_finger3": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger2": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-90)*8)+35", 0]
+				},
+				"right_arm1": {
+					"rotation": [0, 0, "-(math.cos(query.anim_time*240-180)*8)-45"]
+				},
+				"right_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", "-(math.cos(query.anim_time*240-180)*8)+75"]
+				},
+				"right_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger1": {
+					"rotation": [0, "(math.cos(query.anim_time*240-360)*8)-35", 0]
+				},
+				"right_finger3": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", 0]
+				},
+				"tail1": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["(math.cos(query.anim_time*240-135)*4)+60", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)-105", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)+90", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-77.5+(math.cos(query.anim_time*240-225)*4)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["(math.cos(query.anim_time*240-270)*4)+42.5", 0, 0]
+				}
+			}
+		},
+		"animation.doodloo.faint": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, "(math.cos(query.anim_time*240)*6)"]
+				},
+				"left_arm1": {
+					"rotation": [0, 0, "(math.cos(query.anim_time*240-90)*8)+45"]
+				},
+				"left_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)+35", "(math.cos(query.anim_time*240-180)*8)-75"]
+				},
+				"left_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger1": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-360)*8)+35", 0]
+				},
+				"left_finger3": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger2": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-90)*8)+35", 0]
+				},
+				"right_arm1": {
+					"rotation": [0, 0, "-(math.cos(query.anim_time*240-180)*8)-45"]
+				},
+				"right_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", "-(math.cos(query.anim_time*240-180)*8)+75"]
+				},
+				"right_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger1": {
+					"rotation": [0, "(math.cos(query.anim_time*240-360)*8)-35", 0]
+				},
+				"right_finger3": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", 0]
+				},
+				"tail1": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["(math.cos(query.anim_time*240-135)*4)+60", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)-105", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)+90", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-77.5+(math.cos(query.anim_time*240-225)*4)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["(math.cos(query.anim_time*240-270)*4)+42.5", 0, 0]
+				}
+			}
+		},
+		"animation.doodloo.ground_walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, "(math.cos(query.anim_time*240)*6)"],
+					"position": [0, "(math.cos(query.anim_time*960)*0.25)", 0]
+				},
+				"left_arm1": {
+					"rotation": [0, 0, "(math.cos(query.anim_time*240-90)*8)+45"]
+				},
+				"left_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)+35", "(math.cos(query.anim_time*240-180)*8)-75"]
+				},
+				"left_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger1": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-360)*8)+35", 0]
+				},
+				"left_finger3": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-180)*8)+35", 0]
+				},
+				"left_finger2": {
+					"rotation": [0, "-(math.cos(query.anim_time*240-90)*8)+35", 0]
+				},
+				"right_arm1": {
+					"rotation": [0, 0, "-(math.cos(query.anim_time*240-180)*8)-45"]
+				},
+				"right_arm2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", "-(math.cos(query.anim_time*240-180)*8)+75"]
+				},
+				"right_hand": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger1": {
+					"rotation": [0, "(math.cos(query.anim_time*240-360)*8)-35", 0]
+				},
+				"right_finger3": {
+					"rotation": [0, "(math.cos(query.anim_time*240-180)*8)-35", 0]
+				},
+				"right_finger2": {
+					"rotation": [0, "(math.cos(query.anim_time*240-90)*8)-35", 0]
+				},
+				"tail1": {
+					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["(math.cos(query.anim_time*240-135)*4)+60", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)-105", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["(math.cos(query.anim_time*240-180)*4)+90", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-77.5+(math.cos(query.anim_time*240-225)*4)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["(math.cos(query.anim_time*240-270)*4)+42.5", 0, 0]
+				},
+				"left_leg": {
+					"rotation": ["-(math.cos(query.anim_time*480)*56)", 0, 0],
+					"position": [0, "(math.cos(query.anim_time*960)*0.25)", 0]
+				},
+				"right_leg": {
+					"rotation": ["(math.cos(query.anim_time*480)*56)", 0, 0],
+					"position": [0, "(math.cos(query.anim_time*960)*0.25)", 0]
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

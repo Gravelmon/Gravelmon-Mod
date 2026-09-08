@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:simisage",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:cutout_gravelmon_60_by_80.geo",
+      "poser": "cobblemon:cutout_gravelmon_60_by_80",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsimisage.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

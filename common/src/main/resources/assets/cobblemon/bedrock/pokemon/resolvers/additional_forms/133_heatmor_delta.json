@@ -1,0 +1,81 @@
+{
+  "species": "cobblemon:heatmor",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltaheatmor.geo",
+      "poser": "cobblemon:insurgence_deltaheatmor",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaheatmor/deltaheatmor.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/deltaheatmor/deltaheatmor_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltaheatmor.geo",
+      "poser": "cobblemon:insurgence_deltaheatmor",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaheatmor/deltaheatmor_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/insurgence/deltaheatmor/deltaheatmor_emissive_shiny.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

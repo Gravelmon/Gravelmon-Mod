@@ -1,0 +1,117 @@
+{
+  "species": "cobblemon:raichu",
+  "order": 100,
+  "variations": [
+    {
+      "aspects": [
+        "x_form"
+      ],
+      "model": "cobblemon:xenoverse_raichux.geo",
+      "poser": "cobblemon:xenoverse_raichux",
+      "texture": "cobblemon:textures/pokemon/xenoverse/raichux/raichux.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "heartbeat",
+          "emissive": false,
+          "translucent": false,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat1.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat2.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat3.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat4.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat5.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat6.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat7.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat8.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat9.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat10.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "x_form",
+        "shiny"
+      ],
+      "model": "cobblemon:xenoverse_raichux.geo",
+      "poser": "cobblemon:xenoverse_raichux",
+      "texture": "cobblemon:textures/pokemon/xenoverse/raichux/raichux_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "heartbeat",
+          "emissive": false,
+          "translucent": false,
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat1_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat2_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat3_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat4_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat5_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat6_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat7_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat8_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat9_shiny.png",
+              "cobblemon:textures/pokemon/xenoverse/raichux/heartbeat/heartbeat10_shiny.png"
+            ],
+            "fps": 10,
+            "loop": true
+          }
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

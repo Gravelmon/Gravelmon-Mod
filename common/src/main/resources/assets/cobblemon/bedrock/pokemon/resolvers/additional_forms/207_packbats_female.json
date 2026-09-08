@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:packbats",
+  "order": 207,
+  "variations": [
+    {
+      "aspects": [
+        "female"
+      ],
+      "model": "cobblemon:cutout_gravelmon_63_by_86.geo",
+      "poser": "cobblemon:cutout_gravelmon_63_by_86",
+      "texture": "cobblemon:textures/pokemon/mikitari/femalepackbats.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

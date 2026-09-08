@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.arbird.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [35.41318, -8.17773, -5.77509],
+					"position": [0, 0.75314, -0.36511]
+				},
+				"tail": {
+					"rotation": [-41.82396, 31.99975, -15.00046],
+					"position": [0.50137, -1.09955, 0.31958]
+				},
+				"neck": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"head2": {
+					"rotation": [0, -15, 15]
+				},
+				"leg_right": {
+					"rotation": [0, 35, 0],
+					"position": [-0.57358, 0, -0.81915]
+				},
+				"leg_left": {
+					"rotation": [0, -42.5, 0]
+				},
+				"neck2": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"pupil_right": {
+					"position": [0, 0.25, -0.25]
+				},
+				"pupil_left": {
+					"position": [0, 0.25, -0.25]
+				}
+			}
+		}
+	}
+}

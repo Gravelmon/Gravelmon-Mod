@@ -1,0 +1,27 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    1.4,
+    0.0
+  ],
+  "profileScale": 0.5,
+  "profileTranslation": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('howlequin', q.look('head_ai'))",
+        "q.bedrock('howlequin', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

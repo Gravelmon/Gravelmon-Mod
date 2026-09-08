@@ -1,0 +1,27 @@
+{
+  "portraitScale": 0.800000011920929,
+  "portraitTranslation": [
+    0.0,
+    0.6,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    0.0,
+    0.6,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('croconaw_egho', q.look('head_ai'))",
+        "q.bedrock('croconaw_egho', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}
