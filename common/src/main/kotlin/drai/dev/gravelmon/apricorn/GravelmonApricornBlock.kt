@@ -184,8 +184,7 @@ class GravelmonApricornBlock(properties: Properties, apricorn: GravelmonApricorn
     }
 
     fun harvest(world: Level, state: BlockState, pos: BlockPos): BlockState {
-        // Uses loot tables, to change the drops use 'data/cobblemon/loot_tables/blocks/<color>_apricorn.json'
-        popResource(world, pos, ItemStack(apricorn.item))
+        dropResources(state, world, pos)
         // Don't use default as we want to keep the facing
         val resetState = state.setValue(AGE, MIN_AGE)
         world.setBlock(pos, resetState, UPDATE_CLIENTS)
