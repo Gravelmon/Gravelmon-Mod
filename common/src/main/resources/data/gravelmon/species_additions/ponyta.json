@@ -1,0 +1,593 @@
+{
+  "target": "cobblemon:ponyta",
+  "forms": [
+    {
+      "name": "X",
+      "primaryType": "flying",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 82,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "cloudnine"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 55,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:growl",
+        "5:tailwhip",
+        "10:gust",
+        "15:aircutter",
+        "20:agility",
+        "25:bounce",
+        "28:defog",
+        "30:stomp",
+        "35:cottonguard",
+        "41:takedown",
+        "45:airslash",
+        "50:hurricane",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:roost",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:skydrop",
+        "tm:acrobatics",
+        "tm:swagger",
+        "tm:substitute",
+        "tutor:aircutter",
+        "tutor:bounce",
+        "tutor:heatwave",
+        "tutor:hurricane",
+        "tutor:icywind",
+        "tutor:lowkick",
+        "tutor:secretpower",
+        "tutor:snore",
+        "tutor:tailwind"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1",
+        "x"
+      ],
+      "pokedex": [
+        "cobblemon.species.ponytax.desc"
+      ],
+      "height": 10,
+      "weight": 260,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [
+        {
+          "id": "ponytax_rapidash_x",
+          "variant": "level_up",
+          "result": "rapidash x",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.4,
+        "fixed": false
+      },
+      "game": "xenoverse"
+    },
+    {
+      "name": "Africanusan",
+      "primaryType": "flying",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "abilities": [
+        "runaway",
+        "flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defence": 55,
+        "special_attack": 90,
+        "special_defence": 65,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "25:steelwing",
+        "37:agility",
+        "1:quickattack",
+        "17:stomp",
+        "45:bounce",
+        "1:tailwhip",
+        "21:pluck",
+        "41:flashcannon",
+        "15:metalclaw",
+        "47:irontail",
+        "9:gust",
+        "13:wingattack",
+        "33:aeroblast",
+        "40:furyattack",
+        "35:acrobatics",
+        "29:takedown",
+        "1:growl",
+        "1:peck",
+        "49:bravebird",
+        "egg:captivate",
+        "egg:charm",
+        "egg:doublekick",
+        "egg:doubleedge",
+        "egg:flamewheel",
+        "egg:horndrill",
+        "egg:hypnosis",
+        "egg:lowkick",
+        "egg:morningsun",
+        "egg:thrash"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusanponyta.desc"
+      ],
+      "height": 10,
+      "weight": 300,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [
+        {
+          "id": "africanusanponyta_rapidash_africanusan",
+          "variant": "level_up",
+          "result": "rapidash africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      },
+      "game": "africanus"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 82,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.47058823529411764,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "aftermath",
+        "h:reckless"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defence": 65,
+        "special_attack": 90,
+        "special_defence": 55,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "7:shadowsneak",
+        "54:flareblitz",
+        "16:confuseray",
+        "4:sunnyday",
+        "30:spiritshackle",
+        "39:spectralthief",
+        "1:tailwhip",
+        "48:possession",
+        "13:flamecharge",
+        "1:astonish",
+        "34:playrough",
+        "44:blazekick",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:burningjealousy",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:takedown",
+        "egg:doubleedge",
+        "egg:phantomforce",
+        "egg:lashout"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochponyta.desc"
+      ],
+      "height": 10,
+      "weight": 300,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochponyta_rapidash_epoch",
+          "variant": "level_up",
+          "result": "rapidash epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "38",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "secondaryType": "grass",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 82,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 100,
+        "special_defence": 75,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "12:waterpulse",
+        "52:petaldance",
+        "42:energyball",
+        "33:gigadrain",
+        "18:magicalleaf",
+        "4:watergun",
+        "30:tearfullook",
+        "21:aromatherapy",
+        "1:fairywind",
+        "45:sparklingaria",
+        "1:lifedew",
+        "1:absorb",
+        "39:decorate",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:energyball",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:magicalleaf",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:solarbeam",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:leaftornado",
+        "egg:followme",
+        "egg:leechseed",
+        "egg:aquaring",
+        "egg:geomancy"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochponytaone.desc"
+      ],
+      "height": 10,
+      "weight": 300,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochponytaone_rapidash_epochtwo",
+          "variant": "level_up",
+          "result": "rapidash epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "38",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "x",
+    "africanusan",
+    "epoch",
+    "epochtwo"
+  ]
+}

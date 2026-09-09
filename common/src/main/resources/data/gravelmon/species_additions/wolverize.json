@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:wolverize",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "baseScale": 0.42947368421052634,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "moxie"
+      ],
+      "baseStats": {
+        "hp": 73,
+        "attack": 141,
+        "defence": 68,
+        "special_attack": 117,
+        "special_defence": 97,
+        "speed": 134
+      },
+      "labels": [
+        "atlas"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

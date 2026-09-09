@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:absol",
+  "order": 1011,
+  "variations": [
+    {
+      "aspects": [
+        "epoch_mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_70_by_82.geo",
+      "poser": "cobblemon:cutout_gravelmon_70_by_82",
+      "texture": "cobblemon:textures/pokemon/soulstones/absol_epoch_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

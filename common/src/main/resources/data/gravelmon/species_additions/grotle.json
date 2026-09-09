@@ -1,0 +1,685 @@
+{
+  "target": "cobblemon:grotle",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "turtwig delta",
+      "baseScale": 0.20625000000000002,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb",
+        "h:swiftswim"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 89,
+        "defence": 85,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 36
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:withdraw",
+        "5:withdraw",
+        "9:mudslap",
+        "13:razorshell",
+        "17:curse",
+        "22:mudshot",
+        "27:aquajet",
+        "32:aquaring",
+        "37:recover",
+        "42:aquatail",
+        "47:earthpower",
+        "52:waterspout",
+        "tm:bulldoze",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:earthquake",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:recycle",
+        "tm:focusblast",
+        "tm:brine",
+        "tm:dragontail",
+        "tm:payback",
+        "tm:stoneedge",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:achillesheel",
+        "tm:avalanche",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:rocksmash",
+        "tm:surf",
+        "tm:strength",
+        "tm:waterfall",
+        "tm:dive",
+        "tutor:acid",
+        "tutor:ancientpower",
+        "tutor:aquatail",
+        "tutor:bodyslam",
+        "tutor:earthpower",
+        "tutor:endure",
+        "tutor:headbutt",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:waterpledge",
+        "tutor:waterpulse",
+        "tutor:whirlpool"
+      ],
+      "labels": [
+        "gen4",
+        "insurgence",
+        "not_modeled",
+        "starter",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltagrotle.desc"
+      ],
+      "height": 11,
+      "weight": 142,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltagrotle_torterra_delta",
+          "variant": "level_up",
+          "result": "torterra delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "dragon",
+      "secondaryType": "fire",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "turtwig epoch",
+      "baseScale": 0.3666666666666667,
+      "cannotDynamax": false,
+      "abilities": [
+        "solidrock",
+        "flamebody",
+        "h:shellarmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 89,
+        "defence": 85,
+        "special_attack": 36,
+        "special_defence": 55,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "5:smokescreen",
+        "62:flareblitz",
+        "31:stealthrock",
+        "44:crunch",
+        "49:shellsmash",
+        "19:bulldoze",
+        "27:bodyslam",
+        "39:workup",
+        "12:tarshot",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:curse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:meteorbeam",
+        "tm:mudslide",
+        "tm:mysticalfire",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrotle.desc"
+      ],
+      "height": 11,
+      "weight": 970,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgrotle_torterra_epoch",
+          "variant": "level_up",
+          "result": "torterra epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5,
+        "height": 4.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "flying",
+      "secondaryType": "ghost",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "turtwig epochtwo",
+      "baseScale": 0.41904761904761906,
+      "cannotDynamax": false,
+      "abilities": [
+        "illuminate",
+        "windrider",
+        "h:screencleaner"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 51,
+        "defence": 55,
+        "special_attack": 60,
+        "special_defence": 79,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "60:hurricane",
+        "39:typhoon",
+        "30:airslash",
+        "12:ominouswind",
+        "1:gust",
+        "1:haunt",
+        "15:aircutter",
+        "6:purify",
+        "52:tailwind",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:memento",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrotleone.desc"
+      ],
+      "height": 11,
+      "weight": 970,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgrotleone_torterra_epochtwo",
+          "variant": "level_up",
+          "result": "torterra epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "grass",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "turtwig ayreian",
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "overgrow",
+        "icebody",
+        "h:snowwarning"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 99,
+        "defence": 105,
+        "special_attack": 26,
+        "special_defence": 55,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "32:leechseed",
+        "10:bite",
+        "19:curse",
+        "37:iciclecrash",
+        "1:leafage",
+        "5:withdraw",
+        "16:avalanche",
+        "13:razorleaf",
+        "58:mountaingale",
+        "52:powerwhip",
+        "46:rockslide",
+        "7:growth",
+        "23:icefang",
+        "27:seedbomb",
+        "1:iceshard",
+        "41:earthquake",
+        "0:hail",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:cut",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grasspledge",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:lightscreen",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:workup",
+        "tm:worryseed",
+        "tm:trailblaze"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiangrotle.desc"
+      ],
+      "height": 11,
+      "weight": 970,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreiangrotle_torterra_ayreian",
+          "variant": "level_up",
+          "result": "torterra ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "33",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
+        "fixed": false
+      },
+      "game": "vanguard"
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "epochtwo",
+    "ayreian"
+  ]
+}

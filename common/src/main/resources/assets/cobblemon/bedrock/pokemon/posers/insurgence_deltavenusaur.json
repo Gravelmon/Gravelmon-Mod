@@ -1,40 +1,128 @@
 {
-  "portraitScale": 1.649999976158142,
+  "rootBone": "venusaur",
+  "portraitScale": 1.0299999713897705,
   "portraitTranslation": [
-    -0.5,
-    -0.8,
+    -0.31,
+    0.12,
     0.0
   ],
-  "profileScale": 0.8999999761581421,
+  "profileScale": 0.4699999988079071,
   "profileTranslation": [
-    0.07,
-    0.38,
+    0.0,
+    0.98,
     0.0
   ],
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0.0,
+      0.25,
+      0.0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1_reverse": [
+      0.0,
+      3.0,
+      6.0
+    ],
+    "seat_1": [
+      0.0,
+      0.45,
+      1.0
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1_reverse": [
+      0.0,
+      3.0,
+      6.0
+    ],
+    "seat_1": [
+      0.0,
+      0.45,
+      1.0
+    ]
+  },
   "animations": {
-    "faint": "bedrock(deltavenusaur, faint)"
+    "cry": "q.bedrock_stateful('deltavenusaur', 'cry')",
+    "recoil": "q.bedrock_stateful('deltavenusaur', 'recoil')"
   },
   "poses": {
-    "standing": {
-      "poseName": "standing",
+    "jump": {
+      "poseName": "jump",
       "animations": [
-        "q.bedrock('deltavenusaur', 'ground_idle')"
+        "q.bedrock('deltavenusaur', q.look('head', 1, 0, 10, -20))",
+        "q.bedrock('deltavenusaur', q.look('leaf_front', 1, 0, 0, -13))",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'ride_ground_run')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+        }
       ],
       "poseTypes": [
         "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
+        "WALK"
+      ],
+      "transformTicks": 4,
+      "transformToTicks": 4,
+      "condition": "q.in_air && q.has_entity",
+      "quirks": [
+        "q.bedrock_quirk('deltavenusaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('deltavenusaur', q.look('head', 1, 0, 10, -20))",
+        "q.bedrock('deltavenusaur', q.look('leaf_front', 1, 0, 0, -13))",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        }
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('deltavenusaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('deltavenusaur', 'ground_idle')",
+        "q.bedrock('deltavenusaur', q.look('head', 1, 0, 10, -20))",
+        "q.bedrock('deltavenusaur', q.look('leaf_front', 1, 0, 0, -13))",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+        }
+      ],
+      "poseTypes": [
+        "STAND",
         "PORTRAIT",
-        "OPEN",
+        "PROFILE",
         "NONE"
       ],
+      "isBattle": false,
+      "transformTicks": 5,
+      "transformToTicks": 5,
       "quirks": [
         "q.bedrock_quirk('deltavenusaur', 'blink')"
       ],
@@ -44,14 +132,73 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('deltavenusaur', 'ground_walk')"
+        "q.bedrock('deltavenusaur', 'ground_walk')",
+        "q.bedrock('deltavenusaur', q.look('head', 1, 0, 10, -20))",
+        "q.bedrock('deltavenusaur', q.look('leaf_front', 1, 0, 0, -13))",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'ride_ground_run')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+        }
       ],
       "poseTypes": [
         "WALK"
       ],
+      "condition": "!q.in_air && !q.is_sprinting",
       "quirks": [
         "q.bedrock_quirk('deltavenusaur', 'blink')"
       ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "running": {
+      "poseName": "running",
+      "animations": [
+        "q.bedrock('deltavenusaur', q.look('head', 1, 0, 10, -20))",
+        "q.bedrock('deltavenusaur', q.look('leaf_front', 1, 0, 0, -13))",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'ride_ground_run')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+        }
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "condition": "!q.in_air && q.is_sprinting && q.has_entity",
+      "quirks": [
+        "q.bedrock_quirk('deltavenusaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('deltavenusaur', 'sleep')",
+        {
+          "condition": "q.is_holding_item",
+          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+        }
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
       "namedAnimations": {},
       "transformedParts": []
     }

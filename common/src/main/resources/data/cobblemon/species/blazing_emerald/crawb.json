@@ -1,0 +1,86 @@
+{
+  "name": "Crawb",
+  "primaryType": "steel",
+  "secondaryType": "water",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 540,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "baseScale": 1.0,
+  "cannotDynamax": false,
+  "abilities": [
+    "magnetpull",
+    "tactician"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 100,
+    "attack": 120,
+    "defence": 120,
+    "special_attack": 80,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "blazing_emerald",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.crawb.desc"
+  ],
+  "height": 5,
+  "weight": 150,
+  "evolutions": [],
+  "nationalPokedexNumber": 2425,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "blazing_emerald",
+  "actualName": "crawb"
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:smaqua",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fighting",
+      "secondaryType": "water",
+      "baseScale": 0.35624999999999996,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "crossguard"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defence": 105,
+        "special_attack": 86,
+        "special_defence": 52,
+        "speed": 80
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

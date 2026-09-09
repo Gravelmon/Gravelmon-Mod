@@ -1,0 +1,514 @@
+{
+  "target": "cobblemon:sunflora",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sunkern delta",
+      "baseScale": 0.16842105263157894,
+      "cannotDynamax": false,
+      "abilities": [
+        "flamebody",
+        "analytic",
+        "h:poisonpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 75,
+        "defence": 55,
+        "special_attack": 105,
+        "special_defence": 85,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:growth",
+        "4:ingrain",
+        "7:poisonpowder",
+        "10:ember",
+        "13:acidarmor",
+        "16:sludge",
+        "19:incinerate",
+        "22:nastyplot",
+        "25:endeavor",
+        "28:willowisp",
+        "31:flamethrower",
+        "34:solarbeam",
+        "37:doubleedge",
+        "40:fireblast",
+        "43:sludgebomb",
+        "50:overheat",
+        "tm:honeclaws",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:sludgewave",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:fireblast",
+        "tm:torment",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:skillswap",
+        "tm:willowisp",
+        "tm:explosion",
+        "tm:shadowclaw",
+        "tm:gigaimpact",
+        "tm:venoshock",
+        "tm:xscissor",
+        "tm:poisonjab",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:corrode",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tm:cut",
+        "tutor:acid",
+        "tutor:doubleedge",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:firepunch",
+        "tutor:gastroacid",
+        "tutor:gigadrain",
+        "tutor:gunkshot",
+        "tutor:heatwave",
+        "tutor:hypervoice",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:morningsun",
+        "tutor:mudslap",
+        "tutor:nastyplot",
+        "tutor:painsplit",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:spite"
+      ],
+      "labels": [
+        "gen2",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltasunflora.desc"
+      ],
+      "height": 8,
+      "weight": 85,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.125,
+        "height": 7.125,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sunkern epoch",
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "flashfire",
+        "solarpower",
+        "h:drought"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 50,
+        "defence": 70,
+        "special_attack": 40,
+        "special_defence": 105,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "13:leechseed",
+        "40:solarbeam",
+        "25:gigadrain",
+        "21:magicalleaf",
+        "31:fierydance",
+        "7:willowisp",
+        "28:morningsun",
+        "37:aromatherapy",
+        "1:megadrain",
+        "1:growth",
+        "4:ember",
+        "19:flameburst",
+        "16:ingrain",
+        "1:weatherball",
+        "34:dazzlinggleam",
+        "43:overheat",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:dazzlinggleam",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:pollenpuff",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsunflora.desc"
+      ],
+      "height": 8,
+      "weight": 85,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "nodorransunflora",
+      "baseScale": 0.3661016949152543,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironbarbs",
+        "h:solarpower"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 74,
+        "attack": 70,
+        "defence": 115,
+        "special_attack": 70,
+        "special_defence": 105,
+        "speed": 10
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorransunflora.desc"
+      ],
+      "height": 9,
+      "weight": 123,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.6874999999999996,
+        "height": 3.6874999999999996,
+        "fixed": false
+      },
+      "game": "nodorro"
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "baseScale": 0.15000000000000002,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "unleafed"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 85,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 105,
+        "speed": 45
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "height": 8,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "baseScale": 0.20625000000000002,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "chlorofury"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 85,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 105,
+        "speed": 45
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "height": 11,
+      "aspects": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "nodorran",
+    "mega",
+    "delta_mega"
+  ],
+  "evolutions": [
+    {
+      "id": "sunflora_sunflorid",
+      "variant": "item_interact",
+      "result": "sunflorid",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "incinerate"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
+    },
+    {
+      "id": "sunflora_sunnydra",
+      "variant": "level_up",
+      "result": "sunnydra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "amount": "220",
+          "variant": "friendship"
+        },
+        {
+          "range": "day",
+          "variant": "time_range"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

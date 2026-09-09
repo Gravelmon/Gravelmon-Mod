@@ -1,0 +1,127 @@
+{
+  "target": "cobblemon:nidoranf",
+  "forms": [
+    {
+      "name": "Alteran",
+      "primaryType": "ice",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "slushrush",
+        "h:adaptability"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 47,
+        "defence": 52,
+        "special_attack": 45,
+        "special_defence": 40,
+        "speed": 36
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:tackle",
+        "5:powdersnow",
+        "10:mist",
+        "15:iceshard",
+        "20:snowscape",
+        "25:icywind",
+        "30:freezedry",
+        "35:afteryou",
+        "40:auroraveil",
+        "45:swagger",
+        "50:iciclecrash",
+        "55:sheercold",
+        "egg:counter",
+        "egg:disable",
+        "egg:headsmash",
+        "egg:icefang"
+      ],
+      "labels": [
+        "gen1",
+        "flux",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.alterannidoranwintercoat.desc"
+      ],
+      "height": 4,
+      "weight": 70,
+      "aspects": [
+        "alteran",
+        "winter_coat"
+      ],
+      "evolutions": [
+        {
+          "id": "alterannidoranwintercoat_nidorimewintercoat",
+          "variant": "level_up",
+          "result": "nidorimewintercoat",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "16",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5,
+        "height": 2.5,
+        "fixed": false
+      },
+      "game": "flux"
+    }
+  ],
+  "features": [
+    "alteran"
+  ]
+}

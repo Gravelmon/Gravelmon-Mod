@@ -1,0 +1,369 @@
+{
+  "target": "cobblemon:gible",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32941176470588235,
+      "cannotDynamax": false,
+      "abilities": [
+        "unnerve",
+        "hypercutter",
+        "h:pressure"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 58,
+        "attack": 70,
+        "defence": 40,
+        "special_attack": 42,
+        "special_defence": 50,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "28:shadowclaw",
+        "52:spectralthief",
+        "4:sandattack",
+        "24:feintattack",
+        "34:crunch",
+        "19:torment",
+        "58:phantomforce",
+        "1:astonish",
+        "40:dragonclaw",
+        "46:dragondance",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:breakingswipe",
+        "egg:metalclaw",
+        "egg:thrash",
+        "egg:nobleroar",
+        "egg:bite",
+        "egg:slash",
+        "egg:nightslash"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "pseudo_legendary"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgible.desc"
+      ],
+      "height": 7,
+      "weight": 205,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgible_gabite_epoch",
+          "variant": "level_up",
+          "result": "gabite epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "24",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.44210526315789467,
+      "cannotDynamax": false,
+      "abilities": [
+        "roughskin",
+        "stakeout",
+        "h:intimidate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 58,
+        "attack": 55,
+        "defence": 35,
+        "special_attack": 67,
+        "special_defence": 40,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "36:flipturn",
+        "9:aquajet",
+        "12:bite",
+        "1:clamp",
+        "1:focusenergy",
+        "30:breakingswipe",
+        "48:dragonrush",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:falseswipe",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:metalclaw",
+        "egg:crunch",
+        "egg:thrash",
+        "egg:rapidspin"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "pseudo_legendary"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgibleone.desc"
+      ],
+      "height": 7,
+      "weight": 205,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgibleone_gabite_epochtwo",
+          "variant": "level_up",
+          "result": "gabite epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "24",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo"
+  ]
+}

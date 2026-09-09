@@ -1,0 +1,136 @@
+{
+  "name": "Yanmage",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "yanma kaskadian",
+  "baseScale": 0.22499999999999998,
+  "cannotDynamax": false,
+  "abilities": [
+    "magicguard",
+    "h:arcanum"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 65,
+    "defence": 55,
+    "special_attack": 120,
+    "special_defence": 90,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {},
+  "moves": [
+    "1:tackle",
+    "6:quickattack",
+    "11:doubleteam",
+    "14:dragonrage",
+    "17:detect",
+    "22:psybeam",
+    "27:uproar",
+    "30:bugbite",
+    "38:hypnosis",
+    "43:dragontail",
+    "46:screech",
+    "49:uturn",
+    "54:dragonpulse",
+    "57:bugbuzz",
+    "egg:doubleedge",
+    "egg:feint",
+    "egg:whirlwind",
+    "tm:takedown",
+    "tm:protect",
+    "tm:strugglebug",
+    "tm:thief",
+    "tm:pounce",
+    "tm:facade",
+    "tm:dragontail",
+    "tm:swift",
+    "tm:dragondance",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:uturn",
+    "tm:airslash",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:swordsdance",
+    "tm:leechlife",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:tailwind",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:reversal",
+    "tm:bugbuzz",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:bugbite",
+    "tm:lunge",
+    "tm:uproar"
+  ],
+  "labels": [
+    "gen2",
+    "lockemon",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.yanmage.desc"
+  ],
+  "height": 12,
+  "weight": 380,
+  "evolutions": [],
+  "nationalPokedexNumber": 2191,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "lockemon",
+  "actualName": "yanmage"
+}

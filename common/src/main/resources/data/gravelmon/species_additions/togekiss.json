@@ -1,0 +1,163 @@
+{
+  "target": "cobblemon:togekiss",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 30,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 273,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "togetic epoch",
+      "baseScale": 0.44999999999999996,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster",
+        "magicguard",
+        "h:galewings"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 110,
+        "defence": 95,
+        "special_attack": 100,
+        "special_defence": 60,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "25:nightslash",
+        "1:leer",
+        "43:spectralthief",
+        "22:charm",
+        "22:captivate",
+        "10:glide",
+        "37:falsesurrender",
+        "56:foulplay",
+        "1:pursuit",
+        "31:partingshot",
+        "13:thief",
+        "28:tailwind",
+        "60:bravebird",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bravebird",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtogekiss.desc"
+      ],
+      "height": 15,
+      "weight": 380,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

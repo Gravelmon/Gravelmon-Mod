@@ -1,0 +1,167 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviian_wishiwashi-01",
+      "pokemon": "wishiwashi seviian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "seviian_wishiwashi-01",
+      "pokemon": "wishiwashi seviian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "seviian_wishiwashi-11",
+      "pokemon": "wishiwashi seviian",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "seviian_wishiwashi-11",
+      "pokemon": "wishiwashi seviian",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "deep_wishiwashi-01",
+      "pokemon": "wishiwashi deep",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 30,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "deep_wishiwashi-01",
+      "pokemon": "wishiwashi deep",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-56",
+      "weight": 6.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 30
+      }
+    },
+    {
+      "id": "epoch_wishiwashi-01",
+      "pokemon": "wishiwashi epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_wishiwashi-01",
+      "pokemon": "wishiwashi epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:emperiegle",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "normal",
+      "secondaryType": "flying",
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "pridefulstance"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 165,
+        "defence": 107,
+        "special_attack": 50,
+        "special_defence": 78,
+        "speed": 105
+      },
+      "labels": [
+        "atlas"
+      ],
+      "height": 20,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

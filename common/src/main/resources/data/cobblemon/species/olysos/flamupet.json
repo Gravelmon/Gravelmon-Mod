@@ -1,0 +1,102 @@
+{
+  "name": "Flamupet",
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "inferpillar",
+  "baseScale": 0.20425531914893616,
+  "cannotDynamax": false,
+  "abilities": [
+    "shedskin"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 55,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.flamupet.desc"
+  ],
+  "height": 4,
+  "weight": 34,
+  "evolutions": [
+    {
+      "id": "flamupet_flamothra",
+      "variant": "level_up",
+      "result": "flamothra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "28",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3920,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "flamupet"
+}

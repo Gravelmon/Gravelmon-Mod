@@ -1,0 +1,81 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "finflix-01",
+      "pokemon": "finflix",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "finflix-01",
+      "pokemon": "finflix",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "finflix-11",
+      "pokemon": "finflix",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "finflix-11",
+      "pokemon": "finflix",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ]
+      }
+    }
+  ]
+}

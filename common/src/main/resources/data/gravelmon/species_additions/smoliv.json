@@ -1,0 +1,286 @@
+{
+  "target": "cobblemon:smoliv",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 52,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.192,
+      "cannotDynamax": false,
+      "abilities": [
+        "liquidooze"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 41,
+        "attack": 25,
+        "defence": 45,
+        "special_attack": 25,
+        "special_defence": 63,
+        "speed": 61
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:soak",
+        "1:smokescreen",
+        "60:hydropump",
+        "40:gastroacid",
+        "10:acidspray",
+        "52:reflect",
+        "31:extrasensory",
+        "52:lightscreen",
+        "4:watergun",
+        "28:amnesia",
+        "43:psychic",
+        "25:octazooka",
+        "19:miracleeye",
+        "1:confusion",
+        "56:sludgewave",
+        "16:bubblebeam",
+        "22:psybeam",
+        "37:corrode",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:flipturn",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "egg:aquaring",
+        "egg:heartswap",
+        "egg:banefulbunker",
+        "egg:hypnosis",
+        "egg:dreameater",
+        "egg:drainingkiss",
+        "egg:trickroom",
+        "egg:wonderroom",
+        "egg:magicroom"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsmoliv.desc"
+      ],
+      "height": 3,
+      "weight": 65,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochsmoliv_dolliv_epoch",
+          "variant": "level_up",
+          "result": "dolliv epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromiansmoliv.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "aroma"
+    }
+  ],
+  "features": [
+    "epoch",
+    "aromian"
+  ]
+}

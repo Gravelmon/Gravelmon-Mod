@@ -1,0 +1,98 @@
+{
+  "name": "Tasmon",
+  "primaryType": "ghost",
+  "secondaryType": "dark",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18113207547169813,
+  "cannotDynamax": false,
+  "abilities": [
+    "pickpocket",
+    "h:frisk"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 30,
+    "special_attack": 50,
+    "special_defence": 30,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.tasmon.desc"
+  ],
+  "height": 4,
+  "weight": 91,
+  "evolutions": [
+    {
+      "id": "tasmon_casanovil",
+      "variant": "item_interact",
+      "result": "casanovil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3960,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.3125,
+    "height": 3.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "tasmon"
+}

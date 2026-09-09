@@ -1,0 +1,194 @@
+{
+  "target": "cobblemon:grapploct",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "clobbopus epoch",
+      "baseScale": 0.4987012987012987,
+      "cannotDynamax": false,
+      "abilities": [
+        "contrary",
+        "arenatrap",
+        "h:moldbreaker"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 98,
+        "defence": 100,
+        "special_attack": 50,
+        "special_defence": 42,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "22:armthrust",
+        "58:closecombat",
+        "1:leer",
+        "7:aquajet",
+        "1:octolock",
+        "1:clamp",
+        "26:block",
+        "54:surgingstrikes",
+        "1:poweruppunch",
+        "1:rocksmash",
+        "14:lowsweep",
+        "11:brutalswing",
+        "30:lashout",
+        "34:drainpunch",
+        "4:detect",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulkup",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrapploct.desc"
+      ],
+      "height": 16,
+      "weight": 390,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.8125,
+        "height": 4.8125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "baseScale": 0.4909090909090909,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "contrary"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 118,
+        "defence": 120,
+        "special_attack": 70,
+        "special_defence": 62,
+        "speed": 120
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "epoch_mega"
+  ]
+}

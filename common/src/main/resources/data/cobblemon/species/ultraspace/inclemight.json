@@ -1,0 +1,85 @@
+{
+  "name": "Inclemight",
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.8326530612244898,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 131,
+    "attack": 135,
+    "defence": 131,
+    "special_attack": 46,
+    "special_defence": 101,
+    "speed": 56
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "ultraspace",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.inclemight.desc"
+  ],
+  "height": 34,
+  "weight": 0,
+  "evolutions": [],
+  "nationalPokedexNumber": 4478,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 6.125,
+    "height": 6.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "ultraspace",
+  "actualName": "inclemight"
+}

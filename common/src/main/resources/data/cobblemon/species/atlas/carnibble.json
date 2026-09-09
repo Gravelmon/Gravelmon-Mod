@@ -1,0 +1,148 @@
+{
+  "name": "Carnibble",
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5052631578947369,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye",
+    "h:strongjaw"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:laserfocus",
+    "2:sharpen",
+    "4:bite",
+    "9:rockthrow",
+    "13:ancientpower",
+    "17:screech",
+    "20:payback",
+    "23:rollout",
+    "27:irondefense",
+    "31:crunch",
+    "35:scaryface",
+    "47:honeclaws",
+    "53:drainlife",
+    "60:skullbash",
+    "tm:falseswipe",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:round",
+    "tm:brickbreak",
+    "tm:wildcharge",
+    "tm:aerialace",
+    "tm:shadowclaw",
+    "tm:darkpulse",
+    "tm:thief",
+    "tm:snarl",
+    "tm:brutalswing",
+    "tm:rockslide",
+    "tm:smackdown",
+    "tm:dragonclaw",
+    "tm:dragontail",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:roar",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:toxic"
+  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.carnibble.desc"
+  ],
+  "height": 8,
+  "weight": 165,
+  "evolutions": [
+    {
+      "id": "carnibble_carnosteus",
+      "variant": "level_up",
+      "result": "carnosteus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3198,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.375,
+    "height": 2.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "atlas",
+  "actualName": "carnibble"
+}

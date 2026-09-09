@@ -1,0 +1,757 @@
+{
+  "target": "cobblemon:arcanine",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "normal",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 194,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe delta",
+      "baseScale": 0.13124999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "intimidate",
+        "h:multiscale"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 110,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 80,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ancientroar",
+        "1:bite",
+        "1:roar",
+        "1:safeguard",
+        "1:dragonbreath",
+        "34:extremespeed",
+        "tm:dragonclaw",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:roar",
+        "tm:toxic",
+        "tm:dragonpulse",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:dragontail",
+        "tm:embargo",
+        "tm:shadowclaw",
+        "tm:retaliate",
+        "tm:gigaimpact",
+        "tm:stoneedge",
+        "tm:psychup",
+        "tm:swordsdance",
+        "tm:wildcharge",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:dracojet",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:avalanche",
+        "tm:incinerate",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:dragonify",
+        "tm:quash",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:surf",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:aquatail",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:bounce",
+        "tutor:dig",
+        "tutor:dracometeor",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:extremespeed",
+        "tutor:gravity",
+        "tutor:headbutt",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:lastresort",
+        "tutor:magiccoat",
+        "tutor:mimic",
+        "tutor:outrage",
+        "tutor:roleplay",
+        "tutor:snore",
+        "tutor:superfang",
+        "tutor:superpower",
+        "tutor:twister",
+        "tutor:uproar",
+        "tutor:whirlpool",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltaarcanine.desc"
+      ],
+      "height": 7,
+      "weight": 190,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe epoch",
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "dazzling"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 115,
+        "defence": 80,
+        "special_attack": 95,
+        "special_defence": 90,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "44:cosmicpower",
+        "24:dragondance",
+        "36:dragonclaw",
+        "52:moonlight",
+        "4:howl",
+        "20:nobleroar",
+        "1:stardust",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hypervoice",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocharcanine.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.75,
+        "height": 4.75,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5493975903614458,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "competitive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 110,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "8:siphon",
+        "6:corrosivegas",
+        "23:gastroacid",
+        "44:nastyplot",
+        "41:darkvoid",
+        "56:toxic",
+        "1:smog",
+        "14:snarl",
+        "47:sludgewave",
+        "4:poisongas",
+        "50:venomdrench",
+        "29:corrode",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocharcanineone.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Armiran",
+      "primaryType": "water",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "growlithe armiran",
+      "baseScale": 0.36190476190476184,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "waterabsorb",
+        "h:justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 110,
+        "defence": 90,
+        "special_attack": 100,
+        "special_defence": 90,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:roar",
+        "6:watergun",
+        "8:leer",
+        "10:odorsleuth",
+        "12:helpinghand",
+        "17:waterpulse",
+        "19:reversal",
+        "21:firefang",
+        "23:takedown",
+        "28:raindance",
+        "32:gyroball",
+        "34:hydropump",
+        "39:crunch",
+        "41:irontail",
+        "43:outrage",
+        "45:agility",
+        "54:thunderfang",
+        "60:extremespeed",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:flamethrower",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:incinerate",
+        "tm:willowisp",
+        "tm:retaliate",
+        "tm:gigaimpact",
+        "tm:bulldoze",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:wildcharge",
+        "tm:snarl",
+        "tm:surf",
+        "tm:strength",
+        "tm:waterfall",
+        "tm:rocksmash",
+        "egg:bodyslam",
+        "egg:closecombat",
+        "egg:covet",
+        "egg:crunch",
+        "egg:doublekick",
+        "egg:doubleedge",
+        "egg:howl",
+        "egg:irontail",
+        "egg:morningsun",
+        "egg:quickattack",
+        "egg:thrash",
+        "egg:thunderfang",
+        "tutor:doubleedge",
+        "tutor:headbutt",
+        "tutor:liquidation",
+        "tutor:dragonbreath",
+        "tutor:dragonrage",
+        "tutor:thunderfang",
+        "tutor:wildcharge",
+        "tutor:firefang",
+        "tutor:firespin",
+        "tutor:playrough",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:covet",
+        "tutor:dragonpulse",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:laserfocus",
+        "tutor:liquidation",
+        "tutor:outrage",
+        "tutor:snore",
+        "tutor:superpower",
+        "tutor:swagger"
+      ],
+      "labels": [
+        "gen1",
+        "daybreak",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.armiranarcanine.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "armiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.875,
+        "height": 7.875,
+        "fixed": false
+      },
+      "game": "daybreak"
+    },
+    {
+      "name": "mega_p",
+      "primaryType": "fire",
+      "secondaryType": "dragon",
+      "baseScale": 0.6072289156626506,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dragonsmaw"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 145,
+        "defence": 95,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 130
+      },
+      "labels": [
+        "gen1",
+        "phoenix_rising"
+      ],
+      "height": 21,
+      "aspects": [
+        "mega_p"
+      ]
+    },
+    {
+      "name": "mega_x",
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "baseScale": 0.43124999999999997,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "solarprominence"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 110,
+        "defence": 80,
+        "special_attack": 130,
+        "special_defence": 80,
+        "speed": 155
+      },
+      "labels": [
+        "gen1",
+        "xenoverse"
+      ],
+      "height": 23,
+      "aspects": [
+        "mega_x"
+      ]
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "epochtwo",
+    "armiran",
+    "mega_p",
+    "mega_x"
+  ]
+}

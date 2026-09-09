@@ -1,0 +1,88 @@
+{
+  "name": "Piopeca",
+  "primaryType": "flying",
+  "secondaryType": "fairy",
+  "catchRate": 38,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.07500000000000001,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 76,
+    "attack": 76,
+    "defence": 95,
+    "special_attack": 72,
+    "special_defence": 99,
+    "speed": 138
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "aroma",
+    "not_modeled",
+    "legendary",
+    "instagram",
+    "instagram"
+  ],
+  "pokedex": [
+    "cobblemon.species.piopeca.desc"
+  ],
+  "height": 0,
+  "weight": 0,
+  "evolutions": [],
+  "nationalPokedexNumber": 3617,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "aroma",
+  "actualName": "piopeca"
+}

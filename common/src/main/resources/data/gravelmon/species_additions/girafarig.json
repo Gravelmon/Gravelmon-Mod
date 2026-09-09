@@ -1,0 +1,348 @@
+{
+  "target": "cobblemon:girafarig",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "steel",
+      "secondaryType": "poison",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 159,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.28125,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 65,
+        "special_attack": 90,
+        "special_defence": 65,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:belch",
+        "1:recycle",
+        "1:smog",
+        "1:tackle",
+        "1:leer",
+        "1:clearsmog",
+        "5:poisongas",
+        "10:bite",
+        "14:stomp",
+        "19:mirrorshot",
+        "23:autotomize",
+        "25:crosspoison",
+        "28:bodyslam",
+        "32:ironhead",
+        "37:crunch",
+        "41:toxicspikes",
+        "46:nastyplot",
+        "50:sludgebomb",
+        "tm:bulldoze",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:earthquake",
+        "tm:return",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:recycle",
+        "tm:chargebeam",
+        "tm:dragontail",
+        "tm:willowisp",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:thunderwave",
+        "tm:gyroball",
+        "tm:venoshock",
+        "tm:wildcharge",
+        "tm:shockwave",
+        "tm:poisonjab",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:corrode",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:infestation",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:aquatail",
+        "tutor:batonpass",
+        "tutor:bodyslam",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gastroacid",
+        "tutor:gigadrain",
+        "tutor:gunkshot",
+        "tutor:headbutt",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:magnetrise",
+        "tutor:mimic",
+        "tutor:nastyplot",
+        "tutor:outrage",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:uproar",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen2",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltagirafarig.desc"
+      ],
+      "height": 15,
+      "weight": 830,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "mega",
+      "primaryType": "normal",
+      "secondaryType": "psychic",
+      "baseScale": 0.31875,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "spectraljaws"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "steel",
+      "secondaryType": "poison",
+      "baseScale": 0.35624999999999996,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "intimidate"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "height": 19,
+      "aspects": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "features": [
+    "delta",
+    "mega",
+    "delta_mega"
+  ],
+  "evolutions": [
+    {
+      "id": "girafarig_girafaraf",
+      "variant": "item_interact",
+      "result": "girafaraf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true
+    },
+    {
+      "id": "girafarig_giragira",
+      "variant": "item_interact",
+      "result": "giragira",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "girafarig_kirinirik",
+      "variant": "level_up",
+      "result": "kirinirik",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "move": "outrage",
+          "variant": "has_move"
+        }
+      ]
+    },
+    {
+      "id": "girafarig_folifarig",
+      "variant": "level_up",
+      "result": "folifarig",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "30",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "girafarig_gireamer",
+      "variant": "level_up",
+      "result": "gireamer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "38",
+          "variant": "level"
+        },
+        {
+          "range": "dawn",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "girafarig_nitmarig",
+      "variant": "level_up",
+      "result": "nitmarig",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "38",
+          "variant": "level"
+        },
+        {
+          "range": "dusk",
+          "variant": "time_range"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

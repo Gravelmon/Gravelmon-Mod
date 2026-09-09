@@ -1,0 +1,268 @@
+{
+  "target": "cobblemon:tauros",
+  "forms": [
+    {
+      "name": "Africanusan",
+      "primaryType": "normal",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.49411764705882355,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 45,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "11:irondefense",
+        "41:metalburst",
+        "1:tackle",
+        "3:tailwhip",
+        "15:mirrorshot",
+        "5:rage",
+        "24:payback",
+        "63:doubleedge",
+        "8:hornattack",
+        "35:takedown",
+        "19:ironhead",
+        "29:workup",
+        "48:swagger",
+        "71:gigaimpact"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusantauros.desc"
+      ],
+      "height": 14,
+      "weight": 1300,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.25,
+        "height": 4.25,
+        "fixed": false
+      },
+      "game": "africanus"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "fire",
+      "secondaryType": "electric",
+      "catchRate": 100,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 172,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3818181818181818,
+      "cannotDynamax": false,
+      "abilities": [
+        "flashfire",
+        "reckless",
+        "h:runaway"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 100,
+        "defence": 95,
+        "special_attack": 110,
+        "special_defence": 30,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "41:agility",
+        "56:flareblitz",
+        "1:tackle",
+        "11:thunderwave",
+        "29:voltswitch",
+        "3:tailwhip",
+        "24:spark",
+        "15:flamecharge",
+        "19:pursuit",
+        "51:doubleedge",
+        "35:takedown",
+        "61:volttackle",
+        "45:wildcharge",
+        "8:charge",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:dazzlinggleam",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:magnetrise",
+        "tm:mysticalfire",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:iondeluge",
+        "egg:stomp",
+        "egg:rest",
+        "egg:firefang",
+        "egg:thunderfang",
+        "egg:thrash",
+        "egg:bodyslam",
+        "egg:crunch",
+        "egg:closecombat",
+        "egg:firelash"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtauros.desc"
+      ],
+      "height": 14,
+      "weight": 884,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "africanusan",
+    "epoch"
+  ],
+  "preEvolution": "calfpint"
+}

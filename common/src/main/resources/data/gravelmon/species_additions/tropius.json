@@ -1,0 +1,506 @@
+{
+  "target": "cobblemon:tropius",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "neutralizinggas",
+        "h:liquidvoice"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 109,
+        "attack": 98,
+        "defence": 83,
+        "special_attack": 41,
+        "special_defence": 42,
+        "speed": 87
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "27:confuseray",
+        "33:spiritshackle",
+        "1:leer",
+        "1:lick",
+        "6:roar",
+        "45:dragonhammer",
+        "57:uproar",
+        "60:shadowforce",
+        "15:poisontail",
+        "51:dragondance",
+        "42:shadowbone",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:zenheadbutt",
+        "egg:curse",
+        "egg:poisonfang",
+        "egg:zenheadbutt",
+        "egg:grudge",
+        "egg:memento",
+        "egg:meanlook",
+        "egg:possession"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtropius.desc"
+      ],
+      "height": 20,
+      "weight": 1000,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Kaskadian",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 166,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.75,
+      "cannotDynamax": false,
+      "abilities": [
+        "arenatrap",
+        "h:harvest"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 75,
+        "defence": 110,
+        "special_attack": 55,
+        "special_defence": 90,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growth",
+        "1:mudslap",
+        "1:leafstorm",
+        "1:leer",
+        "1:razorleaf",
+        "6:sweetscent",
+        "10:stomp",
+        "16:magicalleaf",
+        "21:bulldoze",
+        "30:wideguard",
+        "36:earthquake",
+        "41:bodyslam",
+        "46:outrage",
+        "50:synthesis",
+        "56:solarbeam",
+        "egg:curse",
+        "egg:dragondance",
+        "egg:headbutt",
+        "egg:leafblade",
+        "egg:leechseed",
+        "egg:slam",
+        "tm:takedown",
+        "tm:protect",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:rockslide",
+        "tm:bulldoze",
+        "tm:magicalleaf",
+        "tm:earthpower",
+        "tm:dragontail",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:bulletseed",
+        "tm:zenheadbutt",
+        "tm:uturn",
+        "tm:rocktomb",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:grassknot",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:swordsdance",
+        "tm:bodypress",
+        "tm:earthquake",
+        "tm:dragondance",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:mudbomb",
+        "tm:dragonpulse",
+        "tm:energyball",
+        "tm:helpinghand",
+        "tm:grassyterrain",
+        "tm:highhorsepower",
+        "tm:gigaimpact",
+        "tm:outrage",
+        "tm:leafstorm",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "lockemon",
+        "gen3",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.kaskadiantropius.desc"
+      ],
+      "height": 40,
+      "weight": 1600,
+      "aspects": [
+        "kaskadian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "lockemon"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5052631578947369,
+      "cannotDynamax": false,
+      "abilities": [
+        "chlorophyll",
+        "seedsower"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 109,
+        "attack": 68,
+        "defence": 88,
+        "special_attack": 71,
+        "special_defence": 102,
+        "speed": 92
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "36:solarbeam",
+        "1:leer",
+        "10:stomp",
+        "41:dragonpulse",
+        "50:leafstorm",
+        "16:magicalleaf",
+        "1:dragonbreath",
+        "21:dragonhammer",
+        "1:razorleaf",
+        "26:leaftornado",
+        "61:dracometeor",
+        "6:sweetscent",
+        "1:growth",
+        "1:terrainpulse",
+        "46:synthesis",
+        "1:weatherball",
+        "56:earthpower",
+        "30:naturalgift",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:cut",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dragonpulse",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:fly",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:naturepower",
+        "tm:outrage",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:steelwing",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:toxic",
+        "tm:worryseed",
+        "egg:headbutt",
+        "egg:slam",
+        "egg:razorwind",
+        "egg:leechseed",
+        "egg:naturepower",
+        "egg:leafstorm",
+        "egg:synthesis",
+        "egg:curse",
+        "egg:leafblade",
+        "egg:dragondance",
+        "egg:bulletseed",
+        "egg:naturalgift",
+        "egg:dragonhammer"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiantropius.desc"
+      ],
+      "height": 20,
+      "weight": 1000,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.9375,
+        "height": 5.9375,
+        "fixed": false
+      },
+      "game": "vanguard"
+    }
+  ],
+  "features": [
+    "epoch",
+    "kaskadian",
+    "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "tropius_fruitius",
+      "variant": "level_up",
+      "result": "fruitius",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "amount": "160",
+          "variant": "friendship"
+        }
+      ]
+    }
+  ]
+}

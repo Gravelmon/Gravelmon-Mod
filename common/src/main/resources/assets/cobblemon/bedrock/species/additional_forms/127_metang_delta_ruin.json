@@ -1,0 +1,77 @@
+{
+  "species": "cobblemon:metang",
+  "order": 127,
+  "variations": [
+    {
+      "aspects": [
+        "ruin",
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltaruinmetang.geo",
+      "poser": "cobblemon:insurgence_deltaruinmetang",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinmetang/deltaruinmetang.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ruin",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltaruinmetang.geo",
+      "poser": "cobblemon:insurgence_deltaruinmetang",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinmetang/deltaruinmetang_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "target": "cobblemon:magcargo",
+  "forms": [
+    {
+      "name": "Cefiran",
+      "primaryType": "poison",
+      "secondaryType": "steel",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slugma cefiran",
+      "baseScale": 0.192,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye",
+        "h:weakarmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 50,
+        "defence": 140,
+        "special_attack": 30,
+        "special_defence": 100,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:yawn",
+        "1:smog",
+        "1:ember",
+        "1:sludge",
+        "5:ember",
+        "10:sludge",
+        "14:harden",
+        "19:recover",
+        "23:flameburst",
+        "28:sludgebomb",
+        "32:amnesia",
+        "37:lavaplume",
+        "38:shellsmash",
+        "44:flashcannon",
+        "52:bodyslam",
+        "59:flamethrower",
+        "67:earthpower",
+        "egg:acidarmor",
+        "egg:curse",
+        "egg:earthpower",
+        "egg:heatwave",
+        "egg:inferno",
+        "egg:memento",
+        "egg:rollout",
+        "egg:smokescreen",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow"
+      ],
+      "labels": [
+        "gen2",
+        "opal",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranmagcargo.desc"
+      ],
+      "height": 8,
+      "weight": 550,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.25,
+        "height": 6.25,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "Varitasian",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slugma varitasian",
+      "baseScale": 0.42857142857142855,
+      "cannotDynamax": false,
+      "abilities": [
+        "lightningrod",
+        "magnetpull",
+        "h:static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 110,
+        "special_attack": 80,
+        "special_defence": 85,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmagcargo.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      },
+      "game": "varitas"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "steel",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slugma epoch",
+      "baseScale": 0.36226415094339626,
+      "cannotDynamax": false,
+      "abilities": [
+        "unaware",
+        "liquidooze",
+        "h:corrosion"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defence": 90,
+        "special_attack": 30,
+        "special_defence": 110,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "11:siphon",
+        "1:acid",
+        "1:harden",
+        "32:haze",
+        "40:banefulbunker",
+        "15:doubleteam",
+        "1:toxic",
+        "63:shellsmash",
+        "54:sludgewave",
+        "7:poisongas",
+        "44:sludgebomb",
+        "19:sludge",
+        "27:corrode",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:flamethrower",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmagcargo.desc"
+      ],
+      "height": 8,
+      "weight": 550,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 151,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slugma epochtwo",
+      "baseScale": 0.3047619047619048,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterveil",
+        "clearbody",
+        "h:psychicsurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 40,
+        "defence": 75,
+        "special_attack": 55,
+        "special_defence": 110,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "1:storedpower",
+        "48:strangesteam",
+        "6:swift",
+        "1:raindance",
+        "22:amnesia",
+        "44:psychic",
+        "56:waterspout",
+        "40:shellsmash",
+        "1:confusion",
+        "9:psychicterrain",
+        "15:yawn",
+        "32:recover",
+        "12:bubblebeam",
+        "26:brine",
+        "36:scald",
+        "29:minimize",
+        "22:acidarmor",
+        "18:psybeam",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:flipturn",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:swift",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmagcargoone.desc"
+      ],
+      "height": 8,
+      "weight": 550,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "baseScale": 0.1875,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "vaporization"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defence": 100,
+        "special_attack": 150,
+        "special_defence": 100,
+        "speed": 50
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "height": 10,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "cefiran",
+    "varitasian",
+    "epoch",
+    "epochtwo",
+    "mega"
+  ],
+  "evolutions": [
+    {
+      "id": "magcargo_magukigai",
+      "variant": "level_up",
+      "result": "magukigai",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "54",
+          "variant": "level"
+        }
+      ]
+    }
+  ]
+}

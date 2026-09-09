@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:cryodrago",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ice",
+      "secondaryType": "dragon",
+      "baseScale": 0.7875000000000001,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "magicbounce"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defence": 90,
+        "special_attack": 95,
+        "special_defence": 145,
+        "speed": 160
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 42,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

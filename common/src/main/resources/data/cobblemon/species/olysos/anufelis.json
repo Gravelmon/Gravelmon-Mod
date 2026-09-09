@@ -1,0 +1,89 @@
+{
+  "name": "Anufelis",
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 220,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "anyuu",
+  "baseScale": 0.6857142857142856,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 140,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 120,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "legendary",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.anufelis.desc"
+  ],
+  "height": 24,
+  "weight": 2141,
+  "evolutions": [],
+  "nationalPokedexNumber": 3998,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.25,
+    "height": 5.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "anufelis"
+}

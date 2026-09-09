@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "komisaur-01",
+      "pokemon": "komisaur",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "komisaur-01",
+      "pokemon": "komisaur",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_mountain"
+        ]
+      }
+    }
+  ]
+}

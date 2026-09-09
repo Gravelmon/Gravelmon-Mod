@@ -1,0 +1,203 @@
+{
+  "target": "cobblemon:leavanny",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 225,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "swadloon epoch",
+      "baseScale": 0.384,
+      "cannotDynamax": false,
+      "abilities": [
+        "sharpness",
+        "h:fullmetalbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 103,
+        "defence": 80,
+        "special_attack": 102,
+        "special_defence": 50,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "39:agility",
+        "1:nightslash",
+        "54:plasmafists",
+        "46:excalibur",
+        "1:smartstrike",
+        "15:powertrip",
+        "28:cheapshot",
+        "8:torment",
+        "59:swordsdance",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:thunderbolt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:voltswitch",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochleavanny.desc"
+      ],
+      "height": 12,
+      "weight": 205,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "armored",
+      "primaryType": "bug",
+      "secondaryType": "grass",
+      "baseScale": 0.22499999999999998,
+      "cannotDynamax": true,
+      "abilities": [
+        "swarm",
+        "chlorophyll",
+        "h:overcoat"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 103,
+        "defence": 104,
+        "special_attack": 70,
+        "special_defence": 104,
+        "speed": 92
+      },
+      "evolutions": [
+        {
+          "id": "armored armored_armored",
+          "variant": "level_up",
+          "result": "armored",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": []
+        }
+      ],
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "height": 12,
+      "aspects": [
+        "armored"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "leavanny"
+  ],
+  "evolutions": [
+    {
+      "id": "leavanny_leavanny_armored",
+      "variant": "item_interact",
+      "result": "leavanny armored",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_helmet",
+      "permanent": true
+    }
+  ]
+}

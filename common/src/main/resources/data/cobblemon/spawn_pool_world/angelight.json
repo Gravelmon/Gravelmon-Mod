@@ -1,0 +1,95 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "angelight-01",
+      "pokemon": "angelight",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.25,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    },
+    {
+      "id": "angelight-11",
+      "pokemon": "angelight",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.25,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "angelight-11",
+      "pokemon": "angelight",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.25,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      }
+    },
+    {
+      "id": "angelight-21",
+      "pokemon": "angelight",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.25,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "angelight-21",
+      "pokemon": "angelight",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.25,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      }
+    }
+  ]
+}

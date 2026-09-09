@@ -1,0 +1,77 @@
+{
+  "species": "cobblemon:beldum",
+  "order": 127,
+  "variations": [
+    {
+      "aspects": [
+        "ruin",
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltaruinbeldum.geo",
+      "poser": "cobblemon:insurgence_deltaruinbeldum",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinbeldum/deltaruinbeldum.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ruin",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltaruinbeldum.geo",
+      "poser": "cobblemon:insurgence_deltaruinbeldum",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinbeldum/deltaruinbeldum_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

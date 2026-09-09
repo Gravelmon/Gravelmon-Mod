@@ -1,0 +1,110 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "angelish-01",
+      "pokemon": "angelish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "angelish-01",
+      "pokemon": "angelish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "angelish-11",
+      "pokemon": "angelish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "angelish-11",
+      "pokemon": "angelish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      }
+    },
+    {
+      "id": "angelish-21",
+      "pokemon": "angelish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "angelish-21",
+      "pokemon": "angelish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      }
+    }
+  ]
+}

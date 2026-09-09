@@ -1,0 +1,81 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "arowish-01",
+      "pokemon": "arowish",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "arowish-01",
+      "pokemon": "arowish",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "arowish-11",
+      "pokemon": "arowish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "arowish-11",
+      "pokemon": "arowish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      }
+    }
+  ]
+}

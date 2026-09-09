@@ -1,0 +1,102 @@
+{
+  "name": "Happetite",
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 1250,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5571428571428572,
+  "cannotDynamax": false,
+  "abilities": [
+    "strongjaw",
+    "hustle",
+    "h:reckless"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 70,
+    "special_attack": 30,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.happetite.desc"
+  ],
+  "height": 13,
+  "weight": 360,
+  "evolutions": [
+    {
+      "id": "happetite_serposter",
+      "variant": "level_up",
+      "result": "serposter",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:dragon_scale",
+          "variant": "held_item"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3927,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5,
+    "height": 3.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "happetite"
+}

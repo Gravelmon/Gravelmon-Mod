@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:elestomp",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ground",
+      "secondaryType": "ghost",
+      "baseScale": 0.31875,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "wanderingspirit"
+      ],
+      "baseStats": {
+        "hp": 131,
+        "attack": 95,
+        "defence": 125,
+        "special_attack": 45,
+        "special_defence": 108,
+        "speed": 114
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

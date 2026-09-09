@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:geckone",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "baseScale": 0.15000000000000002,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "neuroforce"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 125,
+        "special_defence": 140,
+        "speed": 90
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 8,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

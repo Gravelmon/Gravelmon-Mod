@@ -1,0 +1,108 @@
+{
+  "name": "Upspark",
+  "primaryType": "electric",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.33488372093023255,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 78,
+    "attack": 46,
+    "defence": 93,
+    "special_attack": 22,
+    "special_defence": 22,
+    "speed": 12
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.upspark.desc"
+  ],
+  "height": 6,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "upspark_shockfull",
+      "variant": "level_up",
+      "result": "shockfull",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "17",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "upspark_sporkupine",
+      "variant": "item_interact",
+      "result": "Sporkupine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 3847,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.6875,
+    "height": 2.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "upspark"
+}

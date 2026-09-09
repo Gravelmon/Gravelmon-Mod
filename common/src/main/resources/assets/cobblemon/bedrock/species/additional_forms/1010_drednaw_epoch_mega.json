@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:drednaw",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "epoch_mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_95_by_95.geo",
+      "poser": "cobblemon:cutout_gravelmon_95_by_95",
+      "texture": "cobblemon:textures/pokemon/soulstones/drednaw_epoch_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

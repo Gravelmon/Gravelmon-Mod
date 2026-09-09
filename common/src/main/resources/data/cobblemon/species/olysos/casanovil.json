@@ -1,0 +1,91 @@
+{
+  "name": "Casanovil",
+  "primaryType": "ghost",
+  "secondaryType": "dark",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 154,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "tasmon",
+  "baseScale": 0.518918918918919,
+  "cannotDynamax": false,
+  "abilities": [
+    "cursedbody",
+    "cutecharm",
+    "h:infiltrator"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 110
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.casanovil.desc"
+  ],
+  "height": 16,
+  "weight": 544,
+  "evolutions": [],
+  "nationalPokedexNumber": 3961,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.625,
+    "height": 4.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "casanovil"
+}

@@ -1,0 +1,361 @@
+{
+  "target": "cobblemon:paras",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "ghost",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18461538461538463,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "dryskin",
+        "h:contrary"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 30,
+        "defence": 60,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "8:poisonpowder",
+        "21:speedswap",
+        "1:infestation",
+        "5:acidspray",
+        "24:gigadrain",
+        "1:firstimpression",
+        "31:spore",
+        "11:megadrain",
+        "39:destinybond",
+        "35:sludgebomb",
+        "14:hex",
+        "8:stunspore",
+        "8:sleeppowder",
+        "21:powerswap",
+        "21:guardswap",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:stealthrock",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "egg:stickyweb",
+        "egg:healorder",
+        "egg:defendorder",
+        "egg:attackorder",
+        "egg:banefulbunker",
+        "egg:gastroacid",
+        "egg:venomdrench",
+        "egg:spite",
+        "egg:strengthsap",
+        "egg:perishsong",
+        "egg:skillswap"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochparas.desc"
+      ],
+      "height": 3,
+      "weight": 54,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochparas_parasect_epoch",
+          "variant": "level_up",
+          "result": "parasect epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "secondaryType": "water",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "friendguard",
+        "stickyhold",
+        "h:naturalcure"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "13:waterpulse",
+        "10:poisonpowder",
+        "1:acid",
+        "28:venoshock",
+        "25:gastroacid",
+        "49:banefulbunker",
+        "43:bugbuzz",
+        "46:muddywater",
+        "4:watergun",
+        "60:hivemind",
+        "56:waterspout",
+        "37:spore",
+        "22:octazooka",
+        "7:strugglebug",
+        "40:sludgebomb",
+        "10:stunspore",
+        "10:sleeppowder",
+        "16:sludge",
+        "1:stringshot",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:liquidation",
+        "tm:magicalleaf",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:pollenpuff",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:steameruption",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "egg:corrode",
+        "egg:withdraw",
+        "egg:toxic",
+        "egg:venomdrench",
+        "egg:aquaring",
+        "egg:infestation",
+        "egg:quickguard"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochparasone.desc"
+      ],
+      "height": 3,
+      "weight": 54,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochparasone_parasect_epochtwo",
+          "variant": "level_up",
+          "result": "parasect epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo"
+  ]
+}

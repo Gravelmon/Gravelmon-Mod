@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:skeledeep",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "baseScale": 0.24375000000000002,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "regenerator"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 115,
+        "defence": 145,
+        "special_attack": 105,
+        "special_defence": 40,
+        "speed": 105
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 13,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

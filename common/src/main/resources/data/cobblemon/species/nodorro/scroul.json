@@ -1,0 +1,115 @@
+{
+  "name": "Scroul",
+  "primaryType": "ghost",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.20425531914893616,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 35,
+    "special_attack": 80,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "nodorro",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.scroul.desc"
+  ],
+  "height": 4,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "scroul_magisbook",
+      "variant": "level_up",
+      "result": "magisbook",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "32",
+          "variant": "level"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "scroul_prudexwell",
+      "variant": "level_up",
+      "result": "prudexwell",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "biomeCondition": "#cobblemon:is_mountain",
+          "variant": "biome"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4533,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "nodorro",
+  "actualName": "scroul"
+}

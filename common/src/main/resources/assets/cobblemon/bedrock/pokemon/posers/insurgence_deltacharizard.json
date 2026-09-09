@@ -54,22 +54,30 @@
   },
   "poses": {
     "portrait": {
-      "poseTypes": ["PORTRAIT", "PROFILE"],
-      "isBattle": false,
-      "isTouchingWater": false,
+      "poseName": "portrait",
       "animations": [
-        "q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
-        "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
-        "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
-        "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
-        "q.look('head', 0.4, 0.25, 5, -5, 10, -10)",
-        "q.bedrock('charizard', 'ground_idle')",
+        "q.bedrock('deltacharizard', q.look('neck', 0.5, 0.5, 15, -15, 30, -30))",
+        "q.bedrock('deltacharizard', q.look('neck2', 0.5, 0.5, 10, -10, 25, -25))",
+        "q.bedrock('deltacharizard', q.look('neck3', 0.45, 0.45, 10, -10, 20, -20))",
+        "q.bedrock('deltacharizard', q.look('neck4', 0.35, 0.35, 5, -5, 15, -15))",
+        "q.bedrock('deltacharizard', q.look('head', 0.4, 0.25, 5, -5, 10, -10))",
+        "q.bedrock('deltacharizard', q.bedrock('deltacharizard', 'ground_idle'))",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('charizard', 'hold_item')"
+          "animation": "q.bedrock('deltacharizard', 'hold_item')"
         }
       ],
-      "quirks": ["q.bedrock_quirk('charizard', 'blink')"]
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "battle-standing": {
       "poseName": "battle-standing",

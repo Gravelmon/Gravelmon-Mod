@@ -1,0 +1,193 @@
+{
+  "target": "cobblemon:ampharos",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "fairy",
+      "secondaryType": "flying",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 230,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "flaaffy epoch",
+      "baseScale": 0.509090909090909,
+      "cannotDynamax": false,
+      "abilities": [
+        "aromaveil",
+        "serenegrace",
+        "h:pixilate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 75,
+        "special_defence": 95,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "57:fleurcannon",
+        "53:hurricane",
+        "16:cottonspore",
+        "50:tailglow",
+        "1:typhoon",
+        "30:airslash",
+        "4:sweetkiss",
+        "1:gust",
+        "12:aircutter",
+        "1:fairywind",
+        "26:tailwind",
+        "1:confide",
+        "34:roost",
+        "38:dazzlinggleam",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:featherdance",
+        "tm:hail",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:payday",
+        "tm:playrough",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochampharos.desc"
+      ],
+      "height": 14,
+      "weight": 615,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fairy",
+      "secondaryType": "flying",
+      "baseScale": 0.4915662650602409,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dazzling"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 135,
+        "special_defence": 105,
+        "speed": 140
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "epoch_mega"
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "target": "cobblemon:chansey",
+  "forms": [
+    {
+      "name": "Egho",
+      "primaryType": "fighting",
+      "secondaryType": "fairy",
+      "catchRate": 30,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 160,
+      "experienceGroup": "fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "preEvolution": "happiny egho",
+      "baseScale": 0.21639344262295082,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "reckless",
+        "h:owntempo"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 250,
+        "defence": 35,
+        "special_attack": 5,
+        "special_defence": 5,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:oval_stone",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
+      },
+      "moves": [
+        "1:poweruppunch",
+        "1:helpinghand",
+        "1:karatechop",
+        "1:pound",
+        "1:followme",
+        "5:quickguard",
+        "9:refresh",
+        "12:defensecurl",
+        "13:doubleslap",
+        "16:softboiled",
+        "19:hornattack",
+        "24:armthrust",
+        "28:takedown",
+        "32:rockthrow",
+        "35:submission",
+        "41:eggbomb",
+        "45:fling",
+        "50:playrough",
+        "53:doubleedge",
+        "57:bulkup",
+        "62:hammerarm",
+        "68:thrash",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:smackdown",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:flamethrower",
+        "tm:sandstorm",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:overheat",
+        "tm:fling",
+        "tm:incinerate",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:psychup",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:workup",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:rocksmash",
+        "tm:bulletseed",
+        "tm:surf",
+        "tm:strength",
+        "tutor:ancientpower",
+        "tutor:drainpunch",
+        "tutor:firepunch",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:icepunch",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:rollout",
+        "tutor:stealthrock",
+        "tutor:suckerpunch",
+        "tutor:superpower",
+        "tutor:zenheadbutt",
+        "egg:beatup",
+        "egg:bulletpunch",
+        "egg:counter",
+        "egg:endure",
+        "egg:healbell",
+        "egg:lastresort",
+        "egg:megahorn",
+        "egg:meteormash",
+        "egg:metronome",
+        "egg:naturalgift",
+        "egg:outrage",
+        "egg:revenge",
+        "egg:wakeupslap",
+        "egg:wideguard"
+      ],
+      "labels": [
+        "infinity",
+        "gen1",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.eghochansey.desc"
+      ],
+      "height": 11,
+      "weight": 346,
+      "aspects": [
+        "egho"
+      ],
+      "evolutions": [
+        {
+          "id": "eghochansey_blissey_egho",
+          "variant": "level_up",
+          "result": "blissey egho",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "amount": "160",
+              "variant": "friendship"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.625,
+        "height": 7.625,
+        "fixed": false
+      },
+      "game": "infinity"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "normal",
+      "secondaryType": "steel",
+      "catchRate": 80,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 395,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "happiny epoch",
+      "baseScale": 0.5176470588235295,
+      "cannotDynamax": false,
+      "abilities": [
+        "analytic",
+        "h:download"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 85,
+        "defence": 105,
+        "special_attack": 50,
+        "special_defence": 55,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "20:endeavor",
+        "7:defensecurl",
+        "4:covet",
+        "24:gyroball",
+        "1:nuzzle",
+        "36:doubleedge",
+        "52:steelroller",
+        "28:healpulse",
+        "32:bodyslam",
+        "16:geargrind",
+        "40:ironhead",
+        "48:eggbomb",
+        "12:doubleslap",
+        "44:softboiled",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:earthquake",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:retaliate",
+        "egg:doubleironbash",
+        "egg:magnetbomb",
+        "egg:doublehit",
+        "egg:heavyslam",
+        "egg:selfdestruct",
+        "egg:explosion"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochchansey.desc"
+      ],
+      "height": 11,
+      "weight": 346,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochchansey_blissey_epoch",
+          "variant": "level_up",
+          "result": "blissey epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "egho",
+    "epoch"
+  ]
+}

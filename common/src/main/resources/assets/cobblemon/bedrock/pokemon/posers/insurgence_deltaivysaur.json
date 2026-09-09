@@ -1,29 +1,47 @@
 {
-  "portraitScale": 2.0999999046325684,
+  "rootBone": "ivysaur",
+  "portraitScale": 1.4500000476837158,
   "portraitTranslation": [
-    -0.45,
-    -1.21,
+    -0.23,
+    -0.47,
     0.0
   ],
   "profileScale": 0.8999999761581421,
   "profileTranslation": [
     0.0,
-    0.4,
+    0.37,
     0.0
   ],
   "animations": {
+    "cry": "q.bedrock_stateful('deltaivysaur', 'cry')",
+    "recoil": "q.bedrock_stateful('deltaivysaur', 'recoil')",
     "faint": "bedrock(deltaivysaur, faint)"
   },
   "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('deltaivysaur', q.look('head', 1, 1, 10, -20))",
+        "q.bedrock('deltaivysaur', q.look('leaf_front', 1, 0, 3, -13))"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('deltaivysaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('deltaivysaur', q.look('head_ai'))",
-        "q.bedrock('deltaivysaur', 'ground_idle')"
+        "q.bedrock('deltaivysaur', 'ground_idle')",
+        "q.bedrock('deltaivysaur', q.look('head', 1, 1, 10, -20))",
+        "q.bedrock('deltaivysaur', q.look('leaf_front', 1, 0, 3, -13))"
       ],
       "poseTypes": [
-        "STAND",
-        "SLEEP",
         "HOVER",
         "FLY",
         "FLOAT",
@@ -45,8 +63,9 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('deltaivysaur', q.look('head_ai'))",
-        "q.bedrock('deltaivysaur', 'ground_walk')"
+        "q.bedrock('deltaivysaur', 'ground_walk')",
+        "q.bedrock('deltaivysaur', q.look('head', 1, 1, 10, -20))",
+        "q.bedrock('deltaivysaur', q.look('leaf_front', 1, 0, 3, -13))"
       ],
       "poseTypes": [
         "WALK"
@@ -54,6 +73,18 @@
       "quirks": [
         "q.bedrock_quirk('deltaivysaur', 'blink')"
       ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('deltaivysaur', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
       "namedAnimations": {},
       "transformedParts": []
     }

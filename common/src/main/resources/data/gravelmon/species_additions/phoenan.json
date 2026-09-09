@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:phoenan",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "baseScale": 0.43846153846153846,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "galewings"
+      ],
+      "baseStats": {
+        "hp": 77,
+        "attack": 137,
+        "defence": 102,
+        "special_attack": 100,
+        "special_defence": 92,
+        "speed": 122
+      },
+      "labels": [
+        "atlas"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

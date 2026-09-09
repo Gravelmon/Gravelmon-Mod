@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:aurorai",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "baseScale": 0.11249999999999999,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "transistor"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 59,
+        "defence": 75,
+        "special_attack": 125,
+        "special_defence": 139,
+        "speed": 125
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 6,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

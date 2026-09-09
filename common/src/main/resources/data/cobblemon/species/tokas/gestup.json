@@ -1,0 +1,98 @@
+{
+  "name": "Gestup",
+  "primaryType": "ghost",
+  "catchRate": 225,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.35121951219512193,
+  "cannotDynamax": false,
+  "abilities": [
+    "cursedbody"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 18,
+    "defence": 52,
+    "special_attack": 46,
+    "special_defence": 55,
+    "speed": 23
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "tokas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gestup.desc"
+  ],
+  "height": 6,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "gestup_phantoll",
+      "variant": "level_up",
+      "result": "phantoll",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "22",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4435,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.5625,
+    "height": 2.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "tokas",
+  "actualName": "gestup"
+}

@@ -1,0 +1,425 @@
+{
+  "target": "cobblemon:spinarak",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 50,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2857142857142857,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "prankster",
+        "h:merciless"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 60,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 35,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "18:bite",
+        "21:toxicthread",
+        "41:obstruct",
+        "44:falsesurrender",
+        "1:powertrip",
+        "37:crunch",
+        "47:megahorn",
+        "7:torment",
+        "29:lunge",
+        "14:toxicspikes",
+        "11:poisonfang",
+        "4:poisonsting",
+        "tm:attract",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:workup",
+        "egg:nightslash",
+        "egg:electroweb",
+        "egg:crosspoison",
+        "egg:poisonjab",
+        "egg:pursuit",
+        "egg:twineedle",
+        "egg:shadowsneak",
+        "egg:spiderweb",
+        "egg:stickyweb"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochspinarak.desc"
+      ],
+      "height": 5,
+      "weight": 85,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochspinarak_ariados_epoch",
+          "variant": "level_up",
+          "result": "ariados epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 50,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 39,
+      "baseFriendship": 70,
+      "baseScale": 0.3076923076923077,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "longreach",
+        "h:sniper"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 60,
+        "defence": 40,
+        "special_attack": 65,
+        "special_defence": 60,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:stringshot",
+        "1:pursuit",
+        "5:megadrain",
+        "8:infestation",
+        "12:flash",
+        "15:bugbite",
+        "19:shadowsneak",
+        "22:snarl",
+        "26:suckerpunch",
+        "29:bugbuzz",
+        "33:nastyplot",
+        "36:xscissor",
+        "40:psychic",
+        "43:darkpulse",
+        "47:spikes",
+        "47:toxicspikes",
+        "50:stickyweb",
+        "54:gunkshot",
+        "tutor:focusenergy",
+        "tutor:attract",
+        "tutor:bounce",
+        "tutor:bugbite",
+        "tutor:confide",
+        "tutor:dig",
+        "tutor:doubleteam",
+        "tutor:electroweb",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:gigadrain",
+        "tutor:hiddenpower",
+        "tutor:infestation",
+        "tutor:leechlife",
+        "tutor:poisonjab",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:round",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:snore",
+        "tutor:solarbeam",
+        "tutor:strugglebug",
+        "tutor:substitute",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:thief",
+        "tutor:toxic",
+        "tutor:venoshock",
+        "tutor:xscissor",
+        "egg:psybeam",
+        "egg:disable",
+        "egg:sonicboom",
+        "egg:batonpass",
+        "egg:pursuit",
+        "egg:signalbeam",
+        "egg:toxicspikes",
+        "egg:twineedle",
+        "egg:electroweb",
+        "egg:ragepowder",
+        "egg:nightslash",
+        "egg:megahorn",
+        "egg:lunge"
+      ],
+      "labels": [
+        "vanguard",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianspinarak.desc"
+      ],
+      "height": 5,
+      "weight": 85,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianspinarak_ariados_ayreian",
+          "variant": "level_up",
+          "result": "ariados ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.4375,
+        "height": 2.4375,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianspinarak.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "epoch",
+    "ayreian",
+    "fabelian"
+  ]
+}

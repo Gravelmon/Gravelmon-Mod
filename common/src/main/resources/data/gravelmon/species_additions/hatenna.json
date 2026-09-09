@@ -1,0 +1,551 @@
+{
+  "target": "cobblemon:hatenna",
+  "forms": [
+    {
+      "name": "Varitasian",
+      "primaryType": "psychic",
+      "secondaryType": "ground",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "healer",
+        "h:sandveil"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 39,
+        "attack": 28,
+        "defence": 45,
+        "special_attack": 60,
+        "special_defence": 51,
+        "speed": 34
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:playnice",
+        "5:lifedew",
+        "10:disarmingvoice",
+        "15:aromatherapy",
+        "20:psybeam",
+        "25:healpulse",
+        "30:dazzlinggleam",
+        "35:calmmind",
+        "40:psychic",
+        "45:healingwish",
+        "tm:expandingforce",
+        "tm:magicalleaf",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:gigadrain",
+        "tm:charm",
+        "tm:attract",
+        "tm:facade",
+        "tm:helpinghand",
+        "tm:imprison",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:mysticalfire",
+        "tm:psychic",
+        "tm:substitute",
+        "tm:psyshock",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:batonpass",
+        "tm:skillswap",
+        "tm:calmmind",
+        "tm:darkpulse",
+        "tm:storedpower",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:aromaticmist",
+        "tm:nuzzle",
+        "tm:afteryou",
+        "tm:quash"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianhatenna.desc"
+      ],
+      "height": 4,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianhatenna_hattrem_varitasian",
+          "variant": "level_up",
+          "result": "hattrem varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      },
+      "game": "varitas"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "secondaryType": "ghost",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 53,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "curiousmedicine",
+        "shadowshield",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 42,
+        "attack": 30,
+        "defence": 45,
+        "special_attack": 39,
+        "special_defence": 56,
+        "speed": 53
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "34:eeriespell",
+        "4:roleplay",
+        "38:shadowball",
+        "42:speedswap",
+        "22:curse",
+        "50:psychoshift",
+        "15:disarmingvoice",
+        "46:psychic",
+        "1:confusion",
+        "1:haunt",
+        "26:hex",
+        "18:psybeam",
+        "tm:attract",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:expandingforce",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wish",
+        "tm:wonderroom",
+        "egg:spite",
+        "egg:ominouswind",
+        "egg:healblock",
+        "egg:storedpower",
+        "egg:sludgebomb",
+        "egg:allyswitch",
+        "egg:perishsong"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochhatenna.desc"
+      ],
+      "height": 4,
+      "weight": 34,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochhatenna_hattrem_epoch",
+          "variant": "level_up",
+          "result": "hattrem epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22325581395348837,
+      "cannotDynamax": false,
+      "abilities": [
+        "rattled",
+        "anticipation"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 42,
+        "attack": 55,
+        "defence": 39,
+        "special_attack": 46,
+        "special_defence": 30,
+        "speed": 53
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "25:skittersmack",
+        "20:snarl",
+        "1:feintattack",
+        "15:screech",
+        "37:fellstinger",
+        "46:knockoff",
+        "1:playnice",
+        "30:powertrip",
+        "1:pounce",
+        "1:spiderweb",
+        "tm:uproar",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:brutalswing",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:endure",
+        "tm:facade",
+        "tm:gigadrain",
+        "tm:helpinghand",
+        "tm:playrough",
+        "tm:powerswap",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychocut",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:leechlife",
+        "tm:uturn",
+        "tm:xscissor",
+        "tm:bugbuzz",
+        "tm:bugbite",
+        "tm:stickyweb",
+        "tm:foulplay",
+        "tm:brickbreak",
+        "tm:poisonjab",
+        "tm:trailblaze",
+        "tm:aerialace",
+        "tm:crosschop",
+        "tm:agility"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianhatenna.desc"
+      ],
+      "height": 4,
+      "weight": 34,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianhatenna_hattrem_ayreian",
+          "variant": "level_up",
+          "result": "hattrem ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.6875,
+        "height": 2.6875,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "dragon",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianhatenna.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "varitasian",
+    "epoch",
+    "ayreian",
+    "fabelian"
+  ]
+}

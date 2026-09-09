@@ -1,0 +1,166 @@
+{
+  "target": "cobblemon:lickitung",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 77,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5236363636363636,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "cursedbody",
+        "h:perishbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 75,
+        "defence": 55,
+        "special_attack": 30,
+        "special_defence": 75,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "10:siphon",
+        "55:poltergeist",
+        "7:confuseray",
+        "37:spiritshackle",
+        "49:spectralthief",
+        "1:lick",
+        "28:gigadrain",
+        "1:defensecurl",
+        "62:strengthsap",
+        "52:powerwhip",
+        "4:haunt",
+        "34:screech",
+        "25:lashout",
+        "tm:attract",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:echoedvoice",
+        "tm:focusblast",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:whirlpool",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:snarl",
+        "egg:curse",
+        "egg:eeriespell",
+        "egg:fakeout",
+        "egg:willowisp",
+        "egg:shadowpunch",
+        "egg:fling",
+        "egg:shadowball"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochlickitung.desc"
+      ],
+      "height": 12,
+      "weight": 655,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochlickitung_lickilicky_epoch",
+          "variant": "level_up",
+          "result": "lickilicky epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "32",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "target": "cobblemon:granbull",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 158,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "snubbull epoch",
+      "baseScale": 0.5508196721311475,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "intimidate",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 120,
+        "defence": 105,
+        "special_attack": 45,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "4:karatechop",
+        "1:leer",
+        "7:aquajet",
+        "19:bite",
+        "1:roar",
+        "16:poweruppunch",
+        "34:crunch",
+        "46:hammerarm",
+        "52:highjumpkick",
+        "60:dynamicpunch",
+        "49:noretreat",
+        "13:detect",
+        "31:razorshell",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulkup",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:curse",
+        "tm:drainpunch",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scald",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:soak",
+        "tm:spikes",
+        "tm:steameruption",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgranbull.desc"
+      ],
+      "height": 14,
+      "weight": 487,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.8125,
+        "height": 3.8125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "granbull_bourrbull",
+      "variant": "level_up",
+      "result": "bourrbull",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:metal_coat",
+          "variant": "held_item"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

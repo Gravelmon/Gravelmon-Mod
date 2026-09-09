@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:steelix",
+  "order": 1011,
+  "variations": [
+    {
+      "aspects": [
+        "epoch_mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_94_by_92.geo",
+      "poser": "cobblemon:cutout_gravelmon_94_by_92",
+      "texture": "cobblemon:textures/pokemon/soulstones/steelix_epoch_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "target": "cobblemon:abra",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "fighting",
+      "secondaryType": "normal",
+      "catchRate": 200,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4595744680851064,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "steadfast",
+        "h:purepower"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 25,
+        "defence": 50,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "40:suckerpunch",
+        "17:poweruppunch",
+        "9:hiddenpower",
+        "13:focusenergy",
+        "28:coaching",
+        "47:return",
+        "34:rest",
+        "51:highjumpkick",
+        "4:machpunch",
+        "25:knockoff",
+        "44:triattack",
+        "9:rapidspin",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:meditate",
+        "egg:bulletpunch",
+        "egg:firelash",
+        "egg:powerwhip",
+        "egg:firepunch",
+        "egg:icepunch",
+        "egg:thunderpunch",
+        "egg:fakeout"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochabra.desc"
+      ],
+      "height": 9,
+      "weight": 195,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochabra_kadabra_epoch",
+          "variant": "level_up",
+          "result": "kadabra epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "dark",
+      "secondaryType": "fighting",
+      "catchRate": 200,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 39,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.39999999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "sniper",
+        "innerfocus",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 25,
+        "attack": 80,
+        "defence": 35,
+        "special_attack": 60,
+        "special_defence": 75,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:feintattack",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:bodyslam",
+        "tutor:calmmind",
+        "tutor:chargebeam",
+        "tutor:confide",
+        "tutor:dazzlinggleam",
+        "tutor:doubleteam",
+        "tutor:drainpunch",
+        "tutor:dreameater",
+        "tutor:embargo",
+        "tutor:encore",
+        "tutor:endure",
+        "tutor:energyball",
+        "tutor:facade",
+        "tutor:firepunch",
+        "tutor:fling",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:grassknot",
+        "tutor:gravity",
+        "tutor:guardswap",
+        "tutor:hiddenpower",
+        "tutor:icepunch",
+        "tutor:irontail",
+        "tutor:knockoff",
+        "tutor:lightscreen",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:metronome",
+        "tutor:powerswap",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:psychicterrain",
+        "tutor:psychup",
+        "tutor:psyshock",
+        "tutor:raindance",
+        "tutor:recycle",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:roleplay",
+        "tutor:round",
+        "tutor:safeguard",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:speedswap",
+        "tutor:substitute",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:swift",
+        "tutor:taunt",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunderpunch",
+        "tutor:thunderwave",
+        "tutor:torment",
+        "tutor:toxic",
+        "tutor:triattack",
+        "tutor:trick",
+        "tutor:trickroom",
+        "tutor:wonderroom",
+        "tutor:zenheadbutt",
+        "egg:confusion",
+        "egg:guardsplit",
+        "egg:magiccoat"
+      ],
+      "labels": [
+        "gen1",
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianabra.desc"
+      ],
+      "height": 9,
+      "weight": 195,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianabra_kadabra_ayreian",
+          "variant": "level_up",
+          "result": "kadabra ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.375,
+        "height": 3.375,
+        "fixed": false
+      },
+      "game": "vanguard"
+    }
+  ],
+  "features": [
+    "epoch",
+    "ayreian"
+  ]
+}

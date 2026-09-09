@@ -1,0 +1,320 @@
+{
+  "target": "cobblemon:corvisquire",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "electric",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 128,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "rookidee epoch",
+      "baseScale": 0.24615384615384617,
+      "cannotDynamax": false,
+      "abilities": [
+        "bigpecks"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 75,
+        "defence": 63,
+        "special_attack": 70,
+        "special_defence": 29,
+        "speed": 63
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "26:nightslash",
+        "35:honeclaws",
+        "1:leer",
+        "44:obstruct",
+        "1:electrify",
+        "38:falsesurrender",
+        "55:boltbeak",
+        "14:spark",
+        "23:taunt",
+        "41:extremespeed",
+        "1:pursuit",
+        "1:nuzzle",
+        "1:torment",
+        "4:fakeout",
+        "17:knockoff",
+        "12:charge",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:boltbeak",
+        "tm:bravebird",
+        "tm:chargebeam",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:electricterrain",
+        "tm:featherdance",
+        "tm:focusblast",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcorvisquire.desc"
+      ],
+      "height": 8,
+      "weight": 160,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcorvisquire_corviknight_epoch",
+          "variant": "level_up",
+          "result": "corviknight epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "37",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "ghost",
+      "secondaryType": "flying",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 128,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "rookidee epochtwo",
+      "baseScale": 0.24615384615384617,
+      "cannotDynamax": false,
+      "abilities": [
+        "stakeout",
+        "h:opportunist"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 39,
+        "defence": 63,
+        "special_attack": 70,
+        "special_defence": 65,
+        "speed": 63
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "17:embargo",
+        "35:darkpulse",
+        "9:siphon",
+        "1:leer",
+        "32:shadowball",
+        "7:meanlook",
+        "29:obstruct",
+        "44:nastyplot",
+        "14:ominouswind",
+        "38:oblivionwing",
+        "1:gust",
+        "4:haunt",
+        "12:aircutter",
+        "20:nightshade",
+        "23:flatter",
+        "41:tailwind",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bravebird",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcorvisquireone.desc"
+      ],
+      "height": 8,
+      "weight": 160,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcorvisquireone_corviknight_epochtwo",
+          "variant": "level_up",
+          "result": "corviknight epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "37",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo"
+  ]
+}

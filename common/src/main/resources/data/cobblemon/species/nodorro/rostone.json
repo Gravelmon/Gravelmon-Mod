@@ -1,0 +1,155 @@
+{
+  "name": "Rostone",
+  "primaryType": "rock",
+  "catchRate": 155,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.36923076923076925,
+  "cannotDynamax": false,
+  "abilities": [
+    "sturdy",
+    "solidrock",
+    "h:clearbody"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "nodorro",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.rostone.desc"
+  ],
+  "height": 6,
+  "weight": 560,
+  "evolutions": [
+    {
+      "id": "rostone_electone",
+      "variant": "level_up",
+      "result": "electone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "20",
+          "variant": "level"
+        },
+        {
+          "itemCondition": "cobblemon:thunder_stone",
+          "variant": "held_item"
+        }
+      ]
+    },
+    {
+      "id": "rostone_moistone",
+      "variant": "level_up",
+      "result": "moistone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "20",
+          "variant": "level"
+        },
+        {
+          "itemCondition": "cobblemon:water_stone",
+          "variant": "held_item"
+        }
+      ]
+    },
+    {
+      "id": "rostone_meltone",
+      "variant": "level_up",
+      "result": "meltone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "20",
+          "variant": "level"
+        },
+        {
+          "itemCondition": "cobblemon:fire_stone",
+          "variant": "held_item"
+        }
+      ]
+    },
+    {
+      "id": "rostone_pastone",
+      "variant": "level_up",
+      "result": "pastone",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "20",
+          "variant": "level"
+        },
+        {
+          "itemCondition": "cobblemon:leaf_stone",
+          "variant": "held_item"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4517,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.4375,
+    "height": 2.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "nodorro",
+  "actualName": "rostone"
+}

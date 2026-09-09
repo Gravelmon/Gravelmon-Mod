@@ -1,0 +1,145 @@
+{
+  "name": "Tunnelurm",
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "tuburrow",
+  "baseScale": 0.6451612903225806,
+  "cannotDynamax": false,
+  "abilities": [
+    "solidrock",
+    "rockhead",
+    "h:sandforce"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 110,
+    "special_attack": 62,
+    "special_defence": 68,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:shockwave",
+    "tm:superpower",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:scorchingsands",
+    "tm:stompingtantrum",
+    "tm:snore",
+    "tm:uproar",
+    "tm:irondefense",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:infestation",
+    "tm:brutalswing",
+    "tm:payback",
+    "tm:dragontail",
+    "tm:chargebeam",
+    "tm:thunderwave",
+    "tm:focusblast",
+    "tm:flamethrower",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:doubleedge",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:toxic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:smartstrike"
+  ],
+  "labels": [
+    "nosto",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.tunnelurm.desc"
+  ],
+  "height": 25,
+  "weight": 165,
+  "evolutions": [],
+  "nationalPokedexNumber": 2262,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.8125,
+    "height": 5.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "nosto",
+  "actualName": "tunnelurm"
+}

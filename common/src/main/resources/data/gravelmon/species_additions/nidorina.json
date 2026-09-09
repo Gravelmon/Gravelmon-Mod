@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:nidorina",
+  "evolutions": [
+    {
+      "id": "nidorina_nidorook",
+      "variant": "item_interact",
+      "result": "nidorook",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

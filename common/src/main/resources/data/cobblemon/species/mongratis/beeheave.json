@@ -1,0 +1,104 @@
+{
+  "name": "Beeheave",
+  "primaryType": "bug",
+  "secondaryType": "normal",
+  "catchRate": 220,
+  "maleRatio": 0.9,
+  "baseExperienceYield": 49,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.17777777777777778,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 84,
+    "attack": 25,
+    "defence": 71,
+    "special_attack": 71,
+    "special_defence": 60,
+    "speed": 14
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.beeheave.desc"
+  ],
+  "height": 2,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "beeheave_hivernor",
+      "variant": "level_up",
+      "result": "hivernor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "24",
+          "variant": "level"
+        },
+        {
+          "target": "gender=female",
+          "variant": "properties",
+          "contains": true
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3795,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.375,
+    "height": 3.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "beeheave"
+}

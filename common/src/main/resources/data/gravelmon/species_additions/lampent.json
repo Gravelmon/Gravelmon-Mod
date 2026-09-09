@@ -1,0 +1,433 @@
+{
+  "target": "cobblemon:lampent",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "fairy",
+      "secondaryType": "fire",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "litwick delta",
+      "baseScale": 0.1309090909090909,
+      "cannotDynamax": false,
+      "abilities": [
+        "flashfire",
+        "weakarmor",
+        "h:fairyaura"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 95,
+        "special_defence": 60,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:fairywind",
+        "1:flash",
+        "1:mist",
+        "3:flash",
+        "5:mist",
+        "7:firespin",
+        "10:charm",
+        "13:disarmingvoice",
+        "16:healblock",
+        "20:flameburst",
+        "24:imprison",
+        "28:dazzlinggleam",
+        "33:wish",
+        "38:lavaplume",
+        "45:fairylock",
+        "53:moonblast",
+        "61:moonlight",
+        "69:overheat",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:recycle",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:skillswap",
+        "tm:willowisp",
+        "tm:embargo",
+        "tm:psychup",
+        "tm:gyroball",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:trickroom",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:lunarcannon",
+        "tm:incinerate",
+        "tm:allyswitch",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:flash",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:block",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:healbell",
+        "tutor:heatwave",
+        "tutor:irondefense",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:swift",
+        "tutor:trick",
+        "tutor:wish",
+        "tutor:wonderroom"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltalampent.desc"
+      ],
+      "height": 6,
+      "weight": 130,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltalampent_chandelure_delta",
+          "variant": "item_interact",
+          "result": "chandelure delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.875,
+        "height": 6.875,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "ghost",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "litwick epoch",
+      "baseScale": 0.288,
+      "cannotDynamax": false,
+      "abilities": [
+        "wanderingspirit",
+        "transistor",
+        "h:dazzling"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 40,
+        "defence": 55,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "40:shadowball",
+        "27:mirrorshot",
+        "52:curse",
+        "22:paraboliccharge",
+        "11:flash",
+        "32:discharge",
+        "36:morningsun",
+        "60:photongeyser",
+        "7:chargebeam",
+        "1:spotlight",
+        "48:thunderbolt",
+        "18:hex",
+        "44:dazzlinggleam",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:electricterrain",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wonderroom"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochlampent.desc"
+      ],
+      "height": 6,
+      "weight": 130,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochlampent_chandelure_epoch",
+          "variant": "item_interact",
+          "result": "chandelure epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "ghost",
+      "secondaryType": "electric",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianlampent.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "fabelian"
+  ]
+}

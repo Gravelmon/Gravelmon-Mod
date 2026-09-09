@@ -1,0 +1,17 @@
+{
+    name: "Epochsandacondanite",
+    spritenum: 620,
+    megaStone: "sandaconda-epoch_mega",
+    megaEvolves: "sandaconda",
+    itemUser: ["sandaconda"],
+    onTakeItem(item, source) {
+      if (source.baseSpecies.forme !== epoch)
+        return true;
+      if (item.megaEvolves === source.baseSpecies.baseSpecies)
+        return false;
+      return true;
+    },
+    10204: 760,
+    gen: 6,
+    isNonstandard: "Past"
+}

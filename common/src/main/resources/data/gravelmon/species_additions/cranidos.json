@@ -1,0 +1,179 @@
+{
+  "target": "cobblemon:cranidos",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 70,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3857142857142857,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "steelworker",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 67,
+        "attack": 105,
+        "defence": 40,
+        "special_attack": 78,
+        "special_defence": 30,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "24:nightslash",
+        "1:leer",
+        "6:metalclaw",
+        "46:irontail",
+        "10:pursuit",
+        "19:assurance",
+        "37:ironhead",
+        "33:swagger",
+        "28:dragonclaw",
+        "15:scaryface",
+        "42:swordsdance",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scaleshot",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:crunch",
+        "egg:smartstrike",
+        "egg:uproar",
+        "egg:taunt",
+        "egg:obstruct",
+        "egg:headbutt",
+        "egg:zenheadbutt",
+        "egg:skullbash"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcranidos.desc"
+      ],
+      "height": 9,
+      "weight": 315,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcranidos_rampardos_epoch",
+          "variant": "level_up",
+          "result": "rampardos epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

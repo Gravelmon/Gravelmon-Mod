@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:crystox",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "rock",
+      "secondaryType": "poison",
+      "baseScale": 0.30000000000000004,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "tintedlens"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 140,
+        "defence": 145,
+        "special_attack": 85,
+        "special_defence": 60,
+        "speed": 85
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 16,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

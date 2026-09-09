@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:inflagetah",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "baseScale": 0.5164556962025316,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "acceleration"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 145,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 90,
+        "speed": 175
+      },
+      "labels": [
+        "uranium"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

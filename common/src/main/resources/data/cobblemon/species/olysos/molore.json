@@ -1,0 +1,100 @@
+{
+  "name": "Molore",
+  "primaryType": "electric",
+  "secondaryType": "ground",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18823529411764706,
+  "cannotDynamax": false,
+  "abilities": [
+    "static",
+    "h:sandveil"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 35,
+    "special_defence": 55,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.molore.desc"
+  ],
+  "height": 4,
+  "weight": 65,
+  "evolutions": [
+    {
+      "id": "molore_minerolt",
+      "variant": "level_up",
+      "result": "minerolt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "25",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3940,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.1875,
+    "height": 3.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "molore"
+}

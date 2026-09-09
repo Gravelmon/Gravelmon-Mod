@@ -1,0 +1,98 @@
+{
+  "name": "Knuclaw",
+  "primaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3076923076923077,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 81,
+    "attack": 69,
+    "defence": 97,
+    "special_attack": 28,
+    "special_defence": 62,
+    "speed": 35
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "ultraspace",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.knuclaw.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "knuclaw_huntitan",
+      "variant": "level_up",
+      "result": "huntitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "40",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4442,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.4375,
+    "height": 2.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "ultraspace",
+  "actualName": "knuclaw"
+}

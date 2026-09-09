@@ -1,0 +1,285 @@
+{
+  "target": "cobblemon:drowzee",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "fighting",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6736842105263158,
+      "cannotDynamax": false,
+      "abilities": [
+        "moldbreaker",
+        "h:moxie"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defence": 60,
+        "special_attack": 43,
+        "special_defence": 45,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "61:gunkshot",
+        "53:closecombat",
+        "45:spectralthief",
+        "11:bite",
+        "1:roar",
+        "1:block",
+        "1:rollingkick",
+        "33:falsesurrender",
+        "14:revenge",
+        "7:torment",
+        "17:swagger",
+        "29:bulkup",
+        "37:drainpunch",
+        "49:noretreat",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandtomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:suckerpunch",
+        "egg:foulplay",
+        "egg:corrosivegas",
+        "egg:pursuit",
+        "egg:cheapshot",
+        "egg:outrage"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdrowzee.desc"
+      ],
+      "height": 16,
+      "weight": 756,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochdrowzee_hypno_epoch",
+          "variant": "level_up",
+          "result": "hypno epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5625,
+        "height": 3.5625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Enjinnian",
+      "primaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "snooz",
+      "baseScale": 0.25,
+      "cannotDynamax": false,
+      "abilities": [
+        "insomnia",
+        "forewarn",
+        "h:innerfocus"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 48,
+        "defence": 45,
+        "special_attack": 43,
+        "special_defence": 90,
+        "speed": 42
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "enjin",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.enjinniandrowzee.desc"
+      ],
+      "height": 10,
+      "weight": 288,
+      "aspects": [
+        "enjinnian"
+      ],
+      "evolutions": [
+        {
+          "id": "enjinniandrowzee_hypno_enjinnian",
+          "variant": "level_up",
+          "result": "hypno enjinnian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "26",
+              "variant": "level"
+            },
+            {
+              "range": "night",
+              "variant": "time_range"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      },
+      "game": "enjin"
+    }
+  ],
+  "features": [
+    "epoch",
+    "enjinnian"
+  ],
+  "preEvolution": "snooz"
+}

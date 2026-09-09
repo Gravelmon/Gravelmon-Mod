@@ -1,0 +1,270 @@
+{
+  "target": "cobblemon:clauncher",
+  "forms": [
+    {
+      "name": "Seviian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 225,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1875,
+      "cannotDynamax": false,
+      "abilities": [
+        "megalauncher"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 38,
+        "defence": 62,
+        "special_attack": 58,
+        "special_defence": 63,
+        "speed": 59
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:splash",
+        "1:strugglebug",
+        "7:torment",
+        "9:vicegrip",
+        "12:pursuit",
+        "16:flail",
+        "20:silverwind",
+        "25:swordsdance",
+        "30:uturn",
+        "34:bugbuzz",
+        "39:smackdown",
+        "43:firstimpression",
+        "48:darkpulse",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dragonpulse",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:hiddenpower",
+        "tm:leechlife",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:silverwind",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:xscissor",
+        "tutor:aurasphere",
+        "tutor:bugbite",
+        "tutor:bugbuzz",
+        "tutor:foulplay",
+        "tutor:knockoff",
+        "tutor:nastyplot",
+        "tutor:pinmissile",
+        "egg:endure",
+        "egg:entrainment",
+        "egg:firstimpression",
+        "egg:helpinghand",
+        "egg:snarl"
+      ],
+      "labels": [
+        "radicalred",
+        "gen6",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.seviianclauncher.desc"
+      ],
+      "height": 5,
+      "weight": 83,
+      "aspects": [
+        "seviian"
+      ],
+      "evolutions": [
+        {
+          "id": "seviianclauncher_clawitzer_seviian",
+          "variant": "level_up",
+          "result": "clawitzer seviian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "34",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0,
+        "height": 4.0,
+        "fixed": false
+      },
+      "game": "radical_red"
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "catchRate": 155,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2553191489361702,
+      "cannotDynamax": false,
+      "abilities": [
+        "megalauncher"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 58,
+        "defence": 62,
+        "special_attack": 76,
+        "special_defence": 58,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "12:bubble",
+        "39:waterpulse",
+        "43:aquajet",
+        "9:vicegrip",
+        "48:muddywater",
+        "1:splash",
+        "34:mirrorshot",
+        "1:watergun",
+        "30:crabhammer",
+        "7:watersport",
+        "20:bubblebeam",
+        "16:bulletpunch",
+        "25:swordsdance",
+        "egg:aquajet",
+        "egg:crabhammer",
+        "egg:endure",
+        "egg:entrainment",
+        "egg:helpinghand"
+      ],
+      "labels": [
+        "chaos_in_vestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanclauncher.desc"
+      ],
+      "height": 5,
+      "weight": 83,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [
+        {
+          "id": "vesitanclauncher_clawitzer_vesitan",
+          "variant": "item_interact",
+          "result": "clawitzer vesitan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "chaos_in_vesita"
+    }
+  ],
+  "features": [
+    "seviian",
+    "vesitan"
+  ]
+}

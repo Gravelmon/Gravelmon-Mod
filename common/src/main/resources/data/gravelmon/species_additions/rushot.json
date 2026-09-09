@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:rushot",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "baseScale": 0.28125,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "amperate"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 133,
+        "defence": 65,
+        "special_attack": 141,
+        "special_defence": 130,
+        "speed": 65
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 15,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

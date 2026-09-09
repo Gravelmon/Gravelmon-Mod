@@ -1,0 +1,28 @@
+{
+  "portraitScale": 2.240000009536743,
+  "portraitTranslation": [
+    0.08,
+    -1.11,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.35,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('vitellion', 'ground_idle')"
+      ],
+      "allPoseTypes": true,
+      "quirks": [
+        "q.bedrock_quirk('vitellion', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

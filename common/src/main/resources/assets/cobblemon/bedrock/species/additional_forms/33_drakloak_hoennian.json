@@ -1,0 +1,87 @@
+{
+  "species": "cobblemon:drakloak",
+  "order": 33,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:blazing_emerald_hoenniandrakloak.geo",
+      "poser": "cobblemon:blazing_emerald_hoenniandrakloak",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/hoenniandrakloak.png",
+      "layers": [
+        {
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_fire.png"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:blazing_emerald_hoenniandrakloak.geo",
+      "poser": "cobblemon:blazing_emerald_hoenniandrakloak",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/hoenniandrakloak_shiny.png",
+      "layers": [
+        {
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_fire_shiny.png"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

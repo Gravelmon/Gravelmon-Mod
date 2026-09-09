@@ -1,0 +1,77 @@
+{
+  "species": "cobblemon:metagross",
+  "order": 127,
+  "variations": [
+    {
+      "aspects": [
+        "ruin",
+        "delta"
+      ],
+      "model": "cobblemon:insurgence_deltaruinmetagross.geo",
+      "poser": "cobblemon:insurgence_deltaruinmetagross",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinmetagross/deltaruinmetagross.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ruin",
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltaruinmetagross.geo",
+      "poser": "cobblemon:insurgence_deltaruinmetagross",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinmetagross/deltaruinmetagross_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

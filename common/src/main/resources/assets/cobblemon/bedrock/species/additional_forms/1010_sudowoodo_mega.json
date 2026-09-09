@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:sudowoodo",
+  "order": 1010,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "model": "cobblemon:cutout_gravelmon_80_by_112.geo",
+      "poser": "cobblemon:cutout_gravelmon_80_by_112",
+      "texture": "cobblemon:textures/pokemon/insurgence/sudowoodo_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

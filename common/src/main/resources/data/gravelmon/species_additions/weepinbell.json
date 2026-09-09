@@ -1,0 +1,176 @@
+{
+  "target": "cobblemon:weepinbell",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 137,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "bellsprout epoch",
+      "baseScale": 0.42857142857142855,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "effectspore",
+        "h:suctioncups"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 65,
+        "special_attack": 55,
+        "special_defence": 50,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "54:memento",
+        "30:gastroacid",
+        "45:spectralthief",
+        "42:toxic",
+        "60:shadowforce",
+        "57:powerwhip",
+        "4:growth",
+        "42:venomdrench",
+        "1:astonish",
+        "15:stunspore",
+        "15:poisonpowder",
+        "7:razorleaf",
+        "48:leafblade",
+        "1:vinewhip",
+        "18:needlearm",
+        "15:sleeppowder",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:weatherball",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochweepinbell.desc"
+      ],
+      "height": 10,
+      "weight": 64,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochweepinbell_victreebel_epoch",
+          "variant": "item_interact",
+          "result": "victreebel epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:leaf_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

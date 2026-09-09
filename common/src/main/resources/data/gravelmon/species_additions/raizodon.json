@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:raizodon",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "baseScale": 0.39375000000000004,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 165,
+        "defence": 100,
+        "special_attack": 85,
+        "special_defence": 90,
+        "speed": 80
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 21,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

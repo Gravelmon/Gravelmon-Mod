@@ -1,0 +1,621 @@
+{
+  "target": "cobblemon:dragonair",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "water",
+      "secondaryType": "electric",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "dratini delta",
+      "baseScale": 0.75,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim",
+        "h:voltabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 61,
+        "attack": 84,
+        "defence": 65,
+        "special_attack": 70,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:wrap",
+        "1:leer",
+        "1:thundershock",
+        "5:thunderwave",
+        "11:thundershock",
+        "15:aquajet",
+        "21:slam",
+        "25:agility",
+        "33:spark",
+        "39:aquatail",
+        "47:wildcharge",
+        "53:safeguard",
+        "61:calmmind",
+        "67:hydropump",
+        "75:hyperbeam",
+        "tm:calmmind",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hail",
+        "tm:dragonpulse",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:energyball",
+        "tm:brine",
+        "tm:chargebeam",
+        "tm:dragontail",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:wildcharge",
+        "tm:voltswitch",
+        "tm:shockwave",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:dracojet",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:dragonify",
+        "tm:secretpower",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:dive",
+        "tutor:acid",
+        "tutor:aquatail",
+        "tutor:bind",
+        "tutor:bodyslam",
+        "tutor:bounce",
+        "tutor:electroweb",
+        "tutor:endure",
+        "tutor:icywind",
+        "tutor:lastresort",
+        "tutor:magnetrise",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:snore",
+        "tutor:twister",
+        "tutor:uproar",
+        "tutor:waterpulse",
+        "tutor:whirlpool",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltadragonair.desc"
+      ],
+      "height": 40,
+      "weight": 165,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltadragonair_dragonite_delta",
+          "variant": "level_up",
+          "result": "dragonite delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "55",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 147,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "dratini epoch",
+      "baseScale": 1.411764705882353,
+      "cannotDynamax": false,
+      "abilities": [
+        "dazzling",
+        "h:marvelscale"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 61,
+        "attack": 64,
+        "defence": 55,
+        "special_attack": 120,
+        "special_defence": 60,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "water_1",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:wrap",
+        "4:leer",
+        "63:dragonenergy",
+        "58:extremespeed",
+        "9:twister",
+        "29:purify",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:featherdance",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soundbarrier",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdragonair.desc"
+      ],
+      "height": 40,
+      "weight": 165,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochdragonair_dragonite_epoch",
+          "variant": "level_up",
+          "result": "dragonite epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "55",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.25,
+        "height": 4.25,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "fire",
+      "secondaryType": "sound",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "dratini ayreian",
+      "baseScale": 1.263157894736842,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 71,
+        "attack": 79,
+        "defence": 70,
+        "special_attack": 60,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
+      "moves": [
+        "20:agility",
+        "46:zenheadbutt",
+        "1:wrap",
+        "80:flareblitz",
+        "1:thunderwave",
+        "53:sunnyday",
+        "62:calmmind",
+        "1:leer",
+        "71:boomburst",
+        "15:flamecharge",
+        "33:uproar",
+        "1:ember",
+        "39:heatwave",
+        "tm:agility",
+        "tm:attract",
+        "tm:bind",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brutalswing",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firespin",
+        "tm:flamethrower",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:irontail",
+        "tm:lightscreen",
+        "tm:outrage",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:surf",
+        "tm:swagger",
+        "tm:swift",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:psyshock",
+        "tm:megahorn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiandragonair.desc"
+      ],
+      "height": 40,
+      "weight": 565,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreiandragonair_dragonite_ayreian",
+          "variant": "item_interact",
+          "result": "dragonite ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:astral_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.75,
+        "height": 4.75,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "pseudo_legendary",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahaliandragonair.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "mahal"
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "ayreian",
+    "mahalian"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:monstune",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ground",
+      "secondaryType": "dark",
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sandrush"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 90,
+        "defence": 75,
+        "special_attack": 75,
+        "special_defence": 138,
+        "speed": 125
+      },
+      "labels": [
+        "solarlightlunardark"
+      ],
+      "height": 0,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

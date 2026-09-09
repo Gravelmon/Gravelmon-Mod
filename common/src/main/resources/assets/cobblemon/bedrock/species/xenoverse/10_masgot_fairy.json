@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:masgot",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "fairy"
+      ],
+      "model": "cobblemon:cutout_gravelmon_36_by_58.geo",
+      "poser": "cobblemon:cutout_gravelmon_36_by_58",
+      "texture": "cobblemon:textures/pokemon/xenoverse/fairy_masgot.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}
