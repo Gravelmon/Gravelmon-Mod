@@ -11,9 +11,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
+        "genius",
         "immunity",
         "h:fullmetalbody"
       ],
@@ -129,8 +130,7 @@
         "egg:telekinesis"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochelgyem.desc"
@@ -157,8 +157,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.8125,
-        "height": 2.8125,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"

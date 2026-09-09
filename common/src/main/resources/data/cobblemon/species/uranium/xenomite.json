@@ -7,7 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "baseScale": 0.6000000000000001,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "damp",
@@ -115,8 +115,7 @@
     "tm:causticbreath"
   ],
   "labels": [
-    "uranium",
-    "not_modeled"
+    "uranium"
   ],
   "pokedex": [
     "cobblemon.species.xenomite.desc"
@@ -141,8 +140,8 @@
   "nationalPokedexNumber": 1895,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.25,
-    "height": 3.25,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

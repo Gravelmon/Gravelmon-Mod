@@ -10,9 +10,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.488135593220339,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
+        "pureheart",
         "superluck",
         "h:stalwart"
       ],
@@ -114,8 +115,7 @@
         "egg:tailglow"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochabsol.desc"
@@ -128,8 +128,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.6874999999999996,
-        "height": 3.6874999999999996,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -144,11 +144,12 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.48,
+      "baseScale": 1.6,
       "cannotDynamax": false,
       "abilities": [
         "magicguard",
-        "sniper"
+        "sniper",
+        "h:nebulacloud"
       ],
       "behaviour": {
         "resting": {
@@ -295,7 +296,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.45176470588235296,
+      "baseScale": 1.1294117647058823,
       "cannotDynamax": false,
       "abilities": [
         "justified",
@@ -475,7 +476,7 @@
       "name": "ayreian_mega",
       "primaryType": "grass",
       "secondaryType": "fairy",
-      "baseScale": 0.4851063829787233,
+      "baseScale": 1.0212765957446808,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -501,7 +502,7 @@
     {
       "name": "epoch_mega",
       "primaryType": "light",
-      "baseScale": 0.4097560975609756,
+      "baseScale": 1.170731707317073,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -528,7 +529,7 @@
       "name": "epochtwo_mega",
       "primaryType": "psychic",
       "secondaryType": "cosmic",
-      "baseScale": 0.4413793103448276,
+      "baseScale": 1.103448275862069,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

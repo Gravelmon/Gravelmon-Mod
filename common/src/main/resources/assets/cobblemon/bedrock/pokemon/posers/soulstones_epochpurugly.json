@@ -1,0 +1,69 @@
+{
+  "portraitScale": 1.78,
+  "portraitTranslation": [
+    -0.55,
+    0.13,
+    0
+  ],
+  "profileScale": 0.74,
+  "profileTranslation": [
+    0,
+    0.62,
+    0
+  ],
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochpurugly', 'test2')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochpurugly', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochpurugly', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochpurugly', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochpurugly', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochpurugly', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "purugly_epoch",
+  "head": "head",
+  "animations": {
+    "cry": "q.bedrock_stateful('epochpurugly', 'cry')"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ayreiangrookey.ground_idle": {
+      "loop": true,
+      "bones": {
+        "arm_left": {
+          "rotation": [
+            0,
+            22.5,
+            30
+          ]
+        },
+        "hand_left": {
+          "rotation": [
+            0,
+            25,
+            0
+          ]
+        },
+        "thumb_left": {
+          "rotation": [
+            30,
+            0,
+            0
+          ]
+        },
+        "finger_left2": {
+          "rotation": [
+            11.06517,
+            16.76559,
+            34.13554
+          ]
+        },
+        "finger_left3": {
+          "rotation": [
+            -8.19252,
+            -12.60837,
+            33.40659
+          ]
+        },
+        "arm_right": {
+          "rotation": [
+            0,
+            -22.5,
+            -30
+          ]
+        },
+        "hand_right": {
+          "rotation": [
+            0,
+            -25,
+            0
+          ]
+        },
+        "thumb_right": {
+          "rotation": [
+            30,
+            0,
+            0
+          ]
+        },
+        "finger_right2": {
+          "rotation": [
+            11.06517,
+            -16.76559,
+            -34.13554
+          ]
+        },
+        "finger_right3": {
+          "rotation": [
+            -8.19252,
+            12.60837,
+            -33.40659
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "tail3": {
+          "rotation": [
+            32.5,
+            0,
+            0
+          ]
+        },
+        "leg_left": {
+          "rotation": [
+            0,
+            -20,
+            0
+          ]
+        },
+        "leg_right": {
+          "rotation": [
+            0,
+            20,
+            0
+          ]
+        }
+      }
+    },
+    "animation.ayreiangrookey.pose": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            -1.20605,
+            -13.36245,
+            -7.18741
+          ]
+        },
+        "leaf_left": {
+          "rotation": [
+            0,
+            0,
+            22.5
+          ]
+        },
+        "jaw": {
+          "rotation": [
+            25,
+            0,
+            0
+          ]
+        },
+        "arm_left": {
+          "rotation": [
+            -3.67611,
+            46.49003,
+            28.02631
+          ]
+        },
+        "hand_left": {
+          "rotation": [
+            0,
+            15,
+            0
+          ]
+        },
+        "thumb_left": {
+          "rotation": [
+            35,
+            0,
+            0
+          ]
+        },
+        "finger_left2": {
+          "rotation": [
+            4.04618,
+            6.3202,
+            32.72348
+          ]
+        },
+        "finger_left3": {
+          "rotation": [
+            0,
+            0,
+            27.5
+          ]
+        },
+        "arm_right": {
+          "rotation": [
+            -40.95183,
+            -42.28432,
+            -31.13282
+          ]
+        },
+        "hand_right": {
+          "rotation": [
+            0,
+            -35,
+            0
+          ]
+        },
+        "thumb_right": {
+          "rotation": [
+            32.5,
+            0,
+            0
+          ]
+        },
+        "finger_right2": {
+          "rotation": [
+            0,
+            -15,
+            -25
+          ]
+        },
+        "finger_right3": {
+          "rotation": [
+            0,
+            27.5,
+            -20
+          ]
+        },
+        "tail": {
+          "rotation": [
+            11.00966,
+            24.59477,
+            4.62934
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            20,
+            0,
+            0
+          ]
+        },
+        "tail3": {
+          "rotation": [
+            27.5,
+            0,
+            0
+          ]
+        },
+        "leg_left": {
+          "rotation": [
+            0,
+            -17.5,
+            0
+          ]
+        }
+      }
+    },
+    "animation.ayreiangrookey.blink": {
+      "animation_length": 0.1667,
+      "bones": {
+        "eyelid_left": {
+          "position": {
+            "0.0": [
+              0.1,
+              0,
+              -0.1
+            ],
+            "0.125": [
+              0.1,
+              0,
+              -0.1
+            ],
+            "0.1667": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "eyelid_right": {
+          "position": {
+            "0.0": [
+              -0.1,
+              0,
+              -0.1
+            ],
+            "0.125": [
+              -0.1,
+              0,
+              -0.1
+            ],
+            "0.1667": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.ayreiangrookey.cry": {
+      "animation_length": 1.5,
+      "bones": {
+        "neck": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              10,
+              0,
+              0
+            ],
+            "1.25": [
+              10,
+              0,
+              0
+            ],
+            "1.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              -15,
+              0,
+              0
+            ],
+            "1.25": [
+              -15,
+              0,
+              0
+            ],
+            "1.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "jaw": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              25,
+              0,
+              0
+            ],
+            "1.25": [
+              25,
+              0,
+              0
+            ],
+            "1.5": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.ayreiangrookey.angry": {
+      "loop": true,
+      "bones": {
+        "eyelid_angry_left": {
+          "position": [
+            0.1,
+            0,
+            -0.1
+          ]
+        },
+        "eyelid_angry_right": {
+          "position": [
+            -0.1,
+            0,
+            -0.1
+          ]
+        }
+      }
+    },
+    "animation.ayreiangrookey.sad": {
+      "loop": true,
+      "bones": {
+        "eye_sad_left": {
+          "position": [
+            0.1,
+            0,
+            -0.1
+          ]
+        },
+        "eye_sad_right": {
+          "position": [
+            -0.1,
+            0,
+            -0.1
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:sliggoo",
-  "order": 127,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_120_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_120_by_128",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltasliggoo.png",
+      "model": "cobblemon:insurgence_deltasliggoo.geo",
+      "poser": "cobblemon:insurgence_deltasliggoo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasliggoo/deltasliggoo.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltasliggoo.geo",
+      "poser": "cobblemon:insurgence_deltasliggoo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasliggoo/deltasliggoo_shiny.png",
       "layers": [
         {
           "name": "emissive"

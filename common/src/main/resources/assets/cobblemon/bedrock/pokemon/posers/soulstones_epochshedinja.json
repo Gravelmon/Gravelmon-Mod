@@ -1,0 +1,88 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0.0,
+    0.9,
+    -2.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochshedinja', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochshedinja', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochshedinja', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('epochshedinja', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('epochshedinja', 'air_fly')"
+      ],
+      "poseTypes": [
+        "FLY",
+        "GLIDE"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "shedinja_epoch",
+  "head": "head",
+  "animations": {
+    "cry": "q.bedrock_stateful('epochshedinja', 'cry')",
+    "faint": "q.bedrock_primary('epochshedinja', 'faint', q.curve('one'))"
+  }
+}

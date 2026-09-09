@@ -12,10 +12,11 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magikarp epoch",
-      "baseScale": 0.9481481481481482,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
+        "blacklight",
         "h:strongjaw"
       ],
       "behaviour": {
@@ -137,7 +138,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -152,8 +152,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.0625,
-        "height": 5.0625,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -169,7 +169,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magikarp nodorran",
-      "baseScale": 1.5412844036697249,
+      "baseScale": 0.8807339449541285,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",
@@ -251,7 +251,7 @@
       "name": "epoch_mega",
       "primaryType": "electric",
       "secondaryType": "dark",
-      "baseScale": 1.051685393258427,
+      "baseScale": 1.0786516853932584,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -278,7 +278,7 @@
       "name": "nuclear_mega",
       "primaryType": "water",
       "secondaryType": "nuclear",
-      "baseScale": 1.14,
+      "baseScale": 1.2,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

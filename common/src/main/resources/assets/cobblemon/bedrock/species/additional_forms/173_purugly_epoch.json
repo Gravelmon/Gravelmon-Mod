@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:purugly",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_59_by_53.geo",
-      "poser": "cobblemon:cutout_gravelmon_59_by_53",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochpurugly.png",
+      "model": "cobblemon:soulstones_epochpurugly.geo",
+      "poser": "cobblemon:soulstones_epochpurugly",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochpurugly/epochpurugly.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochpurugly.geo",
+      "poser": "cobblemon:soulstones_epochpurugly",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochpurugly/epochpurugly_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -1,40 +1,25 @@
 {
   "species": "cobblemon:komala",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_73_by_53.geo",
-      "poser": "cobblemon:cutout_gravelmon_73_by_53",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochkomala.png",
-      "layers": [
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
+      "model": "cobblemon:komala_epoch.geo",
+      "poser": "cobblemon:soulstones_epochkomala",
+      "texture": "cobblemon:textures/pokemon/soulstones/komala_epoch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:komala_epoch.geo",
+      "poser": "cobblemon:soulstones_epochkomala",
+      "texture": "cobblemon:textures/pokemon/soulstones/komala_epoch_shiny.png",
+      "layers": []
     }
   ]
 }

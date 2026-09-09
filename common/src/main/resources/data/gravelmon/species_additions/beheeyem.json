@@ -12,9 +12,10 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "elgyem epoch",
-      "baseScale": 0.39344262295081966,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
+        "genius",
         "immunity",
         "h:fullmetalbody"
       ],
@@ -124,7 +125,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -139,8 +139,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.8125,
-        "height": 3.8125,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -149,7 +149,7 @@
       "name": "epoch_mega",
       "primaryType": "cosmic",
       "secondaryType": "dark",
-      "baseScale": 0.5617021276595745,
+      "baseScale": 1.0212765957446808,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:glameow",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_55_by_58.geo",
-      "poser": "cobblemon:cutout_gravelmon_55_by_58",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochglameow.png",
+      "model": "cobblemon:soulstones_epochglameow.geo",
+      "poser": "cobblemon:soulstones_epochglameow",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochglameow/epochglameow.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochglameow.geo",
+      "poser": "cobblemon:soulstones_epochglameow",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochglameow/epochglameow_shiny.png",
       "layers": [
         {
           "name": "emissive"

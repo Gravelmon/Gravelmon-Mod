@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:diggersby",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_78_by_73.geo",
-      "poser": "cobblemon:cutout_gravelmon_78_by_73",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochdiggersby.png",
+      "model": "cobblemon:soulstones_epochdiggersby.geo",
+      "poser": "cobblemon:soulstones_epochdiggersby",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdiggersby/epochdiggersby.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochdiggersby.geo",
+      "poser": "cobblemon:soulstones_epochdiggersby",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdiggersby/epochdiggersby_shiny.png",
       "layers": [
         {
           "name": "emissive"

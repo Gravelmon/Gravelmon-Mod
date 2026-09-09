@@ -11,10 +11,11 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4075471698113208,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "swiftswim",
+        "blacklight",
         "h:rattled"
       ],
       "behaviour": {
@@ -124,8 +125,7 @@
         "tm:workup"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochmagikarp.desc"
@@ -149,8 +149,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -165,7 +165,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.5236363636363636,
+      "baseScale": 1.7454545454545454,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",

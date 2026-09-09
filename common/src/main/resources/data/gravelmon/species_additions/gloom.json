@@ -204,7 +204,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "oddish varitasian",
-      "baseScale": 0.6339622641509434,
+      "baseScale": 1.8113207547169812,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",
@@ -312,10 +312,12 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "oddish epoch",
-      "baseScale": 0.3918367346938776,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "effectspore"
+        "effectspore",
+        "starstruck",
+        "h:vitality"
       ],
       "behaviour": {
         "resting": {
@@ -434,7 +436,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -470,8 +471,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0625,
-        "height": 3.0625,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -486,7 +487,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

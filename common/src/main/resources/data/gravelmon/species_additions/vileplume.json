@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gloom varitasian",
-      "baseScale": 0.6857142857142857,
+      "baseScale": 1.3714285714285714,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",
@@ -99,10 +99,12 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gloom epoch",
-      "baseScale": 0.44999999999999996,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "effectspore"
+        "effectspore",
+        "starstruck",
+        "h:vitality"
       ],
       "behaviour": {
         "resting": {
@@ -222,7 +224,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -237,8 +238,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.0,
-        "height": 4.0,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"

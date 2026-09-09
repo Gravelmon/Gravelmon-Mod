@@ -11,10 +11,12 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16551724137931034,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "quickdraw"
+        "quickdraw",
+        "precision",
+        "h:cannonfire"
       ],
       "behaviour": {
         "resting": {
@@ -140,8 +142,7 @@
         "egg:lockon"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochbunnelby.desc"
@@ -165,8 +166,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.625,
-        "height": 3.625,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -181,7 +182,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.17142857142857143,
+      "baseScale": 1.7142857142857142,
       "cannotDynamax": false,
       "abilities": [
         "slushrush",
@@ -332,7 +333,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

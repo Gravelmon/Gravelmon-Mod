@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel cefiran",
-      "baseScale": 0.475,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "sheerforce",
@@ -133,9 +133,10 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel delta",
-      "baseScale": 0.13124999999999998,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
+        "venomous",
         "poisonpoint",
         "h:liquidooze"
       ],
@@ -301,7 +302,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel epoch",
-      "baseScale": 0.57,
+      "baseScale": 1.2,
       "cannotDynamax": false,
       "abilities": [
         "dryskin",
@@ -455,11 +456,12 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel epochtwo",
-      "baseScale": 0.8761904761904761,
+      "baseScale": 1.5238095238095237,
       "cannotDynamax": false,
       "abilities": [
         "bulletproof",
-        "filter"
+        "filter",
+        "h:fortification"
       ],
       "behaviour": {
         "resting": {
@@ -615,7 +617,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "numel ayreian",
-      "baseScale": 0.5846153846153846,
+      "baseScale": 1.2307692307692308,
       "cannotDynamax": false,
       "abilities": [
         "unaware",
@@ -776,7 +778,7 @@
     {
       "name": "delta_mega",
       "primaryType": "poison",
-      "baseScale": 0.43124999999999997,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

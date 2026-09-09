@@ -6,35 +6,20 @@
       "aspects": [
         "alolan"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_128",
+      "model": "cobblemon:daybreak_alolansandridger.geo",
+      "poser": "cobblemon:daybreak_alolansandridger",
       "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger.png",
-      "layers": [
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny"
+      ],
+      "model": "cobblemon:daybreak_alolansandridger.geo",
+      "poser": "cobblemon:daybreak_alolansandridger",
+      "texture": "cobblemon:textures/pokemon/daybreak/alolansandridger_shiny.png",
+      "layers": []
     }
   ]
 }

@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:obstagoon",
-  "order": 97,
+  "order": 103,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_61_by_79.geo",
-      "poser": "cobblemon:cutout_gravelmon_61_by_79",
-      "texture": "cobblemon:textures/pokemon/vanguard/ayreianobstagoon.png",
+      "model": "cobblemon:vanguard_ayreianobstagoon.geo",
+      "poser": "cobblemon:vanguard_ayreianobstagoon",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianobstagoon/ayreianobstagoon.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:vanguard_ayreianobstagoon.geo",
+      "poser": "cobblemon:vanguard_ayreianobstagoon",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianobstagoon/ayreianobstagoon_shiny.png",
       "layers": [
         {
           "name": "emissive"

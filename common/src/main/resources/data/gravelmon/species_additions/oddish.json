@@ -184,7 +184,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.5714285714285714,
+      "baseScale": 2.2857142857142856,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",
@@ -282,10 +282,12 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.34285714285714286,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "effectspore"
+        "effectspore",
+        "starstruck",
+        "h:vitality"
       ],
       "behaviour": {
         "resting": {
@@ -412,8 +414,7 @@
         "egg:pollenpuff"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochoddish.desc"
@@ -440,8 +441,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.1875,
-        "height": 2.1875,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -456,7 +457,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

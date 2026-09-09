@@ -8,10 +8,8 @@ import com.cobblemon.mod.common.client.render.models.blockbench.repository.Varyi
 import com.cobblemon.mod.common.util.endsWith
 import com.cobblemon.mod.common.util.fromJson
 import drai.dev.gravelmon.placeholders.GravelmonPlaceholderModels.createModel
-import drai.dev.gravelmon.utils.getFileNameWithoutExtension
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.server.packs.resources.ResourceManager
-import java.io.File
 import java.nio.charset.StandardCharsets
 import kotlin.collections.set
 

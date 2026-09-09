@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "friendguard",
@@ -119,8 +119,7 @@
         "egg:spotlight"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochducklett.desc"
@@ -147,8 +146,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -163,7 +162,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 2.4,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",

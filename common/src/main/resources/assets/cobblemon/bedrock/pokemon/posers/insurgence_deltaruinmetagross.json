@@ -1,4 +1,5 @@
 {
+  "rootBone": "metagross",
   "portraitScale": 0.5,
   "portraitTranslation": [
     0.0,
@@ -28,7 +29,9 @@
         "q.bedrock_quirk('metagross', 'blink')"
       ],
       "namedAnimations": {},
-      "transformedParts": []
+      "transformedParts": [
+        
+      ]
     },
     "standing": {
       "poseName": "standing",
@@ -98,7 +101,6 @@
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "q.bedrock('metagross', 'resting')",
         "q.bedrock('metagross', 'sleep')"
       ],
       "poseTypes": [

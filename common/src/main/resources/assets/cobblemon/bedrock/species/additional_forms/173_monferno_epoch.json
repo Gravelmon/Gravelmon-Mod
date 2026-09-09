@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:monferno",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_48_by_54.geo",
-      "poser": "cobblemon:cutout_gravelmon_48_by_54",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochmonferno.png",
+      "model": "cobblemon:soulstones_epochmonferno.geo",
+      "poser": "cobblemon:soulstones_epochmonferno",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmonferno/epochmonferno.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochmonferno.geo",
+      "poser": "cobblemon:soulstones_epochmonferno",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmonferno/epochmonferno_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:buneary",
-  "order": 125,
+  "order": 131,
   "variations": [
     {
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_68_by_116.geo",
-      "poser": "cobblemon:cutout_gravelmon_68_by_116",
-      "texture": "cobblemon:textures/pokemon/opalo/cefiranbuneary.png",
+      "model": "cobblemon:opal_cefiranbuneary.geo",
+      "poser": "cobblemon:opal_cefiranbuneary",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranbuneary/cefiranbuneary.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cefiran",
+        "shiny"
+      ],
+      "model": "cobblemon:opal_cefiranbuneary.geo",
+      "poser": "cobblemon:opal_cefiranbuneary",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranbuneary/cefiranbuneary_shiny.png",
       "layers": [
         {
           "name": "emissive"

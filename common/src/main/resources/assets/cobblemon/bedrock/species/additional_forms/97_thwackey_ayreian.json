@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:thwackey",
-  "order": 97,
+  "order": 103,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_51_by_57.geo",
-      "poser": "cobblemon:cutout_gravelmon_51_by_57",
-      "texture": "cobblemon:textures/pokemon/vanguard/ayreianthwackey.png",
+      "model": "cobblemon:vanguard_ayreianthwackey.geo",
+      "poser": "cobblemon:vanguard_ayreianthwackey",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianthwackey/thwackey.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:vanguard_ayreianthwackey.geo",
+      "poser": "cobblemon:vanguard_ayreianthwackey",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianthwackey/thwackey_shiny.png",
       "layers": [
         {
           "name": "emissive"

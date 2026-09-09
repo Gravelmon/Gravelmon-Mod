@@ -1,36 +1,118 @@
 {
   "species": "cobblemon:venusaur",
-  "order": 1010,
+  "order": 134,
   "variations": [
     {
       "aspects": [
         "delta_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_94.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_94",
-      "texture": "cobblemon:textures/pokemon/insurgence/venusaur_delta_mega.png",
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega.png",
       "layers": [
         {
-          "name": "emissive"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "delta_mega"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega.png",
+      "layers": [
         {
-          "name": "transparentEmissive"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta_mega",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_shiny.png",
+      "layers": [
         {
-          "name": "tail"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "delta_mega",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_shiny.png",
+      "layers": [
         {
-          "name": "transparent_emissive"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta_mega",
+        "female"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_female.png",
+      "layers": [
         {
-          "name": "emissive2"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "delta_mega",
+        "female"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_female.png",
+      "layers": [
         {
-          "name": "flame"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta_mega",
+        "female",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_female_shiny.png",
+      "layers": [
         {
-          "name": "glow"
-        },
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "delta_mega",
+        "female",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavenusaur_mega/deltavenusaur_mega_female_shiny.png",
+      "layers": [
         {
           "texture": "cobblemon:textures/empty_texture.png"
         }

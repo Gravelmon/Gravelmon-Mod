@@ -11,7 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.23529411764705882,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "swarm",
@@ -113,8 +113,7 @@
         "egg:crosspoison"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochnincada.desc"
@@ -162,8 +161,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"

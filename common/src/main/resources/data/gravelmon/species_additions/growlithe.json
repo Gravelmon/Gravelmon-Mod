@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.14736842105263157,
+      "baseScale": 0.8421052631578947,
       "cannotDynamax": false,
       "abilities": [
         "innerfocus",
@@ -201,10 +201,12 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31111111111111106,
+      "baseScale": 1.7777777777777777,
       "cannotDynamax": false,
       "abilities": [
-        "dazzling"
+        "dazzling",
+        "opaqueness",
+        "h:astralmajesty"
       ],
       "behaviour": {
         "resting": {
@@ -384,11 +386,12 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3169811320754717,
+      "baseScale": 1.8113207547169812,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
-        "competitive"
+        "competitive",
+        "h:irredeemable"
       ],
       "behaviour": {
         "resting": {
@@ -563,7 +566,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18260869565217389,
+      "baseScale": 1.0434782608695652,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",

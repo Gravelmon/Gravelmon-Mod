@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:oddish",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_34_by_35.geo",
-      "poser": "cobblemon:cutout_gravelmon_34_by_35",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochoddish.png",
+      "model": "cobblemon:soulstones_epochoddish.geo",
+      "poser": "cobblemon:soulstones_epochoddish",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochoddish/epochoddish.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochoddish.geo",
+      "poser": "cobblemon:soulstones_epochoddish",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochoddish/epochoddish_shiny.png",
       "layers": [
         {
           "name": "emissive"

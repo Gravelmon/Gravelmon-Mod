@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:swanna",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_51_by_66.geo",
-      "poser": "cobblemon:cutout_gravelmon_51_by_66",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochswanna.png",
+      "model": "cobblemon:soulstones_epochswanna.geo",
+      "poser": "cobblemon:soulstones_epochswanna",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochswanna/epochswanna.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochswanna.geo",
+      "poser": "cobblemon:soulstones_epochswanna",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochswanna/epochswanna_shiny.png",
       "layers": [
         {
           "name": "emissive"

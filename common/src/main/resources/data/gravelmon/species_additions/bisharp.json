@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pawniard delta",
-      "baseScale": 0.30000000000000004,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "defiant",
@@ -200,7 +200,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 26.400000000000002,
+      "baseScale": 48.0,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -336,7 +336,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pawniard epoch",
-      "baseScale": 0.512,
+      "baseScale": 1.28,
       "cannotDynamax": false,
       "abilities": [
         "justified",
@@ -492,10 +492,11 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "pawniard hoennian",
-      "baseScale": 0.675,
+      "baseScale": 1.5,
       "cannotDynamax": false,
       "abilities": [
-        "battlearmor"
+        "battlearmor",
+        "h:resolute"
       ],
       "behaviour": {
         "resting": {
@@ -598,7 +599,7 @@
       "name": "mega",
       "primaryType": "dark",
       "secondaryType": "steel",
-      "baseScale": 0.3375,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -625,7 +626,7 @@
       "name": "delta_mega",
       "primaryType": "flying",
       "secondaryType": "fighting",
-      "baseScale": 0.39375000000000004,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

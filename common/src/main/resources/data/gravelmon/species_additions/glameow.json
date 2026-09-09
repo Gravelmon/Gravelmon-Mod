@@ -11,7 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.20689655172413793,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "superluck",
@@ -146,8 +146,7 @@
         "egg:iciclecrash"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochglameow.desc"
@@ -174,8 +173,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.625,
-        "height": 3.625,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -190,7 +189,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

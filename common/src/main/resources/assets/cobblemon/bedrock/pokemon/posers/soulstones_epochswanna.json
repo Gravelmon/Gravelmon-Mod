@@ -1,0 +1,85 @@
+{
+  "rootBone": "swanna_epoch",
+  "head": "head",
+  "portraitScale": 1.73,
+  "portraitTranslation": [
+    -0.21,
+    1.88,
+    0
+  ],
+  "profileScale": 0.57,
+  "profileTranslation": [
+    0,
+    0.96,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochswanna', 'wangs')",
+        "q.bedrock('epochswanna', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochswanna', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('epochswanna', 'wangs')",
+        "q.bedrock('epochswanna', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochswanna', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('epochswanna', 'wangs')",
+        "q.bedrock('epochswanna', 'air_fly')"
+      ],
+      "poseTypes": [
+        "FLY",
+        "GLIDE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochswanna', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('epochswanna', 'wangs')",
+        "q.bedrock('epochswanna', 'surfacewater_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT",
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochswanna', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

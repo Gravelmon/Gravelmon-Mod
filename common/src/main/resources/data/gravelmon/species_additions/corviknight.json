@@ -12,10 +12,12 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "corvisquire epoch",
-      "baseScale": 0.7652173913043478,
+      "baseScale": 1.391304347826087,
       "cannotDynamax": false,
       "abilities": [
-        "bigpecks"
+        "bigpecks",
+        "conductor",
+        "h:blacklight"
       ],
       "behaviour": {
         "resting": {
@@ -155,10 +157,11 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "corvisquire epochtwo",
-      "baseScale": 0.6518518518518519,
+      "baseScale": 1.1851851851851851,
       "cannotDynamax": false,
       "abilities": [
         "stakeout",
+        "attunement",
         "h:opportunist"
       ],
       "behaviour": {
@@ -288,7 +291,7 @@
       "name": "epoch_mega",
       "primaryType": "dark",
       "secondaryType": "electric",
-      "baseScale": 0.575,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

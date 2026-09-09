@@ -12,9 +12,10 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "zigzagoon epoch",
-      "baseScale": 0.19047619047619047,
+      "baseScale": 1.5238095238095237,
       "cannotDynamax": false,
       "abilities": [
+        "pounce",
         "insomnia",
         "h:gluttony"
       ],
@@ -192,7 +193,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15584415584415584,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "skilllink",
@@ -324,8 +325,7 @@
         "tm:workup"
       ],
       "labels": [
-        "vanguard",
-        "not_modeled"
+        "vanguard"
       ],
       "pokedex": [
         "cobblemon.species.ayreianlinoone.desc"
@@ -352,8 +352,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.8125,
-        "height": 4.8125,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "vanguard"

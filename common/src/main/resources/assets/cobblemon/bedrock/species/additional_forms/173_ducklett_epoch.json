@@ -1,14 +1,49 @@
 {
   "species": "cobblemon:ducklett",
-  "order": 173,
+  "order": 178,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_27_by_40.geo",
-      "poser": "cobblemon:cutout_gravelmon_27_by_40",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochducklett.png",
+      "model": "cobblemon:soulstones_epochducklett.geo",
+      "poser": "cobblemon:soulstones_epochducklett",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochducklett/epochducklett.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochducklett.geo",
+      "poser": "cobblemon:soulstones_epochducklett",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochducklett/epochducklett_shiny.png",
       "layers": [
         {
           "name": "emissive"

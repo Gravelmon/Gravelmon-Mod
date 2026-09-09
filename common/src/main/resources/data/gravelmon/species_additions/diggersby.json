@@ -12,10 +12,12 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bunnelby epoch",
-      "baseScale": 0.3076923076923077,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "quickdraw"
+        "quickdraw",
+        "precision",
+        "h:cannonfire"
       ],
       "behaviour": {
         "resting": {
@@ -138,7 +140,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon",
         "fakemonevolution"
       ],
@@ -153,8 +154,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.875,
-        "height": 4.875,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -170,7 +171,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "bunnelby kaskadian",
-      "baseScale": 0.3157894736842105,
+      "baseScale": 1.263157894736842,
       "cannotDynamax": false,
       "abilities": [
         "slushrush",
@@ -309,7 +310,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.07500000000000001,
+      "baseScale": 0.75,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"

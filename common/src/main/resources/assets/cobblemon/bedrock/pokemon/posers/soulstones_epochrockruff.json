@@ -1,0 +1,71 @@
+{
+  "rootBone": "rockruff_epoch",
+  "head": "head_ai",
+  "portraitScale": 2.15,
+  "portraitTranslation": [
+    -0.45,
+    -0.55,
+    0.0
+  ],
+  "profileScale": 0.72,
+  "profileTranslation": [
+    0.0,
+    0.72,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochrockruff', q.look('head_ai'))",
+        "q.bedrock('epochrockruff', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochrockruff', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochrockruff', q.look('head_ai'))",
+        "q.bedrock('epochrockruff', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochrockruff', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochrockruff', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

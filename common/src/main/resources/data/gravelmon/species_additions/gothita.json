@@ -11,10 +11,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "ojospetreos"
       ],
       "behaviour": {
         "resting": {
@@ -133,11 +133,12 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.24615384615384617,
+      "baseScale": 2.4615384615384617,
       "cannotDynamax": false,
       "abilities": [
         "frisk",
-        "immunity"
+        "immunity",
+        "h:cannonfire"
       ],
       "behaviour": {
         "resting": {
@@ -307,10 +308,11 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.24615384615384617,
+      "baseScale": 2.4615384615384617,
       "cannotDynamax": false,
       "abilities": [
         "shedskin",
+        "dishearten",
         "h:stakeout"
       ],
       "behaviour": {

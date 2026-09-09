@@ -39,7 +39,8 @@ dependencies {
     "developmentNeoForge"(project(":common", configuration = "namedElements")) {
         isTransitive = false
     }
-    shadowBundle(project(":common", configuration = "transformProductionNeoforge"))
+    shadowBundle(project(":common", configuration = "transformProductionNeoForge"))
+
     modImplementation(files("libs/gravels_extended_battles-neoforge-${property("geb_version")}.jar"))
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${property("junit_version")}")

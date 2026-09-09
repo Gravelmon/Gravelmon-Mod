@@ -1,0 +1,84 @@
+{
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "profileScale": 0.75,
+  "profileTranslation": [
+    0.0,
+    0.35,
+    0.0
+  ],
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochdugtrio', 'battle_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochdugtrio', 'blink')",
+        "q.bedrock_quirk('epochdugtrio', 'quirk_idle')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochdugtrio', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochdugtrio', 'blink')",
+        "q.bedrock_quirk('epochdugtrio', 'quirk_idle')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochdugtrio', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochdugtrio', 'blink')",
+        "q.bedrock_quirk('epochdugtrio', 'quirk_idle')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochdugtrio', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "dugtrio",
+  "animations": {
+    "cry": "q.bedrock_stateful('epochdugtrio', 'cry')",
+    "faint": "q.bedrock_primary('epochdugtrio', 'faint', q.curve('one'))"
+  }
+}
