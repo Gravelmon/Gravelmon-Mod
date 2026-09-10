@@ -12,5 +12,7 @@ import java.util.*;
 public interface PokeBallsAccessor {
     @Mutable
     @Accessor("defaults")
-    public HashMap<ResourceLocation, PokeBall> getDefaults();
+    static HashMap<ResourceLocation, PokeBall> getDefaults() {
+        return null;
+    }
 }

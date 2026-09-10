@@ -15,6 +15,7 @@ object MegaShowdownCompat {
     fun getMegaStoneRecipes(): List<RecipeHolder<*>> {
         val input: Ingredient = Ingredient.of(MegaShowdownItems.MEGA_STONE.get())
         val newRecipes: MutableList<RecipeHolder<*>> = mutableListOf()
+        GravelmonMegas.init();
         GravelmonMegas.getLegalMegaStones().forEach { entry ->
             val result = BuiltInRegistries.ITEM.getKey(entry).path.lowercase(Locale.getDefault())
             val recipeId = ResourceLocation.fromNamespaceAndPath(

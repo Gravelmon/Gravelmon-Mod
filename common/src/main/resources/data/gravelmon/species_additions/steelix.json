@@ -146,8 +146,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.epochsteelix.desc"
@@ -339,8 +338,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.epochsteelixone.desc"
@@ -442,8 +440,7 @@
       "labels": [
         "nodorro",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.nodorransteelix.desc"
@@ -466,7 +463,6 @@
       "name": "mega_fire",
       "primaryType": "steel",
       "secondaryType": "fire",
-      "baseScale": 1.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -493,7 +489,6 @@
       "name": "epoch_mega",
       "primaryType": "ice",
       "secondaryType": "rock",
-      "baseScale": 0.35744680851063826,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -509,7 +504,8 @@
       },
       "labels": [
         "gen2",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 14,
       "aspects": [

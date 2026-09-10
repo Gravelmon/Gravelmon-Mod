@@ -464,8 +464,7 @@
         "lockemon",
         "gen1",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.kaskadianlapras.desc"
@@ -640,8 +639,7 @@
       "labels": [
         "vanguard",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.ayreianlapras.desc"
@@ -749,7 +747,6 @@
       "name": "mega",
       "primaryType": "water",
       "secondaryType": "ice",
-      "baseScale": 0.375,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -765,7 +762,8 @@
       },
       "labels": [
         "gen1",
-        "daybreak"
+        "daybreak",
+        "not_modeled"
       ],
       "height": 25,
       "aspects": [

@@ -129,8 +129,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
-        "fakemon",
-        "fakemonevolution"
+        "fakemon"
       ],
       "pokedex": [
         "cobblemon.species.epochninetales.desc"
@@ -474,7 +473,6 @@
     {
       "name": "epoch_mega",
       "primaryType": "cosmic",
-      "baseScale": 0.36,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -490,7 +488,8 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

@@ -461,7 +461,7 @@ object GravelmonPokeBalls {
             identifier, multiplierModifier,
             effects, waterDragValue, model2d, model3d, 1f, false
         )
-        (PokeBalls as Any as PokeBallsAccessor).getDefaults()[identifier] = pokeball
+        PokeBallsAccessor.getDefaults()[identifier] = pokeball
         return pokeball
     }
 
