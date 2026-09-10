@@ -683,28 +683,5 @@
     "mystic",
     "epoch",
     "ayreian"
-  ],
-  "evolutions": [
-    {
-      "id": "riolu_ishirianlucario",
-      "variant": "level_up",
-      "result": "ishirianlucario",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "biomeCondition": "#cobblemon:is_desert",
-          "variant": "biome"
-        },
-        {
-          "amount": "210",
-          "variant": "friendship"
-        },
-        {
-          "range": "night",
-          "variant": "time_range"
-        }
-      ]
-    }
   ]
 }

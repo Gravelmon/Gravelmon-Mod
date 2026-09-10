@@ -243,26 +243,6 @@
           "variant": "time_range"
         }
       ]
-    },
-    {
-      "id": "corsola_corecif",
-      "variant": "item_interact",
-      "result": "corecif",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:water_stone",
-      "permanent": true
     }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:water_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  }
+  ]
 }

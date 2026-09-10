@@ -160,30 +160,5 @@
   ],
   "features": [
     "epoch"
-  ],
-  "evolutions": [
-    {
-      "id": "granbull_bourrbull",
-      "variant": "level_up",
-      "result": "bourrbull",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "itemCondition": "cobblemon:metal_coat",
-          "variant": "held_item"
-        }
-      ]
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:metal_coat",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  }
+  ]
 }
