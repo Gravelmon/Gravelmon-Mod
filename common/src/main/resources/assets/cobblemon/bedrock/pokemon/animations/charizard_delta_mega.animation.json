@@ -195,7 +195,7 @@
 					"rotation": [0, 0, -2.5]
 				},
 				"bits": {
-					"rotation": ["math.sin(q.anim_time*90*1.1)*", "40+math.sin(q.anim_time*30*1)*30", 0],
+					"rotation": ["math.sin(q.anim_time*90*1.1)*1", "40+math.sin(q.anim_time*30*1)*30", 0],
 					"position": [1.71729, 8.12667, 5.03233]
 				},
 				"bone4": {
@@ -14644,7 +14644,7 @@
 					"rotation": [0, -6, -15]
 				},
 				"wing_right_elbow": {
-					"rotation": [0, "-6+", -15],
+					"rotation": [0, "-6", -15],
 					"position": [0.45, 0.1, 0]
 				},
 				"wing_right_membrane": {

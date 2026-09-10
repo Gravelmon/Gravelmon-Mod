@@ -5,34 +5,40 @@ license = "All Rights Reserved"
 
 [[mods]]
 modId="gravelmon"
-version="${mod_version}"
-displayName="${mod_name}"
-authors="${mod_authors}"
+version="4.0.0-Alpha.1"
+displayName="Gravelmon"
+authors="Gravelmon Team"
 logoFile="icon.png"
-description='''${mod_description}'''
+description='''Adds Content from Fan-Games to Cobblemon.'''
 
 [[dependencies.gravelmon]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21,)"
+versionRange = "[21.1.182,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.gravelmon]]
 modId = "minecraft"
 type = "required"
-versionRange = "${minecraft_version}"
+versionRange = "[1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.gravelmon]]
 modId="gravels_extended_battles"
 mandatory=true
-versionRange="[2.0.0,)"
+versionRange="[2.0.0-Alpha.7,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gravelmon]]
 modId = "architectury"
 type = "required"
 versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.gravelmon]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.8.0,)"
 ordering = "AFTER"
 side = "BOTH"
 [[mixins]]
