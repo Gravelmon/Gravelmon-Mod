@@ -11,7 +11,8 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 48.0,
+      "preEvolution": "tyranitar",
+      "baseScale": 24.0,
       "cannotDynamax": false,
       "abilities": [
         "solidrock",
@@ -143,6 +144,7 @@
         "xenoverse",
         "gen2",
         "not_modeled",
+        "fakemonevolution",
         "pseudo_legendary",
         "x"
       ],
@@ -174,7 +176,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pupitar epoch",
-      "baseScale": 1.391304347826087,
+      "baseScale": 0.6956521739130435,
       "cannotDynamax": false,
       "abilities": [
         "magnetpull",
@@ -332,8 +334,8 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyranitar armiran",
-      "baseScale": 0.75,
+      "preEvolution": "pupitar",
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
         "drought"
@@ -484,8 +486,8 @@
         "daybreak",
         "not_modeled",
         "fakemonevolution",
-        "pseudo_legendary",
-        "fakemonevolution"
+        "fakemonevolution",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.armirantyranitar.desc"
@@ -508,7 +510,7 @@
       "name": "armiran_mega",
       "primaryType": "fire",
       "secondaryType": "rock",
-      "baseScale": 0.75,
+      "baseScale": 0.43124999999999997,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -535,7 +537,7 @@
       "name": "epoch_mega",
       "primaryType": "steel",
       "secondaryType": "dragon",
-      "baseScale": 1.032258064516129,
+      "baseScale": 0.5935483870967742,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -562,7 +564,7 @@
       "name": "armored",
       "primaryType": "rock",
       "secondaryType": "dark",
-      "baseScale": 0.75,
+      "baseScale": 0.39375000000000004,
       "cannotDynamax": true,
       "abilities": [
         "sandstream",

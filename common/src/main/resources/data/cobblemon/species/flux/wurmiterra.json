@@ -8,8 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "wurmiterra",
-  "baseScale": 1.1566265060240963,
+  "baseScale": 0.6072289156626506,
   "cannotDynamax": false,
   "abilities": [
     "weakarmor",
@@ -65,30 +64,14 @@
   "moves": [],
   "labels": [
     "flux",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.wurmiterra.desc"
   ],
   "height": 21,
   "weight": 334,
-  "evolutions": [
-    {
-      "id": "wurmiterra_wurmiterra",
-      "variant": "level_up",
-      "result": "wurmiterra",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "minLevel": "32",
-          "variant": "level"
-        }
-      ]
-    }
-  ],
+  "evolutions": [],
   "nationalPokedexNumber": 1950,
   "shoulderMountable": false,
   "hitbox": {

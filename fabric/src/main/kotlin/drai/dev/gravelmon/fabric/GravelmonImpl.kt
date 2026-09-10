@@ -28,17 +28,17 @@ object GravelmonImpl {
 
         registerMegaStoneRecipes()
 
-        Gravelmon.builtinPacks.forEach {
-            val mod = FabricLoader.getInstance().getModContainer(Gravelmon.MOD_ID).get()
-            val resourcePackActivationType = when (it.activationBehaviour) {
-                ResourcePackActivationBehaviour.NORMAL -> ResourcePackActivationType.NORMAL
-                ResourcePackActivationBehaviour.DEFAULT_ENABLED -> ResourcePackActivationType.DEFAULT_ENABLED
-                ResourcePackActivationBehaviour.ALWAYS_ENABLED -> ResourcePackActivationType.ALWAYS_ENABLED
-            }
-            val id = gravelmonResource(it.id)
-            val subPath = "${ if (it.packType == PackType.CLIENT_RESOURCES) "resourcepacks" else "datapacks" }/${id.path}"
-            ResourceManagerHelperImpl.registerBuiltinResourcePack(id, subPath, mod, it.displayName, resourcePackActivationType)
-        }
+//        Gravelmon.builtinPacks.forEach {
+//            val mod = FabricLoader.getInstance().getModContainer(Gravelmon.MOD_ID).get()
+//            val resourcePackActivationType = when (it.activationBehaviour) {
+//                ResourcePackActivationBehaviour.NORMAL -> ResourcePackActivationType.NORMAL
+//                ResourcePackActivationBehaviour.DEFAULT_ENABLED -> ResourcePackActivationType.DEFAULT_ENABLED
+//                ResourcePackActivationBehaviour.ALWAYS_ENABLED -> ResourcePackActivationType.ALWAYS_ENABLED
+//            }
+//            val id = gravelmonResource(it.id)
+//            val subPath = "${ if (it.packType == PackType.CLIENT_RESOURCES) "resourcepacks" else "datapacks" }/${id.path}"
+//            ResourceManagerHelperImpl.registerBuiltinResourcePack(id, subPath, mod, it.displayName, resourcePackActivationType)
+//        }
     }
     
     @JvmStatic
