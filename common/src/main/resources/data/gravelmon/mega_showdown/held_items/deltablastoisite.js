@@ -1,7 +1,7 @@
 {
     name: "Delta blastoisite",
     spritenum: 620,
-    megaStone: { "Blastoise-Delta": "Blastoise-Mega_delta"},
+    megaStone: { "Blastoise-Delta": "Blastoise-mega_delta"},
     itemUser: ["Blastoise-Delta"],
     onTakeItem(item, source) {
         return !item.megaStone?.[source.baseSpecies.baseSpecies];
