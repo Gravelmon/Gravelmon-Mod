@@ -62,7 +62,7 @@ object GravelmonMegas {
         )
     }
 
-    val ITEMS: DeferredRegister<Item?> = DeferredRegister.create(MegaShowdown.MOD_ID, Registries.ITEM)
+    val ITEMS: DeferredRegister<Item?> = DeferredRegister.create(Gravelmon.MOD_ID, Registries.ITEM)
     fun megaItem(megaStoneName: String): Supplier<Item> {
         var item = ITEMS.register(gravelmonResource(megaStoneName), Supplier {
             Item(
