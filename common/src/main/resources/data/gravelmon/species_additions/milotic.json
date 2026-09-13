@@ -676,11 +676,11 @@
       ],
       "height": 25,
       "aspects": [
-        "mega_i"
+        "mega_evolution=mega_i"
       ]
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "ghost",
       "cannotDynamax": false,
       "battleOnly": true,
@@ -702,7 +702,8 @@
       ],
       "height": 24,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
@@ -729,7 +730,7 @@
       ],
       "height": 25,
       "aspects": [
-        "mega_d"
+        "mega_evolution=mega_d"
       ]
     }
   ],
@@ -739,7 +740,7 @@
     "epoch",
     "epochtwo",
     "mega_i",
-    "delta_mega",
+    "mega",
     "mega_d"
   ]
 }

@@ -240,7 +240,7 @@
       "game": "aroma"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "ghost",
       "secondaryType": "poison",
       "cannotDynamax": false,
@@ -263,13 +263,14 @@
       ],
       "height": 16,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "epoch",
     "aromian",
-    "epoch_mega"
+    "mega"
   ]
 }

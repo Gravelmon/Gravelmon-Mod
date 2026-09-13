@@ -417,7 +417,7 @@
       "game": "lockemon"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "grass",
       "cannotDynamax": false,
       "battleOnly": true,
@@ -439,7 +439,8 @@
       ],
       "height": 26,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -447,6 +448,6 @@
     "cefiran",
     "epoch",
     "kaskadian",
-    "epoch_mega"
+    "mega"
   ]
 }

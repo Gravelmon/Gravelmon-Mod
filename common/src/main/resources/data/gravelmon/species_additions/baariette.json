@@ -24,11 +24,11 @@
       ],
       "height": 16,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "nuclear_mega",
+      "name": "mega_nuclear",
       "primaryType": "dark",
       "secondaryType": "nuclear",
       "cannotDynamax": false,
@@ -50,12 +50,12 @@
       ],
       "height": 16,
       "aspects": [
-        "nuclear_mega"
+        "mega_evolution=mega",
+        "nuclear"
       ]
     }
   ],
   "features": [
-    "mega",
-    "nuclear_mega"
+    "mega"
   ]
 }

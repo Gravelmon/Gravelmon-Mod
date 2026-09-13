@@ -299,7 +299,7 @@
       "game": "vanguard"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "normal",
       "secondaryType": "fire",
       "cannotDynamax": false,
@@ -322,13 +322,14 @@
       ],
       "height": 18,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "epoch",
     "ayreian",
-    "epoch_mega"
+    "mega"
   ]
 }

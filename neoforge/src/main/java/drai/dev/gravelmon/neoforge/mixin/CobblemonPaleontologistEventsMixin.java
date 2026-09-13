@@ -11,13 +11,13 @@ import static net.hana.cobblemon_paleontologist.villager.ModVillagers.PALEONTOLO
 
 @Mixin(ModEvents.class)
 public class CobblemonPaleontologistEventsMixin {
-    @Inject(
-            method = "addCustomTrades",
-            at = @At(value = "HEAD"), // First return in the method
-            cancellable = true,
-            remap = false
-    )
-    private static void afterGetPokemon(VillagerTradesEvent event, CallbackInfo ci) {
-        PaleontologistOverride.addGravelmonFossils(PALEONTOLOGIST.value(), event, ci);
-    }
+//    @Inject(
+//            method = "addCustomTrades",
+//            at = @At(value = "HEAD"), // First return in the method
+//            cancellable = true,
+//            remap = false
+//    )
+//    private static void afterGetPokemon(VillagerTradesEvent event, CallbackInfo ci) {
+//        PaleontologistOverride.addGravelmonFossils(PALEONTOLOGIST.value(), event, ci);
+//    }
 }

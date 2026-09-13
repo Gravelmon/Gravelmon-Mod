@@ -709,7 +709,7 @@
       "game": "vanguard"
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "electric",
       "secondaryType": "ice",
       "cannotDynamax": false,
@@ -732,11 +732,12 @@
       ],
       "height": 18,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
-      "name": "ayreian_mega",
+      "name": "mega_ayreian",
       "primaryType": "flying",
       "secondaryType": "electric",
       "cannotDynamax": false,
@@ -759,11 +760,12 @@
       ],
       "height": 18,
       "aspects": [
-        "ayreian_mega"
+        "mega_evolution=mega",
+        "ayreian"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "dark",
       "secondaryType": "poison",
       "cannotDynamax": false,
@@ -786,7 +788,8 @@
       ],
       "height": 19,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -795,8 +798,6 @@
     "epoch",
     "epochtwo",
     "ayreian",
-    "delta_mega",
-    "ayreian_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

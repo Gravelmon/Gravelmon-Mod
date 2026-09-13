@@ -631,11 +631,11 @@
       ],
       "height": 14,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "ground",
       "secondaryType": "grass",
       "cannotDynamax": false,
@@ -658,7 +658,8 @@
       ],
       "height": 15,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -667,7 +668,6 @@
     "epoch",
     "amazeall",
     "nodorran",
-    "mega",
-    "epoch_mega"
+    "mega"
   ]
 }

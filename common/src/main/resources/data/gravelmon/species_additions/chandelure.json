@@ -390,7 +390,7 @@
       "game": "fabel"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "light",
       "secondaryType": "ghost",
       "cannotDynamax": false,
@@ -413,7 +413,8 @@
       ],
       "height": 16,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -421,6 +422,6 @@
     "delta",
     "epoch",
     "fabelian",
-    "epoch_mega"
+    "mega"
   ]
 }

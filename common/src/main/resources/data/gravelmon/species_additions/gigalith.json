@@ -467,7 +467,7 @@
       "game": "daybreak"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "ice",
       "secondaryType": "water",
       "cannotDynamax": false,
@@ -490,11 +490,12 @@
       ],
       "height": 22,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     },
     {
-      "name": "epochtwo_mega",
+      "name": "mega_epochtwo",
       "primaryType": "rock",
       "secondaryType": "electric",
       "cannotDynamax": false,
@@ -517,7 +518,8 @@
       ],
       "height": 19,
       "aspects": [
-        "epochtwo_mega"
+        "mega_evolution=mega",
+        "epochtwo"
       ]
     }
   ],
@@ -525,7 +527,6 @@
     "epoch",
     "epochtwo",
     "armiran",
-    "epoch_mega",
-    "epochtwo_mega"
+    "mega"
   ]
 }

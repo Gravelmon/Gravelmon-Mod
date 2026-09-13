@@ -930,11 +930,11 @@
       ],
       "height": 19,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "electric",
       "secondaryType": "steel",
       "cannotDynamax": false,
@@ -957,11 +957,12 @@
       ],
       "height": 18,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
-      "name": "delta_active_mega",
+      "name": "mega_delta_active",
       "primaryType": "electric",
       "secondaryType": "steel",
       "cannotDynamax": false,
@@ -984,7 +985,9 @@
       ],
       "height": 18,
       "aspects": [
-        "delta_active_mega"
+        "mega_evolution=mega",
+        "delta",
+        "active"
       ]
     }
   ],
@@ -994,8 +997,6 @@
     "epoch",
     "epochtwo",
     "ayreian",
-    "mega",
-    "delta_mega",
-    "delta_active_mega"
+    "mega"
   ]
 }

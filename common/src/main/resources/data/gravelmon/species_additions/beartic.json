@@ -260,7 +260,7 @@
       "game": "nodorro"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "normal",
       "cannotDynamax": false,
       "battleOnly": true,
@@ -282,13 +282,14 @@
       ],
       "height": 23,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "epoch",
     "nodorran",
-    "epoch_mega"
+    "mega"
   ]
 }

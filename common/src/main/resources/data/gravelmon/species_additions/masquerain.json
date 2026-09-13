@@ -294,7 +294,7 @@
       "game": "soulstones"
     },
     {
-      "name": "epochtwo_mega",
+      "name": "mega_epochtwo",
       "primaryType": "grass",
       "secondaryType": "flying",
       "cannotDynamax": false,
@@ -317,13 +317,14 @@
       ],
       "height": 15,
       "aspects": [
-        "epochtwo_mega"
+        "mega_evolution=mega",
+        "epochtwo"
       ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "epochtwo_mega"
+    "mega"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "choice",
+  "keys": [
+    "mega_evolution"
+  ],
+  "default": "none",
+  "choices": [
+    "mega",
+    "mega_z",
+    "mega_y",
+    "mega_x",
+    "mega_p",
+    "mega_i",
+    "mega_d",
+    "mega_fire"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}"
+}

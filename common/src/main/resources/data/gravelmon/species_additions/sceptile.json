@@ -972,7 +972,7 @@
       "game": "vanguard"
     },
     {
-      "name": "armiran_mega",
+      "name": "mega_armiran",
       "primaryType": "poison",
       "secondaryType": "dark",
       "cannotDynamax": false,
@@ -995,11 +995,12 @@
       ],
       "height": 19,
       "aspects": [
-        "armiran_mega"
+        "mega_evolution=mega",
+        "armiran"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "bug",
       "secondaryType": "dragon",
       "cannotDynamax": false,
@@ -1022,7 +1023,8 @@
       ],
       "height": 19,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -1033,7 +1035,6 @@
     "epochtwo",
     "armiran",
     "ayreian",
-    "armiran_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

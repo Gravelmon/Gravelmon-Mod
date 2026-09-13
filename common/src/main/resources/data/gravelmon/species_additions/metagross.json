@@ -641,7 +641,7 @@
       "game": "fabel"
     },
     {
-      "name": "delta_spider_mega",
+      "name": "mega_delta_spider",
       "primaryType": "ground",
       "secondaryType": "bug",
       "cannotDynamax": false,
@@ -664,11 +664,13 @@
       ],
       "height": 21,
       "aspects": [
-        "delta_spider_mega"
+        "mega_evolution=mega",
+        "delta",
+        "spider"
       ]
     },
     {
-      "name": "delta_ruin_mega",
+      "name": "mega_delta_ruin",
       "primaryType": "grass",
       "secondaryType": "rock",
       "cannotDynamax": false,
@@ -691,11 +693,13 @@
       ],
       "height": 22,
       "aspects": [
-        "delta_ruin_mega"
+        "mega_evolution=mega",
+        "delta",
+        "ruin"
       ]
     },
     {
-      "name": "delta_crystal_mega",
+      "name": "mega_delta_crystal",
       "primaryType": "grass",
       "secondaryType": "crystal",
       "cannotDynamax": false,
@@ -718,11 +722,13 @@
       ],
       "height": 20,
       "aspects": [
-        "delta_crystal_mega"
+        "mega_evolution=mega",
+        "delta",
+        "crystal"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "cosmic",
       "secondaryType": "psychic",
       "cannotDynamax": false,
@@ -745,7 +751,8 @@
       ],
       "height": 21,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -754,9 +761,6 @@
     "delta",
     "epoch",
     "fabelian",
-    "delta_spider_mega",
-    "delta_ruin_mega",
-    "delta_crystal_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

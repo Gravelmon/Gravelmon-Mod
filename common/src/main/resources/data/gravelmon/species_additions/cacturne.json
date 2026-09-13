@@ -499,11 +499,11 @@
       ],
       "height": 14,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "epochtwo_mega",
+      "name": "mega_epochtwo",
       "primaryType": "fire",
       "secondaryType": "dark",
       "cannotDynamax": false,
@@ -526,7 +526,8 @@
       ],
       "height": 15,
       "aspects": [
-        "epochtwo_mega"
+        "mega_evolution=mega",
+        "epochtwo"
       ]
     }
   ],
@@ -534,7 +535,6 @@
     "x",
     "epoch",
     "epochtwo",
-    "mega",
-    "epochtwo_mega"
+    "mega"
   ]
 }

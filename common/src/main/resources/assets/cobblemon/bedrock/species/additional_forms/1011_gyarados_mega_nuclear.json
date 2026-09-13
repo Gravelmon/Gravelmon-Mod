@@ -1,14 +1,16 @@
 {
-  "species": "cobblemon:mewtwo",
-  "order": 1010,
+  "species": "cobblemon:gyarados",
+  "order": 1011,
   "variations": [
     {
       "aspects": [
-        "shadow_mega"
+        "nuclear",
+        "mega",
+        ""
       ],
-      "model": "cobblemon:cutout_gravelmon_83_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_83_by_128",
-      "texture": "cobblemon:textures/pokemon/insurgence/mewtwo_shadow_mega.png",
+      "model": "cobblemon:cutout_gravelmon_80_by_80.geo",
+      "poser": "cobblemon:cutout_gravelmon_80_by_80",
+      "texture": "cobblemon:textures/pokemon/uranium/gyarados_nuclear_mega.png",
       "layers": [
         {
           "name": "emissive"

@@ -430,11 +430,11 @@
       ],
       "height": 8,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "fire",
       "secondaryType": "poison",
       "cannotDynamax": false,
@@ -457,7 +457,8 @@
       ],
       "height": 11,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     }
   ],
@@ -465,8 +466,7 @@
     "delta",
     "epoch",
     "nodorran",
-    "mega",
-    "delta_mega"
+    "mega"
   ],
   "evolutions": [
     {

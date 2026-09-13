@@ -598,7 +598,7 @@
       "game": "vanguard"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "cosmic",
       "secondaryType": "fire",
       "cannotDynamax": false,
@@ -621,11 +621,12 @@
       ],
       "height": 21,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     },
     {
-      "name": "epochtwo_mega",
+      "name": "mega_epochtwo",
       "primaryType": "rock",
       "secondaryType": "light",
       "cannotDynamax": false,
@@ -648,7 +649,8 @@
       ],
       "height": 21,
       "aspects": [
-        "epochtwo_mega"
+        "mega_evolution=mega",
+        "epochtwo"
       ]
     }
   ],
@@ -657,7 +659,6 @@
     "epoch",
     "epochtwo",
     "ayreian",
-    "epoch_mega",
-    "epochtwo_mega"
+    "mega"
   ]
 }

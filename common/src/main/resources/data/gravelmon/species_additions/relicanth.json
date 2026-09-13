@@ -323,7 +323,7 @@
       "game": "vanguard"
     },
     {
-      "name": "ayreian_mega",
+      "name": "mega_ayreian",
       "primaryType": "ground",
       "secondaryType": "ghost",
       "cannotDynamax": false,
@@ -346,14 +346,15 @@
       ],
       "height": 15,
       "aspects": [
-        "ayreian_mega"
+        "mega_evolution=mega",
+        "ayreian"
       ]
     }
   ],
   "features": [
     "epoch",
     "ayreian",
-    "ayreian_mega"
+    "mega"
   ],
   "evolutions": [
     {

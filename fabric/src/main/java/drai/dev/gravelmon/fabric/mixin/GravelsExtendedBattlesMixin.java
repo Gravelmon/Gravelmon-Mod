@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.mixin;
+package drai.dev.gravelmon.fabric.mixin;
 
 import drai.dev.gravelmon.*;
 import drai.dev.gravelsextendedbattles.*;

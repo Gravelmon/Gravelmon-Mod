@@ -505,7 +505,7 @@
       "game": "daybreak"
     },
     {
-      "name": "armiran_mega",
+      "name": "mega_armiran",
       "primaryType": "fire",
       "secondaryType": "rock",
       "cannotDynamax": false,
@@ -528,11 +528,12 @@
       ],
       "height": 23,
       "aspects": [
-        "armiran_mega"
+        "mega_evolution=mega",
+        "armiran"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "steel",
       "secondaryType": "dragon",
       "cannotDynamax": false,
@@ -555,7 +556,8 @@
       ],
       "height": 23,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     },
     {
@@ -600,8 +602,7 @@
     "x",
     "epoch",
     "armiran",
-    "armiran_mega",
-    "epoch_mega",
+    "mega",
     "tyranitar"
   ],
   "evolutions": [

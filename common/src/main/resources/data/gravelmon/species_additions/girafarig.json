@@ -212,11 +212,11 @@
       ],
       "height": 17,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "steel",
       "secondaryType": "poison",
       "cannotDynamax": false,
@@ -239,14 +239,14 @@
       ],
       "height": 19,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     }
   ],
   "features": [
     "delta",
-    "mega",
-    "delta_mega"
+    "mega"
   ],
   "evolutions": [
     {

@@ -273,7 +273,7 @@
       "game": "soulstones"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "normal",
       "secondaryType": "dark",
       "cannotDynamax": false,
@@ -296,13 +296,14 @@
       ],
       "height": 15,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "varitasian",
     "epoch",
-    "epoch_mega"
+    "mega"
   ]
 }

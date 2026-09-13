@@ -633,11 +633,11 @@
       ],
       "height": 19,
       "aspects": [
-        "mega_i"
+        "mega_evolution=mega_i"
       ]
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "fire",
       "secondaryType": "ghost",
       "cannotDynamax": false,
@@ -660,11 +660,12 @@
       ],
       "height": 20,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "ghost",
       "secondaryType": "flying",
       "cannotDynamax": false,
@@ -687,7 +688,8 @@
       ],
       "height": 17,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -697,7 +699,6 @@
     "epoch",
     "ayreian",
     "mega_i",
-    "delta_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

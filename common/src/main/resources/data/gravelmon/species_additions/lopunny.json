@@ -736,7 +736,7 @@
       "game": "olysos"
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "fighting",
       "secondaryType": "psychic",
       "cannotDynamax": false,
@@ -759,11 +759,12 @@
       ],
       "height": 15,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "cosmic",
       "secondaryType": "ice",
       "cannotDynamax": false,
@@ -786,7 +787,8 @@
       ],
       "height": 13,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -796,7 +798,6 @@
     "epoch",
     "mikitarian",
     "olysosian",
-    "delta_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

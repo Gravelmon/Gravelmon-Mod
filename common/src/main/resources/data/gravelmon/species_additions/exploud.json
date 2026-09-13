@@ -324,7 +324,7 @@
       "game": "lockemon"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "electric",
       "secondaryType": "sound",
       "cannotDynamax": false,
@@ -347,13 +347,14 @@
       ],
       "height": 16,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "epoch",
     "kaskadian",
-    "epoch_mega"
+    "mega"
   ]
 }

@@ -579,7 +579,7 @@
       "game": "aroma"
     },
     {
-      "name": "armiran_mega",
+      "name": "mega_armiran",
       "primaryType": "dragon",
       "secondaryType": "fairy",
       "cannotDynamax": false,
@@ -602,11 +602,12 @@
       ],
       "height": 22,
       "aspects": [
-        "armiran_mega"
+        "mega_evolution=mega",
+        "armiran"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "ghost",
       "secondaryType": "dragon",
       "cannotDynamax": false,
@@ -629,7 +630,8 @@
       ],
       "height": 21,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
@@ -638,7 +640,6 @@
     "epochtwo",
     "armiran",
     "aromian",
-    "armiran_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

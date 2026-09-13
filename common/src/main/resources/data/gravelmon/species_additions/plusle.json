@@ -353,7 +353,7 @@
       "game": "soulstones"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "flying",
       "secondaryType": "water",
       "cannotDynamax": false,
@@ -376,13 +376,14 @@
       ],
       "height": 9,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "delta",
     "epoch",
-    "epoch_mega"
+    "mega"
   ]
 }

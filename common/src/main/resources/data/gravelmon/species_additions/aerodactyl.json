@@ -154,7 +154,7 @@
       "game": "soulstones"
     },
     {
-      "name": "ayreian_mega",
+      "name": "mega_ayreian",
       "primaryType": "grass",
       "secondaryType": "rock",
       "cannotDynamax": false,
@@ -177,11 +177,12 @@
       ],
       "height": 19,
       "aspects": [
-        "ayreian_mega"
+        "mega_evolution=mega",
+        "ayreian"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "dragon",
       "secondaryType": "flying",
       "cannotDynamax": false,
@@ -204,13 +205,13 @@
       ],
       "height": 21,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "epoch",
-    "ayreian_mega",
-    "epoch_mega"
+    "mega"
   ]
 }

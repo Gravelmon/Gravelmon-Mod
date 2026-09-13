@@ -63,7 +63,7 @@ dependencies {
     modImplementation("maven.modrinth:cobblemon-mega-showdown:${property("megashowdown_fabric")}")
     modImplementation("io.wispforest:accessories-fabric:1.1.0-beta.52+1.21.1")
     modImplementation("dev.architectury:architectury-fabric:${property("architectury_version")}")
-    modImplementation("maven.modrinth:tbBs6vYE:y8VQ3hHk")
+//    implementation("maven.modrinth:tbBs6vYE:EwdolkEl")
 }
 fabricApi {
     configureDataGeneration() {

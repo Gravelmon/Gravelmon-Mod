@@ -246,7 +246,7 @@
       "game": "nodorro"
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "electric",
       "secondaryType": "dark",
       "cannotDynamax": false,
@@ -269,11 +269,12 @@
       ],
       "height": 39,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     },
     {
-      "name": "nuclear_mega",
+      "name": "mega_nuclear",
       "primaryType": "water",
       "secondaryType": "nuclear",
       "cannotDynamax": false,
@@ -296,14 +297,14 @@
       ],
       "height": 38,
       "aspects": [
-        "nuclear_mega"
+        "mega_evolution=mega",
+        "nuclear"
       ]
     }
   ],
   "features": [
     "epoch",
     "nodorran",
-    "epoch_mega",
-    "nuclear_mega"
+    "mega"
   ]
 }

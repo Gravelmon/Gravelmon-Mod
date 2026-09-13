@@ -550,11 +550,11 @@
       ],
       "height": 17,
       "aspects": [
-        "mega"
+        "mega_evolution=mega"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "fairy",
       "secondaryType": "fighting",
       "cannotDynamax": false,
@@ -577,11 +577,12 @@
       ],
       "height": 21,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     },
     {
-      "name": "epochtwo_mega",
+      "name": "mega_epochtwo",
       "primaryType": "poison",
       "secondaryType": "sound",
       "cannotDynamax": false,
@@ -604,7 +605,8 @@
       ],
       "height": 18,
       "aspects": [
-        "epochtwo_mega"
+        "mega_evolution=mega",
+        "epochtwo"
       ]
     }
   ],
@@ -613,8 +615,6 @@
     "africanusan",
     "epoch",
     "epochtwo",
-    "mega",
-    "epoch_mega",
-    "epochtwo_mega"
+    "mega"
   ]
 }

@@ -343,7 +343,7 @@
       "game": "soulstones"
     },
     {
-      "name": "delta_mega",
+      "name": "mega_delta",
       "primaryType": "fairy",
       "secondaryType": "ground",
       "cannotDynamax": false,
@@ -366,11 +366,12 @@
       ],
       "height": 15,
       "aspects": [
-        "delta_mega"
+        "mega_evolution=mega",
+        "delta"
       ]
     },
     {
-      "name": "epoch_mega",
+      "name": "mega_epoch",
       "primaryType": "light",
       "secondaryType": "fighting",
       "cannotDynamax": false,
@@ -393,14 +394,14 @@
       ],
       "height": 16,
       "aspects": [
-        "epoch_mega"
+        "mega_evolution=mega",
+        "epoch"
       ]
     }
   ],
   "features": [
     "delta",
     "epoch",
-    "delta_mega",
-    "epoch_mega"
+    "mega"
   ]
 }
