@@ -1,0 +1,267 @@
+{
+  "target": "cobblemon:drapion",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "poison",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "skorupi epoch",
+      "baseScale": 0.39493670886075954,
+      "cannotDynamax": false,
+      "abilities": [
+        "sheerforce",
+        "sniper",
+        "h:poisonpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 90,
+        "defence": 110,
+        "special_attack": 95,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "6:sandtomb",
+        "18:honeclaws",
+        "21:skittersmack",
+        "36:dig",
+        "1:leer",
+        "42:poisonjab",
+        "39:xscissor",
+        "3:visegrip",
+        "9:fellstinger",
+        "27:crosspoison",
+        "48:crunch",
+        "45:acupressure",
+        "24:bulldoze",
+        "30:toxicspikes",
+        "15:poisonfang",
+        "54:earthquake",
+        "12:steamroller",
+        "1:poisonsting",
+        "tm:attract",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:strugglebug",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:sandattack",
+        "egg:lunge",
+        "egg:nightslash",
+        "egg:slash",
+        "egg:stompingtantrum",
+        "egg:stealthrock",
+        "egg:venomdrench",
+        "egg:gastroacid",
+        "egg:poisontail"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdrapion.desc"
+      ],
+      "height": 13,
+      "weight": 615,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.9375,
+        "height": 4.9375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Olysosian",
+      "primaryType": "dragon",
+      "secondaryType": "bug",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "skorupi olysosian",
+      "baseScale": 0.26249999999999996,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor",
+        "sniper",
+        "h:sharpness"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 66,
+        "attack": 58,
+        "defence": 70,
+        "special_attack": 104,
+        "special_defence": 70,
+        "speed": 129
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "olysos",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.olysosiandrapion.desc"
+      ],
+      "height": 14,
+      "weight": 0,
+      "aspects": [
+        "olysosian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "olysos"
+    }
+  ],
+  "features": [
+    "epoch",
+    "olysosian"
+  ]
+}

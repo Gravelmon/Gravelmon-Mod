@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cherm-01",
+      "pokemon": "cherm",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-21",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
+      }
+    },
+    {
+      "id": "cherm-01",
+      "pokemon": "cherm",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-21",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
+      }
+    }
+  ]
+}

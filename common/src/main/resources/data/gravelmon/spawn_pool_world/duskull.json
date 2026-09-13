@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_duskull-01",
+      "pokemon": "duskull epoch",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_duskull-01",
+      "pokemon": "duskull epoch",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
+      "id": "epoch_duskull-01",
+      "pokemon": "duskull epoch",
+      "presets": [
+        "shipwreck"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_duskull-01",
+      "pokemon": "duskull epoch",
+      "presets": [
+        "shipwreck"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "baariette-01",
+      "pokemon": "baariette",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "44-64",
+      "weight": 0.25,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    }
+  ]
+}

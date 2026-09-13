@@ -1,0 +1,101 @@
+{
+  "name": "Rocotton",
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "plushion",
+  "baseScale": 0.488135593220339,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 107,
+    "attack": 26,
+    "defence": 41,
+    "special_attack": 41,
+    "special_defence": 111,
+    "speed": 14
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.rocotton.desc"
+  ],
+  "height": 12,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "rocotton_tuffettry",
+      "variant": "level_up",
+      "result": "tuffettry",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "37",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3767,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "rocotton"
+}

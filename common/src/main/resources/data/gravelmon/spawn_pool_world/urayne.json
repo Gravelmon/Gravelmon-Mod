@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "beta_urayne-01",
+      "pokemon": "urayne beta",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "beta_urayne-01",
+      "pokemon": "urayne beta",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

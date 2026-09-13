@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "illime-01",
+      "pokemon": "illime",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
+    },
+    {
+      "id": "illime-01",
+      "pokemon": "illime",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
+    }
+  ]
+}

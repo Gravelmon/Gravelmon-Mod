@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "frigideer-01",
+      "pokemon": "frigideer",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "frigideer-01",
+      "pokemon": "frigideer",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "target": "cobblemon:lotad",
+  "forms": [
+    {
+      "name": "Egho",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 44,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 39,
+      "baseFriendship": 70,
+      "baseScale": 0.14693877551020407,
+      "cannotDynamax": false,
+      "abilities": [
+        "harvest",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defence": 40,
+        "special_attack": 50,
+        "special_defence": 30,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sweetscent",
+        "1:mudslap",
+        "3:metalclaw",
+        "5:recycle",
+        "7:ember",
+        "11:stockpile",
+        "13:refresh",
+        "15:incinerate",
+        "19:naturalgift",
+        "23:ironhead",
+        "26:sunnyday",
+        "31:flamethrower",
+        "37:teeterdance",
+        "45:energyball",
+        "tm:calmmind",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:smackdown",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:thief",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:scald",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:incinerate",
+        "tm:flash",
+        "tm:voltswitch",
+        "tm:thunderwave",
+        "tm:workup",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:wildcharge",
+        "tm:bulletseed",
+        "tm:cinderbreath",
+        "tutor:dazzlinggleam",
+        "tutor:firepunch",
+        "tutor:heatwave",
+        "tutor:magnetrise",
+        "tutor:seedbomb",
+        "tutor:thunderpunch",
+        "egg:aromatherapy",
+        "egg:gigadrain",
+        "egg:hydropump",
+        "egg:leechseed",
+        "egg:petalblizzard",
+        "egg:spikes",
+        "egg:synthesis"
+      ],
+      "labels": [
+        "infinity",
+        "gen3",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.egholotad.desc"
+      ],
+      "height": 6,
+      "weight": 80,
+      "aspects": [
+        "egho"
+      ],
+      "evolutions": [
+        {
+          "id": "egholotad_lombre_egho",
+          "variant": "level_up",
+          "result": "lombre egho",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "14",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.125,
+        "height": 6.125,
+        "fixed": false
+      },
+      "game": "infinity"
+    },
+    {
+      "name": "Delta",
+      "primaryType": "psychic",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 44,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicbounce",
+        "synchronize",
+        "h:unaware"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defence": 30,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "3:telekinesis",
+        "6:psywave",
+        "9:watergun",
+        "12:roleplay",
+        "15:entrainment",
+        "18:psybeam",
+        "21:waterpulse",
+        "24:acupressure",
+        "27:psyshock",
+        "30:raindance",
+        "33:storedpower",
+        "36:whirlpool",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:recycle",
+        "tm:brine",
+        "tm:chargebeam",
+        "tm:psyshock",
+        "tm:skillswap",
+        "tm:embargo",
+        "tm:psychup",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:flash",
+        "tm:telekinesis",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:dive",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:bodyslam",
+        "tutor:endure",
+        "tutor:gravity",
+        "tutor:healbell",
+        "tutor:helpinghand",
+        "tutor:icywind",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:swift",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:waterpulse",
+        "tutor:whirlpool",
+        "tutor:wonderroom",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltalotad.desc"
+      ],
+      "height": 5,
+      "weight": 26,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltalotad_lombre_delta",
+          "variant": "level_up",
+          "result": "lombre delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "14",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 44,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "synthesize",
+        "solarpower",
+        "h:drought"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 20,
+        "defence": 30,
+        "special_attack": 30,
+        "special_defence": 50,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "20:sandstorm",
+        "60:solarbeam",
+        "48:energyball",
+        "28:gigadrain",
+        "1:sandattack",
+        "6:mudslap",
+        "3:megadrain",
+        "9:growth",
+        "24:scorchingsands",
+        "38:earthpower",
+        "1:absorb",
+        "33:mudslide",
+        "43:quicksand",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:petaldance",
+        "egg:teeterdance",
+        "egg:spikes",
+        "egg:flail",
+        "egg:pinmissile",
+        "egg:leechseed",
+        "egg:razorleaf",
+        "egg:spikyshield",
+        "egg:rototiller",
+        "egg:sunnyday",
+        "egg:ingrain"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochlotad.desc"
+      ],
+      "height": 5,
+      "weight": 26,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochlotad_lombre_epoch",
+          "variant": "level_up",
+          "result": "lombre epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "14",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5,
+        "height": 2.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "egho",
+    "delta",
+    "epoch"
+  ]
+}

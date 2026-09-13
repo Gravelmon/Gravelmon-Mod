@@ -1,0 +1,105 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_krokorok-01",
+      "pokemon": "krokorok epoch",
+      "presets": [
+        "village",
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_krokorok-01",
+      "pokemon": "krokorok epoch",
+      "presets": [
+        "village",
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "ayreian_krokorok-01",
+      "pokemon": "krokorok ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "26-46",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ]
+      }
+    },
+    {
+      "id": "ayreian_krokorok-01",
+      "pokemon": "krokorok ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "26-46",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ]
+      }
+    }
+  ]
+}

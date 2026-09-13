@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_bellsprout-01",
+      "pokemon": "bellsprout epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-29",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minY": 60,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_bellsprout-01",
+      "pokemon": "bellsprout epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-29",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minY": 60,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "kaskadian_bellsprout-01",
+      "pokemon": "bellsprout kaskadian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-27",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      }
+    },
+    {
+      "id": "kaskadian_bellsprout-01",
+      "pokemon": "bellsprout kaskadian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "7-27",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yuheffo-01",
+      "pokemon": "yuheffo",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "yuheffo-01",
+      "pokemon": "yuheffo",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

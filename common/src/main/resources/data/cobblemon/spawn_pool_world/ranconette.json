@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ranconette-01",
+      "pokemon": "ranconette",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "47-67",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
+    },
+    {
+      "id": "ranconette-01",
+      "pokemon": "ranconette",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "47-67",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      }
+    }
+  ]
+}

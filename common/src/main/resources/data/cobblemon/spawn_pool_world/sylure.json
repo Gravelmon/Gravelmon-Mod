@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sylure-01",
+      "pokemon": "sylure",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "4-24",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "sylure-01",
+      "pokemon": "sylure",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "common",
+      "level": "4-24",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

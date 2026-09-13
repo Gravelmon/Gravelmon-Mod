@@ -1,0 +1,482 @@
+{
+  "target": "cobblemon:rattata",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 51,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.21818181818181817,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy",
+        "rattled",
+        "h:magicguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 41,
+        "defence": 56,
+        "special_attack": 55,
+        "special_defence": 30,
+        "speed": 56
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "44:encore",
+        "1:allyswitch",
+        "29:speedswap",
+        "1:mindblast",
+        "9:reflect",
+        "33:superfang",
+        "16:followme",
+        "9:lightscreen",
+        "5:gravity",
+        "38:psychoshift",
+        "41:psychicfangs",
+        "47:doubleedge",
+        "22:healpulse",
+        "19:hyperfang",
+        "29:powerswap",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:hypnosis",
+        "egg:switcheroo",
+        "egg:instruct",
+        "egg:mindreader",
+        "egg:simplebeam",
+        "egg:yawn",
+        "egg:shadowsneak",
+        "egg:crunch",
+        "egg:quickguard",
+        "egg:helpinghand",
+        "egg:facade"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochrattata.desc"
+      ],
+      "height": 3,
+      "weight": 35,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochrattata_raticate_epoch",
+          "variant": "level_up",
+          "result": "raticate epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.75,
+        "height": 2.75,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "rock",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.16551724137931034,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "solidrock"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 66,
+        "defence": 45,
+        "special_attack": 30,
+        "special_defence": 25,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "7:quickattack",
+        "25:suckerpunch",
+        "28:superfang",
+        "10:bite",
+        "34:endeavor",
+        "1:rocksmash",
+        "19:crunch",
+        "4:rollout",
+        "31:doubleedge",
+        "1:mudslap",
+        "22:bulldoze",
+        "13:headbutt",
+        "16:rocktomb",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:chargebeam",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:lastresort",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:swagger",
+        "tm:swift",
+        "tm:taunt",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:uturn",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:rockslide",
+        "egg:screech",
+        "egg:flamewheel",
+        "egg:furyswipes",
+        "egg:bite",
+        "egg:counter",
+        "egg:reversal",
+        "egg:uproar",
+        "egg:lastresort",
+        "egg:mefirst",
+        "egg:revenge",
+        "egg:finalgambit"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianrattata.desc"
+      ],
+      "height": 3,
+      "weight": 35,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianrattata_raticate_ayreian",
+          "variant": "level_up",
+          "result": "raticate ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "21",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "normal",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianrattata.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "epoch",
+    "ayreian",
+    "fabelian"
+  ],
+  "evolutions": [
+    {
+      "id": "rattata_raticate_kaskadian",
+      "variant": "item_interact",
+      "result": "raticate kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true
+    },
+    {
+      "id": "rattata_ratamie",
+      "variant": "level_up",
+      "result": "ratamie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "amount": "190",
+          "variant": "friendship"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:ice_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

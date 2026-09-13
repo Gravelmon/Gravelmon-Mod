@@ -1,0 +1,138 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_wyrdeer-01",
+      "pokemon": "wyrdeer epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_wyrdeer-01",
+      "pokemon": "wyrdeer epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "epoch_wyrdeer-01",
+      "pokemon": "wyrdeer epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "43-63",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_wyrdeer-01",
+      "pokemon": "wyrdeer epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "43-63",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "fabelian_wyrdeer-01",
+      "pokemon": "wyrdeer fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "fabelian_wyrdeer-01",
+      "pokemon": "wyrdeer fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

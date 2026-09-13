@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "drai.dev.gravelmon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "CobblemonPlacedFeaturesMixin",
+    "accessors.ItemAccessor",
+    "accessors.PokeBallAccessor",
+    "accessors.PokeBallsAccessor"
+  ],
+  "client": [
+    "client.ModelWidgetMixin",
+    "client.PokemonClientDelegateMixin",
+    "client.VaryingRenderableResolverMixin"
+  ]
+}

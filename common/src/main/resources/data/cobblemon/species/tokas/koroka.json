@@ -1,0 +1,99 @@
+{
+  "name": "Koroka",
+  "primaryType": "rock",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5581395348837209,
+  "cannotDynamax": false,
+  "abilities": [
+    "rockfall",
+    "h:rockhead"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 89,
+    "attack": 39,
+    "defence": 119,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 14
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "tokas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.koroka.desc"
+  ],
+  "height": 10,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "koroka_goroka",
+      "variant": "level_up",
+      "result": "Goroka",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "33",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4413,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.6875,
+    "height": 2.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "tokas",
+  "actualName": "koroka"
+}

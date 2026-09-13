@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koaninja-01",
+      "pokemon": "koaninja",
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "koaninja-01",
+      "pokemon": "koaninja",
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

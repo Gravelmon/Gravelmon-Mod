@@ -1,0 +1,175 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cefiran_falinks-01",
+      "pokemon": "falinks cefiran",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "cefiran_falinks-01",
+      "pokemon": "falinks cefiran",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "epoch_falinks-01",
+      "pokemon": "falinks epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_falinks-01",
+      "pokemon": "falinks epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      }
+    },
+    {
+      "id": "fabelian_falinks-01",
+      "pokemon": "falinks fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "fabelian_falinks-01",
+      "pokemon": "falinks fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "mikitarian_falinks-01",
+      "pokemon": "falinks mikitarian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "mikitarian_falinks-01",
+      "pokemon": "falinks mikitarian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

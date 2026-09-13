@@ -1,0 +1,99 @@
+{
+  "name": "Snugub",
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "catchRate": 210,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.375,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 101,
+    "attack": 30,
+    "defence": 108,
+    "special_attack": 21,
+    "special_defence": 108,
+    "speed": 12
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.snugub.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "snugub_plushug",
+      "variant": "level_up",
+      "result": "plushug",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "35",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3987,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.0,
+    "height": 2.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "snugub"
+}

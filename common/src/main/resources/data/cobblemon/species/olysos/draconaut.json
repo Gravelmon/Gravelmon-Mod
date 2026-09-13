@@ -1,0 +1,101 @@
+{
+  "name": "Draconaut",
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
+  "abilities": [
+    "levitate"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 50,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "eggGroups": [
+    "dragon",
+    "amorphous"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "pseudo_legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.draconaut.desc"
+  ],
+  "height": 5,
+  "weight": 100,
+  "evolutions": [
+    {
+      "id": "draconaut_nebulazer",
+      "variant": "level_up",
+      "result": "nebulazer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "45",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3989,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.8125,
+    "height": 2.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "draconaut"
+}

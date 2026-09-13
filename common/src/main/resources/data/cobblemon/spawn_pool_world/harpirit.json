@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "harpirit-01",
+      "pokemon": "harpirit",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "harpirit-01",
+      "pokemon": "harpirit",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

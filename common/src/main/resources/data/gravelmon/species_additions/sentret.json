@@ -1,0 +1,262 @@
+{
+  "target": "cobblemon:sentret",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 43,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3047619047619048,
+      "cannotDynamax": false,
+      "abilities": [
+        "mummy",
+        "innardsout",
+        "h:corrosion"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 25,
+        "defence": 34,
+        "special_attack": 48,
+        "special_defence": 60,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "4:disable",
+        "43:memento",
+        "14:recycle",
+        "1:infestation",
+        "25:curse",
+        "21:belch",
+        "52:hivemind",
+        "31:destinybond",
+        "7:poisongas",
+        "37:sludgebomb",
+        "17:hex",
+        "11:sludge",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:ragepowder",
+        "egg:healorder",
+        "egg:sludgebomb",
+        "egg:partingshot",
+        "egg:attackorder"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsentret.desc"
+      ],
+      "height": 8,
+      "weight": 60,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochsentret_furret_epoch",
+          "variant": "level_up",
+          "result": "furret epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "ice",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromiansentret.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "aroma"
+    }
+  ],
+  "features": [
+    "epoch",
+    "aromian"
+  ]
+}

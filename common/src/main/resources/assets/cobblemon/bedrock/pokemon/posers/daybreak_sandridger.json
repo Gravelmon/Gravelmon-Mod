@@ -1,0 +1,78 @@
+{
+  "rootBone": "sandridger",
+  "head": "head",
+  "portraitScale": 1.1,
+  "portraitTranslation": [
+    0.0,
+    1.6,
+    0.0
+  ],
+  "profileScale": 0.55,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    -10.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('sandridger', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('sandridger', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('sandridger', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sandridger', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('sandridger', 'battle_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('sandridger', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('sandridger', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

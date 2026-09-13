@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zapouch-01",
+      "pokemon": "zapouch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "2-22",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 35,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "zapouch-01",
+      "pokemon": "zapouch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "2-22",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 35,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

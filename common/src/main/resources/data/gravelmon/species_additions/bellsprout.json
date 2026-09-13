@@ -1,0 +1,338 @@
+{
+  "target": "cobblemon:bellsprout",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3169811320754717,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "effectspore",
+        "h:suctioncups"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "54:memento",
+        "30:gastroacid",
+        "45:spectralthief",
+        "42:toxic",
+        "60:shadowforce",
+        "57:powerwhip",
+        "4:growth",
+        "42:venomdrench",
+        "1:astonish",
+        "15:stunspore",
+        "15:poisonpowder",
+        "7:razorleaf",
+        "48:leafblade",
+        "1:vinewhip",
+        "18:needlearm",
+        "15:sleeppowder",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:weatherball",
+        "tm:workup",
+        "egg:acidspray",
+        "egg:gunkshot",
+        "egg:ingrain",
+        "egg:leechlife",
+        "egg:spore",
+        "egg:shadowclaw",
+        "egg:spiritshackle"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbellsprout.desc"
+      ],
+      "height": 7,
+      "weight": 40,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochbellsprout_weepinbell_epoch",
+          "variant": "level_up",
+          "result": "weepinbell epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "21",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Kaskadian",
+      "primaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.13124999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "sweetveil",
+        "triage",
+        "h:effectspore"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defence": 40,
+        "special_attack": 40,
+        "special_defence": 30,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:vinewhip",
+        "7:growth",
+        "11:wrap",
+        "13:sleeppowder",
+        "15:poisonpowder",
+        "17:stunspore",
+        "23:psybeam",
+        "27:knockoff",
+        "29:sweetscent",
+        "35:psychicterrain",
+        "39:razorleaf",
+        "41:healpulse",
+        "47:slam",
+        "52:powerwhip",
+        "egg:clearsmog",
+        "egg:ingrain",
+        "egg:strengthsap",
+        "egg:suckerpunch",
+        "egg:synthesis",
+        "egg:tickle",
+        "egg:worryseed",
+        "tm:protect",
+        "tm:acidspray",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:pounce",
+        "tm:facade",
+        "tm:magicalleaf",
+        "tm:venoshock",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:bulletseed",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:reflect",
+        "tm:grassknot",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:swordsdance",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:energyball",
+        "tm:encore",
+        "tm:grassyterrain",
+        "tm:sludgebomb",
+        "tm:leafstorm",
+        "tm:solarbeam",
+        "tm:terablast",
+        "tm:toxic",
+        "tm:knockoff",
+        "tm:lunge",
+        "tm:weatherball",
+        "tm:grassyglide"
+      ],
+      "labels": [
+        "gen1",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.kaskadianbellsprout.desc"
+      ],
+      "height": 7,
+      "weight": 40,
+      "aspects": [
+        "kaskadian"
+      ],
+      "evolutions": [
+        {
+          "id": "kaskadianbellsprout_drosabell",
+          "variant": "level_up",
+          "result": "Drosabell",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "move": "PSYCHIC_TERRAIN",
+              "variant": "has_move"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "lockemon"
+    }
+  ],
+  "features": [
+    "epoch",
+    "kaskadian"
+  ]
+}

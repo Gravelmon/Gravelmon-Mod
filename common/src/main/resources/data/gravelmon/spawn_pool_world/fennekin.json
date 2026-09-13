@@ -1,0 +1,136 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_fennekin-01",
+      "pokemon": "fennekin epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:nether/is_forest"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_fennekin-01",
+      "pokemon": "fennekin epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:nether/is_forest"
+        ]
+      }
+    },
+    {
+      "id": "ayreian_fennekin-01",
+      "pokemon": "fennekin ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "ayreian_fennekin-01",
+      "pokemon": "fennekin ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "vesitan_fennekin-01",
+      "pokemon": "fennekin vesitan",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "vesitan_fennekin-01",
+      "pokemon": "fennekin vesitan",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

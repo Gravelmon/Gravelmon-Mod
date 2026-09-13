@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varymite-01",
+      "pokemon": "varymite",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "23-43",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "varymite-01",
+      "pokemon": "varymite",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "23-43",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

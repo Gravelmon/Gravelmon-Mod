@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "manadza-01",
+      "pokemon": "manadza",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "manadza-01",
+      "pokemon": "manadza",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/summer"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

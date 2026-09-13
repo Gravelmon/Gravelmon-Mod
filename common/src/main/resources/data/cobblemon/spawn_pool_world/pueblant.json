@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pueblant-01",
+      "pokemon": "pueblant",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "2-22",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "pueblant-01",
+      "pokemon": "pueblant",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "2-22",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

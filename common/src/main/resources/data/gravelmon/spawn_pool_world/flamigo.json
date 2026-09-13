@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_flamigo-01",
+      "pokemon": "flamigo epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_flamigo-01",
+      "pokemon": "flamigo epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

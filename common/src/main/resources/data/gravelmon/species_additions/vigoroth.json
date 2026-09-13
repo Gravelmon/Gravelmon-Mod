@@ -1,0 +1,264 @@
+{
+  "target": "cobblemon:vigoroth",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "fighting",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slakoth epoch",
+      "baseScale": 0.509090909090909,
+      "cannotDynamax": false,
+      "abilities": [
+        "defiant",
+        "vitalspirit",
+        "h:angerpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 90,
+        "defence": 80,
+        "special_attack": 90,
+        "special_defence": 45,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "14:armthrust",
+        "33:skyuppercut",
+        "44:icehammer",
+        "22:icepunch",
+        "30:brickbreak",
+        "38:jumpkick",
+        "26:poweruppunch",
+        "4:focusenergy",
+        "17:avalanche",
+        "49:uproar",
+        "54:hammerarm",
+        "1:yawn",
+        "9:iceshard",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:defog",
+        "tm:drainpunch",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:payday",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochvigoroth.desc"
+      ],
+      "height": 14,
+      "weight": 465,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochvigoroth_slaking_epoch",
+          "variant": "level_up",
+          "result": "slaking epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ferranian",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.ferranianvigoroth.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ferranian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "ferran"
+    }
+  ],
+  "features": [
+    "epoch",
+    "ferranian"
+  ]
+}

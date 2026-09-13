@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "baashaun-01",
+      "pokemon": "baashaun",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "baashaun-01",
+      "pokemon": "baashaun",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

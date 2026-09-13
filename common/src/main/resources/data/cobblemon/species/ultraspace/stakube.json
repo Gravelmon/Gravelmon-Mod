@@ -1,0 +1,99 @@
+{
+  "name": "Stakube",
+  "primaryType": "rock",
+  "secondaryType": "steel",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2553191489361702,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 67,
+    "attack": 23,
+    "defence": 90,
+    "special_attack": 67,
+    "special_defence": 47,
+    "speed": 13
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "ultraspace",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.stakube.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "stakube_stakataka",
+      "variant": "level_up",
+      "result": "stakataka",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "40",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4463,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "ultraspace",
+  "actualName": "stakube"
+}

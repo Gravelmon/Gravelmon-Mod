@@ -1,0 +1,318 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "egho_swablu-01",
+      "pokemon": "swablu egho",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "egho_swablu-01",
+      "pokemon": "swablu egho",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "cefiran_swablu-01",
+      "pokemon": "swablu cefiran",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "cefiran_swablu-01",
+      "pokemon": "swablu cefiran",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      }
+    },
+    {
+      "id": "varitasian_swablu-01",
+      "pokemon": "swablu varitasian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "varitasian_swablu-01",
+      "pokemon": "swablu varitasian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "epoch_swablu-01",
+      "pokemon": "swablu epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_swablu-01",
+      "pokemon": "swablu epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ]
+      }
+    },
+    {
+      "id": "epoch_swablu-01",
+      "pokemon": "swablu epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_swablu-01",
+      "pokemon": "swablu epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      }
+    },
+    {
+      "id": "ayreian_swablu-01",
+      "pokemon": "swablu ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo",
+          "minecraft:cherry_grove",
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": true,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "ayreian_swablu-01",
+      "pokemon": "swablu ayreian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "16-36",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo",
+          "minecraft:cherry_grove",
+          "#cobblemon:is_volvanic"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isRaining": true
+      }
+    },
+    {
+      "id": "fabelian_swablu-01",
+      "pokemon": "swablu fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "fabelian_swablu-01",
+      "pokemon": "swablu fabelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

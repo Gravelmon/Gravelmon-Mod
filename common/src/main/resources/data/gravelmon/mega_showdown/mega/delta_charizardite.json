@@ -1,0 +1,25 @@
+{
+  "showdown_id": "deltacharizardite",
+  "pokemons": [
+    "Charizard"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "delta"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

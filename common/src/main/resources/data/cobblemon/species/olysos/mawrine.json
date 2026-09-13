@@ -1,0 +1,103 @@
+{
+  "name": "Mawrine",
+  "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "baseExperienceYield": 141,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sharkin",
+  "baseScale": 0.42105263157894735,
+  "cannotDynamax": false,
+  "abilities": [
+    "torrent",
+    "h:moxie"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 64,
+    "attack": 60,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 90,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "starter",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.mawrine.desc"
+  ],
+  "height": 10,
+  "weight": 250,
+  "evolutions": [
+    {
+      "id": "mawrine_orcanfrak",
+      "variant": "level_up",
+      "result": "Orcanfrak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3911,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5625,
+    "height": 3.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "mawrine"
+}

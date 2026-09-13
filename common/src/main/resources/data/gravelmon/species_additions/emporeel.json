@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:emporeel",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "electric",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 104,
+        "attack": 100,
+        "defence": 95,
+        "special_attack": 111,
+        "special_defence": 130,
+        "speed": 90
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 22,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:fevesta",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "poison",
+      "secondaryType": "dark",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "merciless"
+      ],
+      "baseStats": {
+        "hp": 62,
+        "attack": 105,
+        "defence": 95,
+        "special_attack": 139,
+        "special_defence": 120,
+        "speed": 95
+      },
+      "labels": [
+        "solarlightlunardark",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

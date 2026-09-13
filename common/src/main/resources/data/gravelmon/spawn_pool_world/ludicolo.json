@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "egho_ludicolo-01",
+      "pokemon": "ludicolo egho",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "39-59",
+      "weight": 0.25,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    },
+    {
+      "id": "delta_ludicolo-01",
+      "pokemon": "ludicolo delta",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "38-58",
+      "weight": 0.045,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    },
+    {
+      "id": "epoch_ludicolo-01",
+      "pokemon": "ludicolo epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "37-57",
+      "weight": 0.44999999999999996,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    }
+  ]
+}

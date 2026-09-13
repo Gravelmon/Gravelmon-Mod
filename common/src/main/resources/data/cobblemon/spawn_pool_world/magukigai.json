@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magukigai-01",
+      "pokemon": "magukigai",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "45-65",
+      "weight": 0.25,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "magukigai-01",
+      "pokemon": "magukigai",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "45-65",
+      "weight": 0.25,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

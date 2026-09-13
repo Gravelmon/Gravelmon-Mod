@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "descargot-01",
+      "pokemon": "descargot",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 18.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "descargot-01",
+      "pokemon": "descargot",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 18.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

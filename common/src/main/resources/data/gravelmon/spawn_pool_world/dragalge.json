@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_dragalge-01",
+      "pokemon": "dragalge epoch",
+      "presets": [
+        "foliage",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-63",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_dragalge-01",
+      "pokemon": "dragalge epoch",
+      "presets": [
+        "foliage",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-63",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "vesitan_dragalge-01",
+      "pokemon": "dragalge vesitan",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "44-64",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "vesitan_dragalge-01",
+      "pokemon": "dragalge vesitan",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "44-64",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

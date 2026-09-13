@@ -1,0 +1,19 @@
+{
+  "showdown_id": "flearoite",
+  "pokemons": [
+    "Flearoe"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

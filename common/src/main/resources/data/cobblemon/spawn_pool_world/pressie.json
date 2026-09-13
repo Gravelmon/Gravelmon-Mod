@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pressie-01",
+      "pokemon": "pressie",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "pressie-01",
+      "pokemon": "pressie",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 60.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "species": "cobblemon:xenomite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:uranium_xenomite.geo",
+      "poser": "cobblemon:uranium_xenomite",
+      "texture": "cobblemon:textures/pokemon/uranium/xenomite/xenomite.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/uranium/xenomite/xenomite_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "model": "cobblemon:uranium_xenomite.geo",
+      "poser": "cobblemon:uranium_xenomite",
+      "texture": "cobblemon:textures/pokemon/uranium/xenomite/xenomite_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/uranium/xenomite/xenomite_shiny_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

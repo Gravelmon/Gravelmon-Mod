@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "galavagos-01",
+      "pokemon": "galavagos",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal",
+          "#cobblemon:nether/is_basalt"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "galavagos-01",
+      "pokemon": "galavagos",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_thermal",
+          "#cobblemon:nether/is_basalt"
+        ]
+      }
+    }
+  ]
+}

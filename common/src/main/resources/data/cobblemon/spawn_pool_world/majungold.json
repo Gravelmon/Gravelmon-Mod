@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "majungold-01",
+      "pokemon": "majungold",
+      "presets": [
+        "natural",
+        "mineshaft",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-1",
+      "weight": 0.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "majungold-01",
+      "pokemon": "majungold",
+      "presets": [
+        "natural",
+        "mineshaft",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-1",
+      "weight": 0.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

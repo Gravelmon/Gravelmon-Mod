@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jerbalm-01",
+      "pokemon": "jerbalm",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "jerbalm-01",
+      "pokemon": "jerbalm",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

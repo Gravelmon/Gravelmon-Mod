@@ -1,0 +1,199 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "relic_floette-01",
+      "pokemon": "floette relic",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-39",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    },
+    {
+      "id": "relic_floette-01",
+      "pokemon": "floette relic",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-39",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    },
+    {
+      "id": "varitasian_floette-01",
+      "pokemon": "floette varitasian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-39",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "varitasian_floette-01",
+      "pokemon": "floette varitasian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "19-39",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "epoch_floette-01",
+      "pokemon": "floette epoch",
+      "presets": [
+        "reef",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "22-42",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_floette-01",
+      "pokemon": "floette epoch",
+      "presets": [
+        "reef",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "22-42",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "vesitan_floette-01",
+      "pokemon": "floette vesitan",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-39",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
+    },
+    {
+      "id": "vesitan_floette-01",
+      "pokemon": "floette vesitan",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "19-39",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      }
+    }
+  ]
+}

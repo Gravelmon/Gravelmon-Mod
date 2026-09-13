@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadian_diancie-01",
+      "pokemon": "diancie kaskadian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.025,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "kaskadian_diancie-01",
+      "pokemon": "diancie kaskadian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.025,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "target": "cobblemon:meowth",
+  "forms": [
+    {
+      "name": "Cefiran",
+      "primaryType": "normal",
+      "secondaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.10909090909090909,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 90,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:growl",
+        "6:bite",
+        "9:ember",
+        "14:flamecharge",
+        "17:furyswipes",
+        "22:feintattack",
+        "25:taunt",
+        "30:firefang",
+        "30:icefang",
+        "30:thunderfang",
+        "33:slash",
+        "38:nastyplot",
+        "41:flareblitz",
+        "46:captivate",
+        "49:nightslash",
+        "54:feint",
+        "egg:amnesia",
+        "egg:assist",
+        "egg:charm",
+        "egg:flail",
+        "egg:foulplay",
+        "egg:hypnosis",
+        "egg:irontail",
+        "egg:return",
+        "egg:odorsleuth",
+        "egg:punishment",
+        "egg:snatch",
+        "egg:spite",
+        "egg:tailwhip"
+      ],
+      "labels": [
+        "opal",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranmeowthfire.desc"
+      ],
+      "height": 4,
+      "weight": 42,
+      "aspects": [
+        "cefiran",
+        "fire"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranmeowthfire_persian_cefiran",
+          "variant": "level_up",
+          "result": "persian cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "normal",
+      "secondaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.0979591836734694,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 90,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:growl",
+        "6:bite",
+        "9:ember",
+        "14:flamecharge",
+        "17:furyswipes",
+        "22:feintattack",
+        "25:taunt",
+        "30:firefang",
+        "30:icefang",
+        "30:thunderfang",
+        "33:slash",
+        "38:nastyplot",
+        "41:flareblitz",
+        "46:captivate",
+        "49:nightslash",
+        "54:feint",
+        "egg:amnesia",
+        "egg:assist",
+        "egg:charm",
+        "egg:flail",
+        "egg:foulplay",
+        "egg:hypnosis",
+        "egg:irontail",
+        "egg:return",
+        "egg:odorsleuth",
+        "egg:punishment",
+        "egg:snatch",
+        "egg:spite",
+        "egg:tailwhip"
+      ],
+      "labels": [
+        "opal",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranmeowthice.desc"
+      ],
+      "height": 4,
+      "weight": 42,
+      "aspects": [
+        "cefiran",
+        "ice"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranmeowthice_persian_cefiran",
+          "variant": "level_up",
+          "result": "persian cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.125,
+        "height": 6.125,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "normal",
+      "secondaryType": "electric",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.0979591836734694,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 90,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:growl",
+        "6:bite",
+        "9:ember",
+        "14:flamecharge",
+        "17:furyswipes",
+        "22:feintattack",
+        "25:taunt",
+        "30:firefang",
+        "30:icefang",
+        "30:thunderfang",
+        "33:slash",
+        "38:nastyplot",
+        "41:flareblitz",
+        "46:captivate",
+        "49:nightslash",
+        "54:feint",
+        "egg:amnesia",
+        "egg:assist",
+        "egg:charm",
+        "egg:flail",
+        "egg:foulplay",
+        "egg:hypnosis",
+        "egg:irontail",
+        "egg:return",
+        "egg:odorsleuth",
+        "egg:punishment",
+        "egg:snatch",
+        "egg:spite",
+        "egg:tailwhip"
+      ],
+      "labels": [
+        "opal",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranmeowthelectric.desc"
+      ],
+      "height": 4,
+      "weight": 42,
+      "aspects": [
+        "cefiran",
+        "electric"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranmeowthelectric_persian_cefiran",
+          "variant": "level_up",
+          "result": "persian cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.125,
+        "height": 6.125,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "Eldiwan",
+      "primaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "anticipation",
+        "h:wonderskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:fakeout",
+        "1:growl",
+        "4:storedpower",
+        "8:scratch",
+        "12:payday",
+        "16:psybeam",
+        "20:teeterdance",
+        "24:flatter",
+        "29:furyswipes",
+        "32:synchronoise",
+        "36:lusterpurge",
+        "40:psychic",
+        "44:futuresight",
+        "tm:honeclaws",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:return",
+        "tm:dig",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:leechlife",
+        "tm:aerialace",
+        "tm:torment",
+        "tm:facade",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:focusblast",
+        "tm:shadowclaw",
+        "tm:payback",
+        "tm:psychup",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:darkpulse",
+        "egg:spite",
+        "egg:flail",
+        "egg:hypnosis",
+        "egg:covet",
+        "egg:psychocut",
+        "egg:amnesia",
+        "egg:shadowclaw",
+        "tutor:covet",
+        "tutor:flash",
+        "tutor:foulplay",
+        "tutor:knockoff",
+        "tutor:roleplay",
+        "tutor:secretpower",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:snore",
+        "tutor:trick",
+        "tutor:uproar"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.eldiwanmeowth.desc"
+      ],
+      "height": 4,
+      "weight": 42,
+      "aspects": [
+        "eldiwan"
+      ],
+      "evolutions": [
+        {
+          "id": "eldiwanmeowth_persage",
+          "variant": "level_up",
+          "result": "persage",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "futuresight"
+          ],
+          "requirements": [
+            {
+              "minLevel": "28",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      },
+      "game": "xenoverse"
+    },
+    {
+      "name": "Alteran",
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22325581395348837,
+      "cannotDynamax": false,
+      "abilities": [
+        "superluck",
+        "moody",
+        "h:goodasgold"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 55,
+        "special_attack": 45,
+        "special_defence": 55,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:fakeout",
+        "1:growl",
+        "4:metronome",
+        "8:scratch",
+        "12:payday",
+        "16:metalclaw",
+        "20:taunt",
+        "24:payback",
+        "29:furyswipes",
+        "32:screech",
+        "36:nightslash",
+        "40:faketears",
+        "44:heavyslam",
+        "tm:snarl",
+        "tm:bodyslam",
+        "tm:workup",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:metalclaw",
+        "tm:protect",
+        "tm:raindance",
+        "tm:flashcannon",
+        "tm:endure",
+        "tm:shockwave",
+        "tm:aerialace",
+        "tm:calmmind",
+        "tm:shadowclaw",
+        "tm:dazzlinggleam",
+        "tm:flail",
+        "tm:entrainment",
+        "tm:spite"
+      ],
+      "labels": [
+        "flux",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.alteranmeowth.desc"
+      ],
+      "height": 4,
+      "weight": 77,
+      "aspects": [
+        "alteran"
+      ],
+      "evolutions": [
+        {
+          "id": "alteranmeowth_purrchance",
+          "variant": "level_up",
+          "result": "purrchance",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "25",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.6875,
+        "height": 2.6875,
+        "fixed": false
+      },
+      "game": "flux"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1959183673469388,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "infiltrator",
+        "h:unburden"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 45,
+        "special_attack": 90,
+        "special_defence": 60,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "40:agility",
+        "36:electroball",
+        "1:thundershock",
+        "1:electrify",
+        "18:flash",
+        "10:nuzzle",
+        "14:chargebeam",
+        "1:growl",
+        "6:fakeout",
+        "23:electricterrain",
+        "27:milkdrink",
+        "43:risingvoltage",
+        "47:dazzlinggleam",
+        "52:thunder",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:chargebeam",
+        "tm:crunch",
+        "tm:dazzlinggleam",
+        "tm:dragonclaw",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailglow",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:snarl",
+        "egg:trick",
+        "egg:terrainpulse",
+        "egg:thundercage",
+        "egg:spotlight",
+        "egg:assist",
+        "egg:helpinghand"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmeowth.desc"
+      ],
+      "height": 4,
+      "weight": 42,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmeowth_persian_epoch",
+          "variant": "item_interact",
+          "result": "persian epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:thunder_stone",
+          "permanent": true
+        },
+        {
+          "id": "epochmeowth_perrserker_epoch",
+          "variant": "item_interact",
+          "result": "perrserker epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:ice_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0625,
+        "height": 3.0625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ferranian",
+      "primaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.ferranianmeowth.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ferranian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "ferran"
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianmeowth.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "mahal"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "rock",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockyspirit"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianmeowth.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "ground",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromianmeowth.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "aroma"
+    }
+  ],
+  "features": [
+    "cefiran",
+    "cefiran",
+    "cefiran",
+    "eldiwan",
+    "alteran",
+    "epoch",
+    "ferranian",
+    "mahalian",
+    "fabelian",
+    "aromian"
+  ]
+}

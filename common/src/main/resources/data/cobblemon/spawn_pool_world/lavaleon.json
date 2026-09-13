@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lavaleon-01",
+      "pokemon": "lavaleon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:nether/is_forest"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "lavaleon-01",
+      "pokemon": "lavaleon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:nether/is_forest"
+        ]
+      }
+    }
+  ]
+}

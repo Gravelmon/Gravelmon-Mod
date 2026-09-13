@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:morphias",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "telepathy"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 120,
+        "special_attack": 130,
+        "special_defence": 140,
+        "speed": 120
+      },
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

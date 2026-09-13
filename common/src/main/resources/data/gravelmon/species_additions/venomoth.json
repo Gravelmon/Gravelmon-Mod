@@ -1,0 +1,158 @@
+{
+  "target": "cobblemon:venomoth",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "grass",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 158,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "venonat epoch",
+      "baseScale": 0.5373134328358209,
+      "cannotDynamax": false,
+      "abilities": [
+        "shielddust",
+        "protean",
+        "h:tintedlens"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 90,
+        "defence": 50,
+        "special_attack": 90,
+        "special_defence": 50,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "17:leechseed",
+        "23:poisonpowder",
+        "14:bugbite",
+        "32:grassyglide",
+        "7:firstimpression",
+        "48:strengthsap",
+        "26:bulletseed",
+        "4:camouflage",
+        "20:pinmissile",
+        "36:leechlife",
+        "1:mimic",
+        "47:powerwhip",
+        "1:furycutter",
+        "23:stunspore",
+        "23:sleeppowder",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bounce",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:dualwingbeat",
+        "tm:energyball",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochvenomoth.desc"
+      ],
+      "height": 15,
+      "weight": 125,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.1875,
+        "height": 4.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

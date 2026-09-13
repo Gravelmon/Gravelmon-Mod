@@ -1,0 +1,89 @@
+{
+  "name": "Caragen",
+  "primaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "skinka",
+  "baseScale": 0.28125,
+  "cannotDynamax": false,
+  "abilities": [
+    "overcoat",
+    "shielddust",
+    "h:secretion"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 110,
+    "defence": 115,
+    "special_attack": 70,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "lockemon",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.caragen.desc"
+  ],
+  "height": 15,
+  "weight": 365,
+  "evolutions": [],
+  "nationalPokedexNumber": 2146,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "lockemon",
+  "actualName": "caragen"
+}

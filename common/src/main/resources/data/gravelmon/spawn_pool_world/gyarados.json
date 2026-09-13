@@ -1,0 +1,93 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_gyarados-01",
+      "pokemon": "gyarados epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_gyarados-01",
+      "pokemon": "gyarados epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 6.0,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "nodorran_gyarados-01",
+      "pokemon": "gyarados nodorran",
+      "presets": [
+        "water",
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "nodorran_gyarados-01",
+      "pokemon": "gyarados nodorran",
+      "presets": [
+        "water",
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

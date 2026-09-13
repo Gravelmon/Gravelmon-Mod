@@ -1,0 +1,125 @@
+{
+  "name": "Velosaur",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rapteror",
+  "baseScale": 0.48607594936708864,
+  "cannotDynamax": false,
+  "abilities": [
+    "overgrow",
+    "h:hustle"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 90,
+    "attack": 115,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 55,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "eggGroups": [
+    "grass",
+    "monster"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:dualwingbeat",
+    "tm:frenzyplant",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:snore",
+    "tm:sunnyday",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:grassyterrain",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:leafage",
+    "tm:faketears",
+    "tm:growth",
+    "tm:stockpile",
+    "tm:spitup",
+    "tm:swallow",
+    "tm:leechseed",
+    "tm:batonpass",
+    "tm:bestow",
+    "tm:headbutt"
+  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "starter",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.velosaur.desc"
+  ],
+  "height": 16,
+  "weight": 165,
+  "evolutions": [],
+  "nationalPokedexNumber": 2012,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.9375,
+    "height": 4.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "junnin",
+  "actualName": "velosaur"
+}

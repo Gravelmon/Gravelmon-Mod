@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:carnivine",
+  "order": 95,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:radical_red_seviiancarnivine.geo",
+      "poser": "cobblemon:radical_red_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/radical_red/seviiancarnivine/seviiancarnivine.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:radical_red_seviiancarnivine.geo",
+      "poser": "cobblemon:radical_red_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/radical_red/seviiancarnivine/seviiancarnivine_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eqwater-01",
+      "pokemon": "eqwater",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "eqwater-01",
+      "pokemon": "eqwater",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "eqwater-11",
+      "pokemon": "eqwater",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "eqwater-11",
+      "pokemon": "eqwater",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ]
+      }
+    }
+  ]
+}

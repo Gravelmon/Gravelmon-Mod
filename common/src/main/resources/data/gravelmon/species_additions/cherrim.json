@@ -1,0 +1,255 @@
+{
+  "target": "cobblemon:cherrim",
+  "forms": [
+    {
+      "name": "Africanusan",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cherubi africanusan",
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "flowergift",
+        "unburden"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 78,
+        "attack": 50,
+        "defence": 78,
+        "special_attack": 96,
+        "special_defence": 120,
+        "speed": 78
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "10:acid",
+        "1:tackle",
+        "22:venoshock",
+        "37:solarbeam",
+        "28:gigadrain",
+        "19:magicalleaf",
+        "13:razorleaf",
+        "27:signalbeam",
+        "40:sludgebomb",
+        "7:absorb",
+        "31:sludge",
+        "33:pollenpuff",
+        "1:stringshot"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusancherrim.desc"
+      ],
+      "height": 5,
+      "weight": 93,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      },
+      "game": "africanus"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "ice",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 158,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cherubi epoch",
+      "baseScale": 0.2553191489361702,
+      "cannotDynamax": false,
+      "abilities": [
+        "wintergift"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 95,
+        "special_defence": 92,
+        "speed": 93
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "11:leechseed",
+        "27:freezedry",
+        "45:petaldance",
+        "55:blizzard",
+        "32:energyball",
+        "18:magicalleaf",
+        "36:flowershield",
+        "14:icywind",
+        "1:babydolleyes",
+        "1:powdersnow",
+        "8:megadrain",
+        "23:grasswhistle",
+        "40:icebeam",
+        "1:hail",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:hail",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcherrim.desc"
+      ],
+      "height": 5,
+      "weight": 93,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "africanusan",
+    "epoch"
+  ]
+}

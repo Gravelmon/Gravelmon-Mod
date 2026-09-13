@@ -1,0 +1,87 @@
+{
+  "name": "Hivernor",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 150,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "beeheave",
+  "baseScale": 0.43636363636363634,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 121,
+    "attack": 36,
+    "defence": 102,
+    "special_attack": 102,
+    "special_defence": 86,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.hivernor.desc"
+  ],
+  "height": 16,
+  "weight": 0,
+  "evolutions": [],
+  "nationalPokedexNumber": 3797,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5,
+    "height": 5.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "hivernor"
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:regalient",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "secondaryType": "dragon",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "holyguard"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 123,
+        "defence": 86,
+        "special_attack": 123,
+        "special_defence": 86,
+        "speed": 132
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 21,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

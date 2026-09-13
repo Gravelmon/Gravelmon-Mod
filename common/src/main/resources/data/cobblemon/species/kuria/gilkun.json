@@ -1,0 +1,151 @@
+{
+  "name": "Gilkun",
+  "primaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.23414634146341462,
+  "cannotDynamax": false,
+  "abilities": [
+    "swiftswim",
+    "hydration",
+    "h:oblivious"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 62,
+    "attack": 63,
+    "defence": 55,
+    "special_attack": 63,
+    "special_defence": 55,
+    "speed": 62
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {},
+  "moves": [
+    "1:watergun",
+    "3:supersonic",
+    "7:flash",
+    "13:thunderwave",
+    "16:waterpulse",
+    "20:safeguard",
+    "24:magnetrise",
+    "28:brine",
+    "33:memento",
+    "38:screech",
+    "43:raindance",
+    "49:recover",
+    "55:hydropump"
+  ],
+  "labels": [
+    "kuria",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gilkun.desc"
+  ],
+  "height": 4,
+  "weight": 19,
+  "evolutions": [
+    {
+      "id": "gilkun_bencho",
+      "variant": "level_up",
+      "result": "bencho",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "46",
+          "variant": "level"
+        },
+        {
+          "target": "gender=male",
+          "variant": "properties",
+          "contains": true
+        }
+      ]
+    },
+    {
+      "id": "gilkun_senfetta",
+      "variant": "level_up",
+      "result": "senfetta",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "46",
+          "variant": "level"
+        },
+        {
+          "target": "gender=female",
+          "variant": "properties",
+          "contains": true
+        }
+      ]
+    },
+    {
+      "id": "gilkun_plakidd",
+      "variant": "level_up",
+      "result": "plakidd",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "46",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 2587,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.5625,
+    "height": 2.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "kuria",
+  "actualName": "gilkun"
+}

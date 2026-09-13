@@ -1,0 +1,87 @@
+{
+  "name": "Trypolisk",
+  "primaryType": "rock",
+  "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 250,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5917808219178082,
+  "cannotDynamax": false,
+  "abilities": [
+    "sturdy",
+    "levitate",
+    "h:magnetpull"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 110,
+    "defence": 160,
+    "special_attack": 50,
+    "special_defence": 110,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.trypolisk.desc"
+  ],
+  "height": 18,
+  "weight": 5838,
+  "evolutions": [],
+  "nationalPokedexNumber": 3934,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5625,
+    "height": 4.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "trypolisk"
+}

@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:chloradise",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "bug",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "tintedlens"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 143,
+        "defence": 131,
+        "special_attack": 131,
+        "special_defence": 95,
+        "speed": 60
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

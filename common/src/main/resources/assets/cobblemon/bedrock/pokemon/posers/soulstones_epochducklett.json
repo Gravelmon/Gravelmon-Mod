@@ -1,0 +1,109 @@
+{
+  "rootBone": "ducklett_epoch",
+  "head": "head",
+  "portraitScale": 2.36,
+  "portraitTranslation": [
+    -0.06,
+    -0.49,
+    0
+  ],
+  "profileScale": 0.87,
+  "profileTranslation": [
+    0,
+    0.44,
+    0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochducklett', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochducklett', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('epochducklett', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('epochducklett', 'air_fly')"
+      ],
+      "poseTypes": [
+        "FLY",
+        "GLIDE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "q.bedrock('epochducklett', 'surfacewater_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "q.bedrock('epochducklett', 'surfacewater_swim')"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochducklett', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

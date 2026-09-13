@@ -1,0 +1,25 @@
+{
+  "showdown_id": "epochtwojumpluffite",
+  "pokemons": [
+    "Jumpluff"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "epochtwo"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

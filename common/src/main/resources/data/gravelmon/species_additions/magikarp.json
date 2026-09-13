@@ -1,0 +1,263 @@
+{
+  "target": "cobblemon:magikarp",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 40,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim",
+        "blacklight",
+        "h:rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 20,
+        "attack": 10,
+        "defence": 55,
+        "special_attack": 80,
+        "special_defence": 15,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "water_2",
+        "dragon"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
+      "moves": [
+        "15:flail",
+        "5:bite",
+        "10:spark",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:chargebeam",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragondance",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:firefang",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmagikarp.desc"
+      ],
+      "height": 9,
+      "weight": 100,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmagikarp_gyarados_epoch",
+          "variant": "item_interact",
+          "result": "gyarados epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:astral_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "poison",
+      "secondaryType": "water",
+      "catchRate": 150,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 40,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5236363636363636,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint",
+        "swiftswim",
+        "h:angerpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 30,
+        "defence": 40,
+        "special_attack": 20,
+        "special_defence": 20,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_2",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranmagikarp.desc"
+      ],
+      "height": 12,
+      "weight": 45,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranmagikarp_gyarados_nodorran",
+          "variant": "level_up",
+          "result": "gyarados nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      },
+      "game": "nodorro"
+    }
+  ],
+  "features": [
+    "epoch",
+    "nodorran"
+  ]
+}

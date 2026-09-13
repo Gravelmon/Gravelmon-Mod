@@ -1,0 +1,289 @@
+{
+  "target": "cobblemon:slowking",
+  "forms": [
+    {
+      "name": "Africanusan",
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "catchRate": 70,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slowpoke africanusan",
+      "baseScale": 0.5,
+      "cannotDynamax": false,
+      "abilities": [
+        "dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 90,
+        "special_attack": 45,
+        "special_defence": 120,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "monster",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "28:waterpulse",
+        "40:darkpulse",
+        "19:disable",
+        "45:hydropump",
+        "1:tackle",
+        "1:aquajet",
+        "23:bite",
+        "36:nastyplot",
+        "14:feintattack",
+        "37:muddywater",
+        "1:curse",
+        "1:raindance",
+        "9:watergun",
+        "49:pursuit",
+        "1:snarl",
+        "1:yawn",
+        "5:growl",
+        "26:bubblebeam",
+        "32:assurance",
+        "41:swagger"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusanslowking.desc"
+      ],
+      "height": 20,
+      "weight": 795,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      },
+      "game": "africanus"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "normal",
+      "secondaryType": "bug",
+      "catchRate": 70,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slowpoke epoch",
+      "baseScale": 0.7384615384615385,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "owntempo",
+        "h:hivemind"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defence": 70,
+        "special_attack": 50,
+        "special_defence": 110,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "43:hyperbeam",
+        "1:attackorder",
+        "9:infestation",
+        "1:stuffcheeks",
+        "40:hivemind",
+        "1:healorder",
+        "1:sweetscent",
+        "37:aromatherapy",
+        "18:yawn",
+        "1:growl",
+        "5:strugglebug",
+        "1:defendorder",
+        "47:focusblast",
+        "1:triattack",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:crunch",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:ironhead",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:payday",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochslowking.desc"
+      ],
+      "height": 20,
+      "weight": 795,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0625,
+        "height": 4.0625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "mega_epoch",
+      "primaryType": "normal",
+      "secondaryType": "bug",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "hivemind"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defence": 110,
+        "special_attack": 70,
+        "special_defence": 130,
+        "speed": 120
+      },
+      "labels": [
+        "gen2",
+        "soulstones",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega",
+        "epoch"
+      ]
+    }
+  ],
+  "features": [
+    "africanusan",
+    "epoch",
+    "mega"
+  ]
+}

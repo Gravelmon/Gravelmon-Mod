@@ -1,0 +1,19 @@
+{
+  "showdown_id": "rupsenite",
+  "pokemons": [
+    "Rupsen"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

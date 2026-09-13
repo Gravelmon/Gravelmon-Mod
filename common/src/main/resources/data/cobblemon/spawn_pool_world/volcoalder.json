@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volcoalder-01",
+      "pokemon": "volcoalder",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 0.6,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volvanic"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    }
+  ]
+}

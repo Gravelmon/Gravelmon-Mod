@@ -1,0 +1,105 @@
+{
+  "name": "Plantid",
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.17142857142857143,
+  "cannotDynamax": false,
+  "abilities": [
+    "gluttony",
+    "harvest",
+    "h:pickup"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 30,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.plantid.desc"
+  ],
+  "height": 2,
+  "weight": 18,
+  "evolutions": [
+    {
+      "id": "plantid_reaphid",
+      "variant": "level_up",
+      "result": "reaphid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "range": "night",
+          "variant": "time_range"
+        },
+        {
+          "minLevel": "26",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3840,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5,
+    "height": 3.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "plantid"
+}

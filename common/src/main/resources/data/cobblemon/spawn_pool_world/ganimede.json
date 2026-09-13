@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ganimede-01",
+      "pokemon": "ganimede",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "ganimede-01",
+      "pokemon": "ganimede",
+      "presets": [
+        "wild",
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

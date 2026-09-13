@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "humideor-01",
+      "pokemon": "humideor",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.44999999999999996,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain",
+          "#minecraft:is_end"
+        ],
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "humideor-01",
+      "pokemon": "humideor",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.44999999999999996,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain",
+          "#minecraft:is_end"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

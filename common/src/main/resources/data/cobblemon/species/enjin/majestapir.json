@@ -1,0 +1,86 @@
+{
+  "name": "Majestapir",
+  "primaryType": "ground",
+  "catchRate": 68,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "aristocalf",
+  "baseScale": 0.48,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 166,
+    "attack": 63,
+    "defence": 171,
+    "special_attack": 41,
+    "special_defence": 41,
+    "speed": 23
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "enjin",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.majestapir.desc"
+  ],
+  "height": 18,
+  "weight": 0,
+  "evolutions": [],
+  "nationalPokedexNumber": 2980,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.625,
+    "height": 5.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "enjin",
+  "actualName": "majestapir"
+}

@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:wishiwashi",
+  "order": 95,
+  "variations": [
+    {
+      "aspects": [
+        "seviian"
+      ],
+      "model": "cobblemon:radical_red_seviianwishiwashi.geo",
+      "poser": "cobblemon:radical_red_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/radical_red/seviianwishiwashi/seviianwishiwashi.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "seviian",
+        "shiny"
+      ],
+      "model": "cobblemon:radical_red_seviianwishiwashi.geo",
+      "poser": "cobblemon:radical_red_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/radical_red/seviianwishiwashi/seviianwishiwashi_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

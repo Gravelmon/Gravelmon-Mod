@@ -1,0 +1,25 @@
+{
+  "showdown_id": "shadowmewtwonite",
+  "pokemons": [
+    "Mewtwo"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "shadow"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

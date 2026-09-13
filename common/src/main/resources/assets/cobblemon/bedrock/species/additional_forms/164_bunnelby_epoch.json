@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:bunnelby",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:soulstones_epochbunnelby.geo",
+      "poser": "cobblemon:soulstones_epochbunnelby",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochbunnelby/epochbunnelby.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochbunnelby.geo",
+      "poser": "cobblemon:soulstones_epochbunnelby",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochbunnelby/epochbunnelby_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

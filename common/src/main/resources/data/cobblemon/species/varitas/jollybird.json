@@ -1,0 +1,87 @@
+{
+  "name": "Jollybird",
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "delibird",
+  "baseScale": 19.200000000000003,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 126,
+    "attack": 32,
+    "defence": 77,
+    "special_attack": 110,
+    "special_defence": 102,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.jollybird.desc"
+  ],
+  "height": 16,
+  "weight": 165,
+  "evolutions": [],
+  "nationalPokedexNumber": 1732,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 0.125,
+    "height": 0.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "varitas",
+  "actualName": "jollibird"
+}

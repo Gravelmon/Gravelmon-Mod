@@ -1,0 +1,81 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hauntray-01",
+      "pokemon": "hauntray",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "hauntray-01",
+      "pokemon": "hauntray",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "hauntray-11",
+      "pokemon": "hauntray",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "hauntray-11",
+      "pokemon": "hauntray",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
+      }
+    }
+  ]
+}

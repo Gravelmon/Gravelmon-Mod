@@ -1,0 +1,33 @@
+{
+  "order": 134,
+  "species": "cobblemon:blastoise",
+  "variations": [
+    {
+      "aspects": [
+        "mega","delta"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ],
+      "model": "cobblemon:insurgence_deltablastoise_mega.geo",
+      "poser": "cobblemon:insurgence_deltablastoise_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/blastoise_delta_mega/deltablastoise_mega.png"
+    },
+    {
+      "aspects": [
+        "delta","mega",
+        "shiny"
+      ],
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ],
+      "model": "cobblemon:insurgence_deltablastoise_mega.geo",
+      "poser": "cobblemon:insurgence_deltablastoise_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/blastoise_delta_mega/deltablastoise_mega_shiny.png"
+    }
+  ]
+}

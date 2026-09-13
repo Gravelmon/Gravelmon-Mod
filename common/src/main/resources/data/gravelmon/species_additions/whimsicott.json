@@ -1,0 +1,392 @@
+{
+  "target": "cobblemon:whimsicott",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cottonee epoch",
+      "baseScale": 0.25846153846153846,
+      "cannotDynamax": false,
+      "abilities": [
+        "windrider",
+        "sandveil",
+        "h:shielddust"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 47,
+        "defence": 70,
+        "special_attack": 116,
+        "special_defence": 97,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "24:obstruct",
+        "51:nastyplot",
+        "1:sandattack",
+        "4:gust",
+        "33:partingshot",
+        "15:aircutter",
+        "27:scorchingsands",
+        "54:topsyturvy",
+        "18:tailwind",
+        "42:roost",
+        "8:snatch",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:gigadrain",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:tailwind",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochwhimsicott.desc"
+      ],
+      "height": 7,
+      "weight": 66,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0625,
+        "height": 4.0625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "electric",
+      "secondaryType": "grass",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cottonee epochtwo",
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "windrider",
+        "chlorophyll",
+        "h:static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 87,
+        "defence": 70,
+        "special_attack": 81,
+        "special_defence": 87,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "47:energyball",
+        "29:gigadrain",
+        "20:voltswitch",
+        "50:cottonguard",
+        "29:hornleech",
+        "11:paraboliccharge",
+        "11:spark",
+        "41:petalblizzard",
+        "7:megadrain",
+        "44:thunderbolt",
+        "1:growth",
+        "23:ingrain",
+        "38:wildcharge",
+        "1:absorb",
+        "17:stunspore",
+        "35:cottonspore",
+        "53:petaldance",
+        "4:nuzzle",
+        "14:leaftornado",
+        "60:volttackle",
+        "56:thunder",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bounce",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:coaching",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:electricterrain",
+        "tm:energyball",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicalleaf",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:pollenpuff",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochwhimsicottone.desc"
+      ],
+      "height": 7,
+      "weight": 66,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "mega_epochtwo",
+      "primaryType": "electric",
+      "secondaryType": "grass",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "windrider"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 107,
+        "defence": 90,
+        "special_attack": 101,
+        "special_defence": 107,
+        "speed": 100
+      },
+      "labels": [
+        "gen5",
+        "soulstones",
+        "not_modeled"
+      ],
+      "height": 11,
+      "aspects": [
+        "mega",
+        "epochtwo"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "regenerator"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defence": 115,
+        "special_attack": 120,
+        "special_defence": 105,
+        "speed": 115
+      },
+      "labels": [
+        "gen5",
+        "uranium",
+        "not_modeled"
+      ],
+      "height": 7,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo",
+    "mega"
+  ]
+}

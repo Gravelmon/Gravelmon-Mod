@@ -1,0 +1,103 @@
+{
+  "name": "Mediva",
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "nagamufin",
+  "baseScale": 0.16875,
+  "cannotDynamax": false,
+  "abilities": [
+    "toxicdebris",
+    "stickyhold",
+    "h:cutecharm"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 61,
+    "attack": 30,
+    "defence": 52,
+    "special_attack": 95,
+    "special_defence": 77,
+    "speed": 52
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.mediva.desc"
+  ],
+  "height": 9,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "mediva_ladivy",
+      "variant": "level_up",
+      "result": "ladivy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "42",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4009,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "mediva"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Pinecoon",
+  "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2608695652173913,
+  "cannotDynamax": false,
+  "abilities": [
+    "overgrow",
+    "h:intimidate"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 56,
+    "attack": 53,
+    "defence": 36,
+    "special_attack": 21,
+    "special_defence": 40,
+    "speed": 49
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "starter"
+  ],
+  "pokedex": [
+    "cobblemon.species.pinecoon.desc"
+  ],
+  "height": 5,
+  "weight": 165,
+  "evolutions": [
+    {
+      "id": "pinecoon_vigileaf",
+      "variant": "level_up",
+      "result": "vigileaf",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "16",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 1666,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.875,
+    "height": 2.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "varitas",
+  "actualName": "pinecoon"
+}

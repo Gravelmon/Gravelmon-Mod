@@ -1,0 +1,922 @@
+{
+  "target": "cobblemon:teddiursa",
+  "forms": [
+    {
+      "name": "Seviian",
+      "primaryType": "ghost",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.22499999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "quickfeet",
+        "h:cursedbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 80,
+        "defence": 50,
+        "special_attack": 45,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:babydolleyes",
+        "1:curse",
+        "1:faketears",
+        "1:fling",
+        "1:lick",
+        "1:scratch",
+        "8:shadowsneak",
+        "15:hex",
+        "22:phantomforce",
+        "25:slash",
+        "30:shadowpunch",
+        "34:scaryface",
+        "40:willowisp",
+        "47:counter",
+        "50:destinybond",
+        "57:fling",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:cut",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:facade",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:lowkick",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:thief",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup",
+        "tutor:aurasphere",
+        "tutor:closecombat",
+        "tutor:firepunch",
+        "tutor:foulplay",
+        "tutor:hex",
+        "tutor:icepunch",
+        "tutor:knockoff",
+        "tutor:painsplit",
+        "tutor:phantomforce",
+        "tutor:playrough",
+        "tutor:thunderpunch",
+        "egg:bellydrum",
+        "egg:chipaway",
+        "egg:closecombat",
+        "egg:counter",
+        "egg:crosschop",
+        "egg:doubleedge",
+        "egg:faketears",
+        "egg:metalclaw",
+        "egg:nightslash",
+        "egg:playrough",
+        "egg:seismictoss",
+        "egg:shadowclaw",
+        "egg:sleeptalk",
+        "egg:takedown",
+        "egg:yawn"
+      ],
+      "labels": [
+        "radicalred",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.seviianteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 194,
+      "aspects": [
+        "seviian"
+      ],
+      "evolutions": [
+        {
+          "id": "seviianteddiursa_ursaring_seviian",
+          "variant": "level_up",
+          "result": "ursaring seviian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "28",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0,
+        "height": 4.0,
+        "fixed": false
+      },
+      "game": "radical_red"
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "dark",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18461538461538463,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "quickfeet",
+        "h:honeygather"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 40,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:covet",
+        "1:scratch",
+        "1:leer",
+        "1:lick",
+        "1:faketears",
+        "8:furyswipes",
+        "15:feintattack",
+        "22:sweetscent",
+        "29:slash",
+        "36:charm",
+        "43:rest",
+        "43:snore",
+        "50:thrash",
+        "57:knockoff",
+        "egg:bellydrum",
+        "egg:chipaway",
+        "egg:closecombat",
+        "egg:counter",
+        "egg:crosschop",
+        "egg:crunch",
+        "egg:doubleedge",
+        "egg:faketears",
+        "egg:metalclaw",
+        "egg:nightslash",
+        "egg:seismictoss",
+        "egg:sleeptalk",
+        "egg:takedown",
+        "egg:yawn"
+      ],
+      "labels": [
+        "gen2",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 88,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranteddiursa_ursaring_cefiran",
+          "variant": "level_up",
+          "result": "ursaring cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "cosmic",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.27169811320754716,
+      "cannotDynamax": false,
+      "abilities": [
+        "ethereal",
+        "toughclaws",
+        "h:clearbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 50,
+        "special_attack": 55,
+        "special_defence": 45,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "10:shadowpunch",
+        "21:shadowclaw",
+        "37:spiritshackle",
+        "52:spectralthief",
+        "1:scratch",
+        "7:helpinghand",
+        "13:feintattack",
+        "58:possession",
+        "29:cosmicpower",
+        "25:bodyslam",
+        "1:astonish",
+        "43:moonlight",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dragonclaw",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:phantomforce",
+        "egg:nightslash",
+        "egg:throatchop",
+        "egg:nobleroar",
+        "egg:honeclaws"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 88,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochteddiursa_ursaring_epoch",
+          "variant": "level_up",
+          "result": "ursaring epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            },
+            {
+              "range": "night",
+              "variant": "time_range"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "ice",
+      "secondaryType": "poison",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3789473684210526,
+      "cannotDynamax": false,
+      "abilities": [
+        "hustle",
+        "poisontouch",
+        "h:thickfat"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 60,
+        "defence": 70,
+        "special_attack": 55,
+        "special_defence": 35,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "56:gunkshot",
+        "52:icehammer",
+        "1:scratch",
+        "1:lick",
+        "7:meanlook",
+        "37:iciclecrash",
+        "25:crosspoison",
+        "40:rest",
+        "16:icefang",
+        "46:frostbite",
+        "4:iceshard",
+        "13:poisonfang",
+        "tm:airslash",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:tripleaxel",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:shadowpunch",
+        "egg:nightslash",
+        "egg:nobleroar",
+        "egg:honeclaws",
+        "egg:icepunch"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochteddiursaone.desc"
+      ],
+      "height": 6,
+      "weight": 88,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochteddiursaone_ursaring_epochtwo",
+          "variant": "level_up",
+          "result": "ursaring epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Hoennian",
+      "primaryType": "normal",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.55,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickup",
+        "h:cutecharm"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 45,
+        "special_attack": 45,
+        "special_defence": 40,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:leer",
+        "7:ember",
+        "13:lick",
+        "19:quickattack",
+        "25:flamewheel",
+        "31:rest",
+        "37:slash",
+        "43:sleeptalk",
+        "49:thrash",
+        "tm:roar",
+        "tm:toxic",
+        "tm:pursuit",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:willowisp",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:shimmershot",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:overheat",
+        "tm:cut",
+        "tm:strength",
+        "tm:rocksmash",
+        "egg:crunch",
+        "egg:takedown",
+        "egg:seismictoss"
+      ],
+      "labels": [
+        "gen2",
+        "blazing_emerald"
+      ],
+      "pokedex": [
+        "cobblemon.species.hoennianteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 88,
+      "aspects": [
+        "hoennian"
+      ],
+      "evolutions": [
+        {
+          "id": "hoennianteddiursa_ursaring_hoennian",
+          "variant": "level_up",
+          "result": "ursaring hoennian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "game": "blazing_emerald"
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "normal",
+      "secondaryType": "fighting",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3789473684210526,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 85,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranteddiursa_ursaring_nodorran",
+          "variant": "level_up",
+          "result": "ursaring nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      },
+      "game": "nodorro"
+    }
+  ],
+  "features": [
+    "seviian",
+    "cefiran",
+    "epoch",
+    "epochtwo",
+    "hoennian",
+    "nodorran"
+  ]
+}

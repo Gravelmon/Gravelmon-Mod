@@ -1,0 +1,86 @@
+{
+  "name": "Omegarogon",
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 345,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 0,
+  "baseScale": 0.6624000000000001,
+  "cannotDynamax": false,
+  "abilities": [
+    "relicsoul"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 110,
+    "attack": 80,
+    "defence": 110,
+    "special_attack": 155,
+    "special_defence": 110,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "lockemon",
+    "not_modeled",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.omegarogon.desc"
+  ],
+  "height": 69,
+  "weight": 8759,
+  "evolutions": [],
+  "nationalPokedexNumber": 2212,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 15.625,
+    "height": 15.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "lockemon",
+  "actualName": "omegarogon"
+}

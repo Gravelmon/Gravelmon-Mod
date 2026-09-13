@@ -1,0 +1,424 @@
+{
+  "target": "cobblemon:ekans",
+  "forms": [
+    {
+      "name": "Alteran",
+      "primaryType": "fighting",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35744680851063826,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "shedskin",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 60,
+        "defence": 44,
+        "special_attack": 40,
+        "special_defence": 54,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:wrap",
+        "1:defensecurl",
+        "4:rollout",
+        "9:bite",
+        "12:glare",
+        "17:screech",
+        "20:revenge",
+        "25:stockpile",
+        "25:swallow",
+        "25:spitup",
+        "28:endure",
+        "33:reversal",
+        "36:quash",
+        "41:powerwhip",
+        "44:taunt",
+        "49:coil",
+        "52:closecombat",
+        "egg:beatup",
+        "egg:scaryface",
+        "egg:powertrip",
+        "egg:switcheroo",
+        "egg:submission"
+      ],
+      "labels": [
+        "gen1",
+        "flux",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.alteranekans.desc"
+      ],
+      "height": 7,
+      "weight": 80,
+      "aspects": [
+        "alteran"
+      ],
+      "evolutions": [
+        {
+          "id": "alteranekans_arbok_alteran",
+          "variant": "level_up",
+          "result": "arbok alteran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "flux"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0909090909090908,
+      "cannotDynamax": false,
+      "abilities": [
+        "corrosion",
+        "sandspit",
+        "h:leechingfangs"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 70,
+        "defence": 44,
+        "special_attack": 60,
+        "special_defence": 40,
+        "speed": 54
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:wrap",
+        "37:dig",
+        "47:thousandwaves",
+        "62:gunkshot",
+        "1:leer",
+        "51:poisonjab",
+        "11:bite",
+        "17:toxicthread",
+        "41:crunch",
+        "28:hypnosis",
+        "44:coil",
+        "44:toxic",
+        "54:leechlife",
+        "24:bulldoze",
+        "20:poisonfang",
+        "14:steamroller",
+        "4:poisonsting",
+        "tm:attract",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:swordsdance",
+        "egg:dragontail",
+        "egg:knockoff",
+        "egg:clangingscales",
+        "egg:quicksand",
+        "egg:venomdrench",
+        "egg:screech"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochekans.desc"
+      ],
+      "height": 20,
+      "weight": 69,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochekans_arbok_epoch",
+          "variant": "level_up",
+          "result": "arbok epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.75,
+        "height": 2.75,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5617021276595745,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "shedskin",
+        "h:flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 45,
+        "defence": 40,
+        "special_attack": 60,
+        "special_defence": 58,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:defensecurl",
+        "5:bite",
+        "9:ember",
+        "11:acid",
+        "13:firefang",
+        "15:poisongas",
+        "18:incinerate",
+        "21:glare",
+        "26:willowisp",
+        "29:coil",
+        "33:sludge",
+        "37:sludgebomb",
+        "tm:icefang",
+        "tm:thunderfang"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranekans.desc"
+      ],
+      "height": 11,
+      "weight": 70,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranekans_arbok_nodorran",
+          "variant": "level_up",
+          "result": "arbok nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "nodorro"
+    }
+  ],
+  "features": [
+    "alteran",
+    "epoch",
+    "nodorran"
+  ]
+}

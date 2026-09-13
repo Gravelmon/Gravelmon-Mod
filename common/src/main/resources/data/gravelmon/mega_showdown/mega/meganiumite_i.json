@@ -1,0 +1,19 @@
+{
+  "showdown_id": "meganiumitei",
+  "pokemons": [
+    "Meganium"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega_i"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

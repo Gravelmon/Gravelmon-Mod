@@ -1,0 +1,98 @@
+{
+  "name": "Adepht",
+  "primaryType": "psychic",
+  "catchRate": 240,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3918367346938776,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 62,
+    "attack": 17,
+    "defence": 37,
+    "special_attack": 27,
+    "special_defence": 74,
+    "speed": 9
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.adepht.desc"
+  ],
+  "height": 8,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "adepht_squizard",
+      "variant": "level_up",
+      "result": "squizard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "22",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3873,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.0625,
+    "height": 3.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "adepht"
+}

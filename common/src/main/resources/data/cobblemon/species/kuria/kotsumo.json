@@ -1,0 +1,140 @@
+{
+  "name": "Kotsumo",
+  "primaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 73,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3063829787234042,
+  "cannotDynamax": false,
+  "abilities": [
+    "rattled",
+    "wonderskin",
+    "h:klutz"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 35,
+    "defence": 56,
+    "special_attack": 56,
+    "special_defence": 55,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "human_like",
+    "fairy"
+  ],
+  "drops": {},
+  "moves": [
+    "1:astonish",
+    "1:copycat",
+    "1:scratch",
+    "1:splash",
+    "1:woodhammer",
+    "6:shadowsneak",
+    "12:doubleteam",
+    "18:babydolleyes",
+    "24:mimic",
+    "30:honeclaws",
+    "36:slash",
+    "42:shadowclaw",
+    "48:charm",
+    "54:playrough",
+    "60:painsplit"
+  ],
+  "labels": [
+    "kuria",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kotsumo.desc"
+  ],
+  "height": 6,
+  "weight": 46,
+  "evolutions": [
+    {
+      "id": "kotsumo_kokesheity",
+      "variant": "level_up",
+      "result": "kokesheity",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "28",
+          "variant": "level"
+        },
+        {
+          "highStat": "attack",
+          "lowStat": "defence",
+          "variant": "stat_compare"
+        }
+      ]
+    },
+    {
+      "id": "kotsumo_keshigami",
+      "variant": "level_up",
+      "result": "keshigami",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "28",
+          "variant": "level"
+        },
+        {
+          "highStat": "defence",
+          "lowStat": "attack",
+          "variant": "stat_compare"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 2573,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "kuria",
+  "actualName": "kotsumo"
+}

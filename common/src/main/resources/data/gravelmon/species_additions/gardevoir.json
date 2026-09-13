@@ -1,0 +1,803 @@
+{
+  "target": "cobblemon:gardevoir",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 259,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kirlia delta",
+      "baseScale": 0.9,
+      "cannotDynamax": false,
+      "abilities": [
+        "lightningrod"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 125,
+        "special_defence": 115,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:electricterrain",
+        "1:moonblast",
+        "1:thunder",
+        "1:thunderbolt",
+        "1:icebeam",
+        "1:growl",
+        "1:blizzard",
+        "6:powdersnow",
+        "10:thundershock",
+        "12:doubleteam",
+        "17:nuzzle",
+        "22:shockwave",
+        "25:iceshard",
+        "33:calmmind",
+        "40:icebeam",
+        "45:imprison",
+        "53:thunderbolt",
+        "60:charm",
+        "65:blizzard",
+        "73:thunder",
+        "80:sheercold",
+        "85:zapcannon",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:recycle",
+        "tm:focusblast",
+        "tm:energyball",
+        "tm:chargebeam",
+        "tm:skillswap",
+        "tm:gigaimpact",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:wildcharge",
+        "tm:voltswitch",
+        "tm:xscissor",
+        "tm:shockwave",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:sleeptalk",
+        "tm:frostbreath",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:avalanche",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tutor:acid",
+        "tutor:bodyslam",
+        "tutor:covet",
+        "tutor:earthpower",
+        "tutor:endure",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:lastresort",
+        "tutor:magnetrise",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:thunderpunch",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:zapcannon",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltagardevoir.desc"
+      ],
+      "height": 16,
+      "weight": 484,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 2.2,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 90,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 233,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kirlia epoch",
+      "baseScale": 0.512,
+      "cannotDynamax": false,
+      "abilities": [
+        "serenegrace",
+        "stalwart",
+        "h:nobility"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 90,
+        "special_defence": 125,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "5:acid",
+        "36:nastyplot",
+        "1:moonblast",
+        "13:hypnosis",
+        "24:trick",
+        "39:destinybond",
+        "9:haunt",
+        "33:sludgebomb",
+        "27:hex",
+        "20:corrode",
+        "tm:attract",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgardevoir.desc"
+      ],
+      "height": 16,
+      "weight": 484,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "sound",
+      "secondaryType": "psychic",
+      "catchRate": 90,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 233,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kirlia epochtwo",
+      "baseScale": 0.5260273972602739,
+      "cannotDynamax": false,
+      "abilities": [
+        "marvelscale",
+        "synchronize",
+        "h:baddreams"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 88,
+        "attack": 65,
+        "defence": 60,
+        "special_attack": 90,
+        "special_defence": 115,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "31:eeriespell",
+        "25:disable",
+        "13:round",
+        "50:nastyplot",
+        "47:hypervoice",
+        "7:psywave",
+        "10:hypnosis",
+        "19:disarmingvoice",
+        "44:psychic",
+        "1:chatter",
+        "1:quiverdance",
+        "4:confusion",
+        "37:relicsong",
+        "16:psybeam",
+        "54:clangingscales",
+        "57:psystrike",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonbreath",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soundbarrier",
+        "tm:stealthrock",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgardevoirone.desc"
+      ],
+      "height": 16,
+      "weight": 484,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5625,
+        "height": 4.5625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "flying",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kirlia ayreian",
+      "baseScale": 0.45714285714285713,
+      "cannotDynamax": false,
+      "abilities": [
+        "galewings",
+        "lightningrod"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 72,
+        "attack": 53,
+        "defence": 110,
+        "special_attack": 85,
+        "special_defence": 88,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "56:hurricane",
+        "35:calmmind",
+        "1:airslash",
+        "1:ominouswind",
+        "1:raindance",
+        "1:doubleteam",
+        "1:gust",
+        "9:hypnosis",
+        "28:wish",
+        "49:healpulse",
+        "1:growl",
+        "18:aircutter",
+        "0:tailwind",
+        "15:teleport",
+        "12:weatherball",
+        "23:roost",
+        "1:lifedew",
+        "63:thunder",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:drainingkiss",
+        "tm:dreameater",
+        "tm:echoedvoice",
+        "tm:encore",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:frustration",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:guardswap",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mistyexplosion",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:painsplit",
+        "tm:powerswap",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:snore",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:thief",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "tm:blizzard",
+        "tm:icywind",
+        "tm:hex"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiangardevoir.desc"
+      ],
+      "height": 16,
+      "weight": 584,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.25,
+        "height": 5.25,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "mega_delta",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "lightningrod"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 85,
+        "defence": 65,
+        "special_attack": 165,
+        "special_defence": 135,
+        "speed": 100
+      },
+      "labels": [
+        "gen3",
+        "insurgence",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega",
+        "delta"
+      ]
+    },
+    {
+      "name": "mega_ayreian",
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "vacuumcore"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 63,
+        "defence": 140,
+        "special_attack": 95,
+        "special_defence": 108,
+        "speed": 140
+      },
+      "labels": [
+        "gen3",
+        "vanguard",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega",
+        "ayreian"
+      ]
+    },
+    {
+      "name": "mega_epoch",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "irredeemable"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defence": 75,
+        "special_attack": 120,
+        "special_defence": 155,
+        "speed": 135
+      },
+      "labels": [
+        "gen3",
+        "soulstones",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega",
+        "epoch"
+      ]
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "epochtwo",
+    "ayreian",
+    "mega"
+  ]
+}

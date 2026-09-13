@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "silvicious-01",
+      "pokemon": "silvicious",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "silvicious-01",
+      "pokemon": "silvicious",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "silvicious-11",
+      "pokemon": "silvicious",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "silvicious-11",
+      "pokemon": "silvicious",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "rootBone": "lycanroc_epoch",
+  "head": "head_ai",
+  "portraitScale": 1.78,
+  "portraitTranslation": [
+    -0.58,
+    0.18,
+    0.0
+  ],
+  "profileScale": 0.62,
+  "profileTranslation": [
+    0.0,
+    0.82,
+    0.0
+  ],
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochlycanroc', q.look('head_ai'))",
+        "q.bedrock('epochlycanroc', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochlycanroc', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochlycanroc', q.look('head_ai'))",
+        "q.bedrock('epochlycanroc', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "GLIDE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochlycanroc', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochlycanroc', q.look('head_ai'))",
+        "q.bedrock('epochlycanroc', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochlycanroc', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochlycanroc', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Bihaund",
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3310344827586207,
+  "cannotDynamax": false,
+  "abilities": [
+    "intimidate",
+    "unnerve",
+    "h:petrify"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 45,
+    "attack": 84,
+    "defence": 38,
+    "special_attack": 49,
+    "special_defence": 38,
+    "speed": 62
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:iceball",
+    "tm:destinybond",
+    "tm:grudge",
+    "tm:shadowsneak",
+    "tm:poisonfang"
+  ],
+  "labels": [
+    "enjin",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bihaund.desc"
+  ],
+  "height": 8,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "bihaund_serpendage",
+      "variant": "level_up",
+      "result": "serpendage",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 2922,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.625,
+    "height": 3.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "enjin",
+  "actualName": "bihaund"
+}

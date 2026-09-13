@@ -1,0 +1,163 @@
+{
+  "name": "Pooldog",
+  "primaryType": "water",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 191,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pupool",
+  "baseScale": 0.20625000000000002,
+  "cannotDynamax": false,
+  "abilities": [
+    "intimidate",
+    "waterveil",
+    "h:guarddog"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 89,
+    "attack": 108,
+    "defence": 95,
+    "special_attack": 52,
+    "special_defence": 69,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "38:soak",
+    "1:tackle",
+    "50:superpower",
+    "1:leer",
+    "8:lick",
+    "11:aquajet",
+    "14:bite",
+    "26:roar",
+    "23:aquaslam",
+    "34:jawlock",
+    "5:odorsleuth",
+    "1:megalofang",
+    "42:liquidation",
+    "54:wavecrash",
+    "20:snarl",
+    "1:icefang",
+    "1:watersport",
+    "30:brine",
+    "46:playrough",
+    "17:scaryface",
+    "tm:headbutt",
+    "tm:charm",
+    "tm:raindance",
+    "tm:snarl",
+    "tm:trailblaze",
+    "tm:chillingwater",
+    "tm:bulldoze",
+    "tm:facade",
+    "tm:mudbomb",
+    "tm:workup",
+    "tm:dig",
+    "tm:rocktomb",
+    "tm:aquaslam",
+    "tm:safeguard",
+    "tm:revenge",
+    "tm:scaryface",
+    "tm:bulkup",
+    "tm:rocksmash",
+    "tm:surf",
+    "tm:spiritbreak",
+    "tm:dive",
+    "tm:return",
+    "tm:roar",
+    "tm:wildcharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:rockslide",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:reflect",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:protect",
+    "tm:ironhead",
+    "tm:ripplewave",
+    "tm:earthquake",
+    "tm:meanlook",
+    "tm:endeavor",
+    "tm:counter",
+    "tm:superfang",
+    "tm:temperflare",
+    "tm:stompingtantrum",
+    "tm:lunge",
+    "tm:outrage",
+    "tm:soak",
+    "tm:dustydash",
+    "tm:doubleedge",
+    "tm:bodyslam",
+    "tm:psychicfangs",
+    "tm:playrough",
+    "tm:superpower",
+    "tm:beatup",
+    "tm:curse",
+    "tm:scald"
+  ],
+  "labels": [
+    "solarlightlunardark",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.pooldog.desc"
+  ],
+  "height": 11,
+  "weight": 387,
+  "evolutions": [],
+  "nationalPokedexNumber": 4114,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "solar_light_lunar_dark",
+  "actualName": "pooldog"
+}

@@ -1,0 +1,568 @@
+{
+  "target": "cobblemon:vanillish",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 138,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vanillite epoch",
+      "baseScale": 0.49811320754716987,
+      "cannotDynamax": false,
+      "abilities": [
+        "eartheater",
+        "toxicdebris",
+        "h:stickyhold"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 71,
+        "attack": 45,
+        "defence": 100,
+        "special_attack": 44,
+        "special_defence": 55,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "20:disable",
+        "1:harden",
+        "8:acid",
+        "52:gunkshot",
+        "4:lick",
+        "24:gigadrain",
+        "48:belch",
+        "60:toxic",
+        "12:megadrain",
+        "40:sludgewave",
+        "32:sludgebomb",
+        "36:toxicspikes",
+        "28:minimize",
+        "56:venomdrench",
+        "44:acidarmor",
+        "16:sludge",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:corrosivegas",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:willowisp"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochvanillish.desc"
+      ],
+      "height": 11,
+      "weight": 410,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochvanillish_vanilluxe_epoch",
+          "variant": "level_up",
+          "result": "vanilluxe epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 138,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vanillite epochtwo",
+      "baseScale": 0.4061538461538462,
+      "cannotDynamax": false,
+      "abilities": [
+        "magmaarmor",
+        "flamebody",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 51,
+        "attack": 55,
+        "defence": 65,
+        "special_attack": 69,
+        "special_defence": 90,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:harden",
+        "16:incinerate",
+        "36:rockpolish",
+        "32:diamondstorm",
+        "48:geomancy",
+        "44:flamethrower",
+        "52:eruption",
+        "8:ember",
+        "28:flameburst",
+        "36:lavaplume",
+        "12:tarshot",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:meteorbeam",
+        "tm:mudslide",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochvanillishone.desc"
+      ],
+      "height": 11,
+      "weight": 410,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochvanillishone_vanilluxe_epochtwo",
+          "variant": "level_up",
+          "result": "vanilluxe epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0625,
+        "height": 4.0625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 138,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vanillite ayreian",
+      "baseScale": 0.43278688524590164,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "flamebody",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 61,
+        "attack": 45,
+        "defence": 75,
+        "special_attack": 59,
+        "special_defence": 80,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:flameburst",
+        "1:mudslap",
+        "1:harden",
+        "4:taunt",
+        "8:mist",
+        "12:incinerate",
+        "16:mudshot",
+        "20:sandstorm",
+        "24:lightscreen",
+        "28:scorchingsands",
+        "32:acidarmor",
+        "38:mirrorcoat",
+        "44:eruption",
+        "50:earthpower",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:avalanche",
+        "tutor:confide",
+        "tutor:doubleteam",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:flashcannon",
+        "tutor:frostbreath",
+        "tutor:frustration",
+        "tutor:hail",
+        "tutor:hiddenpower",
+        "tutor:hypervoice",
+        "tutor:imprison",
+        "tutor:irondefense",
+        "tutor:lightscreen",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:protect",
+        "tutor:sunnyday",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:round",
+        "tutor:selfdestruct",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:substitute",
+        "tutor:swagger",
+        "tutor:taunt",
+        "tutor:toxic",
+        "tutor:uproar",
+        "egg:autotomize",
+        "egg:magnetrise",
+        "egg:iceshard",
+        "egg:explosion",
+        "egg:auroraveil",
+        "egg:iciclecrash"
+      ],
+      "labels": [
+        "gen5",
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvanillish.desc"
+      ],
+      "height": 11,
+      "weight": 410,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianvanillish_vanilluxe_ayreian",
+          "variant": "level_up",
+          "result": "vanilluxe ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "35",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.8125,
+        "height": 3.8125,
+        "fixed": false
+      },
+      "game": "vanguard"
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "ice",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromianvanillish.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "aroma"
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo",
+    "ayreian",
+    "aromian"
+  ]
+}

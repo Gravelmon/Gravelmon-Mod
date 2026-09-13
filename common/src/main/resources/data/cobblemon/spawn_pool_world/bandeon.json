@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bandeon-01",
+      "pokemon": "bandeon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 5.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "bandeon-01",
+      "pokemon": "bandeon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 5.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      }
+    }
+  ]
+}

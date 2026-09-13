@@ -1,0 +1,81 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rockster-01",
+      "pokemon": "rockster",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "rockster-01",
+      "pokemon": "rockster",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "rockster-11",
+      "pokemon": "rockster",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "rockster-11",
+      "pokemon": "rockster",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      }
+    }
+  ]
+}

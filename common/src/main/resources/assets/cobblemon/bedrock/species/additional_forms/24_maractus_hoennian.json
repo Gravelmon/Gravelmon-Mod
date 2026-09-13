@@ -1,0 +1,81 @@
+{
+  "species": "cobblemon:maractus",
+  "order": 33,
+  "variations": [
+    {
+      "aspects": [
+        "hoennian"
+      ],
+      "model": "cobblemon:blazing_emerald_hoennianmaractus.geo",
+      "poser": "cobblemon:blazing_emerald_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianmaractus/hoennianmaractus.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianmaractus/hoennianmaractus_emissive.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hoennian",
+        "shiny"
+      ],
+      "model": "cobblemon:blazing_emerald_hoennianmaractus.geo",
+      "poser": "cobblemon:blazing_emerald_hoennianmaractus",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianmaractus/hoennianmaractus_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianmaractus/hoennianmaractus_emissive_shiny.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

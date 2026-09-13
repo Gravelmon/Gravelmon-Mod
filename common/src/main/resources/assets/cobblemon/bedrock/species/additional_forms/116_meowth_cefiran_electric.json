@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:meowth",
+  "order": 125,
+  "variations": [
+    {
+      "aspects": [
+        "electric",
+        "cefiran"
+      ],
+      "model": "cobblemon:cutout_gravelmon_88_by_98.geo",
+      "poser": "cobblemon:cutout_gravelmon_88_by_98",
+      "texture": "cobblemon:textures/pokemon/opalo/cefiranmeowthelectric.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

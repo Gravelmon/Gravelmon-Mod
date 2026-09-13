@@ -1,0 +1,167 @@
+{
+  "target": "cobblemon:zubat",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "sound",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 49,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3368421052631579,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "leechingfangs",
+        "h:merciless"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 50,
+        "defence": 35,
+        "special_attack": 60,
+        "special_defence": 30,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "17:bite",
+        "38:crunch",
+        "14:taunt",
+        "55:uproar",
+        "11:pursuit",
+        "42:leechlife",
+        "34:screech",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bravebird",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragondance",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:icywind",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:soundbarrier",
+        "tm:steelwing",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:wildcharge",
+        "tm:workup",
+        "egg:bravebird",
+        "egg:poisonfang",
+        "egg:tailwind",
+        "egg:astonish",
+        "egg:memento",
+        "egg:steelwing",
+        "egg:meanlook"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochzubat.desc"
+      ],
+      "height": 8,
+      "weight": 75,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochzubat_golbat_epoch",
+          "variant": "level_up",
+          "result": "golbat epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "26",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5625,
+        "height": 3.5625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

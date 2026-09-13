@@ -1,0 +1,54 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rockapye-01",
+      "pokemon": "rockapye",
+      "presets": [
+        "natural",
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-1",
+      "weight": 0.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "timeRange": "day",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "rockapye-01",
+      "pokemon": "rockapye",
+      "presets": [
+        "natural",
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "1-1",
+      "weight": 0.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "timeRange": "day"
+      }
+    }
+  ]
+}

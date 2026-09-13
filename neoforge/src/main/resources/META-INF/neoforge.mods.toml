@@ -1,0 +1,53 @@
+modLoader = "kotlinforforge"
+loaderVersion="[5.10,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId="gravelmon"
+version="4.0.0-Alpha.4"
+displayName="Gravelmon"
+authors="Gravelmon Team"
+logoFile="icon.png"
+description='''Adds Content from Fan-Games to Cobblemon.'''
+
+[[dependencies.gravelmon]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.182,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.gravelmon]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.gravelmon]]
+modId="gravels_extended_battles"
+mandatory=true
+versionRange="[2.0.0-Alpha.15,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.gravelmon]]
+modId = "mega_showdown"
+mandatory = false
+versionRange = "[1.0.2+1.8+1.21.,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.gravelmon]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+[[dependencies.gravelmon]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[1.8.0,)"
+ordering = "AFTER"
+side = "BOTH"
+[[mixins]]
+config = "gravelmon_common.mixins.json"
+[[mixins]]
+config = "gravelmon_neoforge.mixins.json"

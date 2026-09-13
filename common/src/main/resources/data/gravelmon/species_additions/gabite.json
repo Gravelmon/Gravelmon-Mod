@@ -1,0 +1,468 @@
+{
+  "target": "cobblemon:gabite",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "gible epoch",
+      "baseScale": 0.5169230769230769,
+      "cannotDynamax": false,
+      "abilities": [
+        "unnerve",
+        "hypercutter",
+        "h:pressure"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 90,
+        "defence": 55,
+        "special_attack": 82,
+        "special_defence": 60,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "28:shadowclaw",
+        "52:spectralthief",
+        "4:sandattack",
+        "24:feintattack",
+        "34:crunch",
+        "19:torment",
+        "58:phantomforce",
+        "1:astonish",
+        "40:dragonclaw",
+        "46:dragondance",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgabite.desc"
+      ],
+      "height": 14,
+      "weight": 560,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgabite_garchomp_epoch",
+          "variant": "level_up",
+          "result": "garchomp epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "48",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0625,
+        "height": 4.0625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "gible epochtwo",
+      "baseScale": 0.6109090909090908,
+      "cannotDynamax": false,
+      "abilities": [
+        "roughskin",
+        "stakeout",
+        "h:intimidate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 77,
+        "attack": 68,
+        "defence": 60,
+        "special_attack": 90,
+        "special_defence": 50,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "36:flipturn",
+        "9:aquajet",
+        "12:bite",
+        "1:clamp",
+        "1:focusenergy",
+        "30:breakingswipe",
+        "48:dragonrush",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:falseswipe",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgabiteone.desc"
+      ],
+      "height": 14,
+      "weight": 560,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgabiteone_garchomp_epochtwo",
+          "variant": "level_up",
+          "result": "garchomp epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "48",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "pseudo_legendary",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromiangabite.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "aroma"
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo",
+    "aromian"
+  ],
+  "evolutions": [
+    {
+      "id": "gabite_garchomp_armiran",
+      "variant": "level_up",
+      "result": "garchomp armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "48",
+          "variant": "level"
+        },
+        {
+          "move": "fairyrush",
+          "variant": "has_move"
+        }
+      ]
+    }
+  ]
+}

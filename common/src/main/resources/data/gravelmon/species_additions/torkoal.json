@@ -1,0 +1,296 @@
+{
+  "target": "cobblemon:torkoal",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 165,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.19672131147540983,
+      "cannotDynamax": false,
+      "abilities": [
+        "electricsurge",
+        "levitate",
+        "h:drizzle"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 65,
+        "defence": 110,
+        "special_attack": 20,
+        "special_defence": 105,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "36:irondefense",
+        "60:hurricane",
+        "4:thunderwave",
+        "12:haze",
+        "1:thundershock",
+        "52:amnesia",
+        "20:protect",
+        "1:withdraw",
+        "8:thundercage",
+        "28:discharge",
+        "44:shellsmash",
+        "16:shockwave",
+        "24:yawn",
+        "56:risingvoltage",
+        "64:thunder",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:defog",
+        "tm:electricterrain",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:endure",
+        "egg:sleeptalk",
+        "egg:snore",
+        "egg:flail",
+        "egg:ominouswind",
+        "egg:airslash",
+        "egg:defog",
+        "egg:weatherball"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtorkoal.desc"
+      ],
+      "height": 5,
+      "weight": 804,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.8125,
+        "height": 3.8125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "fire",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahaliantorkoal.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "mahal"
+    }
+  ],
+  "features": [
+    "epoch",
+    "mahalian"
+  ],
+  "evolutions": [
+    {
+      "id": "torkoal_galavagos",
+      "variant": "level_up",
+      "result": "galavagos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "45",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "torkoal_tormine",
+      "variant": "level_up",
+      "result": "tormine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "40",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "torkoal_tortorge",
+      "variant": "level_up",
+      "result": "tortorge",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:metal_coat",
+          "variant": "held_item"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

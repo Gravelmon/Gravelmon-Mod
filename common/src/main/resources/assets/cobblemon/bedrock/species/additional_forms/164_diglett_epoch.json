@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:diglett",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:soulstones_epochdiglett.geo",
+      "poser": "cobblemon:soulstones_epochdiglett",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdiglett/epochdiglett.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochdiglett.geo",
+      "poser": "cobblemon:soulstones_epochdiglett",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdiglett/epochdiglett_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Kaisaos",
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "catchRate": 3,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 310,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 2.355555555555555,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 95,
+    "attack": 115,
+    "defence": 110,
+    "special_attack": 200,
+    "special_defence": 100,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaisaos.desc"
+  ],
+  "height": 106,
+  "weight": 8940,
+  "evolutions": [],
+  "nationalPokedexNumber": 4000,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 6.75,
+    "height": 6.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "kaisaos"
+}

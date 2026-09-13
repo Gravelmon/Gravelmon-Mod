@@ -1,0 +1,83 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shrimpet-01",
+      "pokemon": "shrimpet",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "shrimpet-01",
+      "pokemon": "shrimpet",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "shrimpet-11",
+      "pokemon": "shrimpet",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "shrimpet-11",
+      "pokemon": "shrimpet",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    }
+  ]
+}

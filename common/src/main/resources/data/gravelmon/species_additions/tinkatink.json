@@ -1,0 +1,184 @@
+{
+  "target": "cobblemon:tinkatink",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 59,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.21333333333333335,
+      "cannotDynamax": false,
+      "abilities": [
+        "dragonsmaw",
+        "bonecollector",
+        "h:rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 68,
+        "defence": 64,
+        "special_attack": 45,
+        "special_defence": 25,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "8:shadowsneak",
+        "61:poltergeist",
+        "24:boneclub",
+        "56:outrage",
+        "14:faketears",
+        "43:bonemerang",
+        "5:babydolleyes",
+        "11:brutalswing",
+        "47:phantomforce",
+        "21:bonerush",
+        "1:astonish",
+        "35:dragondance",
+        "39:shadowbone",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:hammerarm",
+        "egg:icehammer",
+        "egg:quash",
+        "egg:confuseray",
+        "egg:powertrip",
+        "egg:beatup",
+        "egg:feintattack"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtinkatink.desc"
+      ],
+      "height": 4,
+      "weight": 89,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochtinkatink_tinkatuff_epoch",
+          "variant": "level_up",
+          "result": "tinkatuff epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "24",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.8125,
+        "height": 2.8125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

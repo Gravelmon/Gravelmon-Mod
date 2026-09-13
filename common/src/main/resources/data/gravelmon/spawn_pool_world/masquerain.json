@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "36-56",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_freshwater"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "36-56",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_freshwater"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [
+        "foliage"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_masquerain-01",
+      "pokemon": "masquerain epoch",
+      "presets": [
+        "foliage"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical",
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

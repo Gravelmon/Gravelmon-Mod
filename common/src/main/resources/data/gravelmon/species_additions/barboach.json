@@ -1,0 +1,288 @@
+{
+  "target": "cobblemon:barboach",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "nuclear",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18823529411764706,
+      "cannotDynamax": false,
+      "abilities": [
+        "hivemind",
+        "corrosion",
+        "h:symbiosis"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 38,
+        "defence": 43,
+        "special_attack": 30,
+        "special_defence": 51,
+        "speed": 61
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:leer",
+        "7:infestation",
+        "46:banefulbunker",
+        "28:gammaray",
+        "19:flash",
+        "40:amnesia",
+        "60:hivemind",
+        "22:toxic",
+        "56:photongeyser",
+        "16:strugglebug",
+        "43:sludgebomb",
+        "22:venomdrench",
+        "31:dazzlinggleam",
+        "40:acidarmor",
+        "13:sludge",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:flamethrower",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:scorchingsands",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:tailglow",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:aurorabeam",
+        "egg:clearsmog",
+        "egg:gastroacid",
+        "egg:healorder",
+        "egg:defendorder",
+        "egg:attackorder",
+        "egg:calmmind",
+        "egg:sludgewave",
+        "egg:healingwish",
+        "egg:shoreup",
+        "egg:belch",
+        "egg:corrode"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbarboach.desc"
+      ],
+      "height": 4,
+      "weight": 19,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochbarboach_whiscash_epoch",
+          "variant": "level_up",
+          "result": "whiscash epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "30",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Ferranian",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.ferranianbarboach.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ferranian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "ferran"
+    }
+  ],
+  "features": [
+    "epoch",
+    "ferranian"
+  ]
+}

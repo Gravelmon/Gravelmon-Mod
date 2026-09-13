@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:radiaze",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "rock",
+      "secondaryType": "electric",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "toughclaws"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 135,
+        "defence": 100,
+        "special_attack": 160,
+        "special_defence": 85,
+        "speed": 95
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

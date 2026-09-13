@@ -1,0 +1,861 @@
+{
+  "target": "cobblemon:eevee",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 65,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.20425531914893616,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "shadowtag",
+        "h:insomnia"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 75,
+        "special_attack": 90,
+        "special_defence": 70,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
+      "moves": [
+        "10:shadowsneak",
+        "35:disable",
+        "55:memento",
+        "50:shadowclaw",
+        "20:bite",
+        "1:tailwhip",
+        "5:sandattack",
+        "25:swift",
+        "45:grudge",
+        "15:disarmingvoice",
+        "40:destinybond",
+        "1:growl",
+        "30:perishsong",
+        "1:astonish",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "egg:babydolleyes",
+        "egg:endeavor",
+        "egg:protect",
+        "egg:curse",
+        "egg:sweetkiss",
+        "egg:wish",
+        "egg:faketears",
+        "egg:covet",
+        "egg:hiddenpower",
+        "egg:synchronoise",
+        "egg:captivate"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocheevee.desc"
+      ],
+      "height": 3,
+      "weight": 65,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epocheevee_vaporeon_epoch",
+          "variant": "item_interact",
+          "result": "vaporeon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:sun_stone",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_jolteon_epoch",
+          "variant": "item_interact",
+          "result": "jolteon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:air_stone",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_flareon_epoch",
+          "variant": "item_interact",
+          "result": "flareon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:solid_stone",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_leafeon_epoch",
+          "variant": "item_interact",
+          "result": "leafeon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:silver_powder",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_glaceon_epoch",
+          "variant": "item_interact",
+          "result": "glaceon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:astral_stone",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_espeon_epoch",
+          "variant": "item_interact",
+          "result": "espeon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:black_sludge",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_umbreon_epoch",
+          "variant": "item_interact",
+          "result": "umbreon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:black_belt",
+          "permanent": true
+        },
+        {
+          "id": "epocheevee_sylveon_epoch",
+          "variant": "item_interact",
+          "result": "sylveon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:astral_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "mega",
+      "primaryType": "normal",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "proteanmaxima"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "attack": 83,
+        "defence": 83,
+        "special_attack": 83,
+        "special_defence": 83,
+        "speed": 83
+      },
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled"
+      ],
+      "height": 6,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "mega"
+  ],
+  "evolutions": [
+    {
+      "id": "eevee_omeon",
+      "variant": "item_interact",
+      "result": "omeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "vanish"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_champeon",
+      "variant": "level_up",
+      "result": "champeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "reversal"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:expert_belt",
+          "variant": "held_item"
+        },
+        {
+          "range": "day",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_lepideon",
+      "variant": "level_up",
+      "result": "lepideon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "signalbeam"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:silver_powder",
+          "variant": "held_item"
+        },
+        {
+          "range": "day",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_guardeon",
+      "variant": "level_up",
+      "result": "guardeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "irondefense"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:metal_coat",
+          "variant": "held_item"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_obsideon",
+      "variant": "level_up",
+      "result": "obsideon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "pressurize"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:hard_stone",
+          "variant": "held_item"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_scorpeon",
+      "variant": "level_up",
+      "result": "scorpeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "venomswipe"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:poison_barb",
+          "variant": "held_item"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_sphynxeon",
+      "variant": "level_up",
+      "result": "sphynxeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "sandtomb"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:soft_sand",
+          "variant": "held_item"
+        },
+        {
+          "range": "day",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_nimbeon",
+      "variant": "level_up",
+      "result": "nimbeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "roost"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "minecraft:feather",
+          "variant": "held_item"
+        },
+        {
+          "range": "day",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_draconeon",
+      "variant": "level_up",
+      "result": "draconeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dragonclaw"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:dragon_scale",
+          "variant": "held_item"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    },
+    {
+      "id": "eevee_eeveeon",
+      "variant": "item_interact",
+      "result": "eeveeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "eevoboost"
+      ],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_vareon",
+      "variant": "item_interact",
+      "result": "vareon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "curse"
+      ],
+      "requirements": [],
+      "requiredContext": "gravelmon:varia_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_cefireon",
+      "variant": "item_interact",
+      "result": "cefireon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:air_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_bandeon",
+      "variant": "level_up",
+      "result": "bandeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "move": "soundpledge",
+          "variant": "has_move"
+        }
+      ]
+    },
+    {
+      "id": "eevee_scaleon",
+      "variant": "level_up",
+      "result": "scaleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "move": "dragonpledge",
+          "variant": "has_move"
+        }
+      ]
+    },
+    {
+      "id": "eevee_nucleon",
+      "variant": "level_up",
+      "result": "nucleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "biomeCondition": "minecraft:deep_dark",
+          "variant": "biome"
+        },
+        {
+          "minLevel": "20",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "eevee_galaxeon",
+      "variant": "item_interact",
+      "result": "galaxeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_prismeon",
+      "variant": "item_interact",
+      "result": "prismeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_octaveon",
+      "variant": "item_interact",
+      "result": "octaveon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:ocarina",
+      "permanent": true
+    },
+    {
+      "id": "eevee_oreon",
+      "variant": "item_interact",
+      "result": "oreon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:cookie",
+      "permanent": true
+    },
+    {
+      "id": "eevee_mujineon",
+      "variant": "item_interact",
+      "result": "mujineon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_spareon",
+      "variant": "item_interact",
+      "result": "spareon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:expert_belt",
+      "permanent": true
+    },
+    {
+      "id": "eevee_almiron",
+      "variant": "item_interact",
+      "result": "almiron",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true
+    },
+    {
+      "id": "eevee_evoleon",
+      "variant": "item_interact",
+      "result": "evoleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_caeleon",
+      "variant": "item_interact",
+      "result": "caeleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:sharp_beak",
+      "permanent": true
+    },
+    {
+      "id": "eevee_saureon",
+      "variant": "item_interact",
+      "result": "saureon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:mystic_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_burreon",
+      "variant": "item_interact",
+      "result": "burreon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:soft_sand",
+      "permanent": true
+    },
+    {
+      "id": "eevee_halluceon",
+      "variant": "item_interact",
+      "result": "halluceon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:black_sludge",
+      "permanent": true
+    },
+    {
+      "id": "eevee_typheon",
+      "variant": "item_interact",
+      "result": "typheon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:air_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_astreon",
+      "variant": "item_interact",
+      "result": "astreon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_illuseon",
+      "variant": "item_interact",
+      "result": "illuseon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_icheon",
+      "variant": "level_up",
+      "result": "icheon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "itemCondition": "cobblemon:throat_spray",
+          "variant": "held_item"
+        }
+      ]
+    },
+    {
+      "id": "eevee_shyneon",
+      "variant": "item_interact",
+      "result": "shyneon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true
+    },
+    {
+      "id": "eevee_titaneon",
+      "variant": "level_up",
+      "result": "titaneon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "irondefense"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "minecraft:iron_helmet",
+          "variant": "held_item"
+        }
+      ]
+    },
+    {
+      "id": "eevee_galeon",
+      "variant": "level_up",
+      "result": "galeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "irondefense"
+      ],
+      "requirements": [
+        {
+          "itemCondition": "minecraft:elytra",
+          "variant": "held_item"
+        }
+      ]
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:varia_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:mystic_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:expert_belt",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:elytra",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:throat_spray",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:iron_helmet",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:silver_powder",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dawn_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
+}

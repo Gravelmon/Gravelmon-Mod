@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:rupsen",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "ignition"
+      ],
+      "baseStats": {
+        "hp": 98,
+        "attack": 100,
+        "defence": 134,
+        "special_attack": 140,
+        "special_defence": 73,
+        "speed": 85
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

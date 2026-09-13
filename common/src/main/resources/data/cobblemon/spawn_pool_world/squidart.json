@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "squidart-01",
+      "pokemon": "squidart",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "squidart-01",
+      "pokemon": "squidart",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "squidart-11",
+      "pokemon": "squidart",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "squidart-11",
+      "pokemon": "squidart",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 25.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "temunk-01",
+      "pokemon": "temunk",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "temunk-01",
+      "pokemon": "temunk",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_season/spring"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

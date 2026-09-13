@@ -1,0 +1,83 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "starphin-01",
+      "pokemon": "starphin",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "starphin-01",
+      "pokemon": "starphin",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "starphin-11",
+      "pokemon": "starphin",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 25.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "starphin-11",
+      "pokemon": "starphin",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 25.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

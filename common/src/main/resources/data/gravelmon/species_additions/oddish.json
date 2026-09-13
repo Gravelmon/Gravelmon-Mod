@@ -1,0 +1,542 @@
+{
+  "target": "cobblemon:oddish",
+  "forms": [
+    {
+      "name": "Egho",
+      "primaryType": "ghost",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "h:effectspore"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defence": 65,
+        "special_attack": 75,
+        "special_defence": 55,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "monster"
+      ],
+      "drops": {
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:seeds",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:memento",
+        "1:taunt",
+        "1:protect",
+        "1:clearsmog",
+        "5:lick",
+        "9:acid",
+        "13:poisongas",
+        "15:stunspore",
+        "17:sleeppowder",
+        "21:nightshade",
+        "25:ominouswind",
+        "29:sludgewave",
+        "33:hex",
+        "37:toxic",
+        "41:nastyplot",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:protect",
+        "tm:frustration",
+        "tm:return",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:sludgebomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:thief",
+        "tm:echoedvoice",
+        "tm:allyswitch",
+        "tm:energyball",
+        "tm:skydrop",
+        "tm:quash",
+        "tm:willowisp",
+        "tm:explosion",
+        "tm:shadowclaw",
+        "tm:payback",
+        "tm:gyroball",
+        "tm:psychup",
+        "tm:workup",
+        "tm:poisonjab",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:bulletseed",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:knockoff",
+        "tutor:signalbeam",
+        "tutor:suckerpunch",
+        "tutor:zenheadbutt",
+        "egg:afteryou",
+        "egg:grudge",
+        "egg:haze",
+        "egg:ingrain",
+        "egg:mist",
+        "egg:moonlight",
+        "egg:simplebeam",
+        "egg:solarbeam"
+      ],
+      "labels": [
+        "infinity",
+        "gen1"
+      ],
+      "pokedex": [
+        "cobblemon.species.eghooddish.desc"
+      ],
+      "height": 4,
+      "weight": 34,
+      "aspects": [
+        "egho"
+      ],
+      "evolutions": [
+        {
+          "id": "eghooddish_gloom_egho",
+          "variant": "level_up",
+          "result": "gloom egho",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "venoshock"
+          ],
+          "requirements": [
+            {
+              "minLevel": "35",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+      },
+      "game": "infinity"
+    },
+    {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5714285714285714,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironbarbs",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 41,
+        "attack": 29,
+        "defence": 37,
+        "special_attack": 27,
+        "special_defence": 29,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianoddish.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianoddish_gloom_varitasian",
+          "variant": "level_up",
+          "result": "gloom varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "21",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      },
+      "game": "varitas"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "cosmic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "starstruck",
+        "h:vitality"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 25,
+        "special_defence": 70,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "52:fleurcannon",
+        "5:swift",
+        "17:magicalleaf",
+        "47:moonblast",
+        "56:seedflare",
+        "26:mirrorcoat",
+        "11:confusion",
+        "1:megadrain",
+        "8:growth",
+        "17:grassyterrain",
+        "20:psybeam",
+        "36:moonlight",
+        "43:lunardance",
+        "23:sleeppowder",
+        "39:pollenpuff",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:playrough",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:wonderroom",
+        "egg:synthesis",
+        "egg:ingrain",
+        "egg:tickle",
+        "egg:teeterdance",
+        "egg:naturepower",
+        "egg:afteryou",
+        "egg:strengthsap",
+        "egg:leechseed",
+        "egg:pollenpuff"
+      ],
+      "labels": [
+        "soulstones"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochoddish.desc"
+      ],
+      "height": 5,
+      "weight": 54,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochoddish_gloom_epoch",
+          "variant": "level_up",
+          "result": "gloom epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianoddish.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "egho",
+    "varitasian",
+    "epoch",
+    "fabelian"
+  ]
+}

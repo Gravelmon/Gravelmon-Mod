@@ -1,0 +1,25 @@
+{
+  "showdown_id": "epochgothitellite",
+  "pokemons": [
+    "Gothitelle"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "epoch"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

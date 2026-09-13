@@ -1,0 +1,26 @@
+{
+  "showdown_id": "crystalfragment",
+  "pokemons": [
+    "Metagross"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "delta",
+            "crystal"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

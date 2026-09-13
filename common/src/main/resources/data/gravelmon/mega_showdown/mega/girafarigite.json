@@ -1,0 +1,19 @@
+{
+  "showdown_id": "girafarigite",
+  "pokemons": [
+    "Girafarig"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

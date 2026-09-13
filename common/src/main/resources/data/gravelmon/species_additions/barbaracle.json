@@ -1,0 +1,310 @@
+{
+  "target": "cobblemon:barbaracle",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "binacle epoch",
+      "baseScale": 0.33548387096774196,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "telepathy",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 60,
+        "defence": 60,
+        "special_attack": 80,
+        "special_defence": 115,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "20:irondefense",
+        "1:wonderroom",
+        "1:swift",
+        "16:ancientpower",
+        "60:futuresight",
+        "32:diamondstorm",
+        "1:confusion",
+        "36:recover",
+        "40:powergem",
+        "1:trickroom",
+        "28:psyshock",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:earthpower",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbarbaracle.desc"
+      ],
+      "height": 13,
+      "weight": 960,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.8125,
+        "height": 5.8125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "rock",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "binacle vesitan",
+      "baseScale": 0.39493670886075954,
+      "cannotDynamax": false,
+      "abilities": [
+        "toughclaws",
+        "sturdy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 110,
+        "defence": 130,
+        "special_attack": 50,
+        "special_defence": 63,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3",
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "44:nightslash",
+        "33:honeclaws",
+        "1:scratch",
+        "60:stoneedge",
+        "10:furyswipes",
+        "13:slash",
+        "20:clamp",
+        "65:skullbash",
+        "1:sandattack",
+        "4:watergun",
+        "28:ancientpower",
+        "39:metalclaw",
+        "55:crosschop",
+        "7:withdraw",
+        "24:rockpolish",
+        "1:shellsmash",
+        "18:mudslap",
+        "37:furycutter",
+        "48:ironhead",
+        "50:rocktomb"
+      ],
+      "labels": [
+        "chaos_in_vestia",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanbarbaracle.desc"
+      ],
+      "height": 13,
+      "weight": 960,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.9375,
+        "height": 4.9375,
+        "fixed": false
+      },
+      "game": "chaos_in_vesita"
+    },
+    {
+      "name": "mega_epoch",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 104,
+        "special_defence": 155,
+        "speed": 96
+      },
+      "labels": [
+        "gen6",
+        "soulstones",
+        "not_modeled"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega",
+        "epoch"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "vesitan",
+    "mega"
+  ]
+}

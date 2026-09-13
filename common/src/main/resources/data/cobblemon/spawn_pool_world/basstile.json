@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "basstile-01",
+      "pokemon": "basstile",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "43-63",
+      "weight": 0.44999999999999996,
+      "stage": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isPokeSnack": true
+        }
+      }
+    },
+    {
+      "id": "basstile-11",
+      "pokemon": "basstile",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "43-63",
+      "weight": 0.44999999999999996,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "basstile-11",
+      "pokemon": "basstile",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "43-63",
+      "weight": 0.44999999999999996,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alteran_hagoop-01",
+      "pokemon": "hagoop alteran",
+      "presets": [
+        "near_lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "alteran_hagoop-01",
+      "pokemon": "hagoop alteran",
+      "presets": [
+        "near_lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    }
+  ]
+}

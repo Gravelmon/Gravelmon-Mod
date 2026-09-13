@@ -1,0 +1,99 @@
+{
+  "name": "Walok",
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.64,
+  "cannotDynamax": false,
+  "abilities": [
+    "cutecharm"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 87,
+    "attack": 62,
+    "defence": 74,
+    "special_attack": 25,
+    "special_defence": 56,
+    "speed": 31
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "tokas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.walok.desc"
+  ],
+  "height": 12,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "walok_binduga",
+      "variant": "level_up",
+      "result": "binduga",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "40",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4408,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.8125,
+    "height": 2.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "tokas",
+  "actualName": "walok"
+}

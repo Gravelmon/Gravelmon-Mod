@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:nawale",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ice",
+      "secondaryType": "water",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "refrigerate"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 170,
+        "defence": 90,
+        "special_attack": 90,
+        "special_defence": 100,
+        "speed": 80
+      },
+      "labels": [
+        "solarlightlunardark",
+        "not_modeled"
+      ],
+      "height": 39,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

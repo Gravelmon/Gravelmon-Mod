@@ -1,0 +1,120 @@
+{
+  "portraitScale": 2.09,
+  "portraitTranslation": [
+    -0.33,
+    -0.64,
+    0
+  ],
+  "profileScale": 0.9,
+  "profileTranslation": [
+    0,
+    0.3,
+    0
+  ],
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochninjask', 'battle_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochninjask', 'blink')",
+        "q.bedrock_quirk('epochninjask', 'run_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochninjask', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochninjask', 'blink')",
+        "q.bedrock_quirk('epochninjask', 'run_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochninjask', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochninjask', 'blink')",
+        "q.bedrock_quirk('epochninjask', 'run_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochninjask', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('epochninjask', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochninjask', 'blink')",
+        "q.bedrock_quirk('epochninjask', 'run_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('epochninjask', 'air_fly')"
+      ],
+      "poseTypes": [
+        "FLY",
+        "GLIDE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochninjask', 'blink')",
+        "q.bedrock_quirk('epochninjask', 'run_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "ninjask",
+  "head": "head",
+  "animations": {
+    "cry": "q.bedrock_stateful('epochninjask', 'cry')",
+    "faint": "q.bedrock_primary('epochninjask', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('epochninjask', 'recoil')",
+    "status": "q.bedrock_primary('epochninjask', 'status', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('epochninjask', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('epochninjask', 'special', q.curve('symmetrical_wide'))"
+  }
+}

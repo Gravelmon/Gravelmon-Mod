@@ -1,0 +1,175 @@
+{
+  "name": "Rexite",
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.22499999999999998,
+  "cannotDynamax": false,
+  "abilities": [
+    "flameeater",
+    "h:strongjaw"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 91,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [
+    "50:flareblitz",
+    "1:leer",
+    "10:bite",
+    "42:stoneedge",
+    "1:stomp",
+    "26:dragonbreath",
+    "22:ancientpower",
+    "38:crunch",
+    "34:temperflare",
+    "6:ember",
+    "18:firefang",
+    "30:screech",
+    "14:rocktomb",
+    "46:dragondance",
+    "54:gigaimpact",
+    "tm:headbutt",
+    "tm:snarl",
+    "tm:brutalswing",
+    "tm:stoneedge",
+    "tm:dragonbreath",
+    "tm:flamecharge",
+    "tm:bulldoze",
+    "tm:facade",
+    "tm:workup",
+    "tm:incinerate",
+    "tm:sandstorm",
+    "tm:ancientpower",
+    "tm:willowisp",
+    "tm:dig",
+    "tm:breakingswipe",
+    "tm:screech",
+    "tm:rocktomb",
+    "tm:honeclaws",
+    "tm:rockpolish",
+    "tm:scaryface",
+    "tm:dragontail",
+    "tm:flamethrower",
+    "tm:sunnyday",
+    "tm:return",
+    "tm:roar",
+    "tm:wildcharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:rockslide",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:protect",
+    "tm:hypervoice",
+    "tm:powergem",
+    "tm:ironhead",
+    "tm:fireblast",
+    "tm:earthquake",
+    "tm:meanlook",
+    "tm:endeavor",
+    "tm:superfang",
+    "tm:temperflare",
+    "tm:stompingtantrum",
+    "tm:earthpower",
+    "tm:heatcrash",
+    "tm:meteorbeam",
+    "tm:outrage",
+    "tm:dustydash",
+    "tm:doubleedge",
+    "tm:irontail",
+    "tm:heatwave",
+    "tm:gunkshot",
+    "tm:bodyslam",
+    "tm:curse",
+    "tm:scaleshot",
+    "tm:overheat"
+  ],
+  "labels": [
+    "solarlightlunardark",
+    "not_modeled",
+    "fossil"
+  ],
+  "pokedex": [
+    "cobblemon.species.rexite.desc"
+  ],
+  "height": 12,
+  "weight": 555,
+  "evolutions": [
+    {
+      "id": "rexite_tarexite",
+      "variant": "level_up",
+      "result": "tarexite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "37",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4140,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "solar_light_lunar_dark",
+  "actualName": "rexite"
+}

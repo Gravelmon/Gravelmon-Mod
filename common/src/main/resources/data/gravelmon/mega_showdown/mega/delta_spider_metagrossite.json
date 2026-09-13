@@ -1,0 +1,26 @@
+{
+  "showdown_id": "deltaspidermetagrossite",
+  "pokemons": [
+    "Metagross"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "delta",
+            "spider"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

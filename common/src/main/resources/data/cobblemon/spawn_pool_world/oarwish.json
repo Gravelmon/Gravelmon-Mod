@@ -1,0 +1,107 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "oarwish-01",
+      "pokemon": "oarwish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "40-60",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "oarwish-01",
+      "pokemon": "oarwish",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "40-60",
+      "weight": 4.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "oarwish-11",
+      "pokemon": "oarwish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "40-60",
+      "weight": 4.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ],
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "oarwish-11",
+      "pokemon": "oarwish",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "40-60",
+      "weight": 4.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

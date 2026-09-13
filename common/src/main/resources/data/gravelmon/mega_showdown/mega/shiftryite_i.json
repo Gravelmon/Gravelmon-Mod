@@ -1,0 +1,19 @@
+{
+  "showdown_id": "shiftryitei",
+  "pokemons": [
+    "Shiftry"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega_i"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

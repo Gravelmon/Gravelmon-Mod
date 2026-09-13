@@ -1,0 +1,19 @@
+{
+  "showdown_id": "razorvilite",
+  "pokemons": [
+    "Razorvile"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

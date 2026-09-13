@@ -1,0 +1,433 @@
+{
+  "target": "cobblemon:ledian",
+  "forms": [
+    {
+      "name": "Relic",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 173,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "ledyba relic",
+      "baseScale": 0.48607594936708864,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironfist",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 90,
+        "special_attack": 35,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "5:cometpunch",
+        "9:lightscreen",
+        "9:reflect",
+        "15:bulletpunch",
+        "20:bulkup",
+        "25:craftyshield",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:quash",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:gyroball",
+        "tm:swordsdance",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:naturepower",
+        "tm:poweruppunch",
+        "tm:dazzlinggleam",
+        "tm:confide"
+      ],
+      "labels": [
+        "phoenix_rising",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.relicledian.desc"
+      ],
+      "height": 16,
+      "weight": 300,
+      "aspects": [
+        "relic"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.9375,
+        "height": 4.9375,
+        "fixed": false
+      },
+      "game": "phoenix_rising"
+    },
+    {
+      "name": "Alteran",
+      "primaryType": "bug",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 137,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "ledyba",
+      "baseScale": 0.325,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "ironfist",
+        "h:justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 85,
+        "defence": 45,
+        "special_attack": 40,
+        "special_defence": 80,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:poweruppunch",
+        "1:silverwind",
+        "1:airslash",
+        "1:agility",
+        "1:bugbuzz",
+        "1:doubleedge",
+        "1:tackle",
+        "1:supersonic",
+        "1:machpunch",
+        "1:swift",
+        "15:lightscreen",
+        "15:reflect",
+        "15:safeguard",
+        "21:skyuppercut",
+        "26:cometpunch",
+        "32:batonpass",
+        "37:lunge",
+        "43:cosmicpower",
+        "48:meteormash",
+        "54:wish",
+        "egg:wish",
+        "egg:screech"
+      ],
+      "labels": [
+        "flux",
+        "gen2",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.alteranledian.desc"
+      ],
+      "height": 13,
+      "weight": 520,
+      "aspects": [
+        "alteran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      },
+      "game": "flux"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "steel",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 137,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "ledyba epoch",
+      "baseScale": 0.6109090909090908,
+      "cannotDynamax": false,
+      "abilities": [
+        "clearbody",
+        "tintedlens",
+        "h:heatproof"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 75,
+        "special_attack": 85,
+        "special_defence": 95,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "54:storedpower",
+        "1:infestation",
+        "30:reflect",
+        "41:airslash",
+        "38:bugbuzz",
+        "6:supersonic",
+        "25:mirrorshot",
+        "30:lightscreen",
+        "22:metalsound",
+        "33:autotomize",
+        "49:quiverdance",
+        "14:silverwind",
+        "22:screech",
+        "1:detect",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:energyball",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gigadrain",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mirrorshot",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockblast",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soundbarrier",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochledian.desc"
+      ],
+      "height": 14,
+      "weight": 356,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "relic",
+    "alteran",
+    "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "ledian_ledybulk",
+      "variant": "level_up",
+      "result": "ledybulk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "38",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "ledian_lediastra",
+      "variant": "level_up",
+      "result": "lediastra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cararalm-01",
+      "pokemon": "cararalm",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "24-44",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day",
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_cold",
+          "#cobblemon:is_coast"
+        ]
+      }
+    },
+    {
+      "id": "cararalm-01",
+      "pokemon": "cararalm",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "24-44",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_cold",
+          "#cobblemon:is_coast"
+        ]
+      }
+    }
+  ]
+}

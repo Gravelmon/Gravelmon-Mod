@@ -1,0 +1,19 @@
+{
+  "showdown_id": "starmitep",
+  "pokemons": [
+    "Starmie"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega_p"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

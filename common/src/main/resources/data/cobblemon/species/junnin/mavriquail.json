@@ -1,0 +1,147 @@
+{
+  "name": "Mavriquail",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "chiquail",
+  "baseScale": 0.528813559322034,
+  "cannotDynamax": false,
+  "abilities": [
+    "unburden",
+    "h:pinwheel"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 77,
+    "attack": 83,
+    "defence": 49,
+    "special_attack": 53,
+    "special_defence": 53,
+    "speed": 79
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:bravebird",
+    "tm:dualwingbeat",
+    "tm:endeavor",
+    "tm:snore",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:darkpulse",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:focusblast",
+    "tm:sunnyday",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:defog",
+    "tm:fly",
+    "tm:roost",
+    "tm:skydrop",
+    "tm:shadowball",
+    "tm:solarbeam",
+    "tm:blizzard",
+    "tm:snowscape",
+    "tm:icebeam",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:razorwind",
+    "tm:retaliate",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:agility",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:steelwing",
+    "tm:raindance",
+    "tm:flatter",
+    "tm:babydolleyes",
+    "tm:charm",
+    "tm:featherdance",
+    "tm:flail",
+    "tm:razorwind"
+  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.mavriquail.desc"
+  ],
+  "height": 13,
+  "weight": 165,
+  "evolutions": [],
+  "nationalPokedexNumber": 2036,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "junnin",
+  "actualName": "mavriquail"
+}

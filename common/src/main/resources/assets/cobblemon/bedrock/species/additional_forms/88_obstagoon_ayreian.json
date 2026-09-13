@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:obstagoon",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:vanguard_ayreianobstagoon.geo",
+      "poser": "cobblemon:vanguard_ayreianobstagoon",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianobstagoon/ayreianobstagoon.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:vanguard_ayreianobstagoon.geo",
+      "poser": "cobblemon:vanguard_ayreianobstagoon",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianobstagoon/ayreianobstagoon_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

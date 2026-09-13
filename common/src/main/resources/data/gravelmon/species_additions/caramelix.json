@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:caramelix",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "magicbounce"
+      ],
+      "baseStats": {
+        "hp": 54,
+        "attack": 92,
+        "defence": 103,
+        "special_attack": 102,
+        "special_defence": 103,
+        "speed": 107
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 8,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

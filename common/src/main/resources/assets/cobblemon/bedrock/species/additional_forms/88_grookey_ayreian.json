@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:grookey",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:vanguard_ayreiangrookey.geo",
+      "poser": "cobblemon:vanguard_ayreiangrookey",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiangrookey/grookey.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:vanguard_ayreiangrookey.geo",
+      "poser": "cobblemon:vanguard_ayreiangrookey",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiangrookey/grookey_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

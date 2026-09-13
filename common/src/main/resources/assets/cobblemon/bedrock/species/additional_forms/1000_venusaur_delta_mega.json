@@ -1,0 +1,62 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 134,
+  "variations": [
+    {
+      "aspects": [
+        "delta","mega_evolution=mega"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/venusaur_delta_mega/deltavenusaur_mega.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta","mega_evolution=mega",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/venusaur_delta_mega/deltavenusaur_mega_shiny.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta","mega_evolution=mega",
+        "female"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/venusaur_delta_mega/deltavenusaur_mega_female.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta","mega_evolution=mega",
+        "female",
+        "shiny"
+      ],
+      "model": "cobblemon:insurgence_deltavenusaur_mega_female.geo",
+      "poser": "cobblemon:insurgence_deltavenusaur_mega_female",
+      "texture": "cobblemon:textures/pokemon/insurgence/venusaur_delta_mega/deltavenusaur_mega_female_shiny.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

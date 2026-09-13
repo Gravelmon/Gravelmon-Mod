@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:drilgann",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ground",
+      "secondaryType": "dark",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sandrush"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 180,
+        "defence": 88,
+        "special_attack": 60,
+        "special_defence": 88,
+        "speed": 84
+      },
+      "labels": [
+        "uranium",
+        "not_modeled"
+      ],
+      "height": 24,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

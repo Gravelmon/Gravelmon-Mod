@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "searine-01",
+      "pokemon": "searine",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "searine-01",
+      "pokemon": "searine",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

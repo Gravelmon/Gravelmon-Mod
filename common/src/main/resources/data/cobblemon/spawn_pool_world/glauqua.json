@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glauqua-01",
+      "pokemon": "glauqua",
+      "presets": [
+        "water",
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean",
+          "#cobblemon:is_freshwater"
+        ]
+      }
+    },
+    {
+      "id": "glauqua-01",
+      "pokemon": "glauqua",
+      "presets": [
+        "water",
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lukewarm_ocean",
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean",
+          "#cobblemon:is_freshwater"
+        ]
+      }
+    }
+  ]
+}

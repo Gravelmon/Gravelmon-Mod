@@ -1,0 +1,87 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "x_sharpedo-01",
+      "pokemon": "sharpedo x",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end",
+          "#minecraft:is_deep_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "x_sharpedo-01",
+      "pokemon": "sharpedo x",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end",
+          "#minecraft:is_deep_ocean"
+        ]
+      }
+    },
+    {
+      "id": "epoch_sharpedo-01",
+      "pokemon": "sharpedo epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#minecraft:is_end"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "epoch_sharpedo-01",
+      "pokemon": "sharpedo epoch",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

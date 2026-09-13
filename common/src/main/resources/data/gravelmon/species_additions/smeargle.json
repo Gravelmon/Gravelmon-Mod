@@ -1,0 +1,614 @@
+{
+  "target": "cobblemon:smeargle",
+  "forms": [
+    {
+      "name": "Cefiran",
+      "primaryType": "normal",
+      "secondaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 88,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.27692307692307694,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster",
+        "h:moody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 20,
+        "defence": 35,
+        "special_attack": 75,
+        "special_defence": 20,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sketch",
+        "11:sketch",
+        "21:sketch",
+        "31:sketch",
+        "41:sketch",
+        "51:sketch",
+        "61:sketch",
+        "71:sketch",
+        "81:sketch",
+        "91:sketch"
+      ],
+      "labels": [
+        "gen2",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiransmeargle.desc"
+      ],
+      "height": 12,
+      "weight": 580,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.5,
+        "height": 6.5,
+        "fixed": false
+      },
+      "game": "opalo"
+    },
+    {
+      "name": "X",
+      "primaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 88,
+      "experienceGroup": "fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 14.399999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "immunity",
+        "sweetveil",
+        "h:stickyhold"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 20,
+        "defence": 35,
+        "special_attack": 20,
+        "special_defence": 45,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
+      "moves": [
+        "1:lick",
+        "1:sweetscent",
+        "3:vinewhip",
+        "6:fairywind",
+        "9:sweetkiss",
+        "12:drainingkiss",
+        "15:aromatherapy",
+        "18:flail",
+        "21:refresh",
+        "24:charm",
+        "28:wringout",
+        "32:milkdrink",
+        "36:creamwhip",
+        "39:present",
+        "43:sugarrush",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:attract",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:fling",
+        "tm:psychup",
+        "tm:substitute",
+        "tm:dazzlinggleam",
+        "tutor:secretpower",
+        "tutor:snore"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1",
+        "not_modeled",
+        "x"
+      ],
+      "pokedex": [
+        "cobblemon.species.smearglex.desc"
+      ],
+      "height": 12,
+      "weight": 580,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [
+        {
+          "id": "smearglex_chientilly",
+          "variant": "item_interact",
+          "result": "chientilly",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:xenolith",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      },
+      "game": "xenoverse"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 88,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5052631578947367,
+      "cannotDynamax": false,
+      "abilities": [
+        "owntempo",
+        "technician",
+        "h:protean"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 20,
+        "defence": 35,
+        "special_attack": 75,
+        "special_defence": 20,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "91:sketch",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:boltbeak",
+        "tm:bounce",
+        "tm:bravebird",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:gyroball",
+        "tm:hail",
+        "tm:haze",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:heavensknuckle",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicalleaf",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mudslide",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:pollenpuff",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powergem",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:quicksand",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soak",
+        "tm:solarbeam",
+        "tm:soundbarrier",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:steameruption",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:stoneedge",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:tripleaxel",
+        "tm:uturn",
+        "tm:voltswitch",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsmeargle.desc"
+      ],
+      "height": 12,
+      "weight": 580,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5625,
+        "height": 3.5625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabeliansmeargle.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "cefiran",
+    "x",
+    "epoch",
+    "fabelian"
+  ],
+  "evolutions": [
+    {
+      "id": "smeargle_smeartiste",
+      "variant": "level_up",
+      "result": "smeartiste",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "38",
+          "variant": "level"
+        }
+      ]
+    }
+  ]
+}

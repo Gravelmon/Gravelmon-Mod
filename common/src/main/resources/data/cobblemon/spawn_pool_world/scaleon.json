@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "scaleon-01",
+      "pokemon": "scaleon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 5.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "timeRange": "night",
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "scaleon-01",
+      "pokemon": "scaleon",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 5.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rocano-01",
+      "pokemon": "rocano",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volvanic"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "rocano-01",
+      "pokemon": "rocano",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:is_volvanic"
+        ]
+      }
+    }
+  ]
+}

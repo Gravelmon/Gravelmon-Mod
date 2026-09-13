@@ -1,0 +1,368 @@
+{
+  "target": "cobblemon:grimmsnarl",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "fairy",
+      "catchRate": 90,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 255,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "morgrem epoch",
+      "baseScale": 0.4337349397590361,
+      "cannotDynamax": false,
+      "abilities": [
+        "tanglinghair",
+        "stormdrain",
+        "h:prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 105,
+        "defence": 80,
+        "special_attack": 50,
+        "special_defence": 105,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "26:captivate",
+        "1:falsesurrender",
+        "1:mudbomb",
+        "1:fakeout",
+        "1:playrough",
+        "1:bulkup",
+        "37:moonlight",
+        "47:earthquake",
+        "41:mudslide",
+        "1:sandtomb",
+        "26:charm",
+        "54:nastyplot",
+        "29:quash",
+        "15:bulldoze",
+        "54:swordsdance",
+        "21:quicksand",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrimmsnarl.desc"
+      ],
+      "height": 15,
+      "weight": 610,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "catchRate": 90,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 255,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "morgrem epochtwo",
+      "baseScale": 0.41860465116279066,
+      "cannotDynamax": false,
+      "abilities": [
+        "vengeful",
+        "gluttony",
+        "h:irredeemable"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defence": 90,
+        "special_attack": 90,
+        "special_defence": 75,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:firepunch",
+        "31:embargo",
+        "66:flareblitz",
+        "53:suckerpunch",
+        "1:leer",
+        "48:spectralthief",
+        "23:cheapshot",
+        "19:flamecharge",
+        "10:taunt",
+        "7:pursuit",
+        "10:torment",
+        "35:firelash",
+        "57:fakemonstonesurge",
+        "43:darkestlariat",
+        "4:fakeout",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:burningjealousy",
+        "tm:closecombat",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrimmsnarlone.desc"
+      ],
+      "height": 15,
+      "weight": 610,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.375,
+        "height": 5.375,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "mega_epochtwo",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "darkaura"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 120,
+        "defence": 105,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "labels": [
+        "gen8",
+        "soulstones",
+        "not_modeled"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega",
+        "epochtwo"
+      ]
+    }
+  ],
+  "features": [
+    "epoch",
+    "epochtwo",
+    "mega"
+  ]
+}

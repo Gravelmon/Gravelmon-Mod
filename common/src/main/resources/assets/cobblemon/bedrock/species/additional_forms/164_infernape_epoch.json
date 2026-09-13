@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:infernape",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:soulstones_epochinfernape.geo",
+      "poser": "cobblemon:soulstones_epochinfernape",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochinfernape/epochinfernape.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochinfernape.geo",
+      "poser": "cobblemon:soulstones_epochinfernape",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochinfernape/epochinfernape_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

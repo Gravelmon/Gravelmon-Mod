@@ -1,0 +1,99 @@
+{
+  "name": "Winkip",
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3272727272727272,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 35,
+    "attack": 18,
+    "defence": 37,
+    "special_attack": 53,
+    "special_defence": 37,
+    "speed": 63
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "mongratis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.winkip.desc"
+  ],
+  "height": 6,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "winkip_winkap",
+      "variant": "level_up",
+      "result": "winkap",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "19",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3861,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.75,
+    "height": 2.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "mongratis",
+  "actualName": "winkip"
+}

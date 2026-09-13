@@ -1,0 +1,135 @@
+{
+  "name": "Arctikull",
+  "primaryType": "ice",
+  "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 302,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 70,
+  "baseScale": 0.84375,
+  "cannotDynamax": false,
+  "abilities": [
+    "icearmor"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 105,
+    "attack": 160,
+    "defence": 130,
+    "special_attack": 95,
+    "special_defence": 95,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [
+    "1:meanlook",
+    "1:powdersnow",
+    "1:spite",
+    "5:icywind",
+    "10:payback",
+    "15:haze",
+    "15:mist",
+    "20:iceshard",
+    "25:swordsdance",
+    "30:snowscape",
+    "35:nightslash",
+    "40:darkpulse",
+    "45:iciclecrash",
+    "50:ruination",
+    "55:suckerpunch",
+    "60:sacredsword",
+    "65:recover",
+    "70:throatchop",
+    "75:sheercold",
+    "tm:takedown",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:icefang",
+    "tm:acrobatics",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:hex",
+    "tm:snarl",
+    "tm:icywind",
+    "tm:avalanche",
+    "tm:endure",
+    "tm:raindance",
+    "tm:snowscape",
+    "tm:falseswipe",
+    "tm:brickbreak",
+    "tm:psychicfangs",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:taunt",
+    "tm:swordsdance",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:crunch",
+    "tm:icespinner",
+    "tm:blizzard",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:terablast"
+  ],
+  "labels": [
+    "lockemon",
+    "not_modeled",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.arctikull.desc"
+  ],
+  "height": 45,
+  "weight": 3520,
+  "evolutions": [],
+  "nationalPokedexNumber": 2210,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "lockemon",
+  "actualName": "arctikull"
+}

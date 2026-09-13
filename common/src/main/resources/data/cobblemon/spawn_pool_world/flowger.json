@@ -1,0 +1,159 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "flowger-01",
+      "pokemon": "flowger",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "flowger-01",
+      "pokemon": "flowger",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "flowger-11",
+      "pokemon": "flowger",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "flowger-11",
+      "pokemon": "flowger",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ]
+      }
+    },
+    {
+      "id": "blue_flowger-01",
+      "pokemon": "flowger blue",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "blue_flowger-01",
+      "pokemon": "flowger blue",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "blue_flowger-11",
+      "pokemon": "flowger blue",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "blue_flowger-11",
+      "pokemon": "flowger blue",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 13.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ]
+      }
+    }
+  ]
+}

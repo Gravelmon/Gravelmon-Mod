@@ -1,0 +1,176 @@
+{
+  "target": "cobblemon:omanyte",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 71,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicbounce",
+        "magicguard",
+        "h:spellcaster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 25,
+        "defence": 85,
+        "special_attack": 35,
+        "special_defence": 55,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "34:darkpulse",
+        "20:reflect",
+        "20:lightscreen",
+        "29:flash",
+        "38:protect",
+        "1:withdraw",
+        "4:confusion",
+        "7:trick",
+        "47:dazzlinggleam",
+        "52:expandingforce",
+        "24:psybeam",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "egg:psychicterrain",
+        "egg:magiccoat",
+        "egg:magicroom",
+        "egg:storedpower",
+        "egg:extrasensory",
+        "egg:mist",
+        "egg:reflecttype",
+        "egg:synchronoise",
+        "egg:confuseray",
+        "egg:tickle"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochomanyte.desc"
+      ],
+      "height": 4,
+      "weight": 75,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochomanyte_omastar_epoch",
+          "variant": "level_up",
+          "result": "omastar epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "40",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5,
+        "height": 2.5,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

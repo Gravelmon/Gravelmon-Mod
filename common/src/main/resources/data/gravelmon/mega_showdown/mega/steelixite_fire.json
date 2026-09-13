@@ -1,0 +1,19 @@
+{
+  "showdown_id": "steelixitefire",
+  "pokemons": [
+    "Steelix"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega_fire"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

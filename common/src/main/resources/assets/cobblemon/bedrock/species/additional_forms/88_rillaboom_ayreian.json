@@ -1,0 +1,77 @@
+{
+  "species": "cobblemon:rillaboom",
+  "order": 103,
+  "variations": [
+    {
+      "aspects": [
+        "ayreian"
+      ],
+      "model": "cobblemon:vanguard_ayreianrillaboom.geo",
+      "poser": "cobblemon:vanguard_ayreianrillaboom",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianrillaboom/rillaboom.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "texture": "cobblemon:textures/pokemon/vanguard/ayreianrillaboom/rillaboom_transparent.png",
+          "translucent": true
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ayreian",
+        "shiny"
+      ],
+      "model": "cobblemon:vanguard_ayreianrillaboom.geo",
+      "poser": "cobblemon:vanguard_ayreianrillaboom",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianrillaboom/rillaboom_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "texture": "cobblemon:textures/pokemon/vanguard/ayreianrillaboom/rillaboom_transparent.png",
+          "translucent": true
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

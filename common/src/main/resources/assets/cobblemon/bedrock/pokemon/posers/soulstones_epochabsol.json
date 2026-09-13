@@ -1,0 +1,84 @@
+{
+  "rootBone": "absol",
+  "head": "head_ai",
+  "portraitScale": 1.91,
+  "portraitTranslation": [
+    -0.91,
+    1.18,
+    0
+  ],
+  "profileScale": 0.59,
+  "profileTranslation": [
+    -0.02,
+    0.85,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('epochabsol', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochabsol', q.look('head_ai'))",
+        "q.bedrock('epochabsol', 'battle_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochabsol', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochabsol', q.look('head_ai'))",
+        "q.bedrock('epochabsol', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochabsol', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochabsol', q.look('head_ai'))",
+        "q.bedrock('epochabsol', 'ground_run')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochabsol', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochabsol', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

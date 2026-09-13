@@ -1,0 +1,452 @@
+{
+  "target": "cobblemon:maractus",
+  "forms": [
+    {
+      "name": "Delta",
+      "primaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "serenegrace",
+        "synchronize",
+        "h:healer"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 86,
+        "defence": 67,
+        "special_attack": 106,
+        "special_defence": 67,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:machpunch",
+        "1:shiftgear",
+        "1:afteryou",
+        "1:rollout",
+        "1:metalclaw",
+        "3:flash",
+        "6:harden",
+        "10:steamroller",
+        "13:mirrorshot",
+        "15:metronome",
+        "18:autotomize",
+        "22:pursuit",
+        "26:chargebeam",
+        "29:batonpass",
+        "33:metalburst",
+        "38:flashcannon",
+        "42:discharge",
+        "45:lockon",
+        "48:meteormash",
+        "50:bulletpunch",
+        "55:shiftgear",
+        "57:afteryou",
+        "tm:honeclaws",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:frustration",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:recycle",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:explosion",
+        "tm:shadowclaw",
+        "tm:gigaimpact",
+        "tm:rockpolish",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:gyroball",
+        "tm:swordsdance",
+        "tm:wildcharge",
+        "tm:shockwave",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:cut",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:batonpass",
+        "tutor:counter",
+        "tutor:endure",
+        "tutor:helpinghand",
+        "tutor:icepunch",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:meteormash",
+        "tutor:metronome",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:shiftgear",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:thunderpunch",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltamaractus.desc"
+      ],
+      "height": 10,
+      "weight": 560,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.5,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32,
+      "cannotDynamax": false,
+      "abilities": [
+        "dishearten",
+        "pounce",
+        "h:reaper"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 56,
+        "defence": 67,
+        "special_attack": 80,
+        "special_defence": 106,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "7:siphon",
+        "4:leer",
+        "49:nastyplot",
+        "25:metalsound",
+        "1:taunt",
+        "34:discharge",
+        "43:darkvoid",
+        "40:autotomize",
+        "22:shockwave",
+        "25:screech",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:workup",
+        "egg:darkpulse",
+        "egg:oblivionwing"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmaractus.desc"
+      ],
+      "height": 10,
+      "weight": 280,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Hoennian",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "chlorophyll",
+        "h:flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 62,
+        "attack": 36,
+        "defence": 106,
+        "special_attack": 86,
+        "special_defence": 106,
+        "speed": 93
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "egg:uproar",
+        "egg:faketears",
+        "tm:cut",
+        "tm:flash",
+        "tm:toxic",
+        "tm:bulletseed",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:energyball",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shimmershot",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:fireblast",
+        "tm:gigaimpact",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "1:tackle",
+        "4:leer",
+        "9:absorb",
+        "12:ember",
+        "17:torment",
+        "20:smog",
+        "25:rapidspin",
+        "28:kindleseed",
+        "33:needlearm",
+        "36:scaryface",
+        "41:heatwave"
+      ],
+      "labels": [
+        "blazing_emerald",
+        "gen5"
+      ],
+      "pokedex": [
+        "cobblemon.species.hoennianmaractus.desc"
+      ],
+      "height": 8,
+      "weight": 239,
+      "aspects": [
+        "hoennian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "game": "blazing_emerald"
+    }
+  ],
+  "features": [
+    "delta",
+    "epoch",
+    "hoennian"
+  ]
+}

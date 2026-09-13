@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:phantomail",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ghost",
+      "secondaryType": "steel",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "justified"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 140,
+        "defence": 79,
+        "special_attack": 110,
+        "special_defence": 60,
+        "speed": 130
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Scaelicius",
+  "primaryType": "flying",
+  "secondaryType": "dragon",
+  "catchRate": 5,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 1.36875,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 80,
+    "attack": 130,
+    "defence": 95,
+    "special_attack": 145,
+    "special_defence": 100,
+    "speed": 120
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "nodorro",
+    "not_modeled",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.scaelicius.desc"
+  ],
+  "height": 73,
+  "weight": 2000,
+  "evolutions": [],
+  "nationalPokedexNumber": 4553,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.0,
+    "height": 8.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "nodorro",
+  "actualName": "scaelicius"
+}

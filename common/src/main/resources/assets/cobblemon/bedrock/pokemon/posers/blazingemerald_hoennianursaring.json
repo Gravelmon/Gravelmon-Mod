@@ -1,0 +1,29 @@
+{
+  "portraitScale": 2.0999999046325684,
+  "portraitTranslation": [
+    -0.1,
+    1.6,
+    0.0
+  ],
+  "profileScale": 0.6499999761581421,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('ursaring_hoennian', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "allPoseTypes": true,
+      "quirks": [
+        "q.bedrock_quirk('ursaring_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  }
+}

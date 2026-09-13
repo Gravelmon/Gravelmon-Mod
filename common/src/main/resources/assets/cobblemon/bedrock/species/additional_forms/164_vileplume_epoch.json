@@ -1,0 +1,75 @@
+{
+  "species": "cobblemon:vileplume",
+  "order": 178,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "model": "cobblemon:soulstones_epochvileplume.geo",
+      "poser": "cobblemon:soulstones_epochvileplume",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochvileplume/epochvileplume.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochvileplume.geo",
+      "poser": "cobblemon:soulstones_epochvileplume",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochvileplume/epochvileplume_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

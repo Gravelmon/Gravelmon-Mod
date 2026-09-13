@@ -1,0 +1,100 @@
+{
+  "name": "Bubby",
+  "primaryType": "water",
+  "catchRate": 210,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.24615384615384617,
+  "cannotDynamax": false,
+  "abilities": [
+    "voltabsorb",
+    "oblivious",
+    "h:rattled"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 72,
+    "attack": 60,
+    "defence": 72,
+    "special_attack": 25,
+    "special_defence": 68,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "water_1"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "olysos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bubby.desc"
+  ],
+  "height": 1,
+  "weight": 2,
+  "evolutions": [
+    {
+      "id": "bubby_coarsent",
+      "variant": "level_up",
+      "result": "coarsent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "28",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 3951,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.4375,
+    "height": 2.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "olysos",
+  "actualName": "bubby"
+}

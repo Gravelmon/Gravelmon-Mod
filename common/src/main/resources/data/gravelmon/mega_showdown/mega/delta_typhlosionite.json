@@ -1,0 +1,26 @@
+{
+  "showdown_id": "deltatyphlosionite",
+  "pokemons": [
+    "Typhlosion"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {
+        "required_aspects": [
+          [
+            "delta",
+            "active"
+          ]
+        ]
+      },
+      "aspects": [
+        "mega_evolution=mega"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

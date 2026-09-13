@@ -1,0 +1,598 @@
+{
+  "target": "cobblemon:morgrem",
+  "forms": [
+    {
+      "name": "Varitasian",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 90,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "impidimp varitasian",
+      "baseScale": 0.29090909090909095,
+      "cannotDynamax": false,
+      "abilities": [
+        "unburden",
+        "h:frisk"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 51,
+        "attack": 27,
+        "defence": 53,
+        "special_attack": 77,
+        "special_defence": 53,
+        "speed": 91
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:flatter",
+        "12:faketears",
+        "16:assurance",
+        "20:swagger",
+        "24:suckerpunch",
+        "28:torment",
+        "35:darkpulse",
+        "40:nastyplot",
+        "46:playrough",
+        "52:foulplay",
+        "tm:burningjealousy",
+        "tm:lashout",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:attract",
+        "tm:facade",
+        "tm:revenge",
+        "tm:faketears",
+        "tm:assurance",
+        "tm:drainpunch",
+        "tm:shadowclaw",
+        "tm:round",
+        "tm:retaliate",
+        "tm:drainingkiss",
+        "tm:lowkick",
+        "tm:metronome",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:uproar",
+        "tm:taunt",
+        "tm:trick",
+        "tm:darkpulse",
+        "tm:nastyplot",
+        "tm:foulplay",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:throatchop"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmorgrem.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianmorgrem_grimpire",
+          "variant": "level_up",
+          "result": "grimpire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "42",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
+        "fixed": false
+      },
+      "game": "varitas"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "fairy",
+      "catchRate": 120,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "impidimp epoch",
+      "baseScale": 0.32000000000000006,
+      "cannotDynamax": false,
+      "abilities": [
+        "tanglinghair",
+        "stormdrain",
+        "h:prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 85,
+        "defence": 45,
+        "special_attack": 50,
+        "special_defence": 85,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sandtomb",
+        "26:charm",
+        "26:captivate",
+        "54:nastyplot",
+        "29:quash",
+        "1:mudbomb",
+        "15:bulldoze",
+        "1:fakeout",
+        "37:moonlight",
+        "47:earthquake",
+        "54:swordsdance",
+        "21:quicksand",
+        "41:mudslide",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmorgrem.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmorgrem_grimmsnarl_epoch",
+          "variant": "level_up",
+          "result": "grimmsnarl epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "42",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.75,
+        "height": 3.75,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "catchRate": 120,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "impidimp epochtwo",
+      "baseScale": 0.26301369863013696,
+      "cannotDynamax": false,
+      "abilities": [
+        "vengeful",
+        "gluttony",
+        "h:irredeemable"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 70,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:firepunch",
+        "31:embargo",
+        "66:flareblitz",
+        "53:suckerpunch",
+        "1:leer",
+        "48:spectralthief",
+        "23:cheapshot",
+        "19:flamecharge",
+        "10:taunt",
+        "7:pursuit",
+        "10:torment",
+        "35:firelash",
+        "57:fakemonstonesurge",
+        "43:darkestlariat",
+        "4:fakeout",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:burningjealousy",
+        "tm:closecombat",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmorgremone.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmorgremone_grimmsnarl_epochtwo",
+          "variant": "level_up",
+          "result": "grimmsnarl epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "42",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5625,
+        "height": 4.5625,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "ice",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianmorgrem.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "fabel"
+    }
+  ],
+  "features": [
+    "varitasian",
+    "epoch",
+    "epochtwo",
+    "fabelian"
+  ]
+}

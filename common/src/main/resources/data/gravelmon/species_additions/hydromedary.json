@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:hydromedary",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "bombardier"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 90,
+        "defence": 110,
+        "special_attack": 150,
+        "special_defence": 95,
+        "speed": 65
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 20,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

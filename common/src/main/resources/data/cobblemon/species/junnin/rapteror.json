@@ -1,0 +1,136 @@
+{
+  "name": "Rapteror",
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "reptling",
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
+  "abilities": [
+    "overgrow",
+    "h:hustle"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 55,
+    "attack": 92,
+    "defence": 48,
+    "special_attack": 65,
+    "special_defence": 48,
+    "speed": 97
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "eggGroups": [
+    "grass",
+    "monster"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:dualwingbeat",
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:snore",
+    "tm:sunnyday",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:grassyterrain",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:return",
+    "tm:round",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:leafage",
+    "tm:faketears",
+    "tm:growth",
+    "tm:stockpile",
+    "tm:spitup",
+    "tm:swallow",
+    "tm:leechseed",
+    "tm:batonpass",
+    "tm:bestow",
+    "tm:headbutt"
+  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "starter",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.rapteror.desc"
+  ],
+  "height": 8,
+  "weight": 165,
+  "evolutions": [
+    {
+      "id": "rapteror_velosaur",
+      "variant": "level_up",
+      "result": "velosaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 2011,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5,
+    "height": 4.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "junnin",
+  "actualName": "rapteror"
+}

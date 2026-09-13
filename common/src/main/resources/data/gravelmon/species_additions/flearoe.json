@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:flearoe",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "solarpower"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 82,
+        "defence": 118,
+        "special_attack": 128,
+        "special_defence": 145,
+        "speed": 87
+      },
+      "labels": [
+        "solarlightlunardark",
+        "not_modeled"
+      ],
+      "height": 15,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

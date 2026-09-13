@@ -1,0 +1,72 @@
+{
+  "species": "cobblemon:paramoth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon_127_by_128.geo",
+      "poser": "cobblemon:cutout_gravelmon_127_by_128",
+      "texture": "cobblemon:textures/pokemon/sage/paramoth.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "model": "cobblemon:cutout_gravelmon_109_by_128.geo",
+      "poser": "cobblemon:cutout_gravelmon_109_by_128",
+      "texture": "cobblemon:textures/pokemon/sage/paramoth_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

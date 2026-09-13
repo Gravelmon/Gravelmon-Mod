@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nurshary-01",
+      "pokemon": "nurshary",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "nurshary-01",
+      "pokemon": "nurshary",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "nurshary-11",
+      "pokemon": "nurshary",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "nurshary-11",
+      "pokemon": "nurshary",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 45.0,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      }
+    }
+  ]
+}

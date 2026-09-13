@@ -1,0 +1,137 @@
+{
+  "name": "Yeteen",
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "yetini",
+  "baseScale": 0.3096774193548387,
+  "cannotDynamax": false,
+  "abilities": [
+    "overgrow",
+    "h:greenthumb"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 77,
+    "attack": 89,
+    "defence": 63,
+    "special_attack": 64,
+    "special_defence": 59,
+    "speed": 68
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "human_like",
+    "grass"
+  ],
+  "drops": {},
+  "moves": [
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:helpinghand",
+    "tm:snore",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:return",
+    "tm:roar",
+    "tm:round",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swift",
+    "tm:toxic",
+    "tm:rest",
+    "tm:flatter",
+    "tm:captivate",
+    "tm:charm"
+  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "starter",
+    "fakemon"
+  ],
+  "pokedex": [
+    "cobblemon.species.yeteen.desc"
+  ],
+  "height": 8,
+  "weight": 165,
+  "evolutions": [
+    {
+      "id": "yeteen_yetitan",
+      "variant": "level_up",
+      "result": "yetitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "36",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 2014,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.875,
+    "height": 3.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "junnin",
+  "actualName": "yeteen"
+}

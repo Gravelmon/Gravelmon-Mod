@@ -1,0 +1,248 @@
+{
+  "target": "cobblemon:corsola",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "poison",
+      "catchRate": 123,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 144,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "liquidooze",
+        "filter",
+        "h:powerofalchemy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 45,
+        "defence": 100,
+        "special_attack": 45,
+        "special_defence": 65,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "16:waterpulse",
+        "1:acid",
+        "50:hydropump",
+        "9:meanlook",
+        "35:muddywater",
+        "1:withdraw",
+        "1:whirlpool",
+        "20:toxic",
+        "28:recover",
+        "32:sludgewave",
+        "5:haunt",
+        "24:brine",
+        "42:acidarmor",
+        "13:sludge",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:brine",
+        "tm:corrosivegas",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:memento",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:willowisp",
+        "tm:zenheadbutt",
+        "egg:soak",
+        "egg:toxicspikes",
+        "egg:venomdrench",
+        "egg:memento",
+        "egg:banefulbunker",
+        "egg:sludgebomb"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcorsola.desc"
+      ],
+      "height": 6,
+      "weight": 50,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcorsola_cursola_epoch",
+          "variant": "item_interact",
+          "result": "cursola epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:black_sludge",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "corsola_coreef",
+      "variant": "level_up",
+      "result": "Coreef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "38",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "corsola_corsoreef",
+      "variant": "level_up",
+      "result": "corsoreef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "amount": "200",
+          "variant": "friendship"
+        }
+      ]
+    },
+    {
+      "id": "corsola_amacorala",
+      "variant": "level_up",
+      "result": "amacorala",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "26",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "corsola_coralya",
+      "variant": "level_up",
+      "result": "coralya",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "25",
+          "variant": "level"
+        }
+      ]
+    },
+    {
+      "id": "corsola_solacor",
+      "variant": "level_up",
+      "result": "solacor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "25",
+          "variant": "level"
+        },
+        {
+          "range": "night",
+          "variant": "time_range"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "order": 134,
+  "species": "cobblemon:charizard",
+  "variations": [
+    {
+      "aspects": [
+        "delta",
+        "mega_evolution=mega"
+      ],
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame1.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame2.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame3.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame4.png"
+            ],
+            "loop": true
+          },
+          "translucent": false
+        },
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_emissive.png",
+          "translucent": true
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ],
+      "model": "cobblemon:insurgence_deltacharizard_mega.geo",
+      "poser": "cobblemon:insurgence_deltacharizard_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega.png"
+    },
+    {
+      "aspects": [
+        "delta",
+        "mega_evolution=mega",
+        "shiny"
+      ],
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame1_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame2_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame3_shiny.png",
+              "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/flame/flame4_shiny.png"
+            ],
+            "loop": true
+          },
+          "translucent": false
+        },
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_emissive_shiny.png",
+          "translucent": true
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ],
+      "model": "cobblemon:insurgence_deltacharizard_mega.geo",
+      "poser": "cobblemon:insurgence_deltacharizard_mega",
+      "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_shiny.png"
+    }
+  ]
+}

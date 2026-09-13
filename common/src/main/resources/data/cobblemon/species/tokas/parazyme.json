@@ -1,0 +1,98 @@
+{
+  "name": "Parazyme",
+  "primaryType": "poison",
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3333333333333333,
+  "cannotDynamax": false,
+  "abilities": [
+    "corrosion"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 88,
+    "attack": 25,
+    "defence": 38,
+    "special_attack": 38,
+    "special_defence": 117,
+    "speed": 14
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [],
+  "labels": [
+    "tokas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.parazyme.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "evolutions": [
+    {
+      "id": "parazyme_cytocite",
+      "variant": "level_up",
+      "result": "cytocite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "minLevel": "30",
+          "variant": "level"
+        }
+      ]
+    }
+  ],
+  "nationalPokedexNumber": 4430,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.25,
+    "height": 2.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": [],
+  "game": "tokas",
+  "actualName": "parazyme"
+}

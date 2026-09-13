@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nawale-01",
+      "pokemon": "nawale",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "nawale-01",
+      "pokemon": "nawale",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    },
+    {
+      "id": "nawale-11",
+      "pokemon": "nawale",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "nawale-11",
+      "pokemon": "nawale",
+      "type": "pokemon",
+      "spawnablePositionType": "fishing",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 2.5,
+      "stage": 0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "portraitScale": 2.15,
+  "portraitTranslation": [
+    -0.3,
+    -1.13,
+    0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0,
+    0.6,
+    0
+  ],
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('epochnincada', 'battle_idle')"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('epochnincada', 'blink')",
+        "q.bedrock_quirk('epochnincada', 'quirk_wingflutter')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('epochnincada', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('epochnincada', 'blink')",
+        "q.bedrock_quirk('epochnincada', 'quirk_wingflutter')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('epochnincada', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochnincada', 'blink')",
+        "q.bedrock_quirk('epochnincada', 'quirk_wingflutter')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "q.bedrock('epochnincada', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "nincada",
+  "head": "head",
+  "animations": {
+    "cry": "q.bedrock_stateful('epochnincada', 'cry')",
+    "faint": "q.bedrock_primary('epochnincada', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('epochnincada', 'recoil')",
+    "status": "q.bedrock_primary('epochnincada', 'status', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('epochnincada', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('epochnincada', 'special', q.curve('symmetrical_wide'))"
+  }
+}

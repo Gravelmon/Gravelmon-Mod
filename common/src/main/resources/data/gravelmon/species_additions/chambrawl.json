@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:chambrawl",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "ironfist"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 161,
+        "defence": 90,
+        "special_attack": 78,
+        "special_defence": 88,
+        "speed": 108
+      },
+      "labels": [
+        "atlas",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "target": "cobblemon:seadra",
+  "forms": [
+    {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "horsea varitasian",
+      "baseScale": 0.22499999999999998,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint",
+        "sniper",
+        "h:damp"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 65,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 45,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "5:smokescreen",
+        "9:leer",
+        "13:watergun",
+        "17:twister",
+        "21:bubblebeam",
+        "26:focusenergy",
+        "31:brine",
+        "38:agility",
+        "45:dragonpulse",
+        "52:dragondance",
+        "60:hydropump",
+        "tm:snore",
+        "tm:icywind",
+        "tm:outrage",
+        "tm:signalbeam",
+        "tm:bounce",
+        "tm:waterpulse",
+        "tm:dragonpulse",
+        "tm:laserfocus",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:waterfall",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:snowscape",
+        "tm:facade",
+        "tm:gigaimpact",
+        "tm:flashcannon",
+        "tm:round",
+        "tm:scald",
+        "tm:confide",
+        "tm:toxic",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianseadra.desc"
+      ],
+      "height": 12,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianseadra_kingdra_varitasian",
+          "variant": "level_up",
+          "result": "kingdra varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "45",
+              "variant": "level"
+            }
+          ]
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      },
+      "game": "varitas"
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "light",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "horsea epoch",
+      "baseScale": 0.5538461538461539,
+      "cannotDynamax": false,
+      "abilities": [
+        "naturalcure",
+        "hydration",
+        "h:megalauncher"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 85,
+        "special_defence": 75,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "17:waterpulse",
+        "47:dragonpulse",
+        "1:watergun",
+        "39:aurasphere",
+        "23:signalbeam",
+        "51:morningsun",
+        "20:shockwave",
+        "13:chargebeam",
+        "1:watersport",
+        "31:lifedew",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:brine",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragondance",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:substitute",
+        "tm:swift",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wish"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochseadra.desc"
+      ],
+      "height": 12,
+      "weight": 250,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochseadra_kingdra_epoch",
+          "variant": "item_interact",
+          "result": "kingdra epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dawn_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      },
+      "game": "soulstones"
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "secondaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "horsea epochtwo",
+      "baseScale": 0.5433962264150943,
+      "cannotDynamax": false,
+      "abilities": [
+        "compoundeyes",
+        "intimidate",
+        "h:swarm"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 85,
+        "special_defence": 105,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "42:hurricane",
+        "1:leer",
+        "1:infestation",
+        "27:airslash",
+        "37:ragepowder",
+        "4:gust",
+        "22:focusenergy",
+        "17:aircutter",
+        "47:defendorder",
+        "13:silverwind",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:coaching",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gammaray",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochseadraone.desc"
+      ],
+      "height": 12,
+      "weight": 250,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochseadraone_kingdra_epochtwo",
+          "variant": "item_interact",
+          "result": "kingdra epochtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:silver_powder",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      },
+      "game": "soulstones"
+    }
+  ],
+  "features": [
+    "varitasian",
+    "epoch",
+    "epochtwo"
+  ]
+}

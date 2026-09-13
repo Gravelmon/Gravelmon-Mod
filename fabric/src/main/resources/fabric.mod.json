@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "gravelmon",
+  "version": "4.0.0-Alpha.4",
+
+  "name": "Gravelmon",
+  "description": "${mod_description}",
+  "authors": ["${mod_authors}"],
+  "contact": {},
+
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "drai.dev.gravelmon.fabric.GravelmonFabric"
+    ],
+    "client": [
+      "drai.dev.gravelmon.fabric.GravelmonFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cobblemon": ">=1.8.0 <1.9.0",
+    "architectury": ">=9.1",
+    "gravels_extended_battles": ">=2.0.0-Alpha.15"
+  },
+  "mixins": [
+    "gravelmon_common.mixins.json",
+    "gravelmon_fabric.mixins.json"
+  ]
+}

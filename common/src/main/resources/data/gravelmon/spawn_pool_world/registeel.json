@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "delta_registeel-01",
+      "pokemon": "registeel delta",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ],
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "delta_registeel-01",
+      "pokemon": "registeel delta",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.05,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    }
+  ]
+}
