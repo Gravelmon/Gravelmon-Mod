@@ -2,6 +2,7 @@ package drai.dev.gravelmon.neoforge
 
 import com.cobblemon.mod.common.ResourcePackActivationBehaviour
 import drai.dev.gravelmon.Gravelmon
+import drai.dev.gravelmon.mega.GravelmonMegas
 import drai.dev.gravelmon.msd.MegaShowdownCompat
 import drai.dev.gravelmon.registries.GravelmonBlocks
 import drai.dev.gravelmon.registries.GravelmonItems
@@ -77,7 +78,7 @@ object GravelmonImpl {
 
         event.addListener(object : SimplePreparableReloadListener<Void>() {
             override fun apply(
-                `object`: Void,
+                `object`: Void?,
                 arg: ResourceManager,
                 arg2: ProfilerFiller
             ) {
@@ -89,20 +90,25 @@ object GravelmonImpl {
             override fun prepare(
                 arg: ResourceManager,
                 arg2: ProfilerFiller
-            ): Void {
-               TODO("Provide the return value")
+            ): Void? {
+               return null
             }
         })
     }
 
     private fun addMegaStoneRecipes(server: MinecraftServer) {
-        val recipeManager = server.getRecipeManager()
-        recipeManager.replaceRecipes(MegaShowdownCompat.getMegaStoneRecipes())
+        val recipeManager = server.recipeManager
+        recipeManager.replaceRecipes(
+            recipeManager.getRecipes().associateBy { it.id() }.toMutableMap().apply {
+                MegaShowdownCompat.getMegaStoneRecipes().forEach { put(it.id(), it) }
+            }.values
+        )
     }
 
     @JvmStatic
     fun registerItems() {
         GravelmonBlocks.register { identifier, item -> Registry.register(GravelmonBlocks.registry, identifier, item) }
         GravelmonItems.register { identifier, item -> Registry.register(GravelmonItems.registry, identifier, item) }
+        GravelmonMegas.register()
     }
 }

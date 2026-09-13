@@ -7,9 +7,16 @@ import net.minecraft.resources.ResourceLocation
 import net.neoforged.bus.api.SubscribeEvent
 import net.neoforged.fml.common.Mod
 import net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent
+import net.neoforged.neoforge.registries.RegisterEvent
+import thedarkcolour.kotlinforforge.neoforge.forge.MOD_BUS
 
 @Mod(Gravelmon.MOD_ID)
-object GravelmonNeoforge {
+class GravelmonNeoforge() {
+
+    init {
+        MOD_BUS.addListener { _: RegisterEvent -> Gravelmon.initialize() }
+    }
+
     @SubscribeEvent
     fun onRegisterNamedRenderTypes(event: RegisterNamedRenderTypesEvent) {
         event.register(

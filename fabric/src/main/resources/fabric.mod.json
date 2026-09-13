@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "gravelmon",
-  "version": "${mod_version}",
+  "version": "4.0.0-Alpha.4",
 
   "name": "Gravelmon",
   "description": "${mod_description}",
@@ -28,7 +28,7 @@
     "fabric-api": "*",
     "cobblemon": ">=1.8.0 <1.9.0",
     "architectury": ">=9.1",
-    "gravels_extended_battles": ">=2.0.0-Alpha.10"
+    "gravels_extended_battles": ">=2.0.0-Alpha.15"
   },
   "mixins": [
     "gravelmon_common.mixins.json",

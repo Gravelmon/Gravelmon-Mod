@@ -5,6 +5,7 @@ import com.cobblemon.mod.common.platform.PlatformRegistry
 import com.cobblemon.mod.common.pokeball.PokeBall
 import com.cobblemon.mod.common.pokemon.helditem.CobblemonHeldItemManager
 import drai.dev.gravelmon.apricorn.GravelmonApricornSeedItem
+import drai.dev.gravelmon.mega.GravelmonMegas
 import drai.dev.gravelmon.mixin.accessors.PokeBallAccessor
 import drai.dev.gravelmon.pokeball.GravelmonPokeBalls
 import drai.dev.gravelsextendedbattles.fossils.GEBLootPoolManager
@@ -207,7 +208,9 @@ object GravelmonItems : PlatformRegistry<Registry<Item>, ResourceKey<Registry<It
         lateRunnables.forEach { it.run() }
     }
 
-    fun touch() {}
+    fun touch() {
+        GravelmonMegas
+    }
 
     val lateRunnables = mutableListOf<Runnable>()
     @JvmStatic

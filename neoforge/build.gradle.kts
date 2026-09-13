@@ -48,7 +48,16 @@ dependencies {
     val midnightlib = "eu.midnightdust:midnightlib:${property("midnightlib_version")}-neoforge"
     modImplementation(midnightlib)
     include(midnightlib)
-    modImplementation("maven.modrinth:tbBs6vYE:Dx0Od6Zz")
+    modImplementation ("maven.modrinth:lhGA9TYQ:1IiqEQGl")
+    implementation("maven.modrinth:tbBs6vYE:iwOVsaw6")
+    //mega showdown
+    implementation("maven.modrinth:SszvX85I:PzUYM6Nz")
+    modImplementation("io.wispforest:accessories-neoforge:1.1.0-beta.52+1.21.1")
+    forgeRuntimeLibrary("blue.endless:jankson:1.2.2")
+    forgeRuntimeLibrary("io.wispforest:endec:0.1.5.1")
+    forgeRuntimeLibrary("io.wispforest.endec:gson:0.1.3.1")
+    forgeRuntimeLibrary("io.wispforest.endec:jankson:0.1.3.1")
+    forgeRuntimeLibrary("io.wispforest.endec:netty:0.1.2")
 }
 
 tasks {

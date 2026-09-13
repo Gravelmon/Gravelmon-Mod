@@ -4,6 +4,7 @@ import com.cobblemon.mod.common.ResourcePackActivationBehaviour
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
 import com.cobblemon.mod.common.client.CobblemonPack
 import dev.architectury.injectables.annotations.ExpectPlatform
+import drai.dev.gravelmon.mega.GravelmonMegas
 import drai.dev.gravelmon.pokeball.GravelmonPokeBalls
 import drai.dev.gravelmon.registries.GravelmonBlocks
 import drai.dev.gravelmon.registries.GravelmonFossilItems
@@ -16,13 +17,20 @@ object Gravelmon {
     const val MOD_ID = "gravelmon"
 
     @JvmStatic
+    @Synchronized
     fun initialize() {
+        if (initialized) return
+
         GravelmonPokeBalls.touch()
         GravelmonBlocks.touch()
         GravelmonItems.touch()
+        GravelmonMegas.init()
         registerItems()
         platformInit()
+        initialized = true
     }
+
+    private var initialized = false
 
     @ExpectPlatform
     @JvmStatic

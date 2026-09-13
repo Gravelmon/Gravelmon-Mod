@@ -1,5 +1,3 @@
 package drai.dev.gravelmon.features
 
-import com.cobblemon.mod.common.api.pokemon.PokemonProperties
-
-data class MegaEvolution(val recipient: PokemonProperties, val megaStones: List<String>)
+data class MegaEvolution(val recipient: String, val megaStones: List<String>)

@@ -1,7 +1,10 @@
 package drai.dev.gravelmon.fabric
 
 import com.cobblemon.mod.common.ResourcePackActivationBehaviour
+import com.cobblemon.mod.common.api.pokemon.PokemonSpecies
+import com.cobblemon.mod.common.util.server
 import drai.dev.gravelmon.Gravelmon
+import drai.dev.gravelmon.mega.GravelmonMegas
 import drai.dev.gravelmon.msd.MegaShowdownCompat
 import drai.dev.gravelmon.registries.GravelmonBlocks
 import drai.dev.gravelmon.registries.GravelmonItems
@@ -45,6 +48,7 @@ object GravelmonImpl {
     fun registerItems() {
         GravelmonBlocks.register { identifier, item -> Registry.register(GravelmonBlocks.registry, identifier, item) }
         GravelmonItems.register { identifier, item -> Registry.register(GravelmonItems.registry, identifier, item) }
+        GravelmonMegas.register()
     }
 
     private fun registerMegaStoneRecipes() {
@@ -57,6 +61,10 @@ object GravelmonImpl {
 
     private fun addMegaStoneRecipes(server: MinecraftServer) {
         val recipeManager = server.recipeManager
-        recipeManager.replaceRecipes(MegaShowdownCompat.getMegaStoneRecipes())
+        recipeManager.replaceRecipes(
+            recipeManager.getRecipes().associateBy { it.id() }.toMutableMap().apply {
+                MegaShowdownCompat.getMegaStoneRecipes().forEach { put(it.id(), it) }
+            }.values
+        )
     }
 }
