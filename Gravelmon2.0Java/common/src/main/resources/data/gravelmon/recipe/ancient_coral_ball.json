@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " t ",
+        "lcr",
+        " b "
+    ],
+    "key": {
+        "t": {
+            "item": "gravelmon:orange_apricorn"
+        },
+        "l": {
+            "item": "cobblemon:tumblestone"
+        },
+        "c": {
+            "tag": "cobblemon:tier_1_poke_ball_materials"
+        },
+        "r": {
+            "item": "cobblemon:tumblestone"
+        },
+        "b": {
+            "item": "gravelmon:orange_apricorn"
+        }
+    },
+    "result":
+    {
+        "id": "gravelmon:ancient_coral_ball",
+        "count": 4
+    }
+}
