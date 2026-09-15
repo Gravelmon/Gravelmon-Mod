@@ -48,7 +48,7 @@ object GravelmonImpl {
     fun registerItems() {
         GravelmonBlocks.register { identifier, item -> Registry.register(GravelmonBlocks.registry, identifier, item) }
         GravelmonItems.register { identifier, item -> Registry.register(GravelmonItems.registry, identifier, item) }
-        GravelmonMegas.register()
+//        GravelmonMegas.register()
     }
 
     private fun registerMegaStoneRecipes() {

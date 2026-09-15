@@ -173,22 +173,9 @@
       ]
     },
     {
-      "id": "pressie_mythianlapras",
-      "variant": "level_up",
-      "result": "mythianlapras",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "amount": "160",
-          "variant": "friendship"
-        }
-      ]
-    },
-    {
-      "id": "pressie_novranlapras",
+      "id": "pressie_lapras_novran",
       "variant": "item_interact",
-      "result": "novranlapras",
+      "result": "lapras novran",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],
@@ -204,9 +191,19 @@
       "requirements": [],
       "requiredContext": "cobblemon:shiny_stone",
       "permanent": true
+    },
+    {
+      "id": "pressie_lapras_epoch",
+      "variant": "item_interact",
+      "result": "lapras epoch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2695,
+  "nationalPokedexNumber": 2697,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,
