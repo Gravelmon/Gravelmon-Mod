@@ -1,0 +1,60 @@
+{
+  "species": "infinity:bulbasaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "poser": "infinity:bulbasaur",
+      "model": "infinity:bulbasaur_male.geo",
+      "texture": "infinity:bulbasaur.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "infinity:bulbasaur_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "infinity:bulbasaur_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

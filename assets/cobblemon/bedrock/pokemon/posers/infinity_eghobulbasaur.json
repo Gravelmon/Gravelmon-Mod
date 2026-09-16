@@ -1,0 +1,73 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "bulbasaur",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('bulbasaur', 'blink', 0, 0, 1, q.curve('one'))"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('bulbasaur', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('bulbasaur', 'blink', 0, 0, 1, q.curve('one'))"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('bulbasaur', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_primary_quirk('bulbasaur', 'blink', 0, 0, 1, q.curve('one'))"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('bulbasaur', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('bulbasaur', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('bulbasaur', 'cry')",
+    "recoil": "q.bedrock_stateful('bulbasaur', 'recoil')",
+    "faint": "q.bedrock_primary('bulbasaur', 'faint', q.curve('one'))"
+  }
+}
