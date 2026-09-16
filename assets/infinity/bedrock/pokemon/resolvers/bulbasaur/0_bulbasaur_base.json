@@ -1,0 +1,30 @@
+{
+  "species": "infinity:bulbasaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "infinity:bulbasaur",
+      "model": "infinity:bulbasaur_male.geo",
+      "texture": "infinity:bulbasaur.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "infinity:bulbasaur_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "infinity:bulbasaur_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
