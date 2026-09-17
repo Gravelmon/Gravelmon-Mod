@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { execSync } = require('child_process');
-
+const crypto = require('node:crypto');
 const domain = process.env.GRAVELMON_API_DOMAIN;
 const token = process.env.POKEMON_STATUS_INTERNAL_TOKEN;
 const prNumber = Number(process.env.PR_NUMBER);
@@ -63,16 +63,23 @@ for (const path of touched) {
     }
 }
 
-async function post(path, body) {
-    const res = await fetch(`${domain}${path}`, {
-        method: 'POST',
-        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
-    });
-    const text = await res.text();
-    if (!res.ok) throw new Error(`${path} -> ${res.status}: ${text}`);
-    console.log(`${path} ->`, text);
+
+
+function sha256Hex(value) {
+    return crypto.createHash('sha256').update(value, 'utf8').digest('hex');
 }
+
+async function post(path, body, token) {
+    const jsonBody = JSON.stringify(body);
+    const response = await fetch(`${process.env.GRAVELMON_API_DOMAIN}${path}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Gravelmon-Token': `Bearer ${token}`,
+            'x-amz-content-sha256': sha256Hex(jsonBody),
+        },
+        body: jsonBody,
+    });
 
 (async () => {
     await post('/api/internal/pokemon-status', { identifiers: [...touchedIdentifiers] });
