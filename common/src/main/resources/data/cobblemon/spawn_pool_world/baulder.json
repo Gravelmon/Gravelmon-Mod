@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "baulder-01",
+      "pokemon": "baulder",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "baulder-01",
+      "pokemon": "baulder",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 25.0,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

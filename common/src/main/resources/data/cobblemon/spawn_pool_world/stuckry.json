@@ -1,0 +1,46 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "stuckry-01",
+      "pokemon": "stuckry",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "stuckry-01",
+      "pokemon": "stuckry",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 2.5,
+      "stage": 2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

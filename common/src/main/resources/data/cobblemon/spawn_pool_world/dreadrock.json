@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dreadrock-01",
+      "pokemon": "dreadrock",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isPokeSnack": true
+      }
+    },
+    {
+      "id": "dreadrock-01",
+      "pokemon": "dreadrock",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 4.5,
+      "stage": 1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      }
+    }
+  ]
+}

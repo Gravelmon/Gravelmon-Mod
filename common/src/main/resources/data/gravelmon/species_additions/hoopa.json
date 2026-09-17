@@ -10,7 +10,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "hoopa delta",
+      "preEvolution": "hoopa unleashed delta",
       "baseScale": 0.10909090909090909,
       "cannotDynamax": false,
       "abilities": [
@@ -185,9 +185,9 @@
       ],
       "evolutions": [
         {
-          "id": "deltahoopa_hoopa_delta",
+          "id": "deltahoopa_hoopa_unleashed_delta",
           "variant": "item_interact",
-          "result": "hoopa delta",
+          "result": "hoopa unleashed delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -204,7 +204,7 @@
       "game": "insurgence"
     },
     {
-      "name": "Delta",
+      "name": "Delta_unleashed",
       "primaryType": "flying",
       "catchRate": 3,
       "maleRatio": -1.0,
@@ -213,7 +213,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hoopa delta",
-      "baseScale": 0.10909090909090909,
+      "baseScale": 6.0,
       "cannotDynamax": false,
       "abilities": [
         "cloudnine"
@@ -396,8 +396,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.875,
-        "height": 6.875,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       },
       "game": "insurgence"

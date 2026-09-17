@@ -1,0 +1,61 @@
+name: Sync Gravelmon submissions
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve merged PR number and head branch
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+            });
+            const pr = data.find((p) => p.merged_at);
+            core.setOutput('number', pr ? String(pr.number) : '');
+            core.setOutput('headRef', pr ? pr.head.ref : '');
+
+      - name: Award points and update model status
+        env:
+          GRAVELMON_API_DOMAIN: https://submit.gravelmon.com
+          POKEMON_STATUS_INTERNAL_TOKEN: ${{ secrets.POKEMON_STATUS_INTERNAL_TOKEN }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+        run: node .github/scripts/gravelmon-sync.js "${{ github.event.before }}" "${{ github.sha }}"
+
+      - name: Delete the submission's preview branch
+        if: steps.pr.outputs.headRef != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const previewRef = `${{ steps.pr.outputs.headRef }}-previews`;
+            try {
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `heads/${previewRef}`,
+              });
+              core.info(`Deleted preview branch ${previewRef}`);
+            } catch (err) {
+              // 404/422: no such branch, or GitHub's ref-deletion "not fully qualified" edge
+              // cases — either way there is nothing left to clean up, not a failure.
+              if (err.status === 404 || err.status === 422) {
+                core.info(`No preview branch ${previewRef} to delete.`);
+              } else {
+                throw err;
+              }
+            }

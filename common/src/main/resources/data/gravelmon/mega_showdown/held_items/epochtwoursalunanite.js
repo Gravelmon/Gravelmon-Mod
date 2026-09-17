@@ -6,7 +6,7 @@
     onTakeItem(item, source) {
         return !item.megaStone?.[source.baseSpecies.baseSpecies];
     },
-    num: 10158,
+    num: 10155,
     gen: 6,
     isNonstandard: "Past"
 }

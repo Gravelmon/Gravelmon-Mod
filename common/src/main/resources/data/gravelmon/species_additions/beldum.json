@@ -2,7 +2,7 @@
   "target": "cobblemon:beldum",
   "forms": [
     {
-      "name": "Delta",
+      "name": "Delta_spider",
       "primaryType": "ground",
       "secondaryType": "bug",
       "catchRate": 3,
@@ -92,9 +92,9 @@
       ],
       "evolutions": [
         {
-          "id": "deltaspiderbeldum_metang_delta",
+          "id": "deltaspiderbeldum_metang_spider_delta",
           "variant": "level_up",
-          "result": "metang delta",
+          "result": "metang spider delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -114,7 +114,7 @@
       "game": "insurgence"
     },
     {
-      "name": "Delta",
+      "name": "Delta_ruin",
       "primaryType": "grass",
       "secondaryType": "rock",
       "catchRate": 3,
@@ -196,9 +196,9 @@
       ],
       "evolutions": [
         {
-          "id": "deltaruinbeldum_metang_delta",
+          "id": "deltaruinbeldum_metang_ruin_delta",
           "variant": "level_up",
-          "result": "metang delta",
+          "result": "metang ruin delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -457,7 +457,36 @@
         "field"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "1:metalclaw",
+        "1:ember",
+        "1:screech",
+        "1:growl",
+        "4:irontail",
+        "4:firespin",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:mirrorshot",
+        "10:flameburst",
+        "13:flashcannon",
+        "13:flamethrower",
+        "16:steelbeam",
+        "16:fireblast",
+        "19:metalclaw",
+        "19:ember",
+        "22:screech",
+        "22:growl",
+        "25:irontail",
+        "25:quickattack",
+        "28:smartstrike",
+        "28:flamecharge",
+        "31:ironhead",
+        "31:firepunch",
+        "34:meteormash",
+        "34:willowisp",
+        "39:hardpress",
+        "39:flareblitz"
+      ],
       "labels": [
         "fabel",
         "not_modeled",
