@@ -63,15 +63,13 @@ for (const path of touched) {
     }
 }
 
-
-
 function sha256Hex(value) {
     return crypto.createHash('sha256').update(value, 'utf8').digest('hex');
 }
 
-async function post(path, body, token) {
+async function post(path, body) {
     const jsonBody = JSON.stringify(body);
-    const response = await fetch(`${process.env.GRAVELMON_API_DOMAIN}${path}`, {
+    const response = await fetch(`${domain}${path}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -80,6 +78,11 @@ async function post(path, body, token) {
         },
         body: jsonBody,
     });
+    if (!response.ok) {
+        throw new Error(`${path} -> ${response.status}: ${await response.text()}`);
+    }
+    return response.json();
+}
 
 (async () => {
     await post('/api/internal/pokemon-status', { identifiers: [...touchedIdentifiers] });
