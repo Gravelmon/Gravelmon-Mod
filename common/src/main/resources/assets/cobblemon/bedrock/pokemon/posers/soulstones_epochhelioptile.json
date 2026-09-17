@@ -12,7 +12,7 @@
     0
   ],
   "headBone": "head",
-  "rootBone": "helioptile-epoch",
+  "rootBone": "helioptile_epoch",
   "poses": {
     "standing": {
       "poseTypes": [
@@ -23,7 +23,7 @@
         "float"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink', 0, 0, 1, q.curve('one'))"
+        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
       ],
       "animations": [
         "q.look('head')",
@@ -36,7 +36,7 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink', 0, 0, 1, q.curve('one'))"
+        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
       ],
       "animations": [
         "q.look('head')",
