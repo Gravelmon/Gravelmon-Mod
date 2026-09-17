@@ -78,10 +78,17 @@ async function post(path, body) {
         },
         body: jsonBody,
     });
+    const text = await response.text();
     if (!response.ok) {
-        throw new Error(`${path} -> ${response.status}: ${await response.text()}`);
+        throw new Error(`${path} -> ${response.status}: ${text}`);
     }
-    return response.json();
+    console.log(`${path} -> ${response.status}: ${text}`);
+    const parsed = JSON.parse(text);
+    const failed = (parsed.updated ?? []).filter((r) => r.status === 'error');
+    if (failed.length > 0) {
+        throw new Error(`${path} reported per-item errors: ${JSON.stringify(failed)}`);
+    }
+    return parsed;
 }
 
 (async () => {
