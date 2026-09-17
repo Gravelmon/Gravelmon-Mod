@@ -1,38 +1,32 @@
 {
   "species": "cobblemon:helioptile",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_62_by_47.geo",
-      "poser": "cobblemon:cutout_gravelmon_62_by_47",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile.png",
+      "poser": "cobblemon:soulstones_epochhelioptile",
+      "model": "cobblemon:helioptile-epoch.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile/helioptile-epoch.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile/helioptile-epoch_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile/helioptile-epoch_alpha.png",
+          "emissive": true
         }
       ]
     }
