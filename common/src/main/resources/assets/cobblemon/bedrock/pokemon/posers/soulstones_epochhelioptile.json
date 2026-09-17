@@ -1,17 +1,16 @@
 {
-  "portraitScale": 1.41,
+  "portraitScale": 1,
   "portraitTranslation": [
-    -0.24,
-    0.07,
+    0,
+    0,
     0
   ],
-  "profileScale": 0.85,
+  "profileScale": 1,
   "profileTranslation": [
-    -0.19,
-    0.43,
+    0,
+    0,
     0
   ],
-  "headBone": "head",
   "rootBone": "helioptile_epoch",
   "poses": {
     "standing": {
@@ -23,7 +22,7 @@
         "float"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
+        "q.bedrock_quirk('helioptile-epoch', 'blink')"
       ],
       "animations": [
         "q.look('head')",
@@ -36,7 +35,7 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
+        "q.bedrock_quirk('helioptile-epoch', 'blink')"
       ],
       "animations": [
         "q.look('head')",

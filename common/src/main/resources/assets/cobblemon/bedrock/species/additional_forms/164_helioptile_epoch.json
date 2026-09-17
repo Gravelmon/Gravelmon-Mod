@@ -7,8 +7,33 @@
         "epoch"
       ],
       "poser": "cobblemon:soulstones_epochhelioptile",
-      "model": "cobblemon:helioptile-epoch.geo",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile/helioptile-epoch.png"
+      "texture": "cobblemon:textures/pokemon/soulstones/epochhelioptile/helioptile-epoch.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,8 +44,7 @@
     },
     {
       "aspects": [
-        "alpha_eyes",
-        "epoch"
+        "alpha_eyes"
       ],
       "layers": [
         {
