@@ -4,7 +4,7 @@ const crypto = require('node:crypto');
 const domain = process.env.GRAVELMON_API_DOMAIN;
 const token = process.env.POKEMON_STATUS_INTERNAL_TOKEN;
 const prNumber = Number(process.env.PR_NUMBER);
-const [before, after] = process.argv.slice(2);
+const [before, after] = process.argv.slice(2).map((s) => s.trim());
 
 if (!domain || !token) {
     console.error('Missing GRAVELMON_API_DOMAIN or POKEMON_STATUS_INTERNAL_TOKEN.');
