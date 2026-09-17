@@ -1,0 +1,66 @@
+{
+  "species": "soulstones:bulbasaur",
+  "order": 164,
+  "variations": [
+    {
+      "aspects": [
+        "epoch"
+      ],
+      "poser": "cobblemon:soulstones_epochbulbasaur",
+      "model": "cobblemon:soulstones_epochbulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochbulbasaur/bulbasaur.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochbulbasaur/bulbasaur_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochbulbasaur/bulbasaur_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shiny.png"
+    }
+  ]
+}
