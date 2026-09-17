@@ -25,6 +25,7 @@ object Gravelmon {
         GravelmonBlocks.touch()
         GravelmonItems.touch()
         GravelmonMegas.init()
+        GravelmonMegas.register()
         registerItems()
         platformInit()
         initialized = true

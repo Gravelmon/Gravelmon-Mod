@@ -2,7 +2,7 @@
   "target": "cobblemon:metagross",
   "forms": [
     {
-      "name": "Delta",
+      "name": "Delta_spider",
       "primaryType": "ground",
       "secondaryType": "bug",
       "catchRate": 3,
@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "metang delta",
+      "preEvolution": "metang spider delta",
       "baseScale": 0.28125,
       "cannotDynamax": false,
       "abilities": [
@@ -194,7 +194,7 @@
       "game": "insurgence"
     },
     {
-      "name": "Delta",
+      "name": "Delta_ruin",
       "primaryType": "grass",
       "secondaryType": "rock",
       "catchRate": 3,
@@ -203,7 +203,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "metang delta",
+      "preEvolution": "metang ruin delta",
       "baseScale": 1.3,
       "cannotDynamax": false,
       "abilities": [
@@ -615,7 +615,33 @@
         "field"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "1:metalclaw",
+        "1:ember",
+        "1:irondefense",
+        "1:bulkup",
+        "1:screech",
+        "1:growl",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:firespin",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:flamecharge",
+        "7:taunt",
+        "7:substitute",
+        "10:mirrorshot",
+        "10:flameburst",
+        "10:substitute",
+        "10:rest",
+        "13:flashcannon",
+        "13:flamethrower",
+        "13:rest",
+        "16:steelbeam",
+        "16:fireblast"
+      ],
       "labels": [
         "fabel",
         "not_modeled",

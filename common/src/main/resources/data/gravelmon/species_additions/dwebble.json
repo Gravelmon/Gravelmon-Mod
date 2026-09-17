@@ -2,7 +2,7 @@
   "target": "cobblemon:dwebble",
   "forms": [
     {
-      "name": "Delta",
+      "name": "Delta_berry",
       "primaryType": "grass",
       "secondaryType": "poison",
       "catchRate": 190,
@@ -162,9 +162,9 @@
       ],
       "evolutions": [
         {
-          "id": "deltaberrydwebble_crustle_delta",
+          "id": "deltaberrydwebble_crustle_berry_delta",
           "variant": "level_up",
-          "result": "crustle delta",
+          "result": "crustle berry delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -184,7 +184,7 @@
       "game": "insurgence"
     },
     {
-      "name": "Delta",
+      "name": "Delta_cake",
       "primaryType": "fairy",
       "secondaryType": "normal",
       "catchRate": 190,
@@ -345,9 +345,9 @@
       ],
       "evolutions": [
         {
-          "id": "deltacakedwebble_crustle_delta",
+          "id": "deltacakedwebble_crustle_cake_delta",
           "variant": "level_up",
-          "result": "crustle delta",
+          "result": "crustle cake delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
