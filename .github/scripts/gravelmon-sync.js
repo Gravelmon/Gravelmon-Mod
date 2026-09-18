@@ -27,7 +27,7 @@ function readJsonAt(ref, path) {
 const ZERO_SHA = '0000000000000000000000000000000000000000';
 const diffBase = before && before !== ZERO_SHA ? before : `${after}~1`;
 
-const touched = sh(`git diff --name-only ${diffBase} ${after} -- '**/credits/*/*.json'`)
+const touched = sh(`git diff --name-only ${diffBase} ${after} -- ':(glob)**/credits/*/*.json'`)
     .split('\n')
     .filter(Boolean);
 
