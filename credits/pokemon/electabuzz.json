@@ -17,6 +17,25 @@
       "models": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochelectabuzz.geo.json"
       ],
+      "animations": [],
+      "textures": [],
+      "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "electabuzz",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "submittedAt": "2026-09-18T08:26:14.980Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/electabuzz_epoch.geo.json"
+      ],
       "animations": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/electabuzz_epoch.animation.json"
       ],
