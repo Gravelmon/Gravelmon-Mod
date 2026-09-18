@@ -1,0 +1,32 @@
+{
+  "game": "pokemon",
+  "pokemon": "lucario",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "lucario",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "submittedAt": "2026-09-18T19:00:22.343Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltalucario.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/lucario_delta.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltalucario/lucario_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltalucario/lucario_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltalucario/lucario_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltalucario.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

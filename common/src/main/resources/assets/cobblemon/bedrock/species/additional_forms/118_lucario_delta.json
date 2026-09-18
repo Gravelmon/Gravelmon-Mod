@@ -1,1 +1,60 @@
-{"species":"cobblemon:lucario","order":133,"variations":[{"aspects":["delta"],"model":"cobblemon:insurgence_deltalucario.geo","poser":"cobblemon:insurgence_deltalucario","texture":"cobblemon:textures/pokemon/insurgence/deltalucario/deltalucario.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["delta","shiny"],"model":"cobblemon:insurgence_deltalucario.geo","poser":"cobblemon:insurgence_deltalucario","texture":"cobblemon:textures/pokemon/insurgence/deltalucario/deltalucario_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:lucario",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltalucario",
+      "model": "cobblemon:insurgence_deltalucario.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltalucario/lucario_delta.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltalucario/lucario_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltalucario/lucario_delta_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
