@@ -2,12 +2,12 @@
   "name": "Petiolis",
   "primaryType": "grass",
   "catchRate": 255,
-  "maleRatio": 0.0,
+  "maleRatio": 0,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.23529411764705882,
+  "baseScale": 0.65,
   "cannotDynamax": false,
   "abilities": [
     "clearbody"
@@ -81,7 +81,6 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled",
     "starter"
   ],
   "pokedex": [
@@ -107,8 +106,8 @@
   "nationalPokedexNumber": 1767,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.1875,
-    "height": 3.1875,
+    "width": 0.8,
+    "height": 2.45,
     "fixed": false
   },
   "features": [],
