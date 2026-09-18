@@ -1,0 +1,55 @@
+{
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.2, 1.6, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.78, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('quetzillian', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('quetzillian', 'cry')",
+    "recoil": "q.bedrock_stateful('quetzillian', 'recoil')",
+    "physical": "q.bedrock_primary('quetzillian', 'physical', 'look', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('quetzillian', 'special', 'look', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('quetzillian', 'status', 'look', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('quetzillian', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('quetzillian', 'blink')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('quetzillian', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('quetzillian', 'blink')"]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('quetzillian', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('quetzillian', 'blink')"]
+     },
+     "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(quetzillian, sleep)"
+      ]
+     }
+  }
+}

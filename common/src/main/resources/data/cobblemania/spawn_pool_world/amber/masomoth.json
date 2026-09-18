@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "masomoth-1",
+           "pokemon": "masomoth",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "18-29",
+           "weight": 2.3,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "#cobblemon:is_forest"
+               ]
+           }
+       }
+   ]
+}

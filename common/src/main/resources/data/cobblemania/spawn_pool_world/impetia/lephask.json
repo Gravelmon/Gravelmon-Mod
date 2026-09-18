@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lephask-1",
+      "pokemon": "lephask",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+    ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_savanna"
+	]
+      }
+}
+]
+}

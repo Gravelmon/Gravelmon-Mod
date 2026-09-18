@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "Tartusk",
+  "nationalPokedexNumber": 8028,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "gooey",
+    "stickyhold",
+    "h:arenatrap"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 105,
+    "defence": 130,
+    "special_attack": 60,
+    "special_defence": 95,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 12.5
+      },
+      {
+        "item": "minecraft:mud"
+      },
+      {
+        "item": "minecraft:bone"
+      }
+    ]
+  },
+  "moves": [
+    "1:acidarmor",
+    "1:pound",
+    "1:harden",
+    "1:poisongas",
+    "1:sludge",
+    "12:rockthrow",
+    "17:poisonfang",
+    "22:stomp",
+    "27:rocktomb",
+    "32:bulldoze",
+    "37:crosspoison",
+    "42:wideguard",
+    "47:rockslide",
+    "52:toxicspikes",
+    "57:gunkshot",
+    "62:hammerarm",
+    "67:venomdrench",
+    "72:slackoff"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.tartusk.desc1",
+    "cobblemon.species.tartusk.desc2"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.6,
+    "height": 2.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 10619,
+  "preEvolution": "elegoop",
+  "evolutions": []
+}

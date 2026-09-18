@@ -1,0 +1,17 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [-1.2, 2.5, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "dracosoar",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('dracosoar', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('dracosoar', 'ground_idle')"]
+    }
+  }
+}

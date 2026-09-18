@@ -1,0 +1,27 @@
+{
+  "head": "head",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-1.2, 0.6, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [-0.2, 0.9, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('ariamano', 'ground_idle')"
+      ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": [
+          "q.look('head')",
+          "q.bedrock('ariamano', 'ground_idle')"
+        ]
+       }
+  }
+}

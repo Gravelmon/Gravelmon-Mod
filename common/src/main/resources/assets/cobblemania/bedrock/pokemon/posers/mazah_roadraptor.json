@@ -1,0 +1,19 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-1.1, 2.2, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.9, 0],
+  "rootBone": "roadraptor",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('roadraptor', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('roadraptor', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('roadraptor', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('roadraptor', 'blink')"]
+    }
+  }
+}

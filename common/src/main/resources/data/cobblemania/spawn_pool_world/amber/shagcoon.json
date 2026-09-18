@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "shagcoon-1",
+           "pokemon": "shagcoon",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "common",
+           "level": "12-18",
+           "weight": 4.1,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "#cobblemon:is_forest"
+               ]
+           }
+       }
+   ]
+}

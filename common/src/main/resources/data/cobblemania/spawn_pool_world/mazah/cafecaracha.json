@@ -1,0 +1,54 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cafecaracha-1",
+            "pokemon": "cafecaracha",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "3-25",
+            "weight": 4.0,
+            "weightMultiplier": {
+                "multiplier": 4.5,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "cafecaracha-2",
+            "pokemon": "cafecaracha",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "3-25",
+            "weight": 5.4,
+            "condition": {
+            "weightMultiplier": {
+                    "multiplier": 6.4,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

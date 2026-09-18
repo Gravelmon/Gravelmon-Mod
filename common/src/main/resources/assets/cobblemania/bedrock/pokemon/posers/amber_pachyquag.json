@@ -1,0 +1,66 @@
+{
+  "head": "torso",
+  "portraitScale": 2,
+  "portraitTranslation": [ -0.2, -1, 0.25 ],
+  "profileScale": 1,
+  "profileTranslation": [ -0.1, 0.2, 0 ],
+  "animations": {
+    "faint": "q.bedrock_primary('pachyquag', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('pachyquag', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('pachyquag', 'battle_idle')"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(pachyquag, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('pachyquag', 'ground_idle')"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(pachyquag, blink)"]
+        }
+      ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('pachyquag', 'ground_walk')"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(pachyquag, blink)"]
+        }
+      ]
+     },
+     "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(pachyquag, sleep)"
+      ]
+     }
+  }
+}

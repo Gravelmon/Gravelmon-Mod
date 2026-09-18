@@ -1,0 +1,114 @@
+{
+  "target" : "roserade",
+  "features": ["mazian"],
+  "forms": [
+    {
+      "name": "Mazah",
+      "primaryType": "grass",
+      "secondaryType": "ghost",    
+      "abilities": [
+        "cursedbody",
+        "leafguard",
+        "h:seance"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 50,
+        "defence": 70,
+        "special_attack": 105,
+        "special_defence": 135,
+        "speed": 90
+      },    
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 258,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "fairy",
+        "grass"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.14
+          }
+        }
+      },    
+      "moves": [
+        "1:astonish",
+        "1:growth",
+        "1:stunspore",
+        "1:megadrain",
+        "1:magicalleaf",
+        "1:leechseed",
+        "1:ominouswind",
+        "1:gigadrain",
+        "1:moonlight",
+        "1:haunt",
+        "1:sleeppowder",
+        "45:moonblast",
+        "50:chillingwail",
+        "55:destinybond",
+        "60:petaldance"
+      ],    
+      "labels": [
+        "gen4",
+        "mazah_regional"
+      ],
+      "pokedex": [
+        "cobblemon.species.roserade_mazian.desc1"
+      ],    
+      "evolutions": [
+      ],
+      "baseScale": 0.75,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.75,
+        "fixed": false    
+      },    
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },    
+      "height": 9,
+      "weight": 104,    
+      "preEvolution": "roselia mazian",
+      "aspects": ["mazian"],
+      "cannotDynamax": false,
+      "drops": {
+        "amount": 5,
+        "entries": [
+          {
+            "item": "minecraft:rose_bush",
+            "quantityRange": "1-2"
+          },
+          {
+            "item": "cobblemon:poison_barb",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:absorb_bulb",
+            "percentage": 10.0
+          },
+          {
+            "item": "cobblemon:pecha_berry",
+            "percentage": 10.0
+          }    
+        ]
+      }
+    }
+  ]
+}
+    

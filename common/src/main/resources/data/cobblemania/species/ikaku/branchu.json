@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "Branchu",
+  "nationalPokedexNumber": 7045,
+  "primaryType": "electric",
+  "secondaryType": "water",
+  "abilities": [
+    "static",
+    "stickyhold",
+    "h:voltabsorb"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 102,
+    "defence": 58,
+    "special_attack": 70,
+    "special_defence": 72,
+    "speed": 97
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 10,
+  "features": [
+    "style"
+   ],
+  "eggGroups": [
+    "water_1",
+    "fairy"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [ {
+      "item": "cobblemon:cheri_berry",
+      "percentage": 100.0
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "percentage": 25.0
+    }]
+  },
+  "moves": [
+    "1:nuzzle",
+    "1:charm",
+    "5:tailwhip",
+    "10:watergun",
+    "15:spark",
+    "20:aquajet",
+    "25:waterpulse",
+    "30:doubleteam",
+    "35:poisonjab",
+    "40:discharge",
+    "45:recover",
+    "50:raindance",
+    "55:thunderslug",
+    "60:liquidation"
+  ],
+  "labels": [
+    "ikaku"
+  ],
+  "pokedex": [
+    "cobblemon.species.branchu.desc1",
+    "cobblemon.species.branchu.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 33,
+  "evolutions": []
+}

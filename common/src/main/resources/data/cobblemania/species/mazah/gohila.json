@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "Gohila",
+  "nationalPokedexNumber": 8040,
+  "primaryType": "poison",
+  "abilities": [
+    "poisontouch",
+    "merciless",
+    "h:microstrike"
+  ],
+  "baseStats": {
+    "hp": 97,
+    "attack": 56,
+    "defence": 69,
+    "special_attack": 100,
+    "special_defence": 69,
+    "speed": 109
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:snarl",
+    "1:tackle",
+    "1:leer",
+    "1:poisongas",
+    "5:acid",
+    "9:howl",
+    "12:poisonfang",
+    "15:toxicspikes",
+    "18:sludge",
+    "21:stockpile",
+    "21:swallow",
+    "24:paraboliccharge",
+    "27:venoshock",
+    "30:toxic",
+    "33:sludgebomb",
+    "39:bodyslam",
+    "43:discharge",
+    "52:dragonpulse",
+    "57:nastyplot"
+  ],
+  "labels": [
+    "mazah"
+  ],
+  "pokedex": [
+    "cobblemon.species.gohila.desc1",
+    "cobblemon.species.gohila.desc2"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 31,
+  "evolutions": []
+}

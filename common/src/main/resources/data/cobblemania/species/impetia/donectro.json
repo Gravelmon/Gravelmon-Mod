@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "Donectro",
+  "nationalPokedexNumber": 3006,
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "abilities": [
+    "runaway",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 105,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 140
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.5
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 265,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:charge",
+    "1:thundershock",
+    "1:growl",
+    "1:tackle",
+    "1:quickattack",
+    "1:smartstrike",
+    "5:tailwhip",
+    "10:ember",
+    "15:flamecharge",
+    "18:spark",
+    "20:agility",
+    "25:flamewheel",
+    "30:stomp",
+    "35:firespin",
+    "41:takedown",
+    "45:inferno",
+    "50:fireblast",
+    "55:flareblitz",
+    "60:ragingfury",
+    "68:wildcharge"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.donectro.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.2,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 19,
+  "weight": 900,
+  "preEvolution": "donsel",
+  "evolutions": []
+}

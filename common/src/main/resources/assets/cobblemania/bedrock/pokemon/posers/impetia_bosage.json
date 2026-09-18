@@ -1,0 +1,17 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.4, -0.3, 0],
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.4, 0],
+  "rootBone": "bosage",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('bosage', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.bedrock('bosage', 'ground_idle')"]
+    }
+  }
+}

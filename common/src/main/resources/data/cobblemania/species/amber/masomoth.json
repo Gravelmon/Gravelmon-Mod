@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "Masomoth",
+  "nationalPokedexNumber": 1516,
+  "primaryType": "bug",
+  "secondaryType": "fairy",
+  "abilities": [
+    "swarm",
+    "shedskin",
+    "h:compoundeyes"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 185,
+  "eggCycles": 15,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:harden",
+    "1:tackle",
+    "1:stringshot",
+    "1:poisonsting",
+    "9:bugbite",
+    "17:gust",
+    "21:poisonpowder",
+    "21:sleeppowder",
+    "25:dazzlinggleam",
+    "29:moonlight",
+    "34:airslash",
+    "38:skittersmack",
+    "44:moonblast",
+    "50:quiverdance"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.masomoth.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 342,
+  "preEvolution": "shagcoon",
+  "evolutions": []
+}

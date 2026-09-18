@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cettoekko-1",
+      "pokemon": "cettoekko",
+      "type": "pokemon",
+      "context": "submerged",
+      "presets": [
+        "underwater"
+    ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean"
+	]
+      }
+}
+]
+}

@@ -1,0 +1,17 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.3, -0.3, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.7, 0],
+  "rootBone": "gusgull",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('gusgull', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('gusgull', 'ground_idle')", "q.biped_walk(1, 1, 'LeftLeg', 'RightLeg')"]
+    }
+  }
+}

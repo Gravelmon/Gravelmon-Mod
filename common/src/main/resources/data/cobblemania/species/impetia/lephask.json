@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "Lephask",
+  "nationalPokedexNumber": 3002,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "eartheater",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 60,
+    "defence": 100,
+    "special_attack": 60,
+    "special_defence": 100,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:vinewhip",
+    "1:growth",
+    "9:leechseed",
+    "12:razorleaf",
+    "15:sleeppowder",
+    "15:poisonpowder",
+    "20:seedbomb",
+    "25:takedown",
+    "30:sweetscent",
+    "35:synthesis",
+    "40:worryseed",
+    "45:powerwhip",
+    "50:solarbeam"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.lephask.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 1000,
+  "preEvolution": "liliph",
+  "evolutions": [
+    {
+      "id": "lephask-lephossus-level_up",
+      "variant": "level_up",
+      "result": "lephossus",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "earthquake"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

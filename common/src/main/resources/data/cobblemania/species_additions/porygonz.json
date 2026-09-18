@@ -1,0 +1,41 @@
+{
+  "target" : "porygonz",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "normal",
+      "secondaryType": "mystery",
+      "abilities": [
+        "overwrite"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 118,
+        "defence": 85,
+        "special_attack": 150,
+        "special_defence": 95,
+        "speed": 102
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },    
+      "labels": [
+        "mazah",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 9,
+      "weight": 340,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+  ]
+}
+    

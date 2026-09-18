@@ -1,0 +1,41 @@
+{
+  "target" : "trevenant",
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "ghost",
+      "secondaryType": "grass",
+      "abilities": [
+        "grassysurge"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 135,
+        "defence": 107,
+        "special_attack": 90,
+        "special_defence": 107,
+        "speed": 66
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },       
+      "labels": [
+        "mazah",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 15,
+      "weight": 710,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+  ]
+}
+    

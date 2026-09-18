@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "calybrea-1",
+           "pokemon": "calybrea",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "rare",
+           "level": "38-56",
+           "weight": 0.2,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "#cobblemon:is_savanna"
+               ]
+           }
+       }
+   ]
+}

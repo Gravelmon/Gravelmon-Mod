@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rotatona-1",
+      "pokemon": "rotatona",
+      "presets": [
+          "natural",
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "29-45",
+      "weight": 1,
+      "condition": {
+          "canSeeSky": true,
+          "biomes": [
+              "#cobblemon:is_desert"
+          ]
+      }
+  }
+]
+}

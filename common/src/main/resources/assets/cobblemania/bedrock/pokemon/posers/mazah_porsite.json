@@ -1,0 +1,70 @@
+{
+  "head": "head",
+  "portraitScale": 2.1,
+  "portraitTranslation": [-0.4, -1.0, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.4, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('porsite', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('porsite', 'cry')",
+    "recoil": "q.bedrock_stateful('porsite', 'recoil')",
+    "physical": "q.bedrock_primary('porsite', 'physical', 'look', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('porsite', 'special', 'look', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('porsite', 'status', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('porsite', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('porsite', 'blink')"]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('porsite', 'water_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('porsite', 'blink')"]
+  },
+  "swimming": {
+    "poseName": "swimming",
+    "transformTicks": 10,
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('porsite', 'water_swim')"
+    ],
+    "quirks": ["q.bedrock_quirk('porsite', 'blink')"]
+     },
+     "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "animations": [
+        "q.bedrock('porsite', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('porsite', 'blink')"]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('porsite', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('porsite', 'blink')"]
+     },
+     "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(porsite, sleep)"
+      ]
+     }
+  }
+}

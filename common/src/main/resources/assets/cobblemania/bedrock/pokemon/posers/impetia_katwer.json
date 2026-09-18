@@ -1,0 +1,58 @@
+{
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.4, 0.5, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('katwer', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('katwer', 'ground_idle')"
+      ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('katwer', 'ground_walk')"
+      ]
+     },
+     "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": ["FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.bedrock('katwer', 'water_idle')"
+      ]
+  },
+  "swimming": {
+    "poseName": "swimming",
+    "transformTicks": 10,
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('katwer', 'water_swim')"
+    ]
+     },
+     "flying": {
+      "poseName": "flying",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": ["q.bedrock('katwer', 'air_fly')"]
+  },
+    "hovering": {
+      "poseName": "hovering",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": ["q.bedrock('katwer', 'air_idle')"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "porsite-1",
+      "pokemon": "porsite",
+      "type": "pokemon",
+      "context": "submerged",
+      "presets": [
+        "underwater"
+    ],
+      "bucket": "ultra-rare",
+      "level": "5-36",
+      "weight": 9.0,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean"
+	]
+      }
+}
+]
+}

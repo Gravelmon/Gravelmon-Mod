@@ -1,0 +1,28 @@
+{
+  "target" : "eevee",
+   "evolutions": [
+        {
+          "id": "eevee_drakeon",
+          "variant": "item_interact",
+          "result": "drakeon",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "dragonclaw"
+          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:dragon_scale"
+        },
+        {
+          "id": "eevee_chiteon",
+          "variant": "item_interact",
+          "result": "chiteon",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "strugglebug"
+          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:razor_fang"
+      }
+   ]
+}
+    

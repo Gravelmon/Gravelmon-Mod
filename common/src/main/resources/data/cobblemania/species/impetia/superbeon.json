@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "Superbeon",
+  "nationalPokedexNumber": 3009,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "rivalry",
+    "h:berserk"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 110,
+    "defence": 65,
+    "special_attack": 110,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 265,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:watergun",
+    "9:rapidspin",
+    "12:bite",
+    "15:waterpulse",
+    "18:protect",
+    "19:airslash",
+    "20:chillingwater",
+    "22:aerialace",
+    "25:bounce",
+    "30:icywind",
+    "33:hydropump",
+    "36:wavecrash",
+    "50:hurricane"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.superbeon.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.4,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 600,
+  "preEvolution": "katwer",
+  "evolutions": [
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "camagma-1",
+            "pokemon": "camagma",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "18-40",
+            "weight": 0.9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:wooded_badlands",
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        }
+    ]
+}

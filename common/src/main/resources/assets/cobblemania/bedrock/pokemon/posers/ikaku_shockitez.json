@@ -1,0 +1,25 @@
+{
+  "portraitScale": 1.89,
+  "portraitTranslation": [-0.8, 0.8, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "shockitez",
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shockitez', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('shockitez', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('shockitez', 'ground_idle')"]
+    }
+  }
+}

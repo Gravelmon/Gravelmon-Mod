@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bathygigas-1",
+      "pokemon": "bathygigas",
+      "type": "pokemon",
+      "context": "submerged",
+      "presets": [
+        "underwater"
+    ],
+      "bucket": "ultra-rare",
+      "level": "36-52",
+      "weight": 0.1,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean"
+	]
+      }
+    }
+]
+}

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "quexcell-1",
+      "pokemon": "quexcell",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+    ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_arid"
+	]
+      }
+}
+]
+}

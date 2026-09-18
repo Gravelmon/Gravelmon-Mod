@@ -1,0 +1,32 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.7, -0.3, 0],
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.5, 0],
+  "rootBone": "khatchet",
+  "animations": {
+    "faint": "q.bedrock_primary('khatchet', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('khatchet', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('khatchet', 'battle_quirk')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('khatchet', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.bedrock('khatchet', 'ground_walk')"]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "Nezurin",
+  "nationalPokedexNumber": 3025,
+  "primaryType": "electric",
+  "secondaryType": "psychic",
+  "abilities": [
+    "frisk",
+    "voltabsorb",
+    "h:neuronalactivation"
+  ],
+  "baseStats": {
+    "hp": 83,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 64,
+    "special_defence": 72,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 82,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "4:spark",
+    "6:thundershock",
+    "9:charm",
+    "12:psybeam",
+    "16:charge",
+    "19:discharge",
+    "22:psyshock",
+    "26:thunderwave",
+    "34:calmmind",
+    "43:psychic",
+    "49:ruminate"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.nezurin.desc"
+  ],
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 30,
+  "evolutions": []
+}

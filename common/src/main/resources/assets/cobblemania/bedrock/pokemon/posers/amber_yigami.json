@@ -1,0 +1,47 @@
+{
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [-0.8, 0.5, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.7, 0],
+  "faint": "bedrock(yi_gami, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["look", "bedrock(yi_gami, ground_idle)"]
+    ,
+    "quirks": [
+      {
+        "name": "blink",
+        "animations": ["bedrock(yi_gami, blink)"]
+      }
+    ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(yi_gami, ground_walk)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(yi_gami, blink)"]
+        }
+      ]
+},
+  "flying": {
+    "poseName": "flying",
+    "transformTicks": 10,
+    "poseTypes": [ "FLY" ],
+    "animations": [ "bedrock(yi_gami, air_fly)" ]
+},
+  "hovering": {
+    "poseName": "hovering",
+    "transformTicks": 10,
+    "poseTypes": [ "HOVER" ],
+    "animations": [ "bedrock(yi_gami, air_idle)" ]
+  }
+}
+}

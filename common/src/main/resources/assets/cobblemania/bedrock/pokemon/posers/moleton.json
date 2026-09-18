@@ -1,0 +1,23 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [0.0, 0.2, 0.0],
+  "profileScale": 0.84,
+  "profileTranslation": [0.0, 0.5, 0.0],
+  "rootBone": "moleton",
+  "poses": {
+    "hover": {
+      "poseTypes": ["HOVER", "STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('moleton', 'air_idle')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM", "WALK"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('moleton', 'air_fly')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('moleton', 'sleep')"]
+    }
+  }
+}

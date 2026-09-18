@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "Sorb",
+  "nationalPokedexNumber": 9999,
+  "primaryType": "normal",
+  "secondaryType": "dragon",
+  "abilities": [
+    "intimidate",
+    "h:cursedbody"
+  ],
+  "baseStats": {
+    "hp": 255,
+    "attack": 255,
+    "defence": 255,
+    "special_attack": 255,
+    "special_defence": 255,
+    "speed": 255
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 1,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 150,
+  "eggGroups": [
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:stealthrock",
+    "1:uturn",
+    "1:voltswitch",
+    "1:flipturn",
+    "1:spore",
+    "1:knockoff",
+    "1:quiverdance",
+    "1:scald",
+    "1:eternabeam",
+    "1:coreenforcer",
+    "1:roaroftime"
+  ],
+  "labels": [
+    "mazah"
+  ],
+  "pokedex": [
+    "cobblemon.species.sorb.desc1",
+    "cobblemon.species.sorb.desc2"
+  ],
+  "baseScale": 10,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 3,
+    "attack": 3,
+    "defence": 3,
+    "special_attack": 3,
+    "special_defence": 3,
+    "speed": 3
+  },
+  "height": 1,
+  "weight": 1,
+  "evolutions": []
+}

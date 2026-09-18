@@ -1,0 +1,9 @@
+{
+    "type": "choice",
+    "keys": ["style"],
+    "default": "random",
+    "choices": ["cheeky", "angry", "goofy", "jolly"],
+    "isAspect": true,
+    "aspectFormat": "style-{{choice}}"
+  }
+  

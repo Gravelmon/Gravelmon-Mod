@@ -1,0 +1,38 @@
+{
+  "portraitScale": 3.0,
+  "portraitTranslation": [-0.1, -3, 0.0],
+  "profileScale": 0.95,
+  "profileTranslation": [0, 0.3, 0],
+  "rootBone": "bovase",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('bovase', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.bedrock('bovase', 'ground_idle')"]
+    },
+  "shoulder_left": {
+    "poseTypes": ["SHOULDER_LEFT"],
+    "animations": ["q.look('head')", "q.bedrock('bovase', 'ground_idle')"],
+    "transformedParts": [
+      {
+        "part": "body",
+        "position": [-1.25, 0, 0]
+      }
+    ]
+  },
+  "shoulder_right": {
+    "poseTypes": ["SHOULDER_RIGHT"],
+    "animations": ["q.look('head')", "q.bedrock('bovase', 'ground_idle')"],
+    "transformedParts": [
+      {
+        "part": "body",
+        "position": [1.25, 0, 0]
+      }
+    ]
+  }
+
+}
+}

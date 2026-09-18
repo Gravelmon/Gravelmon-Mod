@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "Tickiln",
+  "nationalPokedexNumber": 1590,
+  "primaryType": "fire",
+  "secondaryType": "bug",
+  "abilities": [
+    "flamebody",
+    "thickfat",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 95,
+    "defence": 100,
+    "special_attack": 55,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "eggCycles": 20,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:hyperfang",
+    "1:lunge",
+    "1:ember",
+    "1:smokescreen",
+    "5:infestation",
+    "9:leechlife",
+    "13:incinerate",
+    "17:superfang",
+    "24:flamecharge",
+    "28:bodyslam",
+    "32:stockpile",
+    "32:spitup",
+    "32:swallow",
+    "38:firefang",
+    "44:acupressure",
+    "50:explosion",
+    "55:flamethrower"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.tickiln.desc1",
+    "cobblemon.species.tickiln.desc2"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 491,
+  "preEvolution": "magmite",
+  "evolutions": []
+}

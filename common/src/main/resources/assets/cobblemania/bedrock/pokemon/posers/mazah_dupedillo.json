@@ -1,0 +1,17 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.6, 0.6, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.93, 0],
+  "rootBone": "dupedillo",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('dupedillo', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('dupedillo', 'ground_idle')"]
+    }
+  }
+}

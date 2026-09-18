@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "Pachyquag",
+  "nationalPokedexNumber": 1501,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "overgrow",
+    "h:stickyhold"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 52,
+    "defence": 50,
+    "special_attack": 58,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:leafage",
+    "6:mudsport",
+    "9:mudshot",
+    "13:takedown",
+    "17:razorleaf",
+    "21:mudbomb",
+    "26:energyball",
+    "30:stockpile",
+    "30:swallow",
+    "30:spitup",
+    "35:earthpower",
+    "39:slam",
+    "43:earthquake"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.pachyquag.desc1",
+    "cobblemon.species.pachyquag.desc2"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 436,
+  "evolutions": [
+    {
+      "id": "pachyquag-probog-level_up",
+      "variant": "level_up",
+      "result": "probog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 17
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

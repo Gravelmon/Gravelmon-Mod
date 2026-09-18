@@ -1,0 +1,17 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.95, 0, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.67, 0],
+  "rootBone": "makwahurt",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('makwahurt', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.bedrock('makwahurt', 'ground_idle')"]
+    }
+  }
+}

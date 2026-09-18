@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "cramber-1",
+           "pokemon": "cramber",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "uncommon",
+           "level": "30-87",
+           "weight": 1,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "#cobblemon:is_deep_ocean"
+               ]
+           }
+       }
+   ]
+}

@@ -1,0 +1,34 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, 0.4, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.7, 0],
+  "rootBone": "quexcell",
+  "animations": {
+    "cry": "q.bedrock_stateful('quexcell', 'cry')",
+    "recoil": "q.bedrock_stateful('quexcell', 'recoil')",
+    "physical": "q.bedrock_primary('quexcell', 'physical', 'look', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('quexcell', 'special', 'look', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quexcell', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('quexcell', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quexcell', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('quexcell', 'blink')"]
+    }
+  }
+}

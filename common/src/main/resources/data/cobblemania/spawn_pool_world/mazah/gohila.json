@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gohila-1",
+            "pokemon": "gohila",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-31",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+        {
+            "id": "gohila-2",
+            "pokemon": "gohila",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "16-31",
+            "weight": 2.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        }
+    ]
+}

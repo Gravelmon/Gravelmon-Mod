@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "Yigami",
+  "nationalPokedexNumber": 1690,
+  "primaryType": "psychic",
+  "secondaryType": "fairy",
+  "abilities": [
+    "shedskin",
+    "h:windrider"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 120,
+    "defence": 75,
+    "special_attack": 85,
+    "special_defence": 75,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 185,
+  "eggCycles": 20,
+  "eggGroups": [
+    "flying",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:leer",
+    "5:fairywind",
+    "10:quickattack",
+    "14:pluck",
+    "19:honeclaws",
+    "23:trick",
+    "27:psyshock",
+    "33:roost",
+    "38:dualwingbeat",
+    "42:skittersmack",
+    "51:substitute",
+    "60:skyattack",
+    "65:dragondance",
+    "1:razorwind",
+    "1:powergem",
+    "56:moonblast",
+    "47:psychocut"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.yigami.desc1",
+    "cobblemon.species.yigami.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 306,
+  "preEvolution": "foliqi",
+  "evolutions": []
+}

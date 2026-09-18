@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "expursum-1",
+      "pokemon": "expursum",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural",
+        "village"
+    ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {                
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+	]
+      },
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        }
+    },
+    {
+      "id": "expursum-2",
+      "pokemon": "expursum",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 0.9,
+      "condition": {      
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },            
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+        ]
+    }
+}
+]
+}

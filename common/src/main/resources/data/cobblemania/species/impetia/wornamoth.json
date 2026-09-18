@@ -1,0 +1,54 @@
+{
+  "implemented": false,
+  "name": "Wornamoth",
+  "nationalPokedexNumber": 3087,
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.wornamoth.desc"
+  ],
+  "aspects": [
+    "robe-eco"
+  ],
+  "height": 21,
+  "weight": 620,
+  "preEvolution": "wormadam",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Vintage",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "robe-vintage"
+      ],
+      "height": 21,
+      "weight": 620,
+      "preEvolution": "wormadam",
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Chic",
+      "primaryType": "bug",
+      "secondaryType": "steel",
+      "labels": [
+        "gen4"
+      ],
+      "aspects": [
+        "robe-chic"
+      ],
+      "height": 21,
+      "weight": 620,
+      "preEvolution": "wormadam",
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ]
+}

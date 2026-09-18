@@ -1,0 +1,114 @@
+{
+  "target" : "krabby",
+  "features": ["mazian"],
+  "forms": [
+    {
+      "name": "Mazah",
+      "primaryType": "water",
+      "secondaryType": "bug",    
+      "abilities": [
+        "ironbarbs",
+        "shellarmor",
+        "h:stakeout"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 90,
+        "defence": 105,
+        "special_attack": 25,
+        "special_defence": 30,
+        "speed": 25
+      },    
+      "catchRate": 125,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 140,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "water_3"
+      ],
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": true
+          }
+        }    
+      },     
+      "moves": [
+        "1:visegrip",
+        "1:leer",
+        "4:harden",
+        "8:clamp",
+        "12:furycutter",
+        "16:brutalswing",
+        "20:spikes",
+        "24:pinmissile",
+        "28:spikyshield",
+        "32:dive",
+        "36:counter",
+        "40:leechlife",
+        "44:crabhammer",
+        "48:fellstinger",
+        "egg:spikecannon",
+        "egg:metalclaw",
+        "egg:needlearm",
+        "egg:lunge"
+      ],    
+      "labels": [
+        "gen1",
+        "mazah_regional"
+      ],
+      "pokedex": [
+        "cobblemon.species.krabby_mazian.desc1"
+      ],  
+      "evolutions": [
+        {
+          "id": "mazah_krabby_vladikrab",
+          "variant": "item_interact",
+          "result": "vladikrab",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone"
+        }
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 1,
+        "height": 0.7,
+        "fixed": false     
+      },    
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },    
+      "height": 6,
+      "weight": 59,
+      "aspects": ["mazian"],
+      "cannotDynamax": false,
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:kings_rock",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:pinap_berry",
+            "percentage": 2.5
+          }      
+        ]
+      }
+    }
+  ]
+}
+    

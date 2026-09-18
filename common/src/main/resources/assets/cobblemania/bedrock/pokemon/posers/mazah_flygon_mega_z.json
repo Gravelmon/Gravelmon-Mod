@@ -1,0 +1,43 @@
+{
+  "portraitScale": 1.27,
+  "portraitTranslation": [-1, 2.49, 0.0],
+  "profileScale": 0.32,
+  "profileTranslation": [0.07, 1.21, -6.0],
+  "rootBone": "flygon",
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('flygon_mega_z', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('flygon_mega_z', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('flygon_mega_z', 'ground_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
+      ],
+      "quirks": ["q.bedrock_quirk('flygon_mega_z', 'blink')"]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.sine_wing_flap(-10, 0.7, 0.4, 'y', 'wing_left_rotation', 'wing_left_rotation2', 'wing_left_rotation3', 'wing_left_rotation4', 'wing_right_rotation', 'wing_right_rotation2','wing_right_rotation3','wing_right_rotation4',)",
+        "q.look('head')",
+        "q.bedrock('flygon_mega_z', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('flygon_mega_z', 'blink')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.sine_wing_flap(-10, 0.7, 0.4, 'y', 'wing_left_rotation', 'wing_left_rotation2', 'wing_left_rotation3', 'wing_left_rotation4', 'wing_right_rotation', 'wing_right_rotation2','wing_right_rotation3','wing_right_rotation4',)",
+        "q.look('head')",
+        "q.bedrock('flygon_mega_z', 'air_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('flygon_mega_z', 'blink')"]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "Bathygigas",
+  "nationalPokedexNumber": 8009,
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "abilities": [
+    "torrent",
+    "h:amplifier"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 86,
+    "defence": 74,
+    "special_attack": 86,
+    "special_defence": 105,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 265,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "water_2",
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 25.0
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:tailwhip",
+    "1:liquidation",
+    "1:psychicfangs",
+    "1:watergun",
+    "1:confusion",
+    "12:sing",
+    "15:disarmingvoice",
+    "20:bubblebeam",
+    "25:zenheadbutt",
+    "30:aquaring",
+    "35:dive",
+    "42:amnesia",
+    "49:blizzard",
+    "56:hydropump",
+    "63:waterspout",
+    "70:boomburst"
+  ],
+  "labels": [
+    "mazah"
+  ],
+  "pokedex": [
+    "cobblemon.species.bathygigas.desc1",
+    "cobblemon.species.bathygigas.desc2"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 2.3,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 124,
+  "weight": 7584,
+  "preEvolution": "cettoekko",
+  "evolutions": [
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "implemented": true,
+  "name": "Poldra",
+  "nationalPokedexNumber": 1534,
+  "primaryType": "dragon",
+  "abilities": [
+    "frisk",
+    "longreach",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 105,
+    "defence": 95,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "5:metalclaw",
+    "9:attract",
+    "14:takedown",
+    "19:dragontail",
+    "23:shiftgear",
+    "27:dragonclaw",
+    "31:slam",
+    "25:vitalthrow",
+    "30:bulkup",
+    "35:thief",
+    "40:surf",
+    "45:fling",
+    "50:recycle",
+    "55:dive",
+    "60:outrage"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.poldra.desc1",
+    "cobblemon.species.poldra.desc2"
+  ],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 717,
+  "evolutions": []
+}

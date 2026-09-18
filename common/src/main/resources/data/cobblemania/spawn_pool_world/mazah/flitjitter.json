@@ -1,0 +1,54 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "flitjitter-1",
+            "pokemon": "flitjitter",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "23-35",
+            "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 1.6,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "flitjitter-2",
+            "pokemon": "flitjitter",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "23-35",
+            "weight": 0.6,
+            "condition": {
+            "weightMultiplier": {
+                    "multiplier": 1.6,
+                    "condition": {
+                        "isThundering": true
+                    }
+                },
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "Finwit",
+  "nationalPokedexNumber": 1508,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 78,
+    "defence": 75,
+    "special_attack": 52,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true,
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "eggCycles": 60,
+  "eggGroups": [
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "5:tailwhip",
+    "5:bubble",
+    "7:watersport",
+    "11:headbutt",
+    "14:waterpulse",
+    "19:flail",
+    "24:confuseray",
+    "29:tailslap",
+    "20:bite",
+    "33:crunch",
+    "36:skullbash",
+    "42:zenheadbutt",
+    "49:hydropump",
+    "58:headsmash"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.finwit.desc1",
+    "cobblemon.species.finwit.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 191,
+  "preEvolution": "haiproto",
+  "evolutions": [
+    {
+      "id": "finwit-dunklex-level_up",
+      "variant": "level_up",
+      "result": "dunklex",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wrenner-1",
+            "pokemon": "wrenner",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-25",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

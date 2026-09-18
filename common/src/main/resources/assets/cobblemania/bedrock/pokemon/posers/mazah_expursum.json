@@ -1,0 +1,43 @@
+{
+  "head": "torso_top",
+  "portraitScale": 2,
+  "portraitTranslation": [0, 0.8, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.05, 0.6, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('expursum', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('expursum', 'recoil')",
+    "physical": "q.bedrock_primary('expursum', 'physical', 'look', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('expursum', 'special', 'look', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('expursum', 'status', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('torso_top')",
+        "q.bedrock('expursum', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('torso_top')",
+        "q.bedrock('expursum', 'ground_idle')"
+      ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('torso_top')",
+        "q.bedrock('expursum', 'ground_walk')"
+      ]
+     }
+  }
+}

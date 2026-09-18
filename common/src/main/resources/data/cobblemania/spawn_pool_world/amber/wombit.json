@@ -1,0 +1,26 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "wombit-1",
+           "pokemon": "wombit",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "common",
+           "level": "8-29",
+           "weight": 9.9,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "minecraft:swamp",
+                   "#cobblemon:is_swamp"
+               ]
+           }
+       }
+   ]
+}

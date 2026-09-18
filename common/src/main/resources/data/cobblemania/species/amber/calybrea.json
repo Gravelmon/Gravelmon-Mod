@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "Calybrea",
+  "nationalPokedexNumber": 1609,
+  "primaryType": "ground",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "toxicvoice",
+    "h:gooey"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 100,
+    "special_attack": 120,
+    "special_defence": 110,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 269,
+  "eggCycles": 20,
+  "eggGroups": [
+    "amorphous",
+    "human_like"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:mudslap",
+    "1:playnice",
+    "5:acid",
+    "9:attract",
+    "13:mudshot",
+    "17:confuseray",
+    "23:sludge",
+    "27:earthpower",
+    "31:sing",
+    "38:hypervoice",
+    "45:toxic",
+    "49:venoshock",
+    "53:slam",
+    "61:earthquake",
+    "57:perishsong",
+    "35:poisonjab",
+    "1:poisonfang",
+    "1:tarshot"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.calybrea.desc1",
+    "cobblemon.species.calybrea.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 920,
+  "preEvolution": "gorgoop",
+  "evolutions": []
+}

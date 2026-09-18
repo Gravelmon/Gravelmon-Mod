@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "Katwer",
+  "nationalPokedexNumber": 3008,
+  "primaryType": "water",
+  "secondaryType": "flying",
+  "abilities": [
+    "rivalry",
+    "h:berserk"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 95,
+    "special_defence": 55,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:watergun",
+    "9:rapidspin",
+    "12:bite",
+    "15:waterpulse",
+    "18:protect",
+    "19:airslash",
+    "20:chillingwater",
+    "22:aerialace",
+    "25:bounce",
+    "30:icywind",
+    "33:hydropump",
+    "36:wavecrash"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.katwer.desc"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 100,
+  "preEvolution": "fonkub",
+  "evolutions": [
+    {
+      "id": "katwer-superbeon-level_up",
+      "variant": "level_up",
+      "result": "superbeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

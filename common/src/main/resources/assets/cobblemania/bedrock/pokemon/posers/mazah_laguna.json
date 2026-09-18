@@ -1,0 +1,40 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, 0.1, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.75, 0],
+  "rootBone": "laguna",
+  "animations": {
+    "recoil": "q.bedrock_stateful('laguna', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('laguna', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('laguna', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('laguna', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('laguna', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('laguna', 'ground_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('laguna', 'blink')"]
+    }
+  }
+}

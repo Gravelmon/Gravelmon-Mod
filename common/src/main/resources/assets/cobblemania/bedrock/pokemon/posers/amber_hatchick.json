@@ -1,0 +1,17 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-0.1, -1.3, 0.0],
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.6, 0],
+  "rootBone": "hatchick",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('hatchick', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('hatchick', 'ground_idle')"]
+    }
+  }
+}

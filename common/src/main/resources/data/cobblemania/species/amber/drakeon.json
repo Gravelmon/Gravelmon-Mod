@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "Drakeon",
+  "nationalPokedexNumber": 1725,
+  "primaryType": "dragon",
+  "abilities": [
+    "guts",
+    "h:marvelscale"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defence": 95,
+    "special_attack": 65,
+    "special_defence": 110,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:covet",
+    "1:swift",
+    "1:charm",
+    "1:bite",
+    "1:helpinghand",
+    "1:tackle",
+    "1:growl",
+    "1:tailwhip",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:lowsweep",
+    "25:dragontail",
+    "30:nobleroar",
+    "35:crunch",
+    "40:dualchop",
+    "45:swagger",
+    "50:dragondance",
+    "55:lastresort"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.drakeon.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 310,
+  "preEvolution": "eevee",
+  "evolutions": []
+}

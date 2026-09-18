@@ -1,0 +1,47 @@
+{
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.9, 2.6, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.9, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('donectro', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('donectro', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('donectro', 'ground_idle')"
+      ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('donectro', 'ground_walk')"
+      ]
+     },
+     "sleeping": {
+      "poseName": "sleeping",
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "bedrock(donectro, sleep)"
+      ]
+     }
+  }
+}

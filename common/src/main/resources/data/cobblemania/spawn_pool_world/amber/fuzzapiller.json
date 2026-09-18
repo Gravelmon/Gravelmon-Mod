@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "fuzzapiller-1",
+           "pokemon": "fuzzapiller",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "common",
+           "level": "1-12",
+           "weight": 6.3,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+			       "#cobblemon:is_forest"
+               ]
+           }
+       }
+   ]
+}

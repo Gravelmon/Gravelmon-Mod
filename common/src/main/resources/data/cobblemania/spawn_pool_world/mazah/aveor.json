@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "aveor-1",
+            "pokemon": "aveor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-34",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

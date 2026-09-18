@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gastronaut-1",
+      "pokemon": "gastronaut",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural",
+        "village"
+    ],
+      "bucket": "ultra-rare",
+      "level": "36-52",
+      "weight": 0.1,
+      "condition": {                
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+	]
+      },
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        }
+    },
+    {
+      "id": "gastronaut-2",
+      "pokemon": "gastronaut",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "36-52",
+      "weight": 0.1,
+      "condition": {      
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },            
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+        ]
+    }
+}
+]
+}

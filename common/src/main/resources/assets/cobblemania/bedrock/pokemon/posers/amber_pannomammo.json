@@ -1,0 +1,24 @@
+{
+  "portraitScale": 1.38,
+  "portraitTranslation": [-0.21, 0.48, 0],
+  "profileScale": 0.75,
+  "profileTranslation": [0.0, 0.69, 0.0],
+  "rootBone": "pannomammo",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('pannomammo', 'ground_idle')"],
+      "quirks": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.bedrock('pannomammo', 'ground_idle')"
+      ],
+      "quirks": []
+    }
+  }
+}
+

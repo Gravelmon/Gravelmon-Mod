@@ -1,0 +1,17 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.9, 2.35, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "rachops",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('rachops', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('rachops', 'ground_idle')"]
+    }
+  }
+}

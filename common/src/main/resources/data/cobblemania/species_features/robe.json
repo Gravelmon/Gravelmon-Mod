@@ -1,0 +1,9 @@
+{
+    "type": "choice",
+    "keys": ["robe"],
+    "default": "false",
+    "choices": ["eco", "vintage", "chic"],
+    "isAspect": true,
+    "aspectFormat": "robe-{{choice}}"
+}
+  

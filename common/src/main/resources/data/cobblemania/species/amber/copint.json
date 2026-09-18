@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "Copint",
+  "nationalPokedexNumber": 1638,
+  "primaryType": "normal",
+  "secondaryType": "dragon",
+  "abilities": [
+    "angerpoint",
+    "h:pressure"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 40,
+  "maleRatio": 0.13,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "eggCycles": 40,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "5:roar",
+    "9:bite",
+    "13:takedown",
+    "17:rocksmash",
+    "21:dragonbreath",
+    "25:headbutt",
+    "29:meanlook",
+    "33:poisonfang",
+    "37:powertrip",
+    "41:bodyslam",
+    "44:torment",
+    "45:glare",
+    "49:outrage",
+    "53:skullbash"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.copint.desc1",
+    "cobblemon.species.copint.desc2"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 180,
+  "evolutions": [
+    {
+      "id": "copint-clonaw-level_up",
+      "variant": "level_up",
+      "result": "clonaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "scaryface"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

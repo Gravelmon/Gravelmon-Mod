@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "Gastronaut",
+  "nationalPokedexNumber": 8003,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "overgrow",
+    "h:artillerist"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 65,
+    "defence": 130,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 265,
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass",
+    "amorphous"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {  "item": "minecraft:slime_ball",
+      "percentage": 15.0
+    },
+     {
+      "item": "cobblemon:miracle_seed",
+      "percentage": 25.0
+    },
+    {
+      "item": "minecraft:decorated_pot",
+      "percentage": 100.0
+    }]
+  },
+  "moves": [
+    "1:slimeshot",
+    "1:tackle",
+    "1:withdraw",
+    "1:meteorbeam",
+    "1:lockon",
+    "1:absorb",
+    "1:mudslap",
+    "12:growth",
+    "15:leaftornado",
+    "20:rollout",
+    "25:acidarmor",
+    "30:mudbomb",
+    "35:rockblast",
+    "42:earthpower",
+    "49:energyball",
+    "56:shellsmash",
+    "63:ancientpower",
+    "70:leafstorm"
+  ],
+  "labels": [
+    "mazah"
+  ],
+  "pokedex": [
+    "cobblemon.species.gastronaut.desc1",
+    "cobblemon.species.gastronaut.desc2"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.6,
+    "height": 2.25,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 22,
+  "weight": 1306,
+  "preEvolution": "expursum",
+  "evolutions": []
+}

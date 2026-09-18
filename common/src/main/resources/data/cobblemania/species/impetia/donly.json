@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "Donly",
+  "nationalPokedexNumber": 3004,
+  "primaryType": "fire",
+  "abilities": [
+    "runaway",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 35,
+    "special_attack": 70,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "5:tailwhip",
+    "10:ember",
+    "15:flamecharge",
+    "20:agility",
+    "25:flamewheel",
+    "30:stomp",
+    "35:firespin",
+    "41:takedown",
+    "45:inferno",
+    "50:fireblast",
+    "55:flareblitz"
+  ],
+  "labels": [
+    "impetia"
+  ],
+  "pokedex": [
+    "cobblemon.species.donly.desc"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 150,
+  "evolutions": [
+    {
+      "id": "donly-donsel-level_up",
+      "variant": "level_up",
+      "result": "donsel",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "thunderfang"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

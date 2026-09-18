@@ -1,0 +1,48 @@
+{
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.2, -0.6, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [-0.03, 0.6, 0],
+  "rootBone": "quetzalil",
+  "animations": {
+    "cry": "q.bedrock_stateful('quetzalil', 'cry')",
+    "recoil": "q.bedrock_stateful('quetzalil', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quetzalil', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('quetzalil', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quetzalil', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('quetzalil', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('quetzalil', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('quetzalil', 'blink')"]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isWild": false,
+      "animations": ["q.bedrock('quetzalil', 'sleep')"]
+    }
+  }
+}

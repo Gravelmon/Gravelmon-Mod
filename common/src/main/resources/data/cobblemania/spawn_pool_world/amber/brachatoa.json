@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "brachatoa-1",
+            "pokemon": "brachatoa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "37-53",
+            "weight": 0.1,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:badlands",
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        }
+    ]
+}

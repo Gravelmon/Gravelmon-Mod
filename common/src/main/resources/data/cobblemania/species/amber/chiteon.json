@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "Chiteon",
+  "nationalPokedexNumber": 1726,
+  "primaryType": "bug",
+  "abilities": [
+    "shielddust",
+    "h:infiltrator"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 60,
+    "special_attack": 130,
+    "special_defence": 65,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+        "walkSpeed": 0.3
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:covet",
+    "1:swift",
+    "1:charm",
+    "1:bite",
+    "1:helpinghand",
+    "1:tackle",
+    "1:growl",
+    "1:tailwhip",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:stickyweb",
+    "25:aircutter",
+    "30:signalbeam",
+    "35:agility",
+    "40:airslash",
+    "45:xscissor",
+    "50:tailwind",
+    "55:lastresort"
+  ],
+  "labels": [
+    "amber"
+  ],
+  "pokedex": [
+    "cobblemon.species.chiteon.desc1",
+    "cobblemon.species.chiteon.desc2"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 7,
+  "weight": 220,
+  "preEvolution": "eevee",
+  "evolutions": []
+}

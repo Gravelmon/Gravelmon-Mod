@@ -1,0 +1,9 @@
+{
+    "type": "choice",
+    "keys": ["disguise"],
+    "default": "random",
+    "choices": ["wooloo", "mareep", "skiddo"],
+    "isAspect": true,
+    "aspectFormat": "disguise-{{choice}}"
+}
+  

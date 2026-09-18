@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mollucotta-1",
+      "pokemon": "mollucotta",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural",
+        "village"
+    ],
+      "bucket": "ultra-rare",
+      "level": "5-36",
+      "weight": 9.0,
+      "condition": {                
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+	]
+      },
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+          ]
+        }
+    },
+    {
+      "id": "mollucotta-2",
+      "pokemon": "mollucotta",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "5-36",
+      "weight": 9.0,
+      "condition": {      
+      "minSkyLight": 8,
+      "maxSkyLight": 15,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },            
+      "anticondition": {
+        "biomes": [
+            "#cobblemon:is_sandy",
+            "#cobblemon:is_tundra"
+        ]
+    }
+}
+]
+}

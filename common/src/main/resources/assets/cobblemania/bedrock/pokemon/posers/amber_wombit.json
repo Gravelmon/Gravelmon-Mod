@@ -1,0 +1,52 @@
+{
+  "head": "head",
+  "portraitScale": 1.75,
+  "portraitTranslation": [-0.4, -0.2, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('wombit', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('wombit', 'recoil')",
+    "physical": "q.bedrock_primary('wombit', 'physical', 'look', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('wombit', 'special', 'look', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('wombit', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('wombit', 'battle_idle')"
+      ],
+      "quirks": [
+       "q.bedrock_quirk('wombit', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('wombit', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wombit', 'blink')"
+       ]
+  },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('wombit', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('wombit', 'blink')"
+       ]
+     }
+  }
+}

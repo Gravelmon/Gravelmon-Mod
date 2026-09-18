@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lephossus-1",
+      "pokemon": "lephossus",
+      "type": "pokemon",
+      "context": "grounded",
+      "presets": [
+        "natural"
+    ],
+      "bucket": "ultra-rare",
+      "level": "36-52",
+      "weight": 0.1,
+      "condition": {
+      "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_savanna"
+	]
+      }
+}
+]
+}

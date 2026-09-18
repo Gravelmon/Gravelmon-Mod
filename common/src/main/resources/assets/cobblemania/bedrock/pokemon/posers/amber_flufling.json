@@ -1,0 +1,17 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.31, -0.8, 0],
+  "profileScale": 0.55,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "flufling",
+  "poses": {
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["q.look('head')", "q.bedrock('flufling', 'ground_idle')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": ["q.look('head')", "q.bedrock('flufling', 'ground_idle')", "q.biped_walk(1, 1, 'left_leg', 'right_leg')"]
+    }
+  }
+}

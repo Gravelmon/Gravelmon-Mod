@@ -1,0 +1,41 @@
+{
+  "portraitScale": 3,
+  "portraitTranslation": [0.2, -2.8, 0],
+  "profileScale": 1.5,
+  "profileTranslation": [0, -0.5, 0],
+  "rootBone": "haiproto",
+  "animations": {
+    "cry": "q.bedrock_stateful('haiproto', 'cry')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT", "PROFILE"],
+      "animations": ["q.bedrock('haiproto', 'water_idle')"],
+      "quirks": []
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": ["q.bedrock('haiproto', 'ground_idle')"],
+      "quirks": []
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": ["q.bedrock('haiproto', 'ground_walk')"],
+      "quirks": []
+    },
+    "float": {
+      "poseTypes": ["FLOAT"],
+      "animations": ["q.bedrock('haiproto', 'water_idle')"],
+      "quirks": [
+      ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "animations": ["q.bedrock('haiproto', 'water_swim')"],
+      "quirks": []
+    }
+  }
+}
+
+
