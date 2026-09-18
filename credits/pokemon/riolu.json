@@ -1,0 +1,32 @@
+{
+  "game": "pokemon",
+  "pokemon": "riolu",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "riolu",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "submittedAt": "2026-09-18T17:19:32.955Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltariolu.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/riolu_delta.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltariolu/riolu_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltariolu/riolu_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltariolu/riolu_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltariolu.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
