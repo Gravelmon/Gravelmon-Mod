@@ -23,7 +23,7 @@
         "float"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
+        "q.bedrock_quirk('helioptile-epoch', q.array('blink', 'blink2', 'blink3'))"
       ],
       "animations": [
         "q.look('head')",
@@ -36,7 +36,7 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_primary_quirk('helioptile-epoch', 'blink')"
+        "q.bedrock_quirk('helioptile-epoch', q.array('blink', 'blink2', 'blink3'))"
       ],
       "animations": [
         "q.look('head')",
