@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:electabuzz",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_63_by_60.geo",
       "poser": "cobblemon:cutout_gravelmon_63_by_60",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochelectabuzz.png",
+      "model": "cobblemon:soulstones_epochelectabuzz.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochelectabuzz/electabuzz_epoch.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,28 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "epoch",
+        "shiny"
+      ],
+      "model": "cobblemon:soulstones_epochelectabuzz.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochelectabuzz/electabuzz_epoch_shiny.png"
+    },
+    {
+      "aspects": [
+        "epoch",
+        "alpha_eyes"
+      ],
+      "model": "cobblemon:soulstones_epochelectabuzz.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochelectabuzz/electabuzz_epoch.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochelectabuzz/electabuzz_epoch_alpha.png"
         }
       ]
     }
