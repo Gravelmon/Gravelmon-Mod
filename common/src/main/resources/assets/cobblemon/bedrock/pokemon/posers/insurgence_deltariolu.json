@@ -29,10 +29,10 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('riolu', 'ground_idle')",
+        "q.bedrock('riolu_delta', 'ground_idle')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('riolu', 'hold_item')"
+          "animation": "q.bedrock('riolu_delta', 'hold_item')"
         }
       ]
     },
@@ -47,10 +47,10 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('riolu', 'battle_idle')",
+        "q.bedrock('riolu_delta', 'battle_idle')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('riolu', 'hold_item')"
+          "animation": "q.bedrock('riolu_delta', 'hold_item')"
         }
       ]
     },
@@ -65,10 +65,10 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('riolu', 'ground_walk')",
+        "q.bedrock('riolu_delta', 'ground_walk')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('riolu', 'hold_item')"
+          "animation": "q.bedrock('riolu_delta', 'hold_item')"
         }
       ]
     },
@@ -77,10 +77,10 @@
         "sleep"
       ],
       "namedAnimations": {
-        "cry": "q.bedrock_stateful('dummy', 'cry')"
+        "cry": "q.bedrock_stateful('riolu_delta', 'cry')"
       },
       "animations": [
-        "q.bedrock('riolu', 'sleep')"
+        "q.bedrock('riolu_delta', 'sleep')"
       ]
     },
     "shoulder_left": {
@@ -102,7 +102,7 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('riolu', 'shoulder_left')"
+        "q.bedrock('riolu_delta', 'shoulder_left')"
       ]
     },
     "shoulder_right": {
@@ -124,11 +124,11 @@
       ],
       "animations": [
         "q.look('head_ai')",
-        "q.bedrock('riolu', 'shoulder_right')"
+        "q.bedrock('riolu_delta', 'shoulder_right')"
       ]
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('riolu', 'cry')"
+    "cry": "q.bedrock_stateful('riolu_delta', 'cry')"
   }
 }
