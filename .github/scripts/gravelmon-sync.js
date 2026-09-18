@@ -23,11 +23,23 @@ function readJsonAt(ref, path) {
     }
 }
 
+// A Bedrock animation file's clips live as keys of its top-level "animations" object, so a file
+// with several clips (idle, walk, ...) is worth several points, not the one point a naive
+// `entry.animations.length` (file count) would give it.
+function countClips(ref, path) {
+    try {
+        const data = JSON.parse(sh(`git show ${ref}:"${path}"`));
+        return Object.keys(data.animations ?? {}).length;
+    } catch {
+        return 0;
+    }
+}
+
 // A brand-new branch's "before" is all zeros; there is nothing to diff against.
 const ZERO_SHA = '0000000000000000000000000000000000000000';
 const diffBase = before && before !== ZERO_SHA ? before : `${after}~1`;
 
-const touched = sh(`git diff --name-only ${diffBase} ${after} -- '**/credits/*/*.json'`)
+const touched = sh(`git diff --name-only ${diffBase} ${after} -- ':(glob)**/credits/*/*.json'`)
     .split('\n')
     .filter(Boolean);
 
@@ -56,7 +68,10 @@ for (const path of touched) {
         touchedIdentifiers.add(identifier);
 
         const login = entry.contributor.login;
-        const newAnimations = (entry.animations ?? []).length;
+        const newAnimations = (entry.animations ?? []).reduce(
+            (sum, path) => sum + countClips(after, path),
+            0,
+        );
         if (!awardsByLogin.has(login)) awardsByLogin.set(login, new Map());
         const perForm = awardsByLogin.get(login);
         perForm.set(identifier, (perForm.get(identifier) ?? 0) + newAnimations);

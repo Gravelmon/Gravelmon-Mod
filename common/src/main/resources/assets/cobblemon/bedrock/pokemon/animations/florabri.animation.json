@@ -165,7 +165,7 @@
 		},
 		"animation.florabri.air_fly": {
 			"loop": true,
-			"animation_length": 7.08333,
+			"animation_length": 7.0833,
 			"bones": {
 				"wing_left": {
 					"rotation": ["0.5+Math.cos((query.anim_time-0.2)*720)*4", 0, "-5+Math.sin((q.anim_time)*200*15)*50"]
@@ -224,7 +224,7 @@
 				},
 				"head": {
 					"rotation": [-10, 0, 0],
-					"position": [0, -1.7, -0.2]
+					"position": [0, -1.45, -0.45]
 				},
 				"toe_back_right": {
 					"rotation": [-60, 0, 0]
