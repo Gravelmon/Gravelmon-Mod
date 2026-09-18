@@ -1,54 +1,81 @@
 {
-  "portraitScale": 3.0,
+  "portraitScale": 1.95,
   "portraitTranslation": [
-    0.3,
-    -0.8,
-    0.0
+    -0.08,
+    0.23,
+    0
   ],
-  "profileScale": 0.8999999761581421,
+  "profileScale": 0.72,
   "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
+    0,
+    0.68,
+    0
   ],
+  "headBone": "head",
+  "rootBone": "treecko",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltatreecko', q.look('head_ai'))",
-        "q.bedrock('deltatreecko', 'ground_idle')"
-      ],
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "float",
+        "portrait",
+        "profile",
+        "none"
       ],
-      "quirks": [],
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('treecko_delta', 'blink')",
+        "q.bedrock_quirk('treecko_delta', 'quirk_ground_idle')"
+      ],
+      "animations": [
+        "q.bedrock('treecko_delta', 'ground_idle')"
+      ]
     },
-    "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltatreecko', q.look('head_ai'))",
-        "q.bedrock('deltatreecko', 'ground_walk')"
-      ],
+    "walk": {
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-      "quirks": [],
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('treecko_delta', 'blink')"
+      ],
+      "animations": [
+        "q.biped_walk(0.6, 0.9, 'leg_left', 'leg_right')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('treecko_delta', 'sleep')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": [
+        "shoulder_left"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treecko_delta', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('treecko_delta', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": [
+        "shoulder_right"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treecko_delta', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('treecko_delta', 'shoulder_right')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('treecko_delta', 'cry')",
+    "recoil": "q.bedrock_stateful('treecko_delta', 'recoil')",
+    "faint": "q.bedrock_stateful('treecko_delta', 'faint')"
   }
 }
