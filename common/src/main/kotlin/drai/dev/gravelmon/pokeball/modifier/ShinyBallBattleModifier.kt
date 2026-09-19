@@ -23,6 +23,6 @@ class ShinyBallBattleModifier : CatchRateModifier {
     }
 
     override fun isGuaranteed(): Boolean {
-        return true
+        return false
     }
 }
