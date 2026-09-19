@@ -1,0 +1,136 @@
+{
+  "portraitScale": 1.75,
+  "portraitTranslation": [
+    -0.3,
+    -0.8,
+    0
+  ],
+  "profileScale": 0.65,
+  "profileTranslation": [
+    -0.05,
+    0.45,
+    0
+  ],
+  "rootBone": "chinchou",
+  "poses": {
+    "portrait": {
+      "poseTypes": [
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'battle_idle')"
+      ]
+    },
+    "water-battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')"
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('chinchou_epoch', 'water_faint', q.curve('one'))"
+      },
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_battle_idle')"
+      ]
+    },
+    "standing": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')",
+        "q.bedrock_quirk('chinchou_epoch', 'ground_quirk')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_swim')"
+      ]
+    },
+    "floating": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')",
+        "q.bedrock_quirk('chinchou_epoch', 'water_idle_quirk')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_idle')"
+      ]
+    },
+    "swimming": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chinchou_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_swim')"
+      ]
+    },
+    "water-sleeping": {
+      "isTouchingWater": true,
+      "poseTypes": [
+        "float"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('chinchou_epoch', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'water_sleep')"
+      ]
+    },
+    "sleeping": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "sleep"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('chinchou_epoch', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('chinchou_epoch', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('chinchou_epoch', 'cry')"
+  }
+}
