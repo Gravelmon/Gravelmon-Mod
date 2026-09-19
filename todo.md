@@ -1,1 +1,1 @@
-
+- check Delta Riolu poser and scaling
