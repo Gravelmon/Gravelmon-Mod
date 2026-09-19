@@ -1,1 +1,1 @@
-
+- check Delta Pidgeotto poser and scaling
