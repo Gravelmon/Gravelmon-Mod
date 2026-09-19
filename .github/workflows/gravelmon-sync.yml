@@ -2,7 +2,9 @@ name: Sync Gravelmon submissions
 
 on:
   push:
-    branches: [main]
+    # TODO: remove `main` below once submissions only land via the holding branch. Keeping it
+    # means the version branch -> main merge re-runs the sync and could award points twice.
+    branches: [holding/holding-branch]
   workflow_dispatch:
     inputs:
       before:
