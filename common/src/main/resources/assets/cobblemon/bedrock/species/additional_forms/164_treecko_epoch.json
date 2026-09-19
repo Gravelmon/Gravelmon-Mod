@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:treecko",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_38_by_47.geo",
-      "poser": "cobblemon:cutout_gravelmon_38_by_47",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochtreecko.png",
+      "poser": "cobblemon:soulstones_epochtreecko",
+      "model": "cobblemon:soulstones_epochtreecko.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtreecko/treecko_epoch.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtreecko/treecko_epoch_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochtreecko/treecko_epoch_alpha.png",
+          "emissive": true
         }
       ]
     }
