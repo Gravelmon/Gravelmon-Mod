@@ -1,1 +1,60 @@
-{"species":"cobblemon:treecko","order":133,"variations":[{"aspects":["delta"],"model":"cobblemon:insurgence_deltatreecko.geo","poser":"cobblemon:insurgence_deltatreecko","texture":"cobblemon:textures/pokemon/insurgence/deltatreecko/deltatreecko.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["delta","shiny"],"model":"cobblemon:insurgence_deltatreecko.geo","poser":"cobblemon:insurgence_deltatreecko","texture":"cobblemon:textures/pokemon/insurgence/deltatreecko/deltatreecko_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:treecko",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltatreecko",
+      "model": "cobblemon:insurgence_deltatreecko.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltatreecko/treecko_delta.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltatreecko/treecko_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltatreecko/treecko_delta_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

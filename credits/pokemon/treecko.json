@@ -1,0 +1,32 @@
+{
+  "game": "pokemon",
+  "pokemon": "treecko",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "treecko",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "submittedAt": "2026-09-18T23:51:44.312Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltatreecko.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/treecko_delta.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltatreecko/treecko_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltatreecko/treecko_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltatreecko/treecko_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltatreecko.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
