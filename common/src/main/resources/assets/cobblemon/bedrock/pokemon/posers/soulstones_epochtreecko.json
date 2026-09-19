@@ -1,14 +1,14 @@
 {
   "portraitScale": 1.95,
   "portraitTranslation": [
-    -0.08,
-    0.23,
+    -0.23,
+    0.13,
     0
   ],
   "profileScale": 0.72,
   "profileTranslation": [
-    0,
-    0.68,
+    -0.05,
+    0.69,
     0
   ],
   "headBone": "head",
@@ -40,7 +40,8 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('treecko_epoch', 'ground_idle')"
+        "q.bedrock('treecko_epoch', 'ground_idle')",
+        "q.biped_walk(0.6, 0.9, 'leg_left', 'leg_right')"
       ]
     },
     "sleep": {
