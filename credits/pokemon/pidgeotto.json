@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "pidgeotto",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "pidgeotto",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-19T13:11:16.871Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltapidgeotto.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/pidgeotto_delta.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltapidgeotto/pidgeotto_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltapidgeotto/pidgeotto_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltapidgeotto/pidgeotto_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltapidgeotto.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
