@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_55_by_34.geo",
-      "poser": "cobblemon:cutout_gravelmon_55_by_34",
-      "texture": "cobblemon:textures/pokemon/atlas/birchee.png",
+      "poser": "cobblemon:atlas_birchee",
+      "model": "cobblemon:atlas_birchee.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/birchee/birchee.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/birchee/birchee_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/atlas/birchee/birchee_alpha.png",
+          "emissive": true
         }
       ]
     }
