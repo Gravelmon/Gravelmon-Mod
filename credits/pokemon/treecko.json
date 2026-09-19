@@ -27,6 +27,37 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltatreecko.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "treecko",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-19T10:35:57.329Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochtreecko.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/treecko_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreecko/treecko_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreecko/treecko_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreecko/treecko_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreecko.png"
+      ],
+      "sounds": []
     }
   ]
 }
