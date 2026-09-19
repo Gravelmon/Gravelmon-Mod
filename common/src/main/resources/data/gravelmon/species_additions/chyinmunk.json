@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:chyinmunk",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "normal",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_kinetmunk_nuclear",
+          "variant": "level_up",
+          "result": "kinetmunk nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "14",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

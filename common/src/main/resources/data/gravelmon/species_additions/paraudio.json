@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:paraudio",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "normal",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_paraboom_nuclear",
+          "variant": "level_up",
+          "result": "paraboom nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "38",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

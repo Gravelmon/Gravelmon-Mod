@@ -120,9 +120,36 @@
         "fixed": false
       },
       "game": "flux"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "normal",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_eshouten_nuclear",
+          "variant": "level_up",
+          "result": "eshouten nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
-    "alteran"
+    "alteran",
+    "nuclear"
   ]
 }
