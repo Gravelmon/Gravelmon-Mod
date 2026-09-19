@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_51_by_49.geo",
-      "poser": "cobblemon:cutout_gravelmon_51_by_49",
-      "texture": "cobblemon:textures/pokemon/africanus/petiolis.png",
+      "poser": "cobblemon:africanus_petiolis",
+      "model": "cobblemon:africanus_petiolis.geo",
+      "texture": "cobblemon:textures/pokemon/africanus/petiolis/petiolis.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/africanus/petiolis/petiolis_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/africanus/petiolis/petiolis_alpha.png",
+          "emissive": true
         }
       ]
     }
