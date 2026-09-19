@@ -1,58 +1,67 @@
 {
-  "portraitScale": 2.799999952316284,
+  "portraitScale": 2.25,
   "portraitTranslation": [
-    0.6,
-    0.7,
-    0.0
+    -0.25,
+    1.5,
+    0
   ],
-  "profileScale": 0.800000011920929,
+  "profileScale": 0.67,
   "profileTranslation": [
-    0.0,
-    0.6,
-    0.0
+    -0.02,
+    0.79,
+    0
   ],
+  "headBone": "head",
+  "rootBone": "grovyle",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltatreecko', q.look('head_ai'))",
-        "q.bedrock('deltatreecko', 'ground_idle')"
-      ],
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "float",
+        "portrait",
+        "profile",
+        "none"
       ],
       "quirks": [
-        "q.bedrock_quirk('deltatreecko', 'blink')"
+        "q.bedrock_quirk('grovyle_delta', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grovyle_delta', 'ground_idle')"
+      ]
     },
-    "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltatreecko', q.look('head_ai'))",
-        "q.bedrock('deltatreecko', 'ground_walk')"
-      ],
+    "walk": {
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('deltatreecko', 'blink')"
+        "q.bedrock_quirk('grovyle_delta', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('grovyle_delta', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('grovyle_delta', 'sleep')"
+      ]
+    },
+    "battle": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('grovyle_delta', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('grovyle_delta', 'battle_idle')"
+      ]
     }
   }
 }
