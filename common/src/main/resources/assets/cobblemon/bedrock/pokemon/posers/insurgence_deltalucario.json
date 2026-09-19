@@ -24,12 +24,12 @@
         "profile"
       ],
       "quirks": [
-        "q.bedrock_quirk('lucario_delta', 'blink')",
-        "q.bedrock_quirk('lucario_delta', q.array('idle_quirk', 'idle_quirk2'))"
+        "q.bedrock_quirk('riolu_delta', 'blink')",
+        "q.bedrock_quirk('riolu_delta', q.array('idle_quirk', 'idle_quirk2'))"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('lucario_delta', 'ground_idle')"
+        "q.bedrock('riolu_delta', 'ground_idle')"
       ]
     },
     "walking": {
@@ -39,11 +39,11 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('lucario_delta', 'blink')"
+        "q.bedrock_quirk('riolu_delta', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('lucario_delta', 'ground_walk')"
+        "q.bedrock('riolu_delta', 'ground_walk')"
       ]
     },
     "sleep": {
@@ -54,14 +54,14 @@
         "q.bedrock_quirk('lucario_delta', 'sleep_quirk')"
       ],
       "namedAnimations": {
-        "cry": "q.bedrock_stateful('lucario_delta', 'cry')"
+        "cry": "q.bedrock_stateful('riolu_delta', 'cry')"
       },
       "animations": [
-        "q.bedrock('lucario_delta', 'sleep')"
+        "q.bedrock('riolu_delta', 'sleep')"
       ]
     }
   },
   "animations": {
-    "cry": "q.bedrock_stateful('lucario_delta', 'cry')"
+    "cry": "q.bedrock_stateful('riolu_delta', 'cry')"
   }
 }
