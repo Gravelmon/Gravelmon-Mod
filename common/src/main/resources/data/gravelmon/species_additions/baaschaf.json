@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:baaschaf",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "dark",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_baaschaf_nuclear",
+          "variant": "level_up",
+          "result": "baaschaf nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "44",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

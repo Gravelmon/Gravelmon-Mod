@@ -190,9 +190,36 @@
         "fixed": false
       },
       "game": "soulstones"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "ground",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_gliscor_nuclear",
+          "variant": "level_up",
+          "result": "gliscor nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "itemCondition": "cobblemon:razor_claw",
+              "variant": "held_item"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "nuclear"
   ]
 }
