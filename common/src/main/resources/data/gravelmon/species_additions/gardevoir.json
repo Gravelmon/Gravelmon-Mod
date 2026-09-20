@@ -182,13 +182,13 @@
       "primaryType": "dark",
       "secondaryType": "poison",
       "catchRate": 90,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia epoch",
-      "baseScale": 0.512,
+      "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -313,7 +313,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon"
       ],
       "pokedex": [
@@ -327,8 +326,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.6875,
-        "height": 4.6875,
+        "width": 0.6,
+        "height": 2.2,
         "fixed": false
       },
       "game": "soulstones"
@@ -338,7 +337,7 @@
       "primaryType": "sound",
       "secondaryType": "psychic",
       "catchRate": 90,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,
