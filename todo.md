@@ -1,0 +1,3 @@
+- check Birchee poser and scaling
+- check Delta Pidgeotto poser and scaling
+- check Epoch Chinchou poser and scaling
