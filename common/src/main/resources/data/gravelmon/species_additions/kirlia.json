@@ -201,7 +201,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ralts epoch",
-      "baseScale": 0.3918367346938776,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "runaway",
@@ -330,7 +330,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon"
       ],
       "pokedex": [
@@ -381,8 +380,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0625,
-        "height": 3.0625,
+        "width": 0.5,
+        "height": 1.4,
         "fixed": false
       },
       "game": "soulstones"
@@ -790,8 +789,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.0,
-        "height": 4.0,
+        "width": 4,
+        "height": 4,
         "fixed": false
       },
       "game": "vanguard"
@@ -934,8 +933,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 8,
+        "height": 8,
         "fixed": false
       },
       "game": "fabel"
