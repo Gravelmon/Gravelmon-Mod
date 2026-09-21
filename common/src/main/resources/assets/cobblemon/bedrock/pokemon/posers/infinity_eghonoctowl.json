@@ -22,10 +22,8 @@
       ],
       "poseTypes": [
         "STAND",
-        "WALK",
         "SLEEP",
         "FLOAT",
-        "SWIM",
         "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
@@ -40,11 +38,25 @@
       "namedAnimations": {},
       "transformedParts": []
     },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.bedrock('eghonoctowl', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')"
+      ],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('eghonoctowl', q.look('head_ai'))",
-        "q.bedrock('eghonoctowl', q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right'))",
+        "q.look('head')",
+        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
         "q.bedrock('eghonoctowl', 'air_idle')"
       ],
       "poseTypes": [

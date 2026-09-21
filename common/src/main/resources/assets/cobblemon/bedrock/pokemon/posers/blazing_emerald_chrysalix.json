@@ -1,31 +1,28 @@
 {
-  "portraitScale": 0.699999988079071,
+  "portraitScale": 0.7,
   "portraitTranslation": [
-    -0.7,
-    1.8,
-    0.0
+    -1.09, 1.96, 0.0
   ],
-  "profileScale": 0.4000000059604645,
+  "profileScale": 0.3,
   "profileTranslation": [
-    -0.1,
-    1.1,
-    0.0
+    -0.10, 1.28, 0.00
   ],
+  "rootBone": "steelix",
   "animations": {
-    "cry": "q.bedrock_stateful('steelix', 'cry')"
+    "cry": "q.bedrock_stateful('chrysalix', 'cry')"
   },
   "poses": {
     "battle-standing": {
       "poseName": "battle-standing",
       "animations": [
-        "q.bedrock('steelix', 'battle_idle')"
+        "q.bedrock('chrysalix', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
       "isBattle": true,
       "quirks": [
-        "q.bedrock_quirk('steelix', 'blink')"
+        "q.bedrock_quirk('chrysalix', 'blink')"
       ],
       "namedAnimations": {},
       "transformedParts": []
@@ -33,20 +30,20 @@
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "q.bedrock('steelix', 'resting')",
-        "q.bedrock('steelix', 'sleep')"
+        "q.bedrock('chrysalix', 'resting')",
+        "q.bedrock('chrysalix', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "quirks": [],
+
       "namedAnimations": {},
       "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('steelix', 'ground_idle')"
+        "q.bedrock('chrysalix', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -56,7 +53,7 @@
       ],
       "isBattle": false,
       "quirks": [
-        "q.bedrock_quirk('steelix', 'blink')"
+        "q.bedrock_quirk('chrysalix', 'blink')"
       ],
       "namedAnimations": {},
       "transformedParts": []
@@ -64,14 +61,14 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('steelix', 'ground_walk')"
+        "q.bedrock('chrysalix', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
       "quirks": [
-        "q.bedrock_quirk('steelix', 'blink')"
+        "q.bedrock_quirk('chrysalix', 'blink')"
       ],
       "namedAnimations": {},
       "transformedParts": []

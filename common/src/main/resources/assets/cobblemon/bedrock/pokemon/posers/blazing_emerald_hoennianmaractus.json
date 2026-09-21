@@ -1,55 +1,51 @@
 {
-  "portraitScale": 2.0799999237060547,
-  "portraitTranslation": [
-    0.03,
-    -0.27,
-    0.0
-  ],
-  "profileScale": 0.7400000095367432,
-  "profileTranslation": [
-    0.0,
-    0.63,
-    0.0
-  ],
+  "portraitScale": 2.17,
+  "portraitTranslation": [-0.14, -0.29, 0],
+  "profileScale": 0.56,
+  "profileTranslation": [0, 0.94, 0],
+  "rootBone": "maractus",
+  "animations": {
+    "cry": "q.bedrock_stateful('maractus', 'cry')"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "animations": [
-        "q.bedrock('hoennianmaractus', q.look('head_ai'))",
-        "q.bedrock('hoennianmaractus', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
         "STAND",
-        "WALK",
-        "HOVER",
-        "FLY",
         "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
         "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "PORTRAIT"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('hoennianmaractus', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('hoennianmaractus', 'blink')"
-      ],
-      "namedAnimations": {},
-      "transformedParts": []
+        "q.bedrock_quirk('maractus', 'blink')"
+      ]
     },
-    "sleeping": {
-      "poseName": "sleeping",
-      "animations": [
-        "q.bedrock('hoennianmaractus', 'sleep')"
-      ],
+    "walk": {
+      "poseName": "walk",
       "poseTypes": [
-        "SLEEP"
+        "WALK",
+        "SWIM"
       ],
-      "quirks": [],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('hoennianmaractus', 'ground_idle')",
+        "q.bimanual_swing(0.75, 1, 'arm_left', 'arm_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('maractus', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "animations": ["q.bedrock('hoennianmaractus', 'sleep')"]
     }
   }
 }

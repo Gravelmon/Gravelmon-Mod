@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('deltameloetta', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('deltameloetta', 'ground_idle')"
       ],
       "poseTypes": [
@@ -30,25 +30,19 @@
         "PORTRAIT",
         "OPEN",
         "NONE"
-      ],
-      "quirks": [],
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('deltameloetta', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('deltameloetta', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "HOVER",
         "WALK"
-      ],
-      "quirks": [],
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
     }
   }
 }

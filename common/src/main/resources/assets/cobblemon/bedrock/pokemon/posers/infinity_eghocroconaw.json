@@ -1,25 +1,43 @@
 {
-  "portraitScale": 0.800000011920929,
+  "portraitScale": 1.3299996,
   "portraitTranslation": [
-    0.0,
-    0.6,
-    0.0
+    -0.83, 0.66, 0.0
   ],
-  "profileScale": 0.800000011920929,
+  "profileScale": 0.67,
   "profileTranslation": [
-    0.0,
-    0.6,
-    0.0
+    -0.07, 0.79, 0.00
   ],
+  "rootBone": "croconaw",
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
-        "q.bedrock('croconaw_egho', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('croconaw_egho', 'ground_idle')"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('croconaw_egho', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     }

@@ -37,7 +37,7 @@
 			}
 		},
 		"animation.yandeddo.faint": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"bones": {
 				"body": {
 					"rotation": ["(math.cos(query.anim_time*240)*1)", 0, "(math.cos(query.anim_time*120)*1)"]

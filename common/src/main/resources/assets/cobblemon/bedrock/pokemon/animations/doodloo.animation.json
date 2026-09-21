@@ -64,7 +64,7 @@
 			}
 		},
 		"animation.doodloo.faint": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"bones": {
 				"body": {
 					"rotation": ["(math.cos(query.anim_time*240-90)*4)", 0, "(math.cos(query.anim_time*240)*6)"]

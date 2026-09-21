@@ -1,25 +1,44 @@
 {
-  "portraitScale": 0.5,
+  "portraitScale": 1.1799994,
   "portraitTranslation": [
-    0.0,
-    0.7,
-    0.0
+    -1.0700000000000007, -0.20000000000000057, 0.0
   ],
-  "profileScale": 0.5,
+  "profileScale": 0.41,
   "profileTranslation": [
-    0.0,
-    0.7,
-    0.0
+    -0.13, 1.15, 0.00
   ],
+  "rootBone": "feraligatr",
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
-        "q.bedrock('feraligatr_egho', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('feraligatr_egho', 'ground_idle')"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('feraligatr_egho', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')",
+        "q.quadruped_walk(0.66, 1.4, 'arm_left', 'arm_right', 'thigh_left', 'thigh_right')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     }

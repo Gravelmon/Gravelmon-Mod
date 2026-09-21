@@ -1,1 +1,54 @@
-{"rootBone":"goodra","head":"head","portraitScale":1.58,"portraitTranslation":[-0.57,3.35,0.0],"profileScale":0.44,"profileTranslation":[0.02,1.18,0.0],"poses":{"standing":{"poseName":"standing","animations":["q.bedrock('deltagoodra', 'ground_idle')"],"poseTypes":["STAND","HOVER","FLY","FLOAT","SWIM","GLIDE","SHOULDER_LEFT","SHOULDER_RIGHT","PROFILE","PORTRAIT","OPEN","NONE","WALK"],"quirks":["q.bedrock_quirk('deltagoodra', 'blink')"],"namedAnimations":{},"transformedParts":[]}}}
+{
+  "head": "head",
+  "portraitScale": 1.58,
+  "portraitTranslation": [
+    -0.57,
+    3.35,
+    0.0
+  ],
+  "profileScale": 0.44,
+  "profileTranslation": [
+    0.02,
+    1.18,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltagoodra', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltagoodra', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltagoodra', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltagoodra', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    }
+  },
+  "rootBone": "goodra"
+}

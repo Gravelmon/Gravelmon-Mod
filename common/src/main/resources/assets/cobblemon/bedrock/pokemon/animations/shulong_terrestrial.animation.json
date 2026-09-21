@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.shulong_terrestrial.blink": {
-			"loop": true,
+			"loop": false,
 			"animation_length": 1.667,
 			"bones": {
 				"eyelid": {
@@ -1761,7 +1761,7 @@
 			}
 		},
 		"animation.shulong_terrestrial.faint": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"animation_length": 1.5,
 			"bones": {
 				"head_2": {

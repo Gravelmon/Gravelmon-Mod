@@ -1,9 +1,7 @@
 {
   "portraitScale": 1.7999999523162842,
   "portraitTranslation": [
-    -1.2,
-    0.9,
-    0.0
+    -1.2, 0.6199999999999998, 0.0
   ],
   "profileScale": 0.699999988079071,
   "profileTranslation": [
@@ -13,31 +11,23 @@
   ],
   "poses": {
     "standing": {
-      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
       "animations": [
-        "q.bedrock('fearow_egho', q.look('head_ai'))",
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
         "q.bedrock('fearow_egho', 'ground_idle')"
-      ],
-      "poseTypes": [
-        "WALK",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('fearow_egho', 'blink')"
-      ],
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "isBattle": false,
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow_egho', 'ground_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
+      ]
     },
     "battle-standing": {
       "poseName": "battle-standing",
@@ -48,9 +38,19 @@
         "STAND"
       ],
       "isBattle": true,
-      "quirks": [],
+
       "namedAnimations": {},
       "transformedParts": []
+    },
+    "battle-walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('neck', 1, 1, 70, -10, 20, -20)",
+        "q.look('head')",
+        "q.bedrock('fearow_egho', 'battle_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
+      ],
+      "isBattle": true
     }
   }
 }

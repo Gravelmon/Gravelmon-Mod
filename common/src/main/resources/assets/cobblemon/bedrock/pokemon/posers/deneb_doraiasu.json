@@ -14,12 +14,36 @@
   "poses": {
     "standing": {
       "poseName": "standing",
-      "animations": [
-        "q.bedrock('doraiasu', q.look('head_ai'))",
-        "q.bedrock('doraiasu', 'ground_idle')"
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('doraiasu', 'ground_idle')",
+        "q.biped_walk(0.5, 0.9, 'left_leg', 'right_leg')",
+        "q.bimanual_swing(0.5, 1, 'left_arm', 'right_arm')"
+      ],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('doraiasu', 'ground_idle')",
+        "q.biped_walk(0.5, 0.9, 'left_leg', 'right_leg')",
+        "q.bimanual_swing(0.5, 1, 'left_arm', 'right_arm')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     }

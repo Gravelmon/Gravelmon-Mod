@@ -1,9 +1,7 @@
 {
-  "portraitScale": 2.509999990463257,
+  "portraitScale": 2.51,
   "portraitTranslation": [
-    -0.29,
-    -2.06,
-    0.0
+    -0.5400000000000001, -0.20999999999999974, 0.0
   ],
   "profileScale": 0.6899999976158142,
   "profileTranslation": [
@@ -14,11 +12,29 @@
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
         "q.bedrock('deltaludicolo', 'ground_idle')"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walk",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.bedrock('deltaludicolo', 'ground_idle')",
+        "q.bimanual_swing(0.75, 1, 'arm_left', 'arm_right')"
+      ],
       "namedAnimations": {},
       "transformedParts": []
     }

@@ -1,16 +1,13 @@
 {
-  "portraitScale": 0.4000000059604645,
+  "portraitScale": 1.1599994,
   "portraitTranslation": [
-    0.0,
-    1.3,
-    0.0
+    -0.5700000000000003, 2.819999999999983, 0.0
   ],
-  "profileScale": 0.4000000059604645,
+  "profileScale": 0.34,
   "profileTranslation": [
-    0.0,
-    1.3,
-    0.0
+    0.08, 1.30, 0.00
   ],
+  "rootBone": "oculeus",
   "animations": {
     "faint": "q.bedrock_primary('oculeus', 'faint', q.curve('one'))"
   },
@@ -18,11 +15,23 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('oculeus', 'ground_idle')"
+        "q.bedrock('oculeus', 'ground_idle')",
+        "q.quadruped_walk(0.66, 1.4, 'upperleftleg', 'upperrightleg', 'upperleftleg2', 'upperrightleg2')"
       ],
       "allPoseTypes": true,
       "quirks": [
-        "q.bedrock_quirk('oculeus', q.array('blink1', 'blink2', 'blink3', 'blink4', 'blink5', 'blink6', 'blink7', 'blink8', 'blink9', 'blink10', 'blink11', 'blink12'))"
+        "q.bedrock_quirk('oculeus', 'blink1')",
+        "q.bedrock_quirk('oculeus', 'blink2')",
+        "q.bedrock_quirk('oculeus', 'blink3')",
+        "q.bedrock_quirk('oculeus', 'blink4')",
+        "q.bedrock_quirk('oculeus', 'blink5')",
+        "q.bedrock_quirk('oculeus', 'blink6')",
+        "q.bedrock_quirk('oculeus', 'blink7')",
+        "q.bedrock_quirk('oculeus', 'blink8')",
+        "q.bedrock_quirk('oculeus', 'blink9')",
+        "q.bedrock_quirk('oculeus', 'blink10')",
+        "q.bedrock_quirk('oculeus', 'blink11')",
+        "q.bedrock_quirk('oculeus', 'blink12')"
       ],
       "namedAnimations": {},
       "transformedParts": []

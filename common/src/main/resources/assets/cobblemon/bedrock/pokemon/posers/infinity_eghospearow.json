@@ -5,6 +5,7 @@
     -2.0,
     0.0
   ],
+  "rootBone": "spearow",
   "profileScale": 1.2000000476837158,
   "profileTranslation": [
     -0.0,
@@ -13,17 +14,19 @@
   ],
   "poses": {
     "standing": {
-      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('spearow_egho', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('spearow', 'blink')"]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
       "animations": [
-        "q.bedrock('spearow_egho', q.look('head_ai'))",
-        "q.bedrock('spearow_egho', 'ground_idle')"
+        "q.look('head')",
+        "q.bedrock('spearow_egho', 'ground_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
       ],
-      "allPoseTypes": true,
-      "quirks": [
-        "q.bedrock_quirk('spearow_egho', 'blink')"
-      ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": ["q.bedrock_quirk('spearow', 'blink')"]
     }
   }
 }
