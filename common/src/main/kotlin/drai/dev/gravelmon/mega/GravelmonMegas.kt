@@ -2,16 +2,13 @@ package drai.dev.gravelmon.mega
 
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties
 import com.cobblemon.mod.common.pokemon.helditem.CobblemonHeldItemManager
-import com.github.yajatkaul.mega_showdown.MegaShowdown
-import com.github.yajatkaul.mega_showdown.components.MegaShowdownDataComponents
-import com.github.yajatkaul.mega_showdown.creative.MegaShowdownTabs
-import com.github.yajatkaul.mega_showdown.item.custom.mega.MegaStone
-import com.github.yajatkaul.mega_showdown.utils.RegistryLocator
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import dev.architectury.platform.Platform
 import dev.architectury.registry.registries.DeferredRegister
 import drai.dev.gravelmon.Gravelmon
 import drai.dev.gravelmon.features.MegaEvolution
+import drai.dev.gravelmon.msd.MegaShowdownCompat
 import drai.dev.gravelmon.registries.GravelmonItems
 import drai.dev.gravelsextendedbattles.BanListManager
 import drai.dev.gravelsextendedbattles.gravelmonResource
@@ -64,20 +61,16 @@ object GravelmonMegas {
 
     val ITEMS: DeferredRegister<Item?> = DeferredRegister.create(Gravelmon.MOD_ID, Registries.ITEM)
     fun megaItem(megaStoneName: String): Supplier<Item> {
-        var item = ITEMS.register(gravelmonResource(megaStoneName), Supplier {
-            Item(
-                    Item.Properties()
-                        .component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), RegistryLocator.MEGA)
-                        .component(
-                            MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(),
-                            ResourceLocation.fromNamespaceAndPath(Gravelmon.MOD_ID, megaStoneName)
-                        )
-                        .`arch$tab`(MegaShowdownTabs.MEGA_TAB)
-                ).also {
-                    CobblemonHeldItemManager.registerRemap(it, megaStoneName.lowercase().replace("_", ""))
-                }
-
-        });
+        val item = ITEMS.register(gravelmonResource(megaStoneName), Supplier {
+            val properties = if (Platform.isModLoaded("mega_showdown")) {
+                MegaShowdownCompat.createMegaItemProperties(megaStoneName)
+            } else {
+                Item.Properties()
+            }
+            Item(properties).also {
+                CobblemonHeldItemManager.registerRemap(it, megaStoneName.lowercase().replace("_", ""))
+            }
+        })
         MEGA_ITEMS[megaStoneName] = item
         return item
     }

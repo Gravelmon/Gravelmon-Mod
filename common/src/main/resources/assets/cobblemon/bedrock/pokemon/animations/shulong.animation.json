@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.shulong.blink": {
-			"loop": true,
+			"loop": false,
 			"animation_length": 1.667,
 			"bones": {
 				"eyelid": {
@@ -1165,7 +1165,7 @@
 			}
 		},
 		"animation.shulong.faint": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"animation_length": 3,
 			"bones": {
 				"head": {

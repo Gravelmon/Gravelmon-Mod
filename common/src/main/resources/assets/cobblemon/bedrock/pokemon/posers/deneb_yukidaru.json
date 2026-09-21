@@ -14,11 +14,33 @@
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
         "q.bedrock('yukidaru', 'ground_idle')"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('yukidaru', 'ground_idle')",
+        "q.biped_walk(0.6, 0.9, 'left_leg', 'right_leg')",
+        "q.bimanual_swing(0.6, 1, 'left_arm', 'right_arm')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     }

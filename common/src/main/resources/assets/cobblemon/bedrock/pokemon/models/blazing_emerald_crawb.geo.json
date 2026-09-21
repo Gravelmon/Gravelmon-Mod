@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "crawb",
-					"pivot": [0, 7, 0]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
@@ -106,7 +106,6 @@
 					"name": "leg_front_right2",
 					"parent": "leg_front_right",
 					"pivot": [-4.75, 2.64645, -3.75],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [-5.25, -0.85355, -4.25], "size": [1, 4, 1], "uv": [23, 33]}
 					]
@@ -123,7 +122,6 @@
 					"name": "leg_front_left2",
 					"parent": "leg_front_left",
 					"pivot": [4.75, 2.64645, -3.75],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [4.25, -0.85355, -4.25], "size": [1, 4, 1], "uv": [29, 33]}
 					]
@@ -140,7 +138,6 @@
 					"name": "leg_back_left2",
 					"parent": "leg_back_left",
 					"pivot": [4.75, 2.64645, 3.75],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [4.25, -0.85355, 3.25], "size": [1, 4, 1], "uv": [43, 33]}
 					]
@@ -157,7 +154,6 @@
 					"name": "leg_back_right2",
 					"parent": "leg_back_right",
 					"pivot": [-4.75, 2.64645, 3.75],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [-5.25, -0.85355, 3.25], "size": [1, 4, 1], "uv": [9, 33]}
 					]

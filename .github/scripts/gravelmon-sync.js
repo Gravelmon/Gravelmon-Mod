@@ -3,7 +3,10 @@ const { execSync } = require('child_process');
 const crypto = require('node:crypto');
 const domain = process.env.GRAVELMON_API_DOMAIN;
 const token = process.env.POKEMON_STATUS_INTERNAL_TOKEN;
-const prNumber = Number(process.env.PR_NUMBER);
+// Number('') is 0, so an empty PR_NUMBER (no credit for this push) must map to NaN explicitly.
+const prNumber = process.env.PR_NUMBER ? Number(process.env.PR_NUMBER) : NaN;
+// The branch these assets now live on: the holding branch, then the version branch, then main.
+const assetBranch = process.env.ASSET_BRANCH || undefined;
 const [before, after] = process.argv.slice(2).map((s) => s.trim());
 
 if (!domain || !token) {
@@ -107,10 +110,13 @@ async function post(path, body) {
 }
 
 (async () => {
-    await post('/api/internal/pokemon-status', { identifiers: [...touchedIdentifiers] });
+    await post('/api/internal/pokemon-status', {
+        identifiers: [...touchedIdentifiers],
+        ...(assetBranch ? { branch: assetBranch } : {}),
+    });
 
     if (!Number.isFinite(prNumber)) {
-        console.log('No merged PR number resolved for this commit; skipping point awards.');
+        console.log('No credited PR for this push (not an initial holding-branch PR); skipping point awards.');
         return;
     }
 

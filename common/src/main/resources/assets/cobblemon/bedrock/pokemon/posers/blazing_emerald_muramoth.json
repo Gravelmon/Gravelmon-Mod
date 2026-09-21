@@ -14,12 +14,34 @@
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
-        "q.bedrock('muramoth', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('muramoth', 'ground_idle')"
       ],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('muramoth', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')"
+      ],
       "allPoseTypes": true,
-      "quirks": [],
+
       "namedAnimations": {},
       "transformedParts": []
     }

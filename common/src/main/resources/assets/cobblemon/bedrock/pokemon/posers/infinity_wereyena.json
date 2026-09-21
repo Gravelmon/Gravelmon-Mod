@@ -11,15 +11,38 @@
     1.04,
     0.0
   ],
+  "rootBone": "wereyena",
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
-        "q.bedrock('wereyena', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('wereyena', 'ground_idle')"
       ],
-      "allPoseTypes": true,
-      "quirks": [],
+
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walk",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wereyena', 'ground_idle')",
+        "q.biped_walk(0.6, 0.9, 'leg_left', 'leg_right')",
+        "q.bimanual_swing(0.75, 1, 'arm_left', 'arm_right')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     }

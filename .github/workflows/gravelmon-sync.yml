@@ -2,11 +2,19 @@ name: Sync Gravelmon submissions
 
 on:
   push:
-    # TODO: remove `main` below once submissions only land via the holding branch. Keeping it
-    # means the version branch -> main merge re-runs the sync and could award points twice.
-    branches: [main]
+    # A submission's assets travel holding branch -> version branch (e.g. `4.1.0`) -> main. Every
+    # hop re-runs the sync so the pokemon index records which branch the assets now live on, but
+    # only the first hop (the submission's own PR into the holding branch) is credited: see
+    # `award` below.
+    branches:
+      - holding/holding-branch
+      - "[0-9]*.[0-9]*.[0-9]*"
+      - main
   workflow_dispatch:
     inputs:
+      branch:
+        description: "Branch the assets now live on (defaults to the branch this is run on)"
+        required: false
       before:
         description: "Commit SHA before the change (diff base)"
         required: true
@@ -41,18 +49,34 @@ jobs:
               commit_sha: context.sha,
             });
             const pr = data.find((p) => p.merged_at);
+            const headRef = pr ? pr.head.ref : '';
             core.setOutput('number', pr ? String(pr.number) : '');
-            core.setOutput('headRef', pr ? pr.head.ref : '');
+            core.setOutput('headRef', headRef);
+            // Credit only the initial PR (a submission branch) into the holding branch. A later
+            // holding -> version or version -> main merge carries the same credits files again and
+            // would award the same points twice.
+            const isVersionBranch = (name) => /^\d+\.\d+\.\d+$/.test(name);
+            const initial =
+              context.ref === 'refs/heads/holding/holding-branch' &&
+              pr !== undefined &&
+              pr.base.ref === 'holding/holding-branch' &&
+              headRef !== 'holding/holding-branch' &&
+              !isVersionBranch(headRef) &&
+              headRef !== 'main';
+            core.setOutput('award', initial ? 'true' : 'false');
 
-      - name: Award points and update model status
+      - name: Update model status and award points
         env:
           GRAVELMON_API_DOMAIN: https://submit.gravelmon.com
           POKEMON_STATUS_INTERNAL_TOKEN: ${{ secrets.POKEMON_STATUS_INTERNAL_TOKEN }}
-          PR_NUMBER: ${{ github.event.inputs.pr_number || steps.pr.outputs.number }}
+          # Only the initial PR into the holding branch is credited; a manual run credits when the
+          # caller passes a PR number.
+          PR_NUMBER: ${{ github.event.inputs.pr_number || (steps.pr.outputs.award == 'true' && steps.pr.outputs.number) || '' }}
+          ASSET_BRANCH: ${{ github.event.inputs.branch || github.ref_name }}
         run: node .github/scripts/gravelmon-sync.js "${{ github.event.inputs.before || github.event.before }}" "${{ github.event.inputs.after || github.sha }}"
 
       - name: Delete the submission's preview branch
-        if: github.event_name == 'push' && steps.pr.outputs.headRef != ''
+        if: github.event_name == 'push' && steps.pr.outputs.award == 'true'
         uses: actions/github-script@v7
         with:
           script: |

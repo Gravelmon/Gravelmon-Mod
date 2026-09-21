@@ -31,7 +31,7 @@
 			}
 		},
 		"animation.dvaarak.faint": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"bones": {
 				"body": {
 					"rotation": ["(math.cos(query.anim_time*240)*4)+5", "(math.cos(query.anim_time*240-90)*3)", 0]

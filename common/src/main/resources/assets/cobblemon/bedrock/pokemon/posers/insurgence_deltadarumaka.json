@@ -11,17 +11,42 @@
     0.3,
     0.0
   ],
+  "rootBone": "darumaka",
   "poses": {
     "standing": {
       "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "PORTRAIT",
+        "PROFILE",
+        "SLEEP"
+      ],
       "animations": [
-        "q.bedrock('darumaka_delta', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('darumaka_delta', 'ground_idle')"
       ],
-      "allPoseTypes": true,
       "quirks": [
         "q.bedrock_quirk('darumaka_delta', 'blink')",
-        "q.bedrock_quirk('darumaka_delta', 'cry', 30, 0, 0)"
+        "q.bedrock_quirk('darumaka_delta', 'cry')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('darumaka_delta', 'ground_idle')",
+        "q.biped_walk(1, 0.7, 'leg_left', 'leg_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('darumaka_delta', 'blink')",
+        "q.bedrock_quirk('darumaka_delta', 'cry')"
       ],
       "namedAnimations": {},
       "transformedParts": []
