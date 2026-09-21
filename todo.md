@@ -1,1 +1,5 @@
-- check Epoch Gallade poser and scaling
+- check Epoch Ralts poser and scaling, and Alpha Textures
+- check Epoch Kirlia poser and scaling, and Alpha Textures
+- check Epoch Gardevoir poser and scaling, and Alpha Textures
+- check Epoch Gallade poser and scaling, and Alpha Textures
+- check Epoch Mega Gallade poser and scaling, and Alpha Textures

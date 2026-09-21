@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:ralts",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_23_by_44.geo",
-      "poser": "cobblemon:cutout_gravelmon_23_by_44",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochralts.png",
+      "poser": "cobblemon:soulstones_epochralts",
+      "model": "cobblemon:soulstones_epochralts.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochralts/epochraltsone.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochralts/epochraltsone_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochralts/epochraltsone_alpha.png",
+          "emissive": true
         }
       ]
     }
