@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:gardevoir",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_51_by_75.geo",
-      "poser": "cobblemon:cutout_gravelmon_51_by_75",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochgardevoir.png",
+      "poser": "cobblemon:soulstones_epochgardevoir",
+      "model": "cobblemon:soulstones_epochgardevoir.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgardevoir/epochgardevoirone.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgardevoir/epochgardevoirone_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochgardevoir/epochgardevoirone_alpha.png",
+          "emissive": true
         }
       ]
     }

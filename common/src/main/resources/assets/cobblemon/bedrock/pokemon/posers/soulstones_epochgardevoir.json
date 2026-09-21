@@ -1,0 +1,71 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "epochgardevoirone",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgardevoirone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgardevoirone', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgardevoirone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgardevoirone', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgardevoirone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgardevoirone', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('epochgardevoirone', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('epochgardevoirone', 'cry')"
+  }
+}
