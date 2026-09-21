@@ -1,3 +1,5 @@
 - check Birchee poser and scaling
 - check Delta Pidgeotto poser and scaling
-- check Epoch Gardevoir poser and scaling
+- check Epoch Gardevoir poser and scaling, and Alpha Textures
+- check Epoch Mega Gallade poser and scaling, and Alpha Textures
+- check Epoch Gallade poser and scaling, and Alpha Textures

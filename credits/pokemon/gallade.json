@@ -1,0 +1,40 @@
+{
+  "game": "pokemon",
+  "pokemon": "gallade",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch",
+        "mega"
+      ],
+      "inheritsFrom": {
+        "pokemon": "gallade",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "rcampbellbusiness-boop"
+      },
+      "contributors": [
+        {
+          "login": "rcampbellbusiness-boop"
+        }
+      ],
+      "submittedAt": "2026-09-20T18:35:08.657Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_gallade_epoch_mega.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/epochgalladeone_mega.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_e.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny_e.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
