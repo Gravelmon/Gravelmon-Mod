@@ -341,10 +341,37 @@
         "fixed": false
       },
       "game": "nodorro"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "water",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_gyarados_nuclear",
+          "variant": "level_up",
+          "result": "gyarados nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
     "epoch",
-    "nodorran"
+    "nodorran",
+    "nuclear"
   ]
 }

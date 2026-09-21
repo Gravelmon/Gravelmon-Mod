@@ -1,0 +1,39 @@
+{
+  "game": "pokemon",
+  "pokemon": "chinchou",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "chinchou",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-19T17:31:07.939Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochchinchou.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/chinchou_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou/chinchou_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou/chinchou_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou/chinchou_epoch_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou/chinchou_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou/chinchou_epoch_shiny_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochchinchou.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

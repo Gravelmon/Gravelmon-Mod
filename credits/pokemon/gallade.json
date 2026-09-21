@@ -4,6 +4,37 @@
   "entries": [
     {
       "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "gallade",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "rcampbellbusiness-boop"
+      },
+      "contributors": [
+        {
+          "login": "rcampbellbusiness-boop"
+        }
+      ],
+      "submittedAt": "2026-09-20T18:15:57.175Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochgallade.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/epochgalladeone.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochgallade/epochgalladeone.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochgallade/epochgalladeone_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochgallade/epochgalladeone_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochgallade.png"
+      ],
+      "sounds": []
+    },
+{
+      "formAspects": [
         "epoch",
         "mega"
       ],

@@ -109,9 +109,21 @@
         "fixed": false
       },
       "game": "flux"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "normal",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ]
     }
   ],
   "features": [
-    "alteran"
+    "alteran",
+    "nuclear"
   ]
 }

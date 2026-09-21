@@ -169,10 +169,37 @@
         "fixed": false
       },
       "game": "soulstones"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "water",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_corsoreef_nuclear",
+          "variant": "level_up",
+          "result": "corsoreef nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "amount": "190",
+              "variant": "friendship"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "nuclear"
   ],
   "evolutions": [
     {

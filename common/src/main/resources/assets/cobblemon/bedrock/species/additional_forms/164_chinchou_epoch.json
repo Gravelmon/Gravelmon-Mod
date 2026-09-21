@@ -1,38 +1,46 @@
 {
   "species": "cobblemon:chinchou",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_47_by_33.geo",
-      "poser": "cobblemon:cutout_gravelmon_47_by_33",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou.png",
+      "poser": "cobblemon:soulstones_epochchinchou",
+      "model": "cobblemon:soulstones_epochchinchou.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou/chinchou_epoch.png",
       "layers": [
         {
-          "name": "emissive"
-        },
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou/chinchou_epoch_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou/chinchou_epoch_shiny.png",
+      "layers": [
         {
-          "name": "transparentEmissive"
-        },
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou/chinchou_epoch_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
         {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochchinchou/chinchou_epoch_alpha.png",
+          "emissive": true
         }
       ]
     }

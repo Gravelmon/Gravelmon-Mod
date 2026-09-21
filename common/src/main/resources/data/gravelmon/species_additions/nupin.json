@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:nupin",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "grass",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_gellin_nuclear",
+          "variant": "level_up",
+          "result": "gellin nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "28",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

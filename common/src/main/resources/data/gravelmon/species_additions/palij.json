@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:palij",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "fire",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_pajay_nuclear",
+          "variant": "level_up",
+          "result": "pajay nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "36",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

@@ -202,10 +202,22 @@
         "mega",
         "epoch"
       ]
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "ground",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "mega"
+    "mega",
+    "nuclear"
   ]
 }
