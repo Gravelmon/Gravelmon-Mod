@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:masking",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "psychic",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_dramsama_nuclear",
+          "variant": "level_up",
+          "result": "dramsama nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "42",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}

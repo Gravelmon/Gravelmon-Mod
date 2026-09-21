@@ -6,13 +6,13 @@
       "primaryType": "electric",
       "secondaryType": "ice",
       "catchRate": 45,
-      "maleRatio": 1.0,
+      "maleRatio": 1,
       "baseExperienceYield": 259,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia delta",
-      "baseScale": 1.0,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod"
@@ -188,13 +188,13 @@
       "primaryType": "dark",
       "secondaryType": "poison",
       "catchRate": 90,
-      "maleRatio": 1.0,
+      "maleRatio": 1,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia epoch",
-      "baseScale": 0.5052631578947369,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "hypercutter",
@@ -317,7 +317,6 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled",
         "fakemon"
       ],
       "pokedex": [
@@ -331,8 +330,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.75,
-        "height": 4.75,
+        "width": 0.6,
+        "height": 2.25,
         "fixed": false
       },
       "game": "soulstones"
@@ -342,7 +341,7 @@
       "primaryType": "poison",
       "secondaryType": "fighting",
       "catchRate": 90,
-      "maleRatio": 1.0,
+      "maleRatio": 1,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,

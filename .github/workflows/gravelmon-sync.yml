@@ -4,7 +4,7 @@ on:
   push:
     # TODO: remove `main` below once submissions only land via the holding branch. Keeping it
     # means the version branch -> main merge re-runs the sync and could award points twice.
-    branches: [holding/holding-branch]
+    branches: [main]
   workflow_dispatch:
     inputs:
       before:

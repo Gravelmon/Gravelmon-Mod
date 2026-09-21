@@ -132,9 +132,36 @@
         "fixed": false
       },
       "game": "flux"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "poison",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_haagross_nuclear",
+          "variant": "level_up",
+          "result": "haagross nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "45",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
-    "alteran"
+    "alteran",
+    "nuclear"
   ]
 }

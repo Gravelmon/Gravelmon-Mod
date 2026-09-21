@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.0,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -179,7 +179,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21818181818181817,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "runaway",
@@ -314,8 +314,7 @@
         "egg:acidarmor"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochralts.desc"
@@ -342,8 +341,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.75,
-        "height": 2.75,
+        "width": 0.5,
+        "height": 0.9,
         "fixed": false
       },
       "game": "soulstones"
@@ -874,8 +873,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 8,
+        "height": 8,
         "fixed": false
       },
       "game": "fabel"

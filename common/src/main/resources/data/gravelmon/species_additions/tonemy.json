@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:tonemy",
+  "forms": [
+    {
+      "name": "nuclear",
+      "primaryType": "poison",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_tofurang_nuclear",
+          "variant": "level_up",
+          "result": "tofurang nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "20",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "nuclear"
+  ]
+}
