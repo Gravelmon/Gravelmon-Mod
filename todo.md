@@ -3,3 +3,4 @@
 - check Epoch Gardevoir poser and scaling, and Alpha Textures
 - check Epoch Gallade poser and scaling, and Alpha Textures
 - check Epoch Mega Gallade poser and scaling, and Alpha Textures
+- check Delta Pidgeot poser and scaling
