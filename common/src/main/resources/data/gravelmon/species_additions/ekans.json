@@ -414,11 +414,38 @@
         "fixed": false
       },
       "game": "nodorro"
+    },
+    {
+      "name": "nuclear",
+      "primaryType": "poison",
+      "secondaryType": "nuclear",
+      "labels": [
+        "not_modeled"
+      ],
+      "aspects": [
+        "nuclear"
+      ],
+      "evolutions": [
+        {
+          "id": "nuclear_arbok_nuclear",
+          "variant": "level_up",
+          "result": "arbok nuclear",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "minLevel": "22",
+              "variant": "level"
+            }
+          ]
+        }
+      ]
     }
   ],
   "features": [
     "alteran",
     "epoch",
-    "nodorran"
+    "nodorran",
+    "nuclear"
   ]
 }
