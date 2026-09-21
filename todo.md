@@ -1,2 +1,3 @@
 - check Birchee poser and scaling
 - check Delta Pidgeotto poser and scaling
+- check Epoch Mega Gallade poser and scaling

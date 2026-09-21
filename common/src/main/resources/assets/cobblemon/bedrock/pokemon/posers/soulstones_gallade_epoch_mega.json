@@ -1,0 +1,68 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "epochgalladeone_mega",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone_mega', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone_mega', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone_mega', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('epochgalladeone_mega', 'sleep')"
+      ]
+    }
+  }
+}

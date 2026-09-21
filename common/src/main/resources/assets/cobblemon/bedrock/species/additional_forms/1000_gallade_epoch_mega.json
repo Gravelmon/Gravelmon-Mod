@@ -1,39 +1,48 @@
 {
   "species": "cobblemon:gallade",
-  "order": 1012,
+  "order": 1000,
   "variations": [
     {
       "aspects": [
-        "epoch",
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_84_by_75.geo",
-      "poser": "cobblemon:cutout_gravelmon_84_by_75",
-      "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega.png",
+      "poser": "cobblemon:soulstones_gallade_epoch_mega",
+      "model": "cobblemon:soulstones_gallade_epoch_mega.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "Emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_e.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "Emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny_e.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_alpha.png",
+          "emissive": true
         },
         {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "Emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny_e.png"
         }
       ]
     }
