@@ -1,0 +1,98 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "epochgalladeone",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgalladeone', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "condition": "!q.is_sprinting",
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgalladeone', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgalladeone', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone', 'battle_idle')"
+      ]
+    },
+    "running": {
+      "condition": "q.is_sprinting",
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('epochgalladeone', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('epochgalladeone', 'physical')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('epochgalladeone', 'ground_run')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('epochgalladeone', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('epochgalladeone', 'cry')",
+    "faint": "q.bedrock_primary('epochgalladeone', 'faint', q.curve('one'))"
+  }
+}
