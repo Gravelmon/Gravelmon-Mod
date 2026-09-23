@@ -6,3 +6,4 @@
 - check Delta Pidgeot poser and scaling
 - check Epoch Bulbasaur poser and scaling
 - check Egho Bulbasaur poser and scaling
+- check Delta Sableye poser and scaling
