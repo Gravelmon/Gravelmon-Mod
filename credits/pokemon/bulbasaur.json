@@ -5,6 +5,39 @@
     {
       "formAspects": [
         "epoch"
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "bulbasaur",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-22T22:40:02.918Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghobulbasaur.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/bulbasaur_egho.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghobulbasaur.png"
+      ],
+      "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch"
+        "egho"
       ],
       "inheritsFrom": {
         "pokemon": "bulbasaur",
@@ -35,3 +68,4 @@
     }
   ]
 }
+
