@@ -4,6 +4,7 @@
   "entries": [
     {
       "formAspects": [
+        "epoch"
         "egho"
       ],
       "inheritsFrom": {
@@ -32,6 +33,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghobulbasaur.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "bulbasaur",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-22T22:29:37.196Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochbulbasaur.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/bulbasaur_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbulbasaur/bulbasaur_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbulbasaur/bulbasaur_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbulbasaur/bulbasaur_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbulbasaur.png"
+      ],
+      "sounds": []
     }
   ]
 }
+

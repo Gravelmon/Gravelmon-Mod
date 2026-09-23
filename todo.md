@@ -4,4 +4,5 @@
 - check Epoch Gallade poser and scaling, and Alpha Textures
 - check Epoch Mega Gallade poser and scaling, and Alpha Textures
 - check Delta Pidgeot poser and scaling
+- check Epoch Bulbasaur poser and scaling
 - check Egho Bulbasaur poser and scaling
