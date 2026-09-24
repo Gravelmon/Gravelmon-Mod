@@ -11,6 +11,7 @@
     0,
     0
   ],
+  "headBone": "head",
   "rootBone": "epochgalladeone_mega",
   "poses": {
     "standing": {
@@ -26,7 +27,6 @@
         "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
       },
       "animations": [
-        "q.look('head')",
         "q.bedrock('epochgalladeone_mega', 'ground_idle')"
       ]
     },
@@ -35,11 +35,7 @@
         "walk",
         "swim"
       ],
-      "namedAnimations": {
-        "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
-      },
       "animations": [
-        "q.look('head')",
         "q.bedrock('epochgalladeone_mega', 'ground_walk')"
       ]
     },
@@ -48,11 +44,7 @@
       "poseTypes": [
         "stand"
       ],
-      "namedAnimations": {
-        "physical": "q.bedrock_stateful('epochgalladeone_mega', 'physical')"
-      },
       "animations": [
-        "q.look('head')",
         "q.bedrock('epochgalladeone_mega', 'battle_idle')"
       ]
     },
@@ -64,5 +56,9 @@
         "q.bedrock('epochgalladeone_mega', 'sleep')"
       ]
     }
+  },
+  "animations": {
+    "physical": "q.bedrock_primary('epochgalladeone_mega', 'physical', q.curve('symmetrical_wide'))",
+    "deathreap": "q.bedrock_primary('epochgalladeone_mega', 'move_deathreap', q.curve('symmetrical_wide'))"
   }
 }
