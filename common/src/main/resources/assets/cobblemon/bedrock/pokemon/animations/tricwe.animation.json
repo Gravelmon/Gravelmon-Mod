@@ -1,0 +1,202 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tricwe.ground_idle": {
+			"loop": true,
+			"bones": {
+				"antennas_right": {
+					"rotation": [37.5, 20, 0]
+				},
+				"antennas_right2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_right4": {
+					"rotation": [27.5, 0, 0]
+				},
+				"antennas_right3": {
+					"rotation": [45, 0, 0]
+				},
+				"antennas_left": {
+					"rotation": [37.5, -20, 0]
+				},
+				"antennas_left2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_left3": {
+					"rotation": [45, 0, 0]
+				},
+				"antennas_left4": {
+					"rotation": [27.5, 0, 0]
+				},
+				"front_leg_right": {
+					"rotation": [0, -15, -5]
+				},
+				"back_leg_right": {
+					"rotation": [0, 30, -5]
+				},
+				"front_leg_left": {
+					"rotation": [0, 15, 5]
+				},
+				"back_leg_left": {
+					"rotation": [0, -30, 5]
+				},
+				"front_foot_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"front_foot_left": {
+					"rotation": [0, 0, 32.5]
+				},
+				"back_foot_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"back_foot_left": {
+					"rotation": [0, 0, 32.5]
+				}
+			}
+		},
+		"animation.tricwe.battle_idle": {
+			"loop": true,
+			"bones": {
+				"antennas_right": {
+					"rotation": [37.5, 35, 0]
+				},
+				"antennas_right2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_right4": {
+					"rotation": [27.5, 0, 0]
+				},
+				"antennas_right3": {
+					"rotation": [45, 0, 0]
+				},
+				"antennas_left": {
+					"rotation": [37.5, -35, 0]
+				},
+				"antennas_left2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_left3": {
+					"rotation": [45, 0, 0]
+				},
+				"antennas_left4": {
+					"rotation": [27.5, 0, 0]
+				},
+				"front_leg_right": {
+					"rotation": [0, -20, -5]
+				},
+				"back_leg_right": {
+					"rotation": [0, 37.5, -5]
+				},
+				"front_leg_left": {
+					"rotation": [0, 22.5, 5]
+				},
+				"back_leg_left": {
+					"rotation": [0, -37.5, 5]
+				},
+				"front_foot_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"front_foot_left": {
+					"rotation": [0, 0, 32.5]
+				},
+				"back_foot_right": {
+					"rotation": [0, 0, -32.5]
+				},
+				"back_foot_left": {
+					"rotation": [0, 0, 32.5]
+				},
+				"head_angle": {
+					"rotation": [5, 0, 0]
+				},
+				"eye_shine_left": {
+					"position": [0, -0.3, 0]
+				},
+				"eye_shine_right": {
+					"position": [0, -0.4, 0]
+				},
+				"torso": {
+					"rotation": [5, 0, 0]
+				},
+				"butt": {
+					"rotation": [2.5, 0, 0]
+				}
+			}
+		},
+		"animation.tricwe.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_right": {
+					"position": {
+						"0.0": [-1, 0, -0.1],
+						"0.1667": {"pre": [-1, 0, -0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eyelid_left": {
+					"position": {
+						"0.0": [1, 0, -0.1],
+						"0.1667": {"pre": [1, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		},
+		"animation.tricwe.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -1, 0]
+				},
+				"eye_left": {
+					"position": [-1, 0, 1]
+				},
+				"eye_right": {
+					"position": [1, 0, 1]
+				},
+				"eyelid_right": {
+					"position": [-1, 0, -0.1]
+				},
+				"eyelid_left": {
+					"position": [1, 0, -0.1]
+				},
+				"antennas_right": {
+					"rotation": [55, 17.5, 0]
+				},
+				"antennas_right2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_right3": {
+					"rotation": [30, 0, 0]
+				},
+				"antennas_right4": {
+					"rotation": [40, 0, 0]
+				},
+				"antennas_left": {
+					"rotation": [55, -17.5, 0]
+				},
+				"antennas_left2": {
+					"rotation": [35, 0, 0]
+				},
+				"antennas_left3": {
+					"rotation": [30, 0, 0]
+				},
+				"antennas_left4": {
+					"rotation": [40, 0, 0]
+				},
+				"torso": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"front_leg_right": {
+					"rotation": [0, -20, 0]
+				},
+				"front_leg_left": {
+					"rotation": [0, 20, 0]
+				},
+				"back_leg_right": {
+					"rotation": [0, 25, 0]
+				},
+				"back_leg_left": {
+					"rotation": [0, -25, 0]
+				}
+			}
+		}
+	}
+}
