@@ -1,0 +1,40 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 1000,
+  "variations": [
+    {
+      "aspects": [
+        "mega_d"
+      ],
+      "model": "cobblemon:cutout_gravelmon_222_by_164.geo",
+      "poser": "cobblemon:cutout_gravelmon_222_by_164",
+      "texture": "cobblemon:textures/pokemon/daybreak/venusaur_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "showdown_id": "venusaurited",
+  "pokemons": [
+    "Venusaur"
+  ],
+  "aspect_conditions": {
+    "apply": {
+      "aspect": {},
+      "aspects": [
+        "mega_evolution=mega_d"
+      ]
+    },
+    "revert": {
+      "aspects": [
+        "mega_evolution=none"
+      ]
+    }
+  }
+}

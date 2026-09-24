@@ -737,6 +737,33 @@
       ]
     },
     {
+      "name": "mega_d",
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "arenatrap"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defence": 83,
+        "special_attack": 129,
+        "special_defence": 100,
+        "speed": 105
+      },
+      "labels": [
+        "gen1",
+        "daybreak",
+        "not_modeled"
+      ],
+      "height": 20,
+      "aspects": [
+        "mega_d"
+      ]
+    },
+    {
       "name": "mega_ayreian",
       "primaryType": "dark",
       "secondaryType": "ground",
@@ -798,6 +825,7 @@
     "delta",
     "epoch",
     "ayreian",
-    "mega"
+    "mega",
+    "mega_d"
   ]
 }

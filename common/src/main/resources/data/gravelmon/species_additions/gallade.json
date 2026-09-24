@@ -6,13 +6,13 @@
       "primaryType": "electric",
       "secondaryType": "ice",
       "catchRate": 45,
-      "maleRatio": 1,
+      "maleRatio": 1.0,
       "baseExperienceYield": 259,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia delta",
-      "baseScale": 1,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod"
@@ -188,13 +188,13 @@
       "primaryType": "dark",
       "secondaryType": "poison",
       "catchRate": 90,
-      "maleRatio": 1,
+      "maleRatio": 1.0,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "kirlia epoch",
-      "baseScale": 1,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "hypercutter",
@@ -330,8 +330,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.6,
-        "height": 2.25,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -341,7 +341,7 @@
       "primaryType": "poison",
       "secondaryType": "fighting",
       "catchRate": 90,
-      "maleRatio": 1,
+      "maleRatio": 1.0,
       "baseExperienceYield": 233,
       "experienceGroup": "slow",
       "eggCycles": 50,
@@ -813,8 +813,7 @@
       },
       "labels": [
         "gen4",
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "height": 19,
       "aspects": [

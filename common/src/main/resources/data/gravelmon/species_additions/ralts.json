@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "lightningrod",
@@ -179,7 +179,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.8,
+      "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
         "runaway",
@@ -341,8 +341,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.9,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       },
       "game": "soulstones"
@@ -873,8 +873,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8,
-        "height": 8,
+        "width": 8.0,
+        "height": 8.0,
         "fixed": false
       },
       "game": "fabel"

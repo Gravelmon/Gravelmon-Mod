@@ -1,0 +1,156 @@
+name: Publish release
+
+# A version branch (e.g. `4.1.0`) is merged into main by pull request. That merge publishes the
+# Fabric and NeoForge jars to Modrinth and CurseForge and creates a GitHub release.
+#
+# Required repository configuration (Settings -> Secrets and variables -> Actions):
+#   secrets:   MODRINTH_TOKEN, CURSEFORGE_TOKEN
+#   variables: MODRINTH_ID, CURSEFORGE_ID
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version branch to (re)publish, e.g. 4.1.0. Builds the commit this run is on."
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: publish-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve version branch
+        id: branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let headRef = context.payload.inputs?.version ?? '';
+            if (context.eventName === 'push') {
+              const { data } = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha,
+              });
+              const pr = data.find((p) => p.merged_at && p.base.ref === 'main');
+              headRef = pr ? pr.head.ref : '';
+            }
+            const isVersion = /^\d+\.\d+\.\d+$/.test(headRef);
+            core.setOutput('version', isVersion ? headRef : '');
+            core.info(isVersion ? `Publishing version branch ${headRef}` : `Not a version-branch merge (${headRef || 'no PR'}), skipping.`);
+
+      - uses: actions/checkout@v4
+        if: steps.branch.outputs.version != ''
+
+      - uses: actions/setup-java@v4
+        if: steps.branch.outputs.version != ''
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+        if: steps.branch.outputs.version != ''
+
+      - name: Read mod properties
+        id: props
+        if: steps.branch.outputs.version != ''
+        run: |
+          get() { grep -E "^$1\s*=" gradle.properties | head -1 | cut -d= -f2- | tr -d ' \r'; }
+          version=$(get mod_version)
+          echo "mod_version=$version" >> "$GITHUB_OUTPUT"
+          echo "minecraft_version=$(get minecraft_version)" >> "$GITHUB_OUTPUT"
+          # Alpha/beta suffixes in mod_version (e.g. 4.0.0-Alpha.7) map to the platforms' channels.
+          case "${version,,}" in
+            *alpha*) type=alpha ;;
+            *beta*)  type=beta ;;
+            *)       type=release ;;
+          esac
+          echo "version_type=$type" >> "$GITHUB_OUTPUT"
+
+      - name: Extract changelog for this version
+        if: steps.branch.outputs.version != ''
+        env:
+          VERSION: ${{ steps.branch.outputs.version }}
+        run: |
+          # change.log sections start with a `V x.y.z` line; take the one matching the branch.
+          awk -v v="V $VERSION" '
+            /^V / { if (found) exit; found = ($0 == v); next }
+            found { print }
+          ' change.log > "$RUNNER_TEMP/changelog.md"
+          if [ ! -s "$RUNNER_TEMP/changelog.md" ]; then
+            echo "No 'V $VERSION' section in change.log" >&2
+            exit 1
+          fi
+
+      - name: Build
+        if: steps.branch.outputs.version != ''
+        run: ./gradlew build --no-daemon
+
+      - name: Locate jars
+        id: jars
+        if: steps.branch.outputs.version != ''
+        env:
+          MOD_VERSION: ${{ steps.props.outputs.mod_version }}
+        run: |
+          for loader in fabric neoforge; do
+            jar="$loader/build/libs/gravelmon-$loader-$MOD_VERSION.jar"
+            test -f "$jar" || { echo "Missing $jar" >&2; ls "$loader/build/libs" >&2; exit 1; }
+            echo "$loader=$jar" >> "$GITHUB_OUTPUT"
+          done
+
+      - name: Publish Fabric to Modrinth and CurseForge
+        if: steps.branch.outputs.version != ''
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: ${{ steps.jars.outputs.fabric }}
+          name: Gravelmon ${{ steps.props.outputs.mod_version }} (Fabric)
+          version: ${{ steps.props.outputs.mod_version }}+fabric
+          version-type: ${{ steps.props.outputs.version_type }}
+          changelog-file: ${{ runner.temp }}/changelog.md
+          loaders: fabric
+          game-versions: ${{ steps.props.outputs.minecraft_version }}
+          java: 21
+
+      - name: Publish NeoForge to Modrinth and CurseForge
+        if: steps.branch.outputs.version != ''
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ vars.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: ${{ vars.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: ${{ steps.jars.outputs.neoforge }}
+          name: Gravelmon ${{ steps.props.outputs.mod_version }} (NeoForge)
+          version: ${{ steps.props.outputs.mod_version }}+neoforge
+          version-type: ${{ steps.props.outputs.version_type }}
+          changelog-file: ${{ runner.temp }}/changelog.md
+          loaders: neoforge
+          game-versions: ${{ steps.props.outputs.minecraft_version }}
+          java: 21
+
+      - name: Create GitHub release
+        if: steps.branch.outputs.version != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.branch.outputs.version }}
+          PRERELEASE: ${{ steps.props.outputs.version_type != 'release' }}
+        run: |
+          flags=""
+          [ "$PRERELEASE" = "true" ] && flags="--prerelease"
+          gh release create "v$VERSION" \
+            "${{ steps.jars.outputs.fabric }}" "${{ steps.jars.outputs.neoforge }}" \
+            --target "$GITHUB_SHA" --title "Gravelmon $VERSION" \
+            --notes-file "$RUNNER_TEMP/changelog.md" $flags

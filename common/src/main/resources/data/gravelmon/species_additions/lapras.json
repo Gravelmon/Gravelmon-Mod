@@ -795,33 +795,6 @@
         "fixed": false
       },
       "game": "ferran"
-    },
-    {
-      "name": "mega",
-      "primaryType": "water",
-      "secondaryType": "ice",
-      "cannotDynamax": false,
-      "battleOnly": true,
-      "abilities": [
-        "cryoshell"
-      ],
-      "baseStats": {
-        "hp": 130,
-        "attack": 85,
-        "defence": 120,
-        "special_attack": 85,
-        "special_defence": 125,
-        "speed": 90
-      },
-      "labels": [
-        "gen1",
-        "daybreak",
-        "not_modeled"
-      ],
-      "height": 25,
-      "aspects": [
-        "mega"
-      ]
     }
   ],
   "features": [
@@ -829,8 +802,7 @@
     "epochtwo",
     "kaskadian",
     "ayreian",
-    "ferranian",
-    "mega"
+    "ferranian"
   ],
   "preEvolution": "lapili"
 }

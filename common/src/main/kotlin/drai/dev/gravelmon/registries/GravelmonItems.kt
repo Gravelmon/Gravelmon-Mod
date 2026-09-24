@@ -90,7 +90,8 @@ object GravelmonItems : PlatformRegistry<Registry<Item>, ResourceKey<Registry<It
 
     //insurgence
     var DARK_ROCK = heldItem(gravelmonResource("dark_rock"), Item(Item.Properties()))
-    
+    var CRYSTAL_PIECE = heldItem(gravelmonResource("crystal_piece"), Item(Item.Properties()))
+
     //Pokeballs
     val POKE_BALLS: MutableList<PokeBallItem> = ArrayList()
     val MAUVE_BALL = pokeballItem("mauve_ball", GravelmonPokeBalls.MAUVE_BALL);
