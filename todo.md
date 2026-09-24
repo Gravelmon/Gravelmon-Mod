@@ -8,4 +8,5 @@
 - check Egho Bulbasaur poser and scaling
 - check Delta Sableye poser and scaling
 - check Tricwe poser and scaling
+- check Harylect poser and scaling
 - check Ayreian Bulbasaur poser and scaling
