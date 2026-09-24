@@ -33,7 +33,7 @@
       ],
       "sounds": []
     },
-{
+    {
       "formAspects": [
         "epoch",
         "mega"
@@ -54,9 +54,7 @@
       "models": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_gallade_epoch_mega.geo.json"
       ],
-      "animations": [
-        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/epochgalladeone_mega.animation.json"
-      ],
+      "animations": [],
       "textures": [
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega.png",
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_alpha.png",
@@ -65,6 +63,31 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny_e.png",
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/gallade_epoch_mega.png"
       ],
+      "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch",
+        "mega"
+      ],
+      "inheritsFrom": {
+        "pokemon": "gallade",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "elpgeon"
+      },
+      "contributors": [
+        {
+          "login": "elpgeon"
+        }
+      ],
+      "submittedAt": "2026-09-24T16:00:05.068Z",
+      "models": [],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/epochgalladeone_mega.animation.json"
+      ],
+      "textures": [],
       "sounds": []
     }
   ]
