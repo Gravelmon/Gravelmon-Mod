@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ectogen-01",
-      "pokemon": "ectogen",
+      "id": "olympeus-01",
+      "pokemon": "olympeus",
       "presets": [
         "natural",
         "wild"
@@ -13,22 +13,21 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
-      "level": "33-53",
-      "weight": 2.5,
-      "stage": 2,
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 1,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_savanna"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isPokeSnack": true
       }
     },
     {
-      "id": "ectogen-01",
-      "pokemon": "ectogen",
+      "id": "olympeus-01",
+      "pokemon": "olympeus",
       "presets": [
         "natural",
         "wild"
@@ -36,14 +35,13 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
-      "level": "33-53",
-      "weight": 2.5,
-      "stage": 2,
+      "level": "65-85",
+      "weight": 0.0029999999999999996,
+      "stage": 1,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_savanna"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       }
