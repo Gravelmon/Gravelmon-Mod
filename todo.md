@@ -10,3 +10,4 @@
 - check Tricwe poser and scaling
 - check Harylect poser and scaling
 - check Ayreian Bulbasaur poser and scaling
+- check Cubbug poser and scaling

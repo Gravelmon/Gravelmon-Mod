@@ -1,0 +1,150 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cubbug.ground_idle": {
+			"loop": true,
+			"bones": {
+				"top_body": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"head": {
+					"rotation": [37.5, 0, 0]
+				},
+				"ear_left": {
+					"rotation": [-7.5, -7.5, 7.5]
+				},
+				"ear_right": {
+					"rotation": [-7.5, 7.5, -7.5]
+				},
+				"top_body2": {
+					"rotation": [-40, 0, 0]
+				},
+				"foot_middle_left": {
+					"rotation": [7.5, 0, 10]
+				},
+				"foot_middle_right": {
+					"rotation": [7.5, 0, -10]
+				},
+				"foot_front_left": {
+					"rotation": [0, 0, 27.5]
+				},
+				"foot_front_right": {
+					"rotation": [0, 0, -27.5]
+				},
+				"leaf_front": {
+					"rotation": [-5, 0, 0]
+				},
+				"leaf_left": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"leaf_right": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"head_rotation": {
+					"rotation": [17.5, 0, 0]
+				},
+				"leaf_tail_front": {
+					"rotation": [5, 0, 0]
+				},
+				"leaf_tail_left": {
+					"rotation": [5, 0, 0]
+				},
+				"leaf_tail_right": {
+					"rotation": [5, 0, 0]
+				}
+			}
+		},
+		"animation.cubbug.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, -0.1],
+						"0.1667": {"pre": [0, 0, -0.1], "post": [0, 0, 0]}
+					}
+				}
+			}
+		},
+		"animation.cubbug.render": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 52.5, 0],
+					"position": [-1, 0, 0]
+				},
+				"top_body": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"head": {
+					"rotation": [7.5, -30, -10]
+				},
+				"eye_shine_left": {
+					"position": [0.6, 0, 0]
+				},
+				"ear_left": {
+					"rotation": [-5, 0, 17.5]
+				},
+				"ear_right": {
+					"rotation": [-5, 7.5, 2.5]
+				},
+				"top_body2": {
+					"rotation": [-32.5, 0, 0]
+				},
+				"segment": {
+					"rotation": [0, 10, 0]
+				},
+				"leaf_tail": {
+					"rotation": [-5, 0, 0]
+				},
+				"foot_back_left": {
+					"rotation": [0, -25, 0]
+				},
+				"foot_back_right": {
+					"rotation": [0, 25, 0]
+				},
+				"foot_middle_left": {
+					"rotation": [22.5, -7.5, 20]
+				},
+				"foot_middle_right": {
+					"rotation": [22.5, -12.5, -30]
+				},
+				"foot_front_left": {
+					"rotation": [0, 0, 57.5]
+				},
+				"foot_front_right": {
+					"rotation": [0, 0, -70]
+				},
+				"leaf_neck": {
+					"rotation": [-2.5, 0, 0]
+				},
+				"leaf_front": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"leaf_left": {
+					"rotation": [-15, 0, 0]
+				},
+				"leaf_right": {
+					"rotation": [-15, 0, 0]
+				},
+				"head_rotation": {
+					"rotation": [70, 0, 0]
+				},
+				"leaf_tail_front": {
+					"rotation": [5, 0, 0]
+				},
+				"leaf_tail_left": {
+					"rotation": [5, 0, 0]
+				},
+				"leaf_tail_right": {
+					"rotation": [5, 0, 0]
+				}
+			}
+		}
+	}
+}

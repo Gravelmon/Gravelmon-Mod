@@ -1,0 +1,35 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "cubbug",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float",
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('cubbug', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('cubbug', 'ground_idle')"
+      ]
+    }
+  }
+}
