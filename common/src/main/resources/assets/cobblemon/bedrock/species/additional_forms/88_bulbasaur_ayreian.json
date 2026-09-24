@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:bulbasaur",
-  "order": 97,
+  "order": 88,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_44_by_41.geo",
-      "poser": "cobblemon:cutout_gravelmon_44_by_41",
-      "texture": "cobblemon:textures/pokemon/vanguard/ayreianbulbasaur.png",
+      "poser": "cobblemon:vanguard_ayreianbulbasaur",
+      "model": "cobblemon:vanguard_ayreianbulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ayreian"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "ayreian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian_alpha.png",
+          "emissive": true
         }
       ]
     }
