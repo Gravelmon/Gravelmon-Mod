@@ -63,7 +63,37 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbulbasaur.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "ayreian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "bulbasaur",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-24T12:34:58.326Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/vanguard_ayreianbulbasaur.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/bulbasaur_ayreian.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreianbulbasaur/bulbasaur_ayreian_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreianbulbasaur.png"
+      ],
+      "sounds": []
     }
   ]
 }
-
