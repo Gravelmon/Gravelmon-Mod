@@ -1,0 +1,90 @@
+{
+  "portraitScale": 1.03,
+  "portraitTranslation": [
+    -0.31,
+    0.12,
+    0
+  ],
+  "profileScale": 0.51,
+  "profileTranslation": [
+    0.09,
+    0.96,
+    0
+  ],
+  "rootBone": "venusaur",
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      0.45,
+      1
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [
+      0,
+      0.45,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      0.45,
+      1
+    ]
+  },
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltavenusaur', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltavenusaur', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltavenusaur', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltavenusaur', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('deltavenusaur', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('deltavenusaur', 'cry')",
+    "recoil": "q.bedrock_stateful('deltavenusaur', 'recoil')"
+  }
+}
