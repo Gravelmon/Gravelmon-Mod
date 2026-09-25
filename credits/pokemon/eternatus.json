@@ -1,0 +1,42 @@
+{
+  "game": "pokemon",
+  "pokemon": "eternatus",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "eternatus",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-25T14:40:37.782Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epocheternatus.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/eternatus_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch_shiny_emissive.png",
+        "common/src/main/resources/assets/cobblemon/eternatus_epoch_shiny_transparency.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus/eternatus_epoch_transparency.png",
+        "common/src/main/resources/assets/cobblemon/eyes_fix.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epocheternatus.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

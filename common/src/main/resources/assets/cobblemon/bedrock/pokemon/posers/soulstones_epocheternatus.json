@@ -1,0 +1,70 @@
+{
+  "portraitScale": 0.52,
+  "portraitTranslation": [
+    -1.76,
+    2.11,
+    0
+  ],
+  "profileScale": 0.16,
+  "profileTranslation": [
+    0,
+    1.62,
+    0
+  ],
+  "headBone": "head",
+  "rootBone": "eternatus",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "portrait",
+        "profile",
+        "stand",
+        "walk",
+        "float",
+        "hover",
+        "none"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eternatus', 'ground_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": [
+        "fly",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eternatus', 'ground_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('eternatus', 'sleep')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand",
+        "hover",
+        "float"
+      ],
+      "animations": [
+        "q.bedrock('eternatus', 'ground_idle')"
+      ]
+    },
+    "walk": {
+      "poseTypes": [
+        "walk"
+      ],
+      "animations": [
+        "q.bedrock('eternatus', 'ground_idle')"
+      ]
+    }
+  }
+}

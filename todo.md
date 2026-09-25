@@ -27,3 +27,4 @@
 - check Delta Charmander poser and scaling
 - check Delta Charmeleon poser and scaling
 - check Delta Squirtle poser and scaling
+- check Epoch Eternatus poser and scaling
