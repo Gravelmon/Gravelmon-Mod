@@ -23,3 +23,4 @@
 - check Delta Female Ivysaur poser and scaling
 - check Antarki poser and scaling
 - check Delta Venusaur poser and scaling
+- check Egho Charmander poser and scaling
