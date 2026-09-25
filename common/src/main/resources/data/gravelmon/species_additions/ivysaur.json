@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bulbasaur egho",
-      "baseScale": 1.0,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "roughskin",
@@ -197,7 +197,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bulbasaur delta",
-      "baseScale": 1.0,
+      "baseScale": 0.95,
       "cannotDynamax": false,
       "abilities": [
         "psychocall",
@@ -373,8 +373,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 1.0,
+        "width": 0.9,
+        "height": 1,
         "fixed": false
       },
       "game": "insurgence"
@@ -559,8 +559,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3,
+        "height": 3,
         "fixed": false
       },
       "game": "soulstones"
