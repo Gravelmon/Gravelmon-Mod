@@ -13,3 +13,4 @@
 - check Cubbug poser and scaling
 - check Hoppanero poser and scaling
 - check Scovalope poser and scaling
+- check Metunn poser and scaling

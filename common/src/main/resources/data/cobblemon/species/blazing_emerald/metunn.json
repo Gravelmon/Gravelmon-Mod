@@ -3,13 +3,13 @@
   "primaryType": "psychic",
   "secondaryType": "ghost",
   "catchRate": 60,
-  "maleRatio": -1.0,
+  "maleRatio": -1,
   "baseExperienceYield": 200,
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "unown",
-  "baseScale": 0.48,
+  "baseScale": 1.1,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -75,7 +75,6 @@
   "labels": [
     "blazing_emerald",
     "joke",
-    "not_modeled",
     "fakemonevolution",
     "legendary"
   ],
@@ -88,8 +87,8 @@
   "nationalPokedexNumber": 2447,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.5,
-    "height": 2.5,
+    "width": 1,
+    "height": 1,
     "fixed": false
   },
   "features": [],
