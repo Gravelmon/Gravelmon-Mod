@@ -21,3 +21,4 @@
 - check Delta Female Bulbasaur poser and scaling
 - check Delta Ivysaur poser and scaling
 - check Delta Female Ivysaur poser and scaling
+- check Antarki poser and scaling
