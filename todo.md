@@ -24,3 +24,4 @@
 - check Antarki poser and scaling
 - check Delta Venusaur poser and scaling
 - check Egho Charmander poser and scaling
+- check Delta Charmeleon poser and scaling
