@@ -1,0 +1,38 @@
+{
+  "game": "pokemon",
+  "pokemon": "wartortle",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "wartortle",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-25T16:35:32.396Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltawartortle.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/deltawartortle.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltawartortle/deltawartortle.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltawartortle/deltawartortle_alpha.png",
+        "common/src/main/resources/assets/cobblemon/deltawartortle_prevoew.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltawartortle/deltawartortle_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltawartortle.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
