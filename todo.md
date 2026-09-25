@@ -14,3 +14,4 @@
 - check Hoppanero poser and scaling
 - check Scovalope poser and scaling
 - check Metunn poser and scaling
+- check Rollder poser and scaling
