@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "magnemite",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "magnemite",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Roy"
+      },
+      "contributors": [
+        {
+          "login": "Roy"
+        }
+      ],
+      "submittedAt": "2026-09-25T08:14:19.895Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghomagnemite.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/magnemite_egho.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomagnemite/egho_magnemite.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomagnemite/egho_magnemite_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomagnemite/egho_magnemite_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomagnemite.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
