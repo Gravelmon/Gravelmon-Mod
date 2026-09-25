@@ -11,3 +11,4 @@
 - check Harylect poser and scaling
 - check Ayreian Bulbasaur poser and scaling
 - check Cubbug poser and scaling
+- check Hoppanero poser and scaling
