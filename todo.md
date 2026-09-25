@@ -26,3 +26,4 @@
 - check Egho Charmander poser and scaling
 - check Delta Charmander poser and scaling
 - check Delta Charmeleon poser and scaling
+- check Delta Squirtle poser and scaling
