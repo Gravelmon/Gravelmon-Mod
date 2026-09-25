@@ -94,6 +94,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreianbulbasaur.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "bulbasaur",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-25T08:26:47.052Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltabulbasaur.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/deltabulbasaur.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_shiny.png",
+        "common/src/main/resources/assets/cobblemon/insurgence_deltabulbasaur_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltabulbasaur.png"
+      ],
+      "sounds": []
     }
   ]
 }
