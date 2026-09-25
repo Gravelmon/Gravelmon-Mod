@@ -17,3 +17,4 @@
 - check Rollder poser and scaling
 - check Egho Magnemite poser and scaling
 - check Duplicat poser and scaling
+- check Delta Bulbasaur poser and scaling

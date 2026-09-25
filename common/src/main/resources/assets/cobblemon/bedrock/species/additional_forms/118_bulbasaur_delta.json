@@ -1,50 +1,18 @@
 {
   "species": "cobblemon:bulbasaur",
-  "order": 133,
+  "order": 118,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:insurgence_deltabulbasaur.geo",
       "poser": "cobblemon:insurgence_deltabulbasaur",
+      "model": "cobblemon:insurgence_deltabulbasaur.geo",
       "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "alpha_eyes"
         },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "delta",
-        "shiny"
-      ],
-      "model": "cobblemon:insurgence_deltabulbasaur.geo",
-      "poser": "cobblemon:insurgence_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_shiny.png",
-      "layers": [
         {
           "name": "emissive"
         },
@@ -73,72 +41,21 @@
     },
     {
       "aspects": [
-        "delta",
-        "female"
+        "shiny",
+        "delta"
       ],
-      "model": "cobblemon:insurgence_deltabulbasaur_female.geo",
-      "poser": "cobblemon:insurgence_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_female.png",
-      "layers": [
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_shiny.png"
     },
     {
       "aspects": [
-        "delta",
-        "female",
-        "shiny"
+        "alpha_eyes",
+        "delta"
       ],
-      "model": "cobblemon:insurgence_deltabulbasaur_female.geo",
-      "poser": "cobblemon:insurgence_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_female_shiny.png",
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltabulbasaur/deltabulbasaur_alpha.png",
+          "emissive": true
         }
       ]
     }
