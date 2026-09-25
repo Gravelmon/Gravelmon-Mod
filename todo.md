@@ -15,3 +15,4 @@
 - check Scovalope poser and scaling
 - check Metunn poser and scaling
 - check Rollder poser and scaling
+- check Duplicat poser and scaling
