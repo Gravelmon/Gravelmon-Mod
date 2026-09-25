@@ -32,6 +32,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaivysaur.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta",
+        "female"
+      ],
+      "inheritsFrom": {
+        "pokemon": "ivysaur",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-25T08:59:41.866Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltaivysaurfemale.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/deltaivysaur_female.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaivysaurfemale/deltaivysaur_female.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaivysaurfemale/deltaivysaur_female_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaivysaurfemale/deltaivysaur_female_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/femaledeltaivysaur.png"
+      ],
+      "sounds": []
     }
   ]
 }
