@@ -50,3 +50,8 @@
 - check Epoch Psyduck poser and scaling
 - check Epochtwo Treecko poser and scaling
 - check Female Silkinder poser and scaling
+- check Iceros poser and scaling
+- check Kirgicia poser and scaling
+- check Egho Grimer poser and scaling
+- check Egho Muk poser and scaling
+- check Female Llamarsh poser and scaling

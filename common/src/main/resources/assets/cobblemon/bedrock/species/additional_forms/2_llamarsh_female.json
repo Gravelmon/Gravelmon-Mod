@@ -1,12 +1,14 @@
 {
   "species": "cobblemon:llamarsh",
-  "order": 0,
+  "order": 2,
   "variations": [
     {
-      "aspects": [],
-      "poser": "cobblemon:sage_llamarsh",
-      "model": "cobblemon:sage_llamarsh.geo",
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh.png",
+      "aspects": [
+        "female"
+      ],
+      "poser": "cobblemon:sage_llamarshfemale",
+      "model": "cobblemon:sage_llamarshfemale.geo",
+      "texture": "cobblemon:textures/pokemon/sage/llamarshfemale/llamarsh.png",
       "layers": [
         {
           "name": "emissive"
@@ -36,18 +38,20 @@
     },
     {
       "aspects": [
-        "shiny"
+        "shiny",
+        "female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/llamarshfemale/llamarsh_shiny.png"
     },
     {
       "aspects": [
-        "alpha_eyes"
+        "alpha_eyes",
+        "female"
       ],
       "layers": [
         {
           "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh_alpha.png",
+          "texture": "cobblemon:textures/pokemon/sage/llamarshfemale/llamarsh_alpha.png",
           "emissive": true
         }
       ]
