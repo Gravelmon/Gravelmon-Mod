@@ -1,0 +1,53 @@
+{
+  "portraitScale": 3.5999999046325684,
+  "portraitTranslation": [
+    0.2,
+    -2.4,
+    0
+  ],
+  "profileScale": 1.2000000476837158,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "trishout_xenoversal",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "sleep",
+        "hover",
+        "fly",
+        "float",
+        "glide",
+        "shoulder_left",
+        "shoulder_right",
+        "profile",
+        "portrait",
+        "open",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('trishout', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('trishout_xenoversal', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('neck')",
+        "q.bedrock('trishout_xenoversal', 'ground_idle')",
+        "q.quadruped_walk(0.6662, 1.4, 'leg_left', 'leg_right', 'leg_back_left', 'leg_back_right')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "bedrock(trishout, faint)"
+  }
+}
