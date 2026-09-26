@@ -34,3 +34,4 @@
 - check Oreon poser and scaling
 - check Xenoversal Trishout poser and scaling
 - check Trishout poser and scaling
+- check Ayreian Ivysaur poser and scaling
