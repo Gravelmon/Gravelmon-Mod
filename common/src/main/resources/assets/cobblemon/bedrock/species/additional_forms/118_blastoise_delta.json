@@ -1,75 +1,60 @@
 {
-    "order": 133,
-    "species": "cobblemon:blastoise",
-    "variations": [
+  "species": "cobblemon:blastoise",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltablastoise",
+      "model": "cobblemon:insurgence_deltablastoise.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltablastoise/deltablastoise.png",
+      "layers": [
         {
-            "aspects": [
-                "delta"
-            ],
-            "layers": [
-                {
-                    "name": "emissive"
-                },
-                {
-                    "name": "transparentEmissive"
-                },
-                {
-                    "name": "tail"
-                },
-                {
-                    "name": "transparent_emissive"
-                },
-                {
-                    "name": "emissive2"
-                },
-                {
-                    "name": "flame"
-                },
-                {
-                    "name": "glow"
-                },
-                {
-                    "texture": "cobblemon:textures/empty_texture.png"
-                }
-            ],
-            "model": "cobblemon:insurgence_deltablastoise.geo",
-            "poser": "cobblemon:insurgence_deltablastoise",
-            "texture": "cobblemon:textures/pokemon/insurgence/deltablastoise/deltablastoise.png"
+          "name": "emissive"
         },
         {
-            "aspects": [
-                "delta",
-                "shiny"
-            ],
-            "layers": [
-                {
-                    "name": "emissive"
-                },
-                {
-                    "name": "transparentEmissive"
-                },
-                {
-                    "name": "tail"
-                },
-                {
-                    "name": "transparent_emissive"
-                },
-                {
-                    "name": "emissive2"
-                },
-                {
-                    "name": "flame"
-                },
-                {
-                    "name": "glow"
-                },
-                {
-                    "texture": "cobblemon:textures/empty_texture.png"
-                }
-            ],
-            "model": "cobblemon:insurgence_deltablastoise.geo",
-            "poser": "cobblemon:insurgence_deltablastoise",
-            "texture": "cobblemon:textures/pokemon/insurgence/deltablastoise/deltablastoise_shiny.png"
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
-    ]
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltablastoise/deltablastoise_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltablastoise/deltablastoise_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
 }
