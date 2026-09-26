@@ -29,3 +29,4 @@
 - check Delta Squirtle poser and scaling
 - check Epoch Eternatus poser and scaling
 - check Delta Wartortle poser and scaling
+- check Delta Blastoise poser and scaling
