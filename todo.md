@@ -53,3 +53,4 @@
 - check Iceros poser and scaling
 - check Kirgicia poser and scaling
 - check Egho Grimer poser and scaling
+- check Egho Muk poser and scaling
