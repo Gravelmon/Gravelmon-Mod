@@ -1,0 +1,46 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "chyinmunk",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chyinmunk', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('chyinmunk', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chyinmunk', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
+      ]
+    }
+  }
+}

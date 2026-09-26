@@ -49,6 +49,7 @@
 - check Epoch Machop poser and scaling
 - check Epoch Psyduck poser and scaling
 - check Epochtwo Treecko poser and scaling
+- check Chyinmunk poser and scaling
 - check Female Silkinder poser and scaling
 - check Iceros poser and scaling
 - check Kirgicia poser and scaling
