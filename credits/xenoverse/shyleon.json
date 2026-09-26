@@ -58,6 +58,41 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialshyleon.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "xenoversal"
+      ],
+      "inheritsFrom": {
+        "pokemon": "shyleon",
+        "game": "xenoverse"
+      },
+      "contributor": {
+        "login": "Blizt"
+      },
+      "contributors": [
+        {
+          "login": "Blizt"
+        },
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-26T11:39:22.313Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/xenoverse_xenoversalshyleon.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/shyleon_xenoversal.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal_shiny.png",
+        "common/src/main/resources/assets/cobblemon/xenoverse_shyleonxenoversal.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshyleon.png"
+      ],
+      "sounds": []
     }
   ]
 }
