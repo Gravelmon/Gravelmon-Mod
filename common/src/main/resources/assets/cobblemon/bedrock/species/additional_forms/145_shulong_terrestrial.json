@@ -1,1 +1,60 @@
-{"species":"cobblemon:shulong","order":153,"variations":[{"aspects":["terrestrial"],"model":"cobblemon:xenoverse_shulongterrestrial.geo","poser":"cobblemon:xenoverse_shulongterrestrial","texture":"cobblemon:textures/pokemon/xenoverse/shulongterrestrial/shulongterrestrial.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["terrestrial","shiny"],"model":"cobblemon:xenoverse_shulongterrestrial.geo","poser":"cobblemon:xenoverse_shulongterrestrial","texture":"cobblemon:textures/pokemon/xenoverse/shulongterrestrial/shulongterrestrial_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:shulong",
+  "order": 145,
+  "variations": [
+    {
+      "aspects": [
+        "terrestrial"
+      ],
+      "poser": "cobblemon:xenoverse_terrestrialshulong",
+      "model": "cobblemon:xenoverse_terrestrialshulong.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialshulong/shulong_terrestrial.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "terrestrial"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialshulong/shulong_terrestrial_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "terrestrial"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialshulong/shulong_terrestrial_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
