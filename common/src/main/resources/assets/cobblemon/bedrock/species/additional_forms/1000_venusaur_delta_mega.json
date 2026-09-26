@@ -57,6 +57,33 @@
           "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "female",
+        "delta","mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_female_alpha.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta","mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_alpha.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

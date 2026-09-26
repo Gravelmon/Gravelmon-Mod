@@ -28,6 +28,19 @@
       "model": "cobblemon:insurgence_deltablastoise_mega.geo",
       "poser": "cobblemon:insurgence_deltablastoise_mega",
       "texture": "cobblemon:textures/pokemon/insurgence/blastoise_delta_mega/deltablastoise_mega_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta","mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/blastoise_delta_mega/deltablastoise_mega_alpha.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,122 @@
   "target": "cobblemon:regigigas",
   "forms": [
     {
+      "name": "Primal",
+      "primaryType": "normal",
+      "secondaryType": "ground",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 964,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.4181818181818182,
+      "cannotDynamax": false,
+      "abilities": [
+        "unaware"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 195,
+        "defence": 140,
+        "special_attack": 95,
+        "special_defence": 130,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:mudslap",
+        "1:growl",
+        "1:growl",
+        "3:quickattack",
+        "3:sandattack",
+        "6:bite",
+        "6:mudbomb",
+        "9:takedown",
+        "9:bulldoze",
+        "12:crunch",
+        "12:dig",
+        "15:doubleedge",
+        "15:earthquake"
+      ],
+      "placeholderMoves": [
+        "1:tackle",
+        "1:mudslap",
+        "1:growl",
+        "1:growl",
+        "3:quickattack",
+        "3:sandattack",
+        "6:bite",
+        "6:mudbomb",
+        "9:takedown",
+        "9:bulldoze",
+        "12:crunch",
+        "12:dig",
+        "15:doubleedge",
+        "15:earthquake"
+      ],
+      "labels": [
+        "gen4",
+        "insurgence",
+        "not_modeled",
+        "legendary"
+      ],
+      "pokedex": [
+        "cobblemon.species.primalregigigas.desc"
+      ],
+      "height": 65,
+      "weight": 7500,
+      "aspects": [
+        "primal"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.875,
+        "height": 6.875,
+        "fixed": false
+      },
+      "game": "insurgence"
+    },
+    {
       "name": "Hoennian",
       "primaryType": "ghost",
       "catchRate": 3,
@@ -139,6 +255,7 @@
     }
   ],
   "features": [
+    "primal",
     "hoennian"
   ]
 }

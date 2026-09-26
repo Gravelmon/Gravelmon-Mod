@@ -185,5 +185,37 @@
   "features": [
     "epoch",
     "mega"
-  ]
+  ],
+  "evolutions": [
+    {
+      "id": "houndoom_houndplut",
+      "variant": "item_interact",
+      "result": "houndplut",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "houndoom_houndplut",
+      "variant": "item_interact",
+      "result": "houndplut",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

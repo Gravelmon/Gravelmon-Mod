@@ -102,6 +102,19 @@
       "model": "cobblemon:insurgence_deltacharizard_mega.geo",
       "poser": "cobblemon:insurgence_deltacharizard_mega",
       "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta","mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/charizard_delta_mega/deltacharizard_mega_alpha.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

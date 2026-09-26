@@ -746,6 +746,33 @@
       ]
     },
     {
+      "name": "mega_d",
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "magnetpull"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "attack": 125,
+        "defence": 140,
+        "special_attack": 78,
+        "special_defence": 130,
+        "speed": 78
+      },
+      "labels": [
+        "gen1",
+        "daybreak",
+        "not_modeled"
+      ],
+      "height": 25,
+      "aspects": [
+        "mega_d"
+      ]
+    },
+    {
       "name": "mega_ayreian",
       "primaryType": "fighting",
       "secondaryType": "steel",
@@ -807,6 +834,7 @@
     "delta",
     "epoch",
     "ayreian",
-    "mega"
+    "mega",
+    "mega_d"
   ]
 }
