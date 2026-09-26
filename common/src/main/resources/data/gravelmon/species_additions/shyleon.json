@@ -229,7 +229,7 @@
       "eggCycles": 41,
       "baseFriendship": 70,
       "preEvolution": "shyleon terrestrial",
-      "baseScale": 32.400000000000006,
+      "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
         "majesticaura",
@@ -361,7 +361,6 @@
       ],
       "labels": [
         "xenoverse",
-        "not_modeled",
         "starter",
         "fakemon"
       ],
@@ -432,8 +431,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 1,
+        "height": 3,
         "fixed": false
       },
       "game": "xenoverse"

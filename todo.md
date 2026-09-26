@@ -42,3 +42,4 @@
 - check Shyleon poser and scaling
 - check Terrestrial Shyleon poser and scaling
 - check Ayreian Diglett poser and scaling
+- check Xenoversal Shyleon poser and scaling

@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:shyleon",
-  "order": 155,
+  "order": 146,
   "variations": [
     {
       "aspects": [
         "xenoversal"
       ],
-      "model": "cobblemon:cutout_gravelmon_81_by_79.geo",
-      "poser": "cobblemon:cutout_gravelmon_81_by_79",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonxenoversal.png",
+      "poser": "cobblemon:xenoverse_xenoversalshyleon",
+      "model": "cobblemon:xenoverse_xenoversalshyleon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "xenoversal"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "xenoversal"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshyleon/shyleon_xenoversal_alpha.png",
+          "emissive": true
         }
       ]
     }
