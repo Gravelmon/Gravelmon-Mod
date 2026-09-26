@@ -1,81 +1,139 @@
 {
-  "portraitScale": 2.0,
+  "portraitScale": 1,
   "portraitTranslation": [
-    -0.3,
-    0.4,
-    0.0
+    0,
+    0,
+    0
   ],
-  "profileScale": 0.699999988079071,
+  "profileScale": 1,
   "profileTranslation": [
-    -0.1,
-    0.7,
-    0.0
+    0,
+    0,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(deltawartortle, faint)"
-  },
+  "rootBone": "wartortle",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltawartortle', q.look('head_ai'))",
-        "q.bedrock('deltawartortle', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltawartortle', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
+      "condition": "!q.is_sprinting",
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
       "animations": [
-        "q.bedrock('deltawartortle', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('deltawartortle', 'ground_walk')"
-      ],
-      "poseTypes": [
-        "WALK"
-      ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
     },
-    "floating": {
-      "poseName": "floating",
-      "animations": [
-        "q.bedrock('deltawartortle', q.look('head_ai'))",
-        "q.bedrock('deltawartortle', 'water_idle')"
-      ],
+    "swim": {
       "poseTypes": [
-        "FLOAT"
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "swimming": {
-      "poseName": "swimming",
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
       "animations": [
-        "q.bedrock('deltawartortle', q.look('head_ai'))",
+        "q.look('head')",
         "q.bedrock('deltawartortle', 'water_swim')"
-      ],
+      ]
+    },
+    "float": {
       "poseTypes": [
-        "SWIM"
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltawartortle', 'water_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltawartortle', 'battle_idle')"
+      ]
+    },
+    "running": {
+      "condition": "q.is_sprinting",
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltawartortle', 'blink')"
+      ],
+      "namedAnimations": {
+        "physical": "q.bedrock_stateful('deltawartortle', 'physical')",
+        "special": "q.bedrock_stateful('deltawartortle', 'special')",
+        "status": "q.bedrock_stateful('deltawartortle', 'status')"
+      },
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltawartortle', 'ground_run')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('deltawartortle', 'sleep')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('deltawartortle', 'cry')",
+    "recoil": "q.bedrock_stateful('deltawartortle', 'recoil')",
+    "faint": "q.bedrock_primary('deltawartortle', 'faint', q.curve('one'))"
   }
 }

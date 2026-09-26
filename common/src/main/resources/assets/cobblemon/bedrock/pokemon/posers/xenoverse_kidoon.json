@@ -1,28 +1,63 @@
 {
   "portraitScale": 1.5499999523162842,
   "portraitTranslation": [
-    0.0,
+    0,
     -0.46,
-    0.0
+    0
   ],
   "profileScale": 0.5600000023841858,
   "profileTranslation": [
     0.7,
     0.8,
-    0.0
+    0
   ],
+  "rootBone": "kidoon",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('kidoon', 'ground_idle')"
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "swim",
+        "float",
+        "hover"
       ],
-      "allPoseTypes": true,
       "quirks": [
         "q.bedrock_quirk('kidoon', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.bedrock('kidoon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "fly"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('kidoon', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('kidoon', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "condition": "q.in_battle",
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('kidoon', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('kidoon', 'battle_idle')"
+      ]
     }
+  },
+  "animations": {
+    "recoil": "q.bedrock_stateful('kidoon', 'recoil')",
+    "faint": "q.bedrock_stateful('kidoon', 'new')"
   }
 }

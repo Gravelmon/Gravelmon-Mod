@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:diglett",
-  "order": 97,
+  "order": 88,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_36_by_29.geo",
-      "poser": "cobblemon:cutout_gravelmon_36_by_29",
-      "texture": "cobblemon:textures/pokemon/vanguard/ayreiandiglett.png",
+      "poser": "cobblemon:vanguard_ayreiandiglett",
+      "model": "cobblemon:vanguard_ayreiandiglett.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiandiglett/diglett_ayreian.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ayreian"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiandiglett/diglett_ayreian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "ayreian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/vanguard/ayreiandiglett/diglett_ayreian_alpha.png",
+          "emissive": true
         }
       ]
     }

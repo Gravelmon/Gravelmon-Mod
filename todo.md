@@ -3,3 +3,60 @@
 - check Epoch Gardevoir poser and scaling, and Alpha Textures
 - check Epoch Gallade poser and scaling, and Alpha Textures
 - check Epoch Mega Gallade poser and scaling, and Alpha Textures
+- check Delta Pidgeot poser and scaling
+- check Epoch Bulbasaur poser and scaling
+- check Egho Bulbasaur poser and scaling
+- check Delta Sableye poser and scaling
+- check Tricwe poser and scaling
+- check Harylect poser and scaling
+- check Ayreian Bulbasaur poser and scaling
+- check Cubbug poser and scaling
+- check Hoppanero poser and scaling
+- check Scovalope poser and scaling
+- check Metunn poser and scaling
+- check Rollder poser and scaling
+- check Egho Magnemite poser and scaling
+- check Duplicat poser and scaling
+- check Delta Bulbasaur poser and scaling
+- check Delta Female Bulbasaur poser and scaling
+- check Delta Ivysaur poser and scaling
+- check Delta Female Ivysaur poser and scaling
+- check Antarki poser and scaling
+- check Delta Venusaur poser and scaling
+- check Egho Charmander poser and scaling
+- check Delta Charmander poser and scaling
+- check Delta Charmeleon poser and scaling
+- check Delta Squirtle poser and scaling
+- check Epoch Eternatus poser and scaling
+- check Delta Wartortle poser and scaling
+- check Delta Blastoise poser and scaling
+- check Dearewl poser and scaling
+- check Oreon poser and scaling
+- check Xenoversal Trishout poser and scaling
+- check Trishout poser and scaling
+- check Ayreian Ivysaur poser and scaling
+- check Terrestrial Trishout poser and scaling
+- check Shulong poser and scaling
+- check Terrestrial Shulong poser and scaling
+- check Xenoversal Shulong poser and scaling
+- check Shyleon poser and scaling
+- check Terrestrial Shyleon poser and scaling
+- check Ayreian Diglett poser and scaling
+- check Cefiran Diglett poser and scaling
+- check Xenoversal Shyleon poser and scaling
+- check Cefiran Dugtrio poser and scaling
+- check Lintle poser and scaling
+- check Epoch Machop poser and scaling
+- check Epoch Psyduck poser and scaling
+- check Epochtwo Treecko poser and scaling
+- check Chyinmunk poser and scaling
+- check Female Silkinder poser and scaling
+- check Iceros poser and scaling
+- check Kirgicia poser and scaling
+- check Egho Grimer poser and scaling
+- check Egho Muk poser and scaling
+- check Female Llamarsh poser and scaling
+- check Slingray poser and scaling
+- check Egho Chansey poser and scaling
+- check Egho Blissey poser and scaling
+- check Egho Happiny poser and scaling

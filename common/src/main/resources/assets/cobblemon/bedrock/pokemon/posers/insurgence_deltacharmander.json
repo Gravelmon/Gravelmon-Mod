@@ -1,57 +1,136 @@
 {
-  "portraitScale": 2.200000047683716,
+  "portraitScale": 1.94,
   "portraitTranslation": [
-    -0.1,
-    0.0,
-    0.0
+    -0.07,
+    0.06,
+    0
   ],
-  "profileScale": 0.699999988079071,
+  "profileScale": 0.73,
   "profileTranslation": [
-    0.0,
-    0.7,
-    0.0
+    0,
+    0.66,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(deltacharmander, faint)"
-  },
+  "rootBone": "charmander",
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltacharmander', q.look('head_ai'))",
-        "q.bedrock('deltacharmander', 'ground_idle')"
-      ],
+    "portrait": {
+      "isBattle": false,
+      "isTouchingWater": false,
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "portrait",
+        "profile"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltacharmander', q.look('head_ai'))",
-        "q.bedrock('deltacharmander', 'ground_walk')"
-      ],
+      "isTouchingWater": false,
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('charmander', 'sleep')"
+      ]
+    },
+    "surface_idle": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "stand"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'surfacewater_idle')"
+      ]
+    },
+    "surface_swim": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('charmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('charmander', 'surfacewater_swim')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('charmander', 'cry')",
+    "special": "q.bedrock_primary('charmander', 'special', q.curve('symmetrical_wide'))"
   }
 }

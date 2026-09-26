@@ -1,0 +1,39 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "metunn",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "walk",
+        "swim",
+        "float",
+        "hover",
+        "fly",
+        "glide",
+        "sleep"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('metunn', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('metunn', 'ground_idle')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shyleon_xenoversal.new": {
+			"loop": true,
+			"bones": {
+				"shyleon_xenoversal": {
+					"position": [0, 60, 0]
+				},
+				"segment1": {
+					"position": [0, -10, 0]
+				},
+				"neck2": {
+					"position": [0, 7, 0]
+				},
+				"neck3": {
+					"position": [0, 7, 0]
+				},
+				"head": {
+					"position": [0, 10, 0]
+				},
+				"jaw": {
+					"position": [0, 0, -5]
+				},
+				"segment2": {
+					"position": [0, 0, 0]
+				},
+				"segment3": {
+					"position": [0, -4, 0]
+				},
+				"segment4": {
+					"position": [0, -8, 0]
+				},
+				"segment5": {
+					"position": [0, -5, 0]
+				}
+			}
+		},
+		"animation.shyleon_xenoversal.ground_idle": {
+			"loop": true,
+			"bones": {
+				"shyleon_xenoversal": {
+					"position": [-8, 24, -21]
+				},
+				"body": {
+					"rotation": [2.5, 0, 0]
+				},
+				"neck": {
+					"rotation": [35, 0, 0]
+				},
+				"segment1": {
+					"position": [0, 0, 1]
+				},
+				"neck2": {
+					"rotation": [30, 0, 0],
+					"position": [0, -2, 0]
+				},
+				"neck3": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, -3, 1]
+				},
+				"head": {
+					"rotation": [13.3697, -6.864, 26.6947]
+				},
+				"jaw": {
+					"rotation": [32.5, 0, 0]
+				},
+				"fur_front": {
+					"rotation": [40, 0, 0]
+				},
+				"fur_right": {
+					"rotation": [0, 0, -37.5]
+				},
+				"fur_back": {
+					"rotation": [-62.5, 0, 0]
+				},
+				"fur_left": {
+					"rotation": [0, 0, 27.5]
+				},
+				"segment2": {
+					"rotation": [28.6893, 15.095, 8.959],
+					"position": [-2, 4, 2]
+				},
+				"segment3": {
+					"rotation": [20.9544, -9.5936, -26.7462],
+					"position": [0, 2, 0]
+				},
+				"segment4": {
+					"rotation": [35.5759, 3.668, 24.294],
+					"position": [0, 2, 1]
+				},
+				"segment5": {
+					"rotation": [15.3113, 16.6658, -31.2326],
+					"position": [2, 2, -1]
+				},
+				"segment6": {
+					"rotation": [25, 0, 0],
+					"position": [0, 1, -1]
+				},
+				"segment7": {
+					"rotation": [103.8883, 84.1023, 93.0401],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.shyleon_xenoversal.ground_walk": {
+			"loop": true,
+			"bones": {
+				"shyleon_xenoversal": {
+					"rotation": [90, 0, 0]
+				},
+				"body": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 0, 6]
+				},
+				"neck": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"segment1": {
+					"rotation": [0, 0, 0]
+				},
+				"neck2": {
+					"rotation": [20, 0, 0]
+				},
+				"neck3": {
+					"rotation": [37.5, 0, 0]
+				},
+				"head": {
+					"rotation": [12.5, 0, 0]
+				},
+				"segment2": {
+					"rotation": [45, 0, 0]
+				},
+				"segment3": {
+					"rotation": [0, 0, 5]
+				},
+				"segment4": {
+					"rotation": [0, 0, -10]
+				},
+				"segment5": {
+					"rotation": [0, 0, 12.5]
+				},
+				"segment6": {
+					"rotation": [0, 0, -25]
+				}
+			}
+		}
+	}
+}

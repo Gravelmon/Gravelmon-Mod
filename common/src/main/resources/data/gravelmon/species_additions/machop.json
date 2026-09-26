@@ -136,7 +136,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3310344827586207,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "sandforce",
@@ -266,8 +266,7 @@
         "egg:dualchop"
       ],
       "labels": [
-        "soulstones",
-        "not_modeled"
+        "soulstones"
       ],
       "pokedex": [
         "cobblemon.species.epochmachop.desc"
@@ -294,8 +293,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.625,
-        "height": 3.625,
+        "width": 0.7,
+        "height": 1.4,
         "fixed": false
       },
       "game": "soulstones"
@@ -605,8 +604,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 8,
+        "height": 8,
         "fixed": false
       },
       "game": "ferran"

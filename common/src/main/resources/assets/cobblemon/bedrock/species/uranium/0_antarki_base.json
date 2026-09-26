@@ -4,12 +4,14 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_34_by_46.geo",
-      "poser": "cobblemon:cutout_gravelmon_34_by_46",
-      "texture": "cobblemon:textures/pokemon/uranium/antarki.png",
+      "poser": "cobblemon:uranium_antarki",
+      "model": "cobblemon:uranium_antarki.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/antarki/antarki.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/uranium/antarki/antarki_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -31,6 +33,31 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/antarki/antarki_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/uranium/antarki/antarki_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/antarki/antarki_alpha.png",
+          "emissive": true
         }
       ]
     }

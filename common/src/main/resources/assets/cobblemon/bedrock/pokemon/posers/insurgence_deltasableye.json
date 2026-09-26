@@ -1,54 +1,79 @@
 {
-  "portraitScale": 2.0999999046325684,
+  "portraitScale": 2.2,
   "portraitTranslation": [
-    -0.1,
+    -0.15,
     -0.5,
-    0.0
+    0
   ],
-  "profileScale": 0.949999988079071,
+  "profileScale": 0.83,
   "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
+    -0.05,
+    0.52,
+    0
   ],
+  "rootBone": "sableye",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltasableye', q.look('head_ai'))",
-        "q.bedrock('deltasableye', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('sableye_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_delta', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltasableye', q.look('head_ai'))",
-        "q.bedrock('deltasableye', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('sableye_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_delta', 'ground_walk')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": [
+        "shoulder_left"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sableye_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_delta', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": [
+        "shoulder_right"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sableye_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sableye_delta', 'shoulder_right')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('sableye_delta', 'sleep')"
+      ]
     }
   }
 }

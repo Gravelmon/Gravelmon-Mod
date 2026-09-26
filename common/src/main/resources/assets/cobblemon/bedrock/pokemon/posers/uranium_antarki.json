@@ -1,0 +1,34 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "antarki",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "walk",
+        "swim",
+        "float",
+        "hover",
+        "fly"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('antarki', 'ground_idle')"
+      ]
+    }
+  }
+}

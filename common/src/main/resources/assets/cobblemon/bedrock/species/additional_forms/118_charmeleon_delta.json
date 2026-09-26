@@ -1,1 +1,67 @@
-{"species":"cobblemon:charmeleon","order":133,"variations":[{"aspects":["delta"],"model":"cobblemon:insurgence_deltacharmeleon.geo","poser":"cobblemon:insurgence_deltacharmeleon","texture":"cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame","emissive":true,"translucent":false,"texture":{"frames":["cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail1.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail2.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail3.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail4.png"],"fps":10,"loop":true}},{"name":"glow","emissive":true,"translucent":true,"texture":"cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_emissive.png"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["delta","shiny"],"model":"cobblemon:insurgence_deltacharmeleon.geo","poser":"cobblemon:insurgence_deltacharmeleon","texture":"cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame","emissive":true,"translucent":false,"texture":{"frames":["cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail1.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail2.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail3.png","cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail4.png"],"fps":10,"loop":true}},{"name":"glow","emissive":true,"translucent":true,"texture":"cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_emissive_shiny.png"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:charmeleon",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltacharmeleon",
+      "model": "cobblemon:insurgence_deltacharmeleon.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon.png",
+      "layers": [
+        {
+          "name": "flame"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_flame1.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

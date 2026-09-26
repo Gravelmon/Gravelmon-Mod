@@ -1,0 +1,39 @@
+{
+  "game": "pokemon",
+  "pokemon": "charmeleon",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "charmeleon",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-25T11:32:45.843Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltacharmeleon.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/deltacharmeleon.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_flame1.png",
+        "common/src/main/resources/assets/cobblemon/deltacharmeleon_remodel.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmeleon.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

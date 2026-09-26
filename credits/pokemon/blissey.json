@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "blissey",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "blissey",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "Neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-26T18:44:42.892Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghoblissey.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/blissey_egho.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghoblissey/blissey_egho.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghoblissey/blissey_egho_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghoblissey/blissey_egho_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghoblissey.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

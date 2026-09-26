@@ -1,0 +1,73 @@
+{
+  "portraitScale": 1.95,
+  "portraitTranslation": [
+    -0.08,
+    0.23,
+    0
+  ],
+  "profileScale": 0.72,
+  "profileTranslation": [
+    0,
+    0.68,
+    0
+  ],
+  "rootBone": "treecko",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "float",
+        "portrait",
+        "profile",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treecko_epochone', 'blink')",
+        "q.bedrock_quirk('treecko_epochone', 'quirk_ground_idle')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('treecko_epochone', 'ground_idle')"
+      ]
+    },
+    "walk": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treecko_epochone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('treecko_epochone', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand",
+        "float",
+        "hover"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('treecko_epochone', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('treecko_epochone', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('treecko_epochone', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('treecko_epochone', 'cry')",
+    "recoil": "q.bedrock_stateful('treecko_epochone', 'recoil')"
+  }
+}

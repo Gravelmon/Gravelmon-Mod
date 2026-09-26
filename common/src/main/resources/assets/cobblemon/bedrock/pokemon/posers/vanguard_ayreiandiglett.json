@@ -1,0 +1,82 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [
+    -0.06,
+    -0.86,
+    0
+  ],
+  "profileScale": 0.9,
+  "profileTranslation": [
+    0,
+    0.35,
+    0
+  ],
+  "rootBone": "diglett",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett_ayreian', 'blink')",
+        "q.bedrock_quirk('diglett_ayreian', 'quirk_idle')"
+      ],
+      "animations": [
+        "q.look('body2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body', 1, 1, 0, 0, 45, -45)",
+        "q.bedrock('diglett_ayreian', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett_ayreian', 'blink')",
+        "q.bedrock_quirk('diglett_ayreian', 'quirk_idle')"
+      ],
+      "animations": [
+        "q.look('body2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body', 1, 1, 0, 0, 45, -45)",
+        "q.bedrock('diglett_ayreian', 'battle_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett_ayreian', 'blink')",
+        "q.bedrock_quirk('diglett_ayreian', 'quirk_idle')"
+      ],
+      "animations": [
+        "q.look('body2', 1, 1, 10, -10, 0, 0)",
+        "q.bedrock('diglett_ayreian', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett_ayreian', 'quirk_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('diglett_ayreian', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('diglett_ayreian', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('diglett_ayreian', 'cry')"
+  }
+}
