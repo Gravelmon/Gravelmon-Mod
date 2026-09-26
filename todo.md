@@ -31,3 +31,4 @@
 - check Delta Wartortle poser and scaling
 - check Delta Blastoise poser and scaling
 - check Dearewl poser and scaling
+- check Oreon poser and scaling
