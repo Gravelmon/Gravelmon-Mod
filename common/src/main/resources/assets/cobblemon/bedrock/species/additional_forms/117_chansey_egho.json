@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:chansey",
-  "order": 126,
+  "order": 117,
   "variations": [
     {
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_104_by_122.geo",
-      "poser": "cobblemon:cutout_gravelmon_104_by_122",
-      "texture": "cobblemon:textures/pokemon/infinity/eghochansey.png",
+      "poser": "cobblemon:infinity_eghochansey",
+      "model": "cobblemon:infinity_eghochansey.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/eghochansey/chansey_egho.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/eghochansey/chansey_egho_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/eghochansey/chansey_egho_alpha.png",
+          "emissive": true
         }
       ]
     }
