@@ -1,0 +1,66 @@
+{
+  "portraitScale": 2.27,
+  "portraitTranslation": [
+    -0.69,
+    2.22,
+    0
+  ],
+  "profileScale": 0.63,
+  "profileTranslation": [
+    0.06,
+    0.91,
+    0
+  ],
+  "rootBone": "sceptile",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "float",
+        "portrait",
+        "profile",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sceptile_epochone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sceptile_epochone', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sceptile_epochone', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('sceptile_epochone', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('sceptile_epochone', 'sleep')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('sceptile_epochone', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('sceptile_epochone', 'battle_idle')"
+      ]
+    }
+  }
+}

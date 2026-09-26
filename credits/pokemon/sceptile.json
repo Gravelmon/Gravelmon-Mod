@@ -27,6 +27,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasceptile.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "epochtwo"
+      ],
+      "inheritsFrom": {
+        "pokemon": "sceptile",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "pullRequestNumber": 142,
+      "submittedAt": "2026-09-26T15:04:51.244Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochsceptileone.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/sceptile_epochone.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochsceptileone/sceptile_epochone.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochsceptileone/sceptile_epochone_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochsceptileone/sceptile_epochone_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochsceptileone.png"
+      ],
+      "sounds": []
     }
   ]
 }
