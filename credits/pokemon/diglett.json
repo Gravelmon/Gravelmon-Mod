@@ -32,6 +32,37 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/vanguard/ayreiandiglett.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "cefiran"
+      ],
+      "inheritsFrom": {
+        "pokemon": "diglett",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-26T11:36:20.959Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/opalo_cefirandiglett.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/diglett_cefiran.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefirandiglett/diglett_cefiran.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefirandiglett/diglett_cefiran_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefirandiglett/diglett_cefiran_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefirandiglett.png"
+      ],
+      "sounds": []
     }
   ]
 }
