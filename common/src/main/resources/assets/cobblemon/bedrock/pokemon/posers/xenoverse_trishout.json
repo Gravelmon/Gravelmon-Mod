@@ -1,59 +1,41 @@
 {
-  "portraitScale": 3.5999999046325684,
+  "portraitScale": 1,
   "portraitTranslation": [
-    0.2,
-    -2.4,
-    0.0
+    0,
+    0,
+    0
   ],
-  "profileScale": 1.2000000476837158,
+  "profileScale": 1,
   "profileTranslation": [
-    0.0,
-    0.0,
-    0.0
+    0,
+    0,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(trishout, faint)"
-  },
+  "rootBone": "trishout",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('trishout', 'ground_idle')"
-      ],
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-      "quirks": [
-        "q.bedrock_quirk('trishout', 'blink')"
-      ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('trishout', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('trishout', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-      "quirks": [
-        "q.bedrock_quirk('trishout', 'blink')"
-      ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('trishout', 'ground_idle')",
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
+      ]
     }
   }
 }
