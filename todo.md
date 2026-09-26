@@ -54,4 +54,4 @@
 - check Kirgicia poser and scaling
 - check Egho Grimer poser and scaling
 - check Egho Muk poser and scaling
-- check Llamarsh poser and scaling
+- check Female Llamarsh poser and scaling
