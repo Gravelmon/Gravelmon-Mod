@@ -307,7 +307,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.0,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "infiltrator",
@@ -465,8 +465,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 1,
+        "height": 1,
         "fixed": false
       },
       "game": "soulstones"
@@ -643,7 +643,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "snowcloak",
@@ -760,8 +760,7 @@
       ],
       "labels": [
         "gen1",
-        "vanguard",
-        "not_modeled"
+        "vanguard"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandiglett.desc"
@@ -788,8 +787,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.25,
-        "height": 2.25,
+        "width": 0.5,
+        "height": 0.7,
         "fixed": false
       },
       "game": "vanguard"
