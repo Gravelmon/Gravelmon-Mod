@@ -45,3 +45,4 @@
 - check Cefiran Diglett poser and scaling
 - check Xenoversal Shyleon poser and scaling
 - check Cefiran Dugtrio poser and scaling
+- check Lintle poser and scaling
