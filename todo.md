@@ -59,3 +59,4 @@
 - check Slingray poser and scaling
 - check Egho Chansey poser and scaling
 - check Egho Blissey poser and scaling
+- check Egho Happiny poser and scaling
