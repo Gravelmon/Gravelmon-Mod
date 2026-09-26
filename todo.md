@@ -51,3 +51,4 @@
 - check Epochtwo Treecko poser and scaling
 - check Female Silkinder poser and scaling
 - check Iceros poser and scaling
+- check Kirgicia poser and scaling
