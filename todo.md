@@ -50,3 +50,4 @@
 - check Epoch Psyduck poser and scaling
 - check Epochtwo Treecko poser and scaling
 - check Female Silkinder poser and scaling
+- check Iceros poser and scaling
