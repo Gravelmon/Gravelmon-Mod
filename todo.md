@@ -36,3 +36,4 @@
 - check Trishout poser and scaling
 - check Ayreian Ivysaur poser and scaling
 - check Terrestrial Trishout poser and scaling
+- check Shulong poser and scaling
