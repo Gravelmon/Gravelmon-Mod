@@ -32,3 +32,4 @@
 - check Delta Blastoise poser and scaling
 - check Dearewl poser and scaling
 - check Oreon poser and scaling
+- check Xenoversal Trishout poser and scaling
