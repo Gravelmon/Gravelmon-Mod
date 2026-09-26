@@ -46,4 +46,5 @@
 - check Xenoversal Shyleon poser and scaling
 - check Cefiran Dugtrio poser and scaling
 - check Lintle poser and scaling
+- check Epoch Machop poser and scaling
 - check Epoch Psyduck poser and scaling
