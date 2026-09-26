@@ -1,0 +1,39 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "slingray",
+  "poses": {
+    "float": {
+      "poseTypes": [
+        "stand",
+        "portrait",
+        "profile",
+        "walk",
+        "hover",
+        "fly",
+        "float",
+        "swim",
+        "glide",
+        "sleep",
+        "shoulder_left",
+        "shoulder_right",
+        "open",
+        "none"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('slingray', 'water_idle')"
+      ]
+    }
+  }
+}
