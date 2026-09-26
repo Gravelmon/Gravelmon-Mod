@@ -48,3 +48,4 @@
 - check Lintle poser and scaling
 - check Epoch Machop poser and scaling
 - check Epoch Psyduck poser and scaling
+- check Epochtwo Treecko poser and scaling
