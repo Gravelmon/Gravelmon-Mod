@@ -85,22 +85,55 @@ function sha256Hex(value) {
     return crypto.createHash('sha256').update(value, 'utf8').digest('hex');
 }
 
-async function post(path, body) {
+const MAX_ATTEMPTS = 5;
+const BASE_DELAY_MS = 2000;
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Only failures that say nothing about the request itself are worth retrying: a network error,
+// a throttle (429) or a server-side failure (5xx, e.g. the Lambda timing out behind a 502).
+// A 4xx is our mistake and would fail the same way again.
+function isRetryable(status) {
+    return status === undefined || status === 429 || status >= 500;
+}
+
+// Retries with exponential backoff (2s, 4s, 8s, 16s) plus jitter. Pass `retry: false` for a call
+// that is not safe to repeat after an ambiguous failure.
+async function post(path, body, { retry = true } = {}) {
     const jsonBody = JSON.stringify(body);
-    const response = await fetch(`${domain}${path}`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'X-Gravelmon-Token': `Bearer ${token}`,
-            'x-amz-content-sha256': sha256Hex(jsonBody),
-        },
-        body: jsonBody,
-    });
-    const text = await response.text();
-    if (!response.ok) {
-        throw new Error(`${path} -> ${response.status}: ${text}`);
+    const attempts = retry ? MAX_ATTEMPTS : 1;
+    let text;
+    for (let attempt = 1; ; attempt++) {
+        let failure;
+        let retryable = true;
+        try {
+            const response = await fetch(`${domain}${path}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Gravelmon-Token': `Bearer ${token}`,
+                    'x-amz-content-sha256': sha256Hex(jsonBody),
+                },
+                body: jsonBody,
+            });
+            text = await response.text();
+            if (response.ok) {
+                console.log(`${path} -> ${response.status}: ${text}`);
+                break;
+            }
+            failure = new Error(`${path} -> ${response.status}: ${text}`);
+            retryable = isRetryable(response.status);
+        } catch (err) {
+            failure = err; // network error: no response at all
+        }
+        if (!retryable) throw failure;
+        if (attempt >= attempts) throw failure;
+        const delay = BASE_DELAY_MS * 2 ** (attempt - 1) + Math.random() * 1000;
+        console.warn(
+            `${path} attempt ${attempt}/${attempts} failed (${failure.message}); retrying in ${Math.round(delay)}ms.`,
+        );
+        await sleep(delay);
     }
-    console.log(`${path} -> ${response.status}: ${text}`);
     const parsed = JSON.parse(text);
     const failed = (parsed.updated ?? []).filter((r) => r.status === 'error');
     if (failed.length > 0) {
@@ -128,7 +161,7 @@ async function post(path, body) {
                 identifier,
                 newAnimations,
             })),
-        });
+        }, { retry: false }); // a timed-out attempt may still have landed; do not risk double points
     }
 })().catch((err) => {
     console.error(err);
