@@ -33,3 +33,4 @@
 - check Dearewl poser and scaling
 - check Oreon poser and scaling
 - check Xenoversal Trishout poser and scaling
+- check Trishout poser and scaling
