@@ -58,3 +58,4 @@
 - check Female Llamarsh poser and scaling
 - check Slingray poser and scaling
 - check Egho Chansey poser and scaling
+- check Egho Blissey poser and scaling
