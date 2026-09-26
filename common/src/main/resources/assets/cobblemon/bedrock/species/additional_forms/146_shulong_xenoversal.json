@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:shulong",
-  "order": 155,
+  "order": 146,
   "variations": [
     {
       "aspects": [
         "xenoversal"
       ],
-      "model": "cobblemon:cutout_gravelmon_109_by_85.geo",
-      "poser": "cobblemon:cutout_gravelmon_109_by_85",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shulongxenoversal.png",
+      "poser": "cobblemon:xenoverse_xenoversalshulong",
+      "model": "cobblemon:xenoverse_xenoversalshulong.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "xenoversal"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "xenoversal"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal_alpha.png",
+          "emissive": true
         }
       ]
     }

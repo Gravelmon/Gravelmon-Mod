@@ -59,6 +59,39 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialshulong.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "xenoversal"
+      ],
+      "inheritsFrom": {
+        "pokemon": "shulong",
+        "game": "xenoverse"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "pullRequestNumber": 131,
+      "submittedAt": "2026-09-26T11:04:54.641Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/xenoverse_xenoversalshulong.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/shulong_xenoversal.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshulong/shyleon_xenoversal_shiny.png",
+        "common/src/main/resources/assets/cobblemon/xenoverse_shulongxenoversal.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/xenoversalshulong.png"
+      ],
+      "sounds": []
     }
   ]
 }
