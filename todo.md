@@ -44,3 +44,4 @@
 - check Ayreian Diglett poser and scaling
 - check Cefiran Diglett poser and scaling
 - check Xenoversal Shyleon poser and scaling
+- check Cefiran Dugtrio poser and scaling

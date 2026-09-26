@@ -1,0 +1,106 @@
+{
+  "portraitScale": 1.3,
+  "portraitTranslation": [
+    -0.11,
+    -0.1,
+    0
+  ],
+  "profileScale": 0.9,
+  "profileTranslation": [
+    0,
+    0.29,
+    0
+  ],
+  "rootBone": "dugtrio",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett', 'blink')",
+        "q.bedrock_quirk('diglett', 'blink2')",
+        "q.bedrock_quirk('diglett', 'blink3')",
+        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('diglett', 'quirk_idle2')",
+        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+      ],
+      "animations": [
+        "q.look('body1', 1, 1, 0, 0, 45, -45)",
+        "q.look('body1_2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body2', 1, 1, 10, -10, 45, -45)",
+        "q.look('body3', 1, 1, 5, -5, 45, -45)",
+        "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
+        "q.bedrock('diglett', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett', 'blink')",
+        "q.bedrock_quirk('diglett', 'blink2')",
+        "q.bedrock_quirk('diglett', 'blink3')",
+        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('diglett', 'quirk_idle2')",
+        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+      ],
+      "animations": [
+        "q.look('body1', 1, 1, 0, 0, 45, -45)",
+        "q.look('body1_2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body2', 1, 1, 10, -10, 45, -45)",
+        "q.look('body3', 1, 1, 5, -5, 45, -45)",
+        "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
+        "q.bedrock('diglett', 'battle_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett', 'blink')",
+        "q.bedrock_quirk('diglett', 'blink2')",
+        "q.bedrock_quirk('diglett', 'blink3')",
+        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('diglett', 'quirk_idle')",
+        "q.bedrock_quirk('diglett', 'quirk_idle2')",
+        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+      ],
+      "animations": [
+        "q.look('body1_2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body2', 1, 1, 10, -10, 0, 0)",
+        "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
+        "q.bedrock('diglett', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('diglett', 'quirk_idle2')",
+        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('diglett', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('diglett', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('diglett', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('diglett', 'cry')"
+  }
+}
