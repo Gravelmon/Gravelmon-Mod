@@ -57,6 +57,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/trishout.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "terrestrial"
+      ],
+      "inheritsFrom": {
+        "pokemon": "trishout",
+        "game": "xenoverse"
+      },
+      "contributor": {
+        "login": "Blitz"
+      },
+      "contributors": [
+        {
+          "login": "Blitz"
+        }
+      ],
+      "submittedAt": "2026-09-26T10:33:33.172Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/xenoverse_terrestrialtrishout.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/trishout_terrestrial.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialtrishout/trishout_terrestrial.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialtrishout/trishout_terrestrial_alpha.png",
+        "common/src/main/resources/assets/cobblemon/trishout_terrestrial_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialtrishout/trishout_terrestrial_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/xenoverse/terrestrialtrishout.png"
+      ],
+      "sounds": []
     }
   ]
 }
