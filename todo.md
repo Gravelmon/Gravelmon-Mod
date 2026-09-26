@@ -52,3 +52,4 @@
 - check Female Silkinder poser and scaling
 - check Iceros poser and scaling
 - check Kirgicia poser and scaling
+- check Egho Grimer poser and scaling

@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:grimer",
-  "order": 126,
+  "order": 117,
   "variations": [
     {
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_92_by_84.geo",
-      "poser": "cobblemon:cutout_gravelmon_92_by_84",
-      "texture": "cobblemon:textures/pokemon/infinity/eghogrimer.png",
+      "poser": "cobblemon:infinity_eghogrimer",
+      "model": "cobblemon:infinity_eghogrimer.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/eghogrimer/grimer.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/eghogrimer/grimer_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/eghogrimer/grimer_alpha.png",
+          "emissive": true
         }
       ]
     }
