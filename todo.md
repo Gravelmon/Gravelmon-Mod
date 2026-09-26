@@ -38,3 +38,4 @@
 - check Terrestrial Trishout poser and scaling
 - check Shulong poser and scaling
 - check Terrestrial Shulong poser and scaling
+- check Xenoversal Shulong poser and scaling

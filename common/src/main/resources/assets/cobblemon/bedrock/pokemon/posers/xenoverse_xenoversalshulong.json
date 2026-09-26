@@ -1,0 +1,44 @@
+{
+  "portraitScale": 3.5999999046325684,
+  "portraitTranslation": [
+    0,
+    -2.7,
+    0
+  ],
+  "profileScale": 1.2000000476837158,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "shulong_xenoversal",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "sleep",
+        "hover",
+        "fly",
+        "glide",
+        "shoulder_left",
+        "shoulder_right",
+        "profile",
+        "portrait",
+        "open",
+        "none",
+        "walk",
+        "swim",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shulong', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('shulong_xenoversal', 'ground_idle')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "bedrock(shulong, faint)"
+  }
+}
