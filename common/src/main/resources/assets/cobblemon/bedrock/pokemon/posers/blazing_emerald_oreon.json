@@ -1,52 +1,47 @@
 {
-  "portraitScale": 1.0,
+  "portraitScale": 1,
   "portraitTranslation": [
-    0.0,
-    0.2,
-    0.0
+    0,
+    0,
+    0
   ],
-  "profileScale": 0.800000011920929,
+  "profileScale": 1,
   "profileTranslation": [
-    0.0,
-    0.6,
-    0.0
+    0,
+    0,
+    0
   ],
-  "animations": {
-    "cry": "q.bedrock_stateful('umbreon', 'cry')"
-  },
+  "rootBone": "oreon",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('umbreon', 'ground_idle')"
-      ],
       "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-      "isBattle": false,
       "quirks": [
         "q.bedrock_quirk('umbreon', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('umbreon', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK",
-        "SWIM"
+        "walk",
+        "swim"
       ],
       "quirks": [
         "q.bedrock_quirk('umbreon', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('umbreon', 'ground_idle')",
+        "q.quadruped_walk(0.6662, 1.4, 'front_leg_left', 'front_leg_right', 'back_leg_left', 'back_leg_right')"
+      ]
     }
   }
 }
