@@ -39,7 +39,7 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('uranium_chyinmunk_placeholder_walk', 'ground_walk')"
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
       ]
     }
   }
