@@ -40,4 +40,5 @@
 - check Terrestrial Shulong poser and scaling
 - check Xenoversal Shulong poser and scaling
 - check Shyleon poser and scaling
+- check Terrestrial Shyleon poser and scaling
 - check Ayreian Diglett poser and scaling
