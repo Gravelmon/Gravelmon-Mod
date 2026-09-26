@@ -1,0 +1,43 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "silkinder",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float",
+        "fly",
+        "hover",
+        "sleep"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('silkinder_female', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('silkinder_female', 'ground_walk')"
+      ]
+    }
+  }
+}
