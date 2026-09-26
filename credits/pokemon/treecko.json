@@ -58,6 +58,37 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreecko.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "epochtwo"
+      ],
+      "inheritsFrom": {
+        "pokemon": "treecko",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-26T14:18:16.902Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochtreeckoone.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/treecko_epochone.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreeckoone/treecko_epochone.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreeckoone/treecko_epochone_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreeckoone/treecko_epochone_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochtreeckoone.png"
+      ],
+      "sounds": []
     }
   ]
 }

@@ -47,3 +47,4 @@
 - check Cefiran Dugtrio poser and scaling
 - check Lintle poser and scaling
 - check Epoch Psyduck poser and scaling
+- check Epochtwo Treecko poser and scaling
