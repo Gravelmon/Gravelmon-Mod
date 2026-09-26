@@ -1,52 +1,41 @@
 {
-  "portraitScale": 2.4000000953674316,
+  "portraitScale": 1,
   "portraitTranslation": [
-    0.0,
-    -0.8,
-    0.0
+    0,
+    0,
+    0
   ],
-  "profileScale": 1.0,
+  "profileScale": 1,
   "profileTranslation": [
-    0.0,
-    0.3,
-    0.0
+    0,
+    0,
+    0
   ],
+  "rootBone": "shyleon",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('shyleon', 'ground_idle')"
-      ],
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shyleon', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('shyleon', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shyleon', 'ground_idle')",
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
+      ]
     }
   }
 }

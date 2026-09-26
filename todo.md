@@ -39,3 +39,4 @@
 - check Shulong poser and scaling
 - check Terrestrial Shulong poser and scaling
 - check Xenoversal Shulong poser and scaling
+- check Shyleon poser and scaling
