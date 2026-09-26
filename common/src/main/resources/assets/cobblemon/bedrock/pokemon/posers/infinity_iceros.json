@@ -1,0 +1,26 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "root",
+  "poses": {
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.quadruped_walk(0.6662, 1.4, 'frontleftleg', 'frontrightleg', 'backleftleg', 'backrightleg')"
+      ]
+    }
+  }
+}

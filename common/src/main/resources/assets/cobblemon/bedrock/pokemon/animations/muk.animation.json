@@ -1,0 +1,182 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.muk.ground_idle": {
+			"loop": true,
+			"bones": {
+				"arm_right": {
+					"rotation": [35.94602, 12.85944, -64.78682]
+				},
+				"arm_right2": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [32.89875, 8.42145, 5.41207]
+				},
+				"hand_right": {
+					"rotation": [41.34198, 13.31791, 11.45696]
+				},
+				"arm_left": {
+					"rotation": [0, 0, 103],
+					"position": [-1.5, 0, 0.2]
+				},
+				"arm_left3": {
+					"rotation": [30, 0, 0]
+				},
+				"hand_left": {
+					"rotation": [45, 0, 0]
+				},
+				"body": {
+					"scale": ["1+math.sin(q.anim_time*15*1.5)*0.1", "1-math.sin(q.anim_time*15*1.5)*0.1", "1+math.sin(q.anim_time*5*1.5)*0.1"]
+				},
+				"jaw": {
+					"rotation": ["-5+math.sin(q.anim_time*45*1.5)*7", 0, 0]
+				},
+				"eye_right": {
+					"scale": [1, 0.9, 1]
+				},
+				"eye_left": {
+					"scale": [1, 0.9, 1]
+				},
+				"finger_right_index": {
+					"rotation": [0, 20, 0]
+				},
+				"finger_right_middle": {
+					"rotation": [17.5, 0, 0]
+				},
+				"finger_right_ring": {
+					"rotation": [0, -10, 0]
+				},
+				"arm_left2": {
+					"rotation": [24.66569, 4.20854, -9.07947]
+				},
+				"finger_left_index": {
+					"rotation": [0, -25, 0]
+				},
+				"finger_left_middle": {
+					"rotation": [24.66569, -4.20854, 9.07947]
+				},
+				"finger_left_ring": {
+					"rotation": [6.93255, 16.89275, 12.14787]
+				},
+				"bone2": {
+					"position": [0.4, 0, -0.8],
+					"scale": [0.66, 1, 1.11]
+				},
+				"debris": {
+					"rotation": ["-1+math.sin(q.anim_time*5*1.5)*6", "0+math.sin(q.anim_time*5*1.5)*4", "0+math.sin(q.anim_time*5*1.5)*5"],
+					"position": [0, "-0.9-math.sin(q.anim_time*35*0.5)*1", "0.2+math.sin(q.anim_time*40*0.5)*1"]
+				},
+				"bone": {
+					"position": [-0.7, 0, -0.8],
+					"scale": [0.66, 1, 1.12]
+				}
+			}
+		},
+		"animation.muk.ground_walk": {
+			"loop": true,
+			"bones": {
+				"arm_right": {
+					"rotation": [35.94602, 12.85944, -64.78682]
+				},
+				"arm_right2": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [32.89875, 8.42145, 5.41207]
+				},
+				"hand_right": {
+					"rotation": [41.34198, 13.31791, 11.45696]
+				},
+				"arm_left": {
+					"rotation": [0, 0, 103],
+					"position": [-1.5, 0, 0.2]
+				},
+				"arm_left3": {
+					"rotation": [30, 0, 0]
+				},
+				"hand_left": {
+					"rotation": [45, 0, 0]
+				},
+				"body": {
+					"scale": ["1+math.sin(q.anim_time*15*1.5)*0.1", "1-math.sin(q.anim_time*15*1.5)*0.1", "1+math.sin(q.anim_time*5*1.5)*0.1"]
+				},
+				"jaw": {
+					"rotation": ["-5+math.sin(q.anim_time*45*1.5)*7", 0, 0]
+				},
+				"eye_right": {
+					"scale": [1, 0.9, 1]
+				},
+				"eye_left": {
+					"scale": [1, 0.9, 1]
+				},
+				"finger_right_index": {
+					"rotation": [0, 20, 0]
+				},
+				"finger_right_middle": {
+					"rotation": [17.5, 0, 0]
+				},
+				"finger_right_ring": {
+					"rotation": [0, -10, 0]
+				},
+				"arm_left2": {
+					"rotation": [24.66569, 4.20854, -9.07947]
+				},
+				"finger_left_index": {
+					"rotation": [0, -25, 0]
+				},
+				"finger_left_middle": {
+					"rotation": [24.66569, -4.20854, 9.07947]
+				},
+				"finger_left_ring": {
+					"rotation": [6.93255, 16.89275, 12.14787]
+				},
+				"bone2": {
+					"position": [0.4, 0, -0.8],
+					"scale": [0.66, 1, 1.11]
+				},
+				"debris": {
+					"rotation": ["-1+math.sin(q.anim_time*5*1.5)*6", "0+math.sin(q.anim_time*5*1.5)*4", "0+math.sin(q.anim_time*5*1.5)*5"],
+					"position": [0, "-0.9-math.sin(q.anim_time*35*0.5)*1", "-0.3+math.sin(q.anim_time*40*0.5)*1"]
+				},
+				"bone": {
+					"position": [-0.7, 0, -0.8],
+					"scale": [0.66, 1, 1.12]
+				},
+				"muk": {
+					"position": [0, 0, "0+math.sin(q.anim_time*40*0.5)*1"]
+				},
+				"torso": {
+					"scale": [1, 1, 1.04]
+				},
+				"torso2": {
+					"rotation": [6, 0, 0],
+					"position": [0, -0.7, -0.7]
+				},
+				"head": {
+					"rotation": [-3, 0, 0],
+					"position": [0, 0, -0.4]
+				}
+			}
+		},
+		"animation.muk.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_right": {
+					"position": {
+						"0.0": [-0.1, 0, -0.1],
+						"0.125": [-0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyelid_left": {
+					"position": {
+						"0.0": [0.1, 0, -0.1],
+						"0.125": [0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

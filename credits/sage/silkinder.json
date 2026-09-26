@@ -1,0 +1,58 @@
+{
+  "game": "sage",
+  "pokemon": "silkinder",
+  "entries": [
+    {
+      "contributor": {
+        "login": "ivangarcia1.0"
+      },
+      "contributors": [
+        {
+          "login": "ivangarcia1.0"
+        }
+      ],
+      "submittedAt": "2026-09-26T16:24:08.347Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/sage_silkinder.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/silkinder_male.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinder/silkinder_male.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinder/silkinder_male_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinder/silkinder_male_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinder.png"
+      ],
+      "sounds": []
+    },
+    {
+      "formAspects": [
+        "female"
+      ],
+      "contributor": {
+        "login": "ivangarcia1.0"
+      },
+      "contributors": [
+        {
+          "login": "ivangarcia1.0"
+        }
+      ],
+      "submittedAt": "2026-09-26T16:27:53.340Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/sage_silkinderfemale.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/silkinder_female.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinderfemale/silkinder_female.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinderfemale/silkinder_female_alpha.png",
+        "common/src/main/resources/assets/cobblemon/silkinder_female_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinderfemale/silkinder_female_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/sage/silkinderfemale.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

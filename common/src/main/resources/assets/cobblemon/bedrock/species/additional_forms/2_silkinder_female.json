@@ -1,0 +1,60 @@
+{
+  "species": "cobblemon:silkinder",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "female"
+      ],
+      "poser": "cobblemon:sage_silkinderfemale",
+      "model": "cobblemon:sage_silkinderfemale.geo",
+      "texture": "cobblemon:textures/pokemon/sage/silkinderfemale/silkinder_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/silkinderfemale/silkinder_female_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "female"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/sage/silkinderfemale/silkinder_female_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
