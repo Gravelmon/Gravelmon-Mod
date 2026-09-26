@@ -6,13 +6,13 @@
       "primaryType": "fighting",
       "secondaryType": "fairy",
       "catchRate": 30,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 160,
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "happiny egho",
-      "baseScale": 0.21639344262295082,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -164,8 +164,7 @@
       ],
       "labels": [
         "infinity",
-        "gen1",
-        "not_modeled"
+        "gen1"
       ],
       "pokedex": [
         "cobblemon.species.eghochansey.desc"
@@ -192,8 +191,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 7.625,
-        "height": 7.625,
+        "width": 1.2,
+        "height": 1.4,
         "fixed": false
       },
       "game": "infinity"
@@ -203,7 +202,7 @@
       "primaryType": "normal",
       "secondaryType": "steel",
       "catchRate": 80,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 395,
       "experienceGroup": "fast",
       "eggCycles": 50,

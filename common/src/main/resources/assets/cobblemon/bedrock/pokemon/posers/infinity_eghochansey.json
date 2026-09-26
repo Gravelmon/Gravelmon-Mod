@@ -1,0 +1,86 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [
+    -0.35,
+    0.3,
+    0
+  ],
+  "profileScale": 0.8,
+  "profileTranslation": [
+    0,
+    0.55,
+    0
+  ],
+  "rootBone": "chansey",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chansey', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 5, -5, 0, 0)",
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.look('egg_torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('chansey', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chansey', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 5, -5, 0, 0)",
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.look('egg_torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('chansey', 'battle_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chansey', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 5, -5, 0, 0)",
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.look('egg_torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('chansey', 'ground_walk')"
+      ]
+    },
+    "run": {
+      "condition": "q.is_sprinting",
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('chansey', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 5, -5, 0, 0)",
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.look('egg_torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('chansey', 'ground_run')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('chansey', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('chansey', 'cry')"
+  }
+}
