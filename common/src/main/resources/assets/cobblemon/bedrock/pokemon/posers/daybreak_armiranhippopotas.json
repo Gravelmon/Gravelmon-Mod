@@ -1,0 +1,71 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "hippopotas_armiran",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hippopotas_armiran', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hippopotas_armiran', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hippopotas_armiran', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hippopotas_armiran', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('hippopotas_armiran', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('hippopotas_armiran', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('hippopotas_armiran', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('hippopotas_armiran', 'cry')"
+  }
+}
