@@ -32,6 +32,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochgardevoir.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "gardevoir",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:54:39.532Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltagardevoir.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltagardevoir.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/delta_gardevoir_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagardevoir/deltagardevoir.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagardevoir/deltagardevoir_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagardevoir/deltagardevoir_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagardevoir.png"
+      ],
+      "sounds": []
     }
   ]
 }
