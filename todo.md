@@ -71,3 +71,4 @@
     - Howlequin
 - check Vectol poser and scaling
 - check Glachild poser and scaling
+- check Epoch Scorbunny poser and scaling
