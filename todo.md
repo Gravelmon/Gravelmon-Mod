@@ -94,3 +94,4 @@
 - check Meadew poser and scaling
 - check Ninfae poser and scaling
 - check Snampery poser and scaling
+- check Descargot poser and scaling
