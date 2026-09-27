@@ -1,0 +1,39 @@
+{
+  "game": "pokemon",
+  "pokemon": "dwebble",
+  "entries": [
+    {
+      "formAspects": [
+        "berry",
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "dwebble",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-27T12:06:58.010Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltaberrydwebble.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltaberrydwebble.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble_alpha.png",
+        "common/src/main/resources/assets/cobblemon/deltaberry_dwebble_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaberrydwebble.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
