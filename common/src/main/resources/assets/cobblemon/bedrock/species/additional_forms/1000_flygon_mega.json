@@ -1,15 +1,19 @@
 {
   "species": "cobblemon:flygon",
-  "order": 1010,
+  "order": 1000,
   "variations": [
     {
       "aspects": [
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_112.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_112",
-      "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega.png",
+      "poser": "cobblemon:insurgence_flygon_mega",
+      "model": "cobblemon:insurgence_flygon_mega.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega.png",
       "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_transparency.png"
+        },
         {
           "name": "emissive"
         },
@@ -33,6 +37,32 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_shiny.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_shiny_transparency.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "mega"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_alpha.png",
+          "emissive": true
         }
       ]
     }
