@@ -78,3 +78,4 @@
 - check Peyero poser and scaling
 - check Electaburst poser and scaling
 - check Mega Flygon poser and scaling
+- check Delta Weezing poser and scaling
