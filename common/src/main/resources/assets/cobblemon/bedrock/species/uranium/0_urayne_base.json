@@ -4,10 +4,15 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_39_by_51.geo",
-      "poser": "cobblemon:cutout_gravelmon_39_by_51",
-      "texture": "cobblemon:textures/pokemon/uranium/urayne.png",
+      "poser": "cobblemon:uranium_urayne",
+      "model": "cobblemon:uranium_urayne.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/urayne/urayne.png",
       "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/uranium/urayne/urayne_emissive.png",
+          "emissive": true
+        },
         {
           "name": "emissive"
         },
@@ -27,10 +32,32 @@
           "name": "flame"
         },
         {
-          "name": "glow"
-        },
-        {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/urayne/urayne_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/uranium/urayne/urayne_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/urayne/urayne_alpha.png",
+          "emissive": true
         }
       ]
     }
