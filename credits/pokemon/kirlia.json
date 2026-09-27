@@ -32,6 +32,39 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochkirlia.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "kirlia",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:55:52.679Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/delta_gardevoir.geo.json",
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/delta_kirlia.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltakirlia.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/delta_kirlia_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltakirlia/deltakirlia.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltakirlia/deltakirlia_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltakirlia/deltakirlia_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltakirlia.png"
+      ],
+      "sounds": []
     }
   ]
 }
