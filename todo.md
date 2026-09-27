@@ -70,3 +70,4 @@
     - Chihaha
     - Howlequin
 - check Vectol poser and scaling
+- check Glachild poser and scaling
