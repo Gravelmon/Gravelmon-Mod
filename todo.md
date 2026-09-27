@@ -69,3 +69,4 @@
     - Cowatti
     - Chihaha
     - Howlequin
+- check Vectol poser and scaling
