@@ -84,3 +84,4 @@
 - check Delta Kirlia poser and scaling
 - check Delta Ralts poser and scaling
 - check Berry Delta Dwebble poser and scaling
+- check Delta Munchlax poser and scaling
