@@ -1,0 +1,40 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [
+    -0.11,
+    -0.08,
+    0
+  ],
+  "profileScale": 0.63,
+  "profileTranslation": [
+    0,
+    0.82,
+    0
+  ],
+  "rootBone": "scorbunny",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "portrait",
+        "profile",
+        "walk",
+        "hover",
+        "fly",
+        "float",
+        "swim",
+        "glide",
+        "sleep",
+        "shoulder_left",
+        "shoulder_right",
+        "open",
+        "none"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('scorbunny_epoch', 'ground_idle')"
+      ]
+    }
+  }
+}
