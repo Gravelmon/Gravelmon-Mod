@@ -91,3 +91,4 @@
 - check Baoby poser and scaling
 - check Epoch Charmeleon poser and scaling
 - check Smore poser and scaling
+- check Meadew poser and scaling
