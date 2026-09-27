@@ -86,3 +86,4 @@
 - check Berry Delta Dwebble poser and scaling
 - check Delta Munchlax poser and scaling
 - check Cake Delta Dwebble poser and scaling
+- check Delta Growlithe poser and scaling
