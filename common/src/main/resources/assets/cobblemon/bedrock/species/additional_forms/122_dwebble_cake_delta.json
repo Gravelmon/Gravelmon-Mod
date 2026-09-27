@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 122,
+  "variations": [
+    {
+      "aspects": [
+        "cake",
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltacakedwebble",
+      "model": "cobblemon:insurgence_deltacakedwebble.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacakedwebble/deltacake_dwebble.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cake",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacakedwebble/deltacake_dwebble_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "cake",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltacakedwebble/deltacake_dwebble_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
