@@ -89,3 +89,4 @@
 - check Delta Growlithe poser and scaling
 - check Armiran Hippopotas poser and scaling
 - check Baoby poser and scaling
+- check Epoch Charmeleon poser and scaling
