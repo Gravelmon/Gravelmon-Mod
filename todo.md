@@ -77,3 +77,4 @@
 - check Xenoversal Sabolt poser and scaling
 - check Peyero poser and scaling
 - check Electaburst poser and scaling
+- check Mega Flygon poser and scaling

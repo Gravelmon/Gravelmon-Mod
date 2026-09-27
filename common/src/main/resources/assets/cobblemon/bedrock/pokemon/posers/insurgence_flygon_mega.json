@@ -1,0 +1,74 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [
+    -0.93,
+    2.1,
+    0
+  ],
+  "profileScale": 0.32,
+  "profileTranslation": [
+    0.07,
+    1.21,
+    -6
+  ],
+  "rootBone": "flygon",
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      1,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      1,
+      0.5
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [
+      0,
+      1,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      1,
+      0.5
+    ]
+  },
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('flygon_insurgence_mega', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head_ai')",
+        "q.bedrock('flygon_insurgence_mega', 'ground_idle')",
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
+      ]
+    }
+  }
+}
