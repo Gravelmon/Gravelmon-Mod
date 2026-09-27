@@ -10,7 +10,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "overcoat",
@@ -141,8 +141,7 @@
       ],
       "labels": [
         "gen4",
-        "insurgence",
-        "not_modeled"
+        "insurgence"
       ],
       "pokedex": [
         "cobblemon.species.deltamunchlax.desc"
@@ -169,8 +168,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.625,
-        "height": 5.625,
+        "width": 0.7,
+        "height": 1.05,
         "fixed": false
       },
       "game": "insurgence"
@@ -750,8 +749,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3,
+        "height": 3,
         "fixed": false
       },
       "game": "vanguard"
