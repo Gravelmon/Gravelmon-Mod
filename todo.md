@@ -60,6 +60,10 @@
 - check Egho Chansey poser and scaling
 - check Egho Blissey poser and scaling
 - check Egho Happiny poser and scaling
+- check Vectol poser and scaling
+- check Glachild poser and scaling
+- check Epoch Scorbunny poser and scaling
+- check Sabolt poser and scaling
 
 - Procedural animations for 
     - Foliat
@@ -69,6 +73,3 @@
     - Cowatti
     - Chihaha
     - Howlequin
-- check Vectol poser and scaling
-- check Glachild poser and scaling
-- check Epoch Scorbunny poser and scaling
