@@ -95,3 +95,4 @@
 - check Ninfae poser and scaling
 - check Snampery poser and scaling
 - check Descargot poser and scaling
+- check Gastesla poser and scaling
