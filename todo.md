@@ -96,3 +96,4 @@
 - check Snampery poser and scaling
 - check Descargot poser and scaling
 - check Gastesla poser and scaling
+- check Epoch Charmander poser and scaling
