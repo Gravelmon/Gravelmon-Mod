@@ -73,3 +73,4 @@
     - Cowatti
     - Chihaha
     - Howlequin
+- check Terrestrial Sabolt poser and scaling
