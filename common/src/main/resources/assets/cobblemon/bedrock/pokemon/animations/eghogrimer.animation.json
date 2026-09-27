@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.grimer.ground_idle": {
+		"animation.eghogrimer.ground_idle": {
 			"loop": true,
 			"bones": {
 				"arm_right": {
@@ -65,7 +65,7 @@
 				}
 			}
 		},
-		"animation.grimer.ground_walk": {
+		"animation.eghogrimer.ground_walk": {
 			"loop": true,
 			"bones": {
 				"arm_right": {
@@ -132,7 +132,7 @@
 				}
 			}
 		},
-		"animation.grimer.faint": {
+		"animation.eghogrimer.faint": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 2.5,
 			"bones": {
@@ -276,7 +276,7 @@
 				}
 			}
 		},
-		"animation.grimer.blink": {
+		"animation.eghogrimer.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_right": {
@@ -295,7 +295,7 @@
 				}
 			}
 		},
-		"animation.grimer.qurik_resize": {
+		"animation.eghogrimer.qurik_resize": {
 			"animation_length": 0.7083,
 			"bones": {
 				"grimer": {

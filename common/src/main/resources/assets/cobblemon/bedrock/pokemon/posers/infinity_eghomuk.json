@@ -24,11 +24,11 @@
         "profile"
       ],
       "quirks": [
-        "q.bedrock_quirk('muk', 'blink')"
+        "q.bedrock_quirk('eghomuk', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('muk', 'ground_idle')"
+        "q.bedrock('eghomuk', 'ground_idle')"
       ]
     },
     "walking": {
@@ -38,11 +38,11 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('muk', 'blink')"
+        "q.bedrock_quirk('eghomuk', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('muk', 'ground_idle')"
+        "q.bedrock('eghomuk', 'ground_idle')"
       ]
     },
     "surface_idle": {
@@ -63,11 +63,11 @@
         }
       ],
       "quirks": [
-        "q.bedrock_quirk('muk', 'blink')"
+        "q.bedrock_quirk('eghomuk', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('muk', 'ground_idle')"
+        "q.bedrock('eghomuk', 'ground_idle')"
       ]
     },
     "surface_swimming": {
@@ -87,11 +87,11 @@
         }
       ],
       "quirks": [
-        "q.bedrock_quirk('muk', 'blink')"
+        "q.bedrock_quirk('eghomuk', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('muk', 'ground_idle')"
+        "q.bedrock('eghomuk', 'ground_idle')"
       ]
     }
   }

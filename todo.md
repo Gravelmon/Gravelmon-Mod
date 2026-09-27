@@ -60,3 +60,12 @@
 - check Egho Chansey poser and scaling
 - check Egho Blissey poser and scaling
 - check Egho Happiny poser and scaling
+
+- Procedural animations for 
+    - Foliat
+    - Iguadium
+    - Aguanaut
+    - Bluffin
+    - Cowatti
+    - Chihaha
+    - Howlequin
