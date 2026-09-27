@@ -23,12 +23,12 @@
         "profile"
       ],
       "quirks": [
-        "q.bedrock_quirk('diglett', 'blink')",
-        "q.bedrock_quirk('diglett', 'blink2')",
-        "q.bedrock_quirk('diglett', 'blink3')",
-        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
-        "q.bedrock_quirk('diglett', 'quirk_idle2')",
-        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+        "q.bedrock_quirk('cefirandugtrio', 'blink')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink2')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink3')",
+        "q.bedrock_quirk('cefirandugtrio', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle2')",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle3')"
       ],
       "animations": [
         "q.look('body1', 1, 1, 0, 0, 45, -45)",
@@ -36,7 +36,7 @@
         "q.look('body2', 1, 1, 10, -10, 45, -45)",
         "q.look('body3', 1, 1, 5, -5, 45, -45)",
         "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
-        "q.bedrock('diglett', 'ground_idle')"
+        "q.bedrock('cefirandugtrio', 'ground_idle')"
       ]
     },
     "battle-standing": {
@@ -45,12 +45,12 @@
         "stand"
       ],
       "quirks": [
-        "q.bedrock_quirk('diglett', 'blink')",
-        "q.bedrock_quirk('diglett', 'blink2')",
-        "q.bedrock_quirk('diglett', 'blink3')",
-        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
-        "q.bedrock_quirk('diglett', 'quirk_idle2')",
-        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+        "q.bedrock_quirk('cefirandugtrio', 'blink')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink2')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink3')",
+        "q.bedrock_quirk('cefirandugtrio', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle2')",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle3')"
       ],
       "animations": [
         "q.look('body1', 1, 1, 0, 0, 45, -45)",
@@ -58,7 +58,7 @@
         "q.look('body2', 1, 1, 10, -10, 45, -45)",
         "q.look('body3', 1, 1, 5, -5, 45, -45)",
         "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
-        "q.bedrock('diglett', 'battle_idle')"
+        "q.bedrock('cefirandugtrio', 'battle_idle')"
       ]
     },
     "walking": {
@@ -67,19 +67,19 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('diglett', 'blink')",
-        "q.bedrock_quirk('diglett', 'blink2')",
-        "q.bedrock_quirk('diglett', 'blink3')",
-        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
-        "q.bedrock_quirk('diglett', 'quirk_idle')",
-        "q.bedrock_quirk('diglett', 'quirk_idle2')",
-        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+        "q.bedrock_quirk('cefirandugtrio', 'blink')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink2')",
+        "q.bedrock_quirk('cefirandugtrio', 'blink3')",
+        "q.bedrock_quirk('cefirandugtrio', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle')",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle2')",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle3')"
       ],
       "animations": [
         "q.look('body1_2', 1, 1, 10, -10, 0, 0)",
         "q.look('body2', 1, 1, 10, -10, 0, 0)",
         "q.look('body3_2', 1, 1, 10, -10, 0, 0)",
-        "q.bedrock('diglett', 'ground_walk')"
+        "q.bedrock('cefirandugtrio', 'ground_walk')"
       ]
     },
     "sleep": {
@@ -87,20 +87,20 @@
         "sleep"
       ],
       "quirks": [
-        "q.bedrock_quirk('diglett', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
-        "q.bedrock_quirk('diglett', 'quirk_idle2')",
-        "q.bedrock_quirk('diglett', 'quirk_idle3')"
+        "q.bedrock_quirk('cefirandugtrio', q.array('quirk_idle', 'quirk_idle2', 'quirk_idle3'), 20, 40, 1)",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle2')",
+        "q.bedrock_quirk('cefirandugtrio', 'quirk_idle3')"
       ],
       "namedAnimations": {
-        "cry": "q.bedrock_stateful('diglett', 'cry')"
+        "cry": "q.bedrock_stateful('cefirandugtrio', 'cry')"
       },
       "animations": [
-        "q.bedrock('diglett', 'sleep')"
+        "q.bedrock('cefirandugtrio', 'sleep')"
       ]
     }
   },
   "animations": {
-    "faint": "q.bedrock_primary('diglett', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('diglett', 'cry')"
+    "faint": "q.bedrock_primary('cefirandugtrio', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('cefirandugtrio', 'cry')"
   }
 }
