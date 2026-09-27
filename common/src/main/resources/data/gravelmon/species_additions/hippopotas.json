@@ -181,7 +181,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.15000000000000002,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "strongjaw",
@@ -290,8 +290,7 @@
       ],
       "labels": [
         "gen4",
-        "daybreak",
-        "not_modeled"
+        "daybreak"
       ],
       "pokedex": [
         "cobblemon.species.armiranhippopotas.desc"
@@ -318,8 +317,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 1,
+        "height": 1.2,
         "fixed": false
       },
       "game": "daybreak"
@@ -462,8 +461,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 8,
+        "height": 8,
         "fixed": false
       },
       "game": "mahal"

@@ -87,3 +87,4 @@
 - check Delta Munchlax poser and scaling
 - check Cake Delta Dwebble poser and scaling
 - check Delta Growlithe poser and scaling
+- check Armiran Hippopotas poser and scaling
