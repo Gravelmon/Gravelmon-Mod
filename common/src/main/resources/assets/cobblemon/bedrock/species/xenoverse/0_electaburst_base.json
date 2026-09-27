@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:xenoverse_electaburst.geo",
       "poser": "cobblemon:xenoverse_electaburst",
+      "model": "cobblemon:xenoverse_electaburst.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst.png",
       "layers": [
         {
@@ -38,33 +38,17 @@
       "aspects": [
         "shiny"
       ],
-      "model": "cobblemon:xenoverse_electaburst.geo",
-      "poser": "cobblemon:xenoverse_electaburst",
-      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst_shiny.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/electaburst/electaburst_alpha.png",
+          "emissive": true
         }
       ]
     }
