@@ -75,3 +75,4 @@
     - Howlequin
 - check Terrestrial Sabolt poser and scaling
 - check Xenoversal Sabolt poser and scaling
+- check Peyero poser and scaling
