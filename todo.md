@@ -79,3 +79,4 @@
 - check Electaburst poser and scaling
 - check Mega Flygon poser and scaling
 - check Delta Weezing poser and scaling
+- check Delta Kirlia poser and scaling
