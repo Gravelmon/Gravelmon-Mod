@@ -89,6 +89,37 @@
       ],
       "textures": [],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "gallade",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:53:26.493Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltagallade.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltagallade.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagallade/deltagallade.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagallade/deltagallade_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagallade/deltagallade_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltagallade.png"
+      ],
+      "sounds": []
     }
   ]
 }
