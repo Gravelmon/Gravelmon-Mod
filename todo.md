@@ -83,3 +83,4 @@
 - check Delta Gardevoir poser and scaling
 - check Delta Kirlia poser and scaling
 - check Delta Ralts poser and scaling
+- check Berry Delta Dwebble poser and scaling
