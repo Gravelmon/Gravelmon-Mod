@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_38_by_26.geo",
-      "poser": "cobblemon:cutout_gravelmon_38_by_26",
-      "texture": "cobblemon:textures/pokemon/uranium/smore.png",
+      "poser": "cobblemon:uranium_smore",
+      "model": "cobblemon:uranium_smore.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/smore/smore.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/smore/smore_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/smore/smore_alpha.png",
+          "emissive": true
         }
       ]
     }
