@@ -73,6 +73,36 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltacharmander.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "charmander",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "yazuki1108"
+      },
+      "contributors": [
+        {
+          "login": "yazuki1108"
+        }
+      ],
+      "submittedAt": "2026-09-27T19:46:49.584Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochcharmander.geo.json"
+      ],
+      "animations": [],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochcharmander/charmander_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochcharmander/charmander_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/charmander_epoch_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochcharmander/charmander_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochcharmander.png"
+      ],
+      "sounds": []
     }
   ]
 }
