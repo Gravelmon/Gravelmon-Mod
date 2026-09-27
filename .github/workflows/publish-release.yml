@@ -68,7 +68,7 @@ jobs:
           version=$(get mod_version)
           echo "mod_version=$version" >> "$GITHUB_OUTPUT"
           echo "minecraft_version=$(get minecraft_version)" >> "$GITHUB_OUTPUT"
-          # Alpha/beta suffixes in mod_version (e.g. 4.0.0-Alpha.7) map to the platforms' channels.
+          # Alpha/beta suffixes in mod_version (e.g. 4.0.0-Alpha.9) map to the platforms' channels.
           case "${version,,}" in
             *alpha*) type=alpha ;;
             *beta*)  type=beta ;;
