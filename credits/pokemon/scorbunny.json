@@ -1,0 +1,38 @@
+{
+  "game": "pokemon",
+  "pokemon": "scorbunny",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "scorbunny",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "miner740"
+      },
+      "contributors": [
+        {
+          "login": "miner740"
+        }
+      ],
+      "submittedAt": "2026-09-27T09:45:30.403Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochscorbunny.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/scorbunny_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochscorbunny/scorbunny_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochscorbunny/scorbunny_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/scorbunny_epoch_previe.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochscorbunny/scorbunny_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochscorbunny.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
