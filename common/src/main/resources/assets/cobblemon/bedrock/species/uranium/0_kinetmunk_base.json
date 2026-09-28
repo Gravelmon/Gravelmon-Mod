@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_70_by_46.geo",
-      "poser": "cobblemon:cutout_gravelmon_70_by_46",
-      "texture": "cobblemon:textures/pokemon/uranium/kinetmunk.png",
+      "poser": "cobblemon:uranium_kinetmunk",
+      "model": "cobblemon:uranium_kinetmunk.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/kinetmunk/kinetmunk.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/kinetmunk/kinetmunk_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/kinetmunk/kinetmunk_alpha.png",
+          "emissive": true
         }
       ]
     }
