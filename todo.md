@@ -101,3 +101,4 @@
 - check Loafelon poser and scaling
 - check Cutelon poser and scaling
 - check Marecampus poser and scaling
+- check Caebelon poser and scaling
