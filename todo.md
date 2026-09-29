@@ -98,3 +98,4 @@
 - check Gastesla poser and scaling
 - check Urayne poser and scaling
 - check Kinetmunk poser and scaling
+- check Loafelon poser and scaling
