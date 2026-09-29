@@ -1,8 +1,17 @@
-- check Epoch Ralts poser and scaling, and Alpha Textures
-- check Epoch Kirlia poser and scaling, and Alpha Textures
-- check Epoch Gardevoir poser and scaling, and Alpha Textures
-- check Epoch Gallade poser and scaling, and Alpha Textures
-- check Epoch Mega Gallade poser and scaling, and Alpha Textures
+- Procedural animations for
+  - Foliat
+  - Iguadium
+  - Aguanaut
+  - Bluffin
+  - Cowatti
+  - Chihaha
+  - Howlequin
+
+- check Epoch Ralts poser and scaling
+- check Epoch Kirlia poser and scaling
+- check Epoch Gardevoir poser and scaling
+- check Epoch Gallade poser and scaling
+- check Epoch Mega Gallade poser and scaling
 - check Delta Pidgeot poser and scaling
 - check Epoch Bulbasaur poser and scaling
 - check Egho Bulbasaur poser and scaling
@@ -64,15 +73,6 @@
 - check Glachild poser and scaling
 - check Epoch Scorbunny poser and scaling
 - check Sabolt poser and scaling
-
-- Procedural animations for 
-    - Foliat
-    - Iguadium
-    - Aguanaut
-    - Bluffin
-    - Cowatti
-    - Chihaha
-    - Howlequin
 - check Terrestrial Sabolt poser and scaling
 - check Xenoversal Sabolt poser and scaling
 - check Peyero poser and scaling
