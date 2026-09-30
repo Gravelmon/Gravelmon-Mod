@@ -102,3 +102,4 @@
 - check Cutelon poser and scaling
 - check Marecampus poser and scaling
 - check Caebelon poser and scaling
+- check Kwiklik poser and scaling
