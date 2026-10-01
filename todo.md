@@ -104,3 +104,4 @@
 - check Caebelon poser and scaling
 - check Kwiklik poser and scaling
 - check S51 poser and scaling
+- check Seviian Clauncher poser and scaling
