@@ -40,6 +40,7 @@
 - check Kwiklik poser and scaling
 - check S51 poser and scaling
 - check Seviian Clauncher poser and scaling
+- check Hipporos poser and scaling
 
 Add procedural walk animations to
 - Kokipound
@@ -58,4 +59,3 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom
-
