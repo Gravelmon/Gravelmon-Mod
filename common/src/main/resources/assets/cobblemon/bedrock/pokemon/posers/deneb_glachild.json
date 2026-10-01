@@ -39,11 +39,9 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('glachild', 'ground_walk')"
+        "q.bedrock('glachild', 'ground_idle')",
+        "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
       ]
     }
-  },
-  "animations": {
-    "faint": "q.bedrock_primary('glachild', 'faint', q.curve('one'))"
   }
 }
