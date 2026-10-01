@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:tentacool",
-  "order": 33,
+  "order": 24,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_55_by_46.geo",
-      "poser": "cobblemon:cutout_gravelmon_55_by_46",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniantentacool.png",
+      "poser": "cobblemon:blazing_emerald_hoenniantentacool",
+      "model": "cobblemon:blazing_emerald_hoenniantentacool.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniantentacool/tentacool_hoennian.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hoennian"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniantentacool/tentacool_hoennian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hoennian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniantentacool/tentacool_hoennian_alpha.png",
+          "emissive": true
         }
       ]
     }
