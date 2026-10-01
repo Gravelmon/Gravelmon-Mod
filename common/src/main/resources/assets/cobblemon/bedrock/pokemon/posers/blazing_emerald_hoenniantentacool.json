@@ -1,0 +1,124 @@
+{
+  "portraitScale": 1.2,
+  "portraitTranslation": [
+    0.1,
+    1.1,
+    0
+  ],
+  "profileScale": 0.6,
+  "profileTranslation": [
+    0,
+    0.8,
+    0
+  ],
+  "rootBone": "tentacool",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand",
+        "walk",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'ground_idle')"
+      ]
+    },
+    "float": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "float",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'water_idle')"
+      ]
+    },
+    "swim": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'water_swim')"
+      ]
+    },
+    "surface-float": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "stand"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            18,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'water_idle')"
+      ]
+    },
+    "surface-swim": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            18,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'water_swim')"
+      ]
+    },
+    "water-sleep": {
+      "isTouchingWater": true,
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'water_sleep')"
+      ]
+    },
+    "ground-sleep": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('tentacool', 'ground_sleep')"
+      ]
+    }
+  }
+}
