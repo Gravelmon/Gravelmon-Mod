@@ -62,3 +62,4 @@ Add procedural walk animations to
 - check Epoch Sceptile poser and scaling
 - check Epoch Grovyle poser and scaling
 - check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
