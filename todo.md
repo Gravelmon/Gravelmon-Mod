@@ -78,3 +78,4 @@ Add procedural walk animations to
 - Rillaboom
 - check Peppit poser and scaling
 - check Epoch Lanturn poser and scaling
+- check Hipporos poser and scaling
