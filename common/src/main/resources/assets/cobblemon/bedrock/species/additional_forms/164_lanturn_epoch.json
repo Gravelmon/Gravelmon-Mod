@@ -1,17 +1,19 @@
 {
   "species": "cobblemon:lanturn",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_68_by_48.geo",
-      "poser": "cobblemon:cutout_gravelmon_68_by_48",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn.png",
+      "poser": "cobblemon:soulstones_epochlanturn",
+      "model": "cobblemon:soulstones_epochlanturn.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn/lanturn_epoch.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn/lanturn_epoch_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -33,6 +35,33 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn/lanturn_epoch_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn/lanturn_epoch_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochlanturn/lanturn_epoch_alpha.png",
+          "emissive": true
         }
       ]
     }

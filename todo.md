@@ -1,20 +1,3 @@
-- check Mega Flygon poser and scaling
-- check Delta Weezing poser and scaling
-- check Delta Growlithe poser and scaling
-- check Armiran Hippopotas poser and scaling
-- check Delta Munchlax poser and scaling
-- check Epoch Eternatus poser and scaling
-- check Epoch Scorbunny poser and scaling
-- check Epochtwo Treecko poser and scaling
-- check Female Silkinder poser and scaling
-- check Female Llamarsh poser and scaling
-- check Tricwe poser and scaling
-- check Harylect poser and scaling
-- check Cubbug poser and scaling
-- check Hoppanero poser and scaling
-- check Scovalope poser and scaling
-- check Metunn poser and scaling
-- check Rollder poser and scaling
 - check Duplicat poser and scaling
 - check Antarki poser and scaling
 - check Dearewl poser and scaling
@@ -28,7 +11,6 @@
 - check Shyleon poser and scaling
 - check Terrestrial Shyleon poser and scaling
 - check Xenoversal Shyleon poser and scaling
-- check Lintle poser and scaling
 - check Chyinmunk poser and scaling
 - check Iceros poser and scaling
 - check Kirgicia poser and scaling
@@ -58,6 +40,7 @@
 - check Kwiklik poser and scaling
 - check S51 poser and scaling
 - check Seviian Clauncher poser and scaling
+- check Hipporos poser and scaling
 
 Add procedural walk animations to
 - Kokipound
@@ -76,5 +59,8 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom
-- check Peppit poser and scaling
 - check Epochtwo Sceptile poser and scaling
+- check Epoch Sceptile poser and scaling
+- check Epoch Grovyle poser and scaling
+- check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
