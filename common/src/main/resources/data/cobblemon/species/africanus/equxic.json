@@ -3,13 +3,13 @@
   "primaryType": "water",
   "secondaryType": "poison",
   "catchRate": 45,
-  "maleRatio": 1.0,
+  "maleRatio": 1,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hipporos",
-  "baseScale": 0.3287671232876712,
+  "baseScale": 1,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim"
@@ -71,7 +71,6 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled",
     "starter",
     "fakemon"
   ],
@@ -98,8 +97,8 @@
   "nationalPokedexNumber": 1774,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.5625,
-    "height": 4.5625,
+    "width": 1.2,
+    "height": 1.6,
     "fixed": false
   },
   "features": [],
