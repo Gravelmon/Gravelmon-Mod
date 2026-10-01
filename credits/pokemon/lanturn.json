@@ -1,0 +1,40 @@
+{
+  "game": "pokemon",
+  "pokemon": "lanturn",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "lanturn",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-10-01T14:25:53.305Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochlanturn.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/lanturn_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn/lanturn_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn/lanturn_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn/lanturn_epoch_emissive.png",
+        "common/src/main/resources/assets/cobblemon/lanturn_epoch_old.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn/lanturn_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn/lanturn_epoch_shiny_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochlanturn.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

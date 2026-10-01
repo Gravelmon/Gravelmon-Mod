@@ -1,15 +1,13 @@
 {
-  "portraitScale": 1,
+  "portraitScale": 2.3999987,
   "portraitTranslation": [
-    0,
-    0,
+    -0.21,
+    -2.06,
     0
   ],
   "profileScale": 1,
   "profileTranslation": [
-    0,
-    0,
-    0
+    0.00, 0.25, 0.00
   ],
   "rootBone": "tricwe",
   "poses": {
@@ -61,7 +59,8 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('uranium_tricwe_placeholder_walk', 'ground_walk')"
+        "q.bedrock('tricwe', 'ground_idle')",
+        "q.quadruped_walk(0.6662, 1.4, 'front_leg_left', 'front_leg_right', 'back_leg_left', 'back_leg_right')"
       ]
     }
   }

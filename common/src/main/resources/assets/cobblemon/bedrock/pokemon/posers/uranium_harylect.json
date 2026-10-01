@@ -1,15 +1,11 @@
 {
-  "portraitScale": 1,
+  "portraitScale": 1.989999,
   "portraitTranslation": [
-    0,
-    0,
-    0
+    -0.6900000000000004, -1.2100000000000009, 0.0
   ],
-  "profileScale": 1,
+  "profileScale": 0.82,
   "profileTranslation": [
-    0,
-    0,
-    0
+    0.07, 0.51, 0.00
   ],
   "rootBone": "harylect",
   "poses": {
@@ -53,7 +49,9 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('uranium_harylect_placeholder_walk', 'ground_walk')"
+        "q.bedrock('harylect', 'ground_idle')",
+        "q.quadruped_walk(0.6662, 1.4, 'front_leg_left', 'front_leg_right', 'back_leg_left', 'back_leg_right')",
+        "q.biped_walk(0.6662, 1.4, 'middle_leg_left', 'middle_leg_right')"
       ]
     }
   }
