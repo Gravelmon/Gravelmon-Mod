@@ -103,3 +103,4 @@
 - check Marecampus poser and scaling
 - check Caebelon poser and scaling
 - check Kwiklik poser and scaling
+- check Seviian Clauncher poser and scaling
