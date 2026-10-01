@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:eelektrik",
-  "order": 33,
+  "order": 24,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon_36_by_51.geo",
-      "poser": "cobblemon:cutout_gravelmon_36_by_51",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianeelektrik.png",
+      "poser": "cobblemon:blazing_emerald_hoennianeelektrik",
+      "model": "cobblemon:blazing_emerald_hoennianeelektrik.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianeelektrik/eelektrik_hoennian.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hoennian"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianeelektrik/eelektrik_hoennian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hoennian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianeelektrik/eelektrik_hoennian_alpha.png",
+          "emissive": true
         }
       ]
     }
