@@ -11,7 +11,6 @@
     1.21,
     -6
   ],
-  "rootBone": "flygon",
   "firstPersonCameraOffset": {
     "seat_1": [
       0,
@@ -43,19 +42,18 @@
       0.5
     ]
   },
+  "rootBone": "flygon_insurgence_mega",
   "poses": {
     "standing": {
-      "isBattle": false,
-      "condition": "!q.in_air",
       "poseTypes": [
-        "stand",
-        "float",
-        "none",
-        "portrait",
-        "profile"
+        "STAND",
+        "FLOAT",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
       ],
       "animations": [
-        "q.look('head_ai')",
+        "q.look('head')",
         "q.bedrock('flygon_insurgence_mega', 'ground_idle')"
       ]
     },
@@ -65,7 +63,7 @@
         "swim"
       ],
       "animations": [
-        "q.look('head_ai')",
+        "q.look('head')",
         "q.bedrock('flygon_insurgence_mega', 'ground_idle')",
         "q.biped_walk(0.6662, 1.4, 'leg_left', 'leg_right')"
       ]

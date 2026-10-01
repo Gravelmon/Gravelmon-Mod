@@ -57,20 +57,20 @@
         "q.bedrock_quirk('deltavenusaur', 'blink')"
       ],
       "animations": [
-        "q.look('head', 1, 0, 10, -20, 0, 0)",
-        "q.look('leaf_front', 1, 0, 0, -13, 0, 0)",
+        "q.look('head', 1, 0, 10, -20)",
+        "q.look('leaf_front', 1, 0, 0, -13)",
         "q.bedrock('deltavenusaur', 'ride_jump')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+          "animation": "q.bedrock('venusaur', 'hold_item')"
         },
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('deltavenusaur', 'ride_ground_run')"
+          "animation": "q.bedrock('venusaur', 'ride_ground_run')"
         },
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+          "animation": "q.bedrock('venusaur', 'rider_overlay')"
         }
       ],
       "transformTicks": 4,
@@ -85,12 +85,12 @@
         "q.bedrock_quirk('deltavenusaur', 'blink')"
       ],
       "animations": [
-        "q.look('head', 1, 0, 10, -20, 0, 0)",
-        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.look('head', 1, 0, 10, -20)",
+        "q.look('leaf_front', 1, 0, 3, -13)",
         "q.bedrock('deltavenusaur', 'battle_idle')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+          "animation": "q.bedrock('venusaur', 'hold_item')"
         }
       ]
     },
@@ -108,16 +108,16 @@
         "q.bedrock_quirk('deltavenusaur', 'look_quirk')"
       ],
       "animations": [
-        "q.look('head', 1, 0, 10, -20, 0, 0)",
-        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.look('head', 1, 0, 10, -20)",
+        "q.look('leaf_front', 1, 0, 3, -13)",
         "q.bedrock('deltavenusaur', 'ground_idle')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+          "animation": "q.bedrock('venusaur', 'hold_item')"
         },
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+          "animation": "q.bedrock('venusaur', 'rider_overlay')"
         }
       ],
       "transformTicks": 5
@@ -132,20 +132,20 @@
         "q.bedrock_quirk('deltavenusaur', 'blink')"
       ],
       "animations": [
-        "q.look('head', 1, 0, 10, -20, 0, 0)",
-        "q.look('leaf_front', 1, 0, 0, -13, 0, 0)",
+        "q.look('head', 1, 0, 10, -20)",
+        "q.look('leaf_front', 1, 0, 0, -13)",
         "q.bedrock('deltavenusaur', 'ground_walk')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+          "animation": "q.bedrock('venusaur', 'hold_item')"
         },
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('deltavenusaur', 'ride_ground_walk')"
+          "animation": "q.bedrock('venusaur', 'ride_ground_walk')"
         },
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('deltavenusaur', 'rider_overlay')"
+          "animation": "q.bedrock('venusaur', 'rider_overlay')"
         }
       ],
       "transformTicks": 5
@@ -161,7 +161,7 @@
         "q.bedrock('deltavenusaur', 'sleep')",
         {
           "condition": "q.is_holding_item",
-          "animation": "q.bedrock('deltavenusaur', 'hold_item')"
+          "animation": "q.bedrock('venusaur', 'hold_item')"
         }
       ]
     }

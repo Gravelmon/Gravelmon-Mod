@@ -1,95 +1,48 @@
-- Procedural animations for
-  - Foliat
-  - Iguadium
-  - Aguanaut
-  - Bluffin
-  - Cowatti
-  - Chihaha
-  - Howlequin
-
-- check Epoch Ralts poser and scaling
-- check Epoch Kirlia poser and scaling
-- check Epoch Gardevoir poser and scaling
-- check Epoch Gallade poser and scaling
-- check Epoch Mega Gallade poser and scaling
-- check Delta Pidgeot poser and scaling
-- check Epoch Bulbasaur poser and scaling
-- check Egho Bulbasaur poser and scaling
-- check Delta Sableye poser and scaling
+- check Mega Flygon poser and scaling
+- check Delta Weezing poser and scaling
+- check Delta Growlithe poser and scaling
+- check Armiran Hippopotas poser and scaling
+- check Delta Munchlax poser and scaling
+- check Epoch Eternatus poser and scaling
+- check Epoch Scorbunny poser and scaling
+- check Epochtwo Treecko poser and scaling
+- check Female Silkinder poser and scaling
+- check Female Llamarsh poser and scaling
 - check Tricwe poser and scaling
 - check Harylect poser and scaling
-- check Ayreian Bulbasaur poser and scaling
 - check Cubbug poser and scaling
 - check Hoppanero poser and scaling
 - check Scovalope poser and scaling
 - check Metunn poser and scaling
 - check Rollder poser and scaling
-- check Egho Magnemite poser and scaling
 - check Duplicat poser and scaling
-- check Delta Bulbasaur poser and scaling
-- check Delta Female Bulbasaur poser and scaling
-- check Delta Ivysaur poser and scaling
-- check Delta Female Ivysaur poser and scaling
 - check Antarki poser and scaling
-- check Delta Venusaur poser and scaling
-- check Egho Charmander poser and scaling
-- check Delta Charmander poser and scaling
-- check Delta Charmeleon poser and scaling
-- check Delta Squirtle poser and scaling
-- check Epoch Eternatus poser and scaling
-- check Delta Wartortle poser and scaling
-- check Delta Blastoise poser and scaling
 - check Dearewl poser and scaling
 - check Oreon poser and scaling
 - check Xenoversal Trishout poser and scaling
 - check Trishout poser and scaling
-- check Ayreian Ivysaur poser and scaling
 - check Terrestrial Trishout poser and scaling
 - check Shulong poser and scaling
 - check Terrestrial Shulong poser and scaling
 - check Xenoversal Shulong poser and scaling
 - check Shyleon poser and scaling
 - check Terrestrial Shyleon poser and scaling
-- check Ayreian Diglett poser and scaling
-- check Cefiran Diglett poser and scaling
 - check Xenoversal Shyleon poser and scaling
-- check Cefiran Dugtrio poser and scaling
 - check Lintle poser and scaling
-- check Epoch Machop poser and scaling
-- check Epoch Psyduck poser and scaling
-- check Epochtwo Treecko poser and scaling
 - check Chyinmunk poser and scaling
-- check Female Silkinder poser and scaling
 - check Iceros poser and scaling
 - check Kirgicia poser and scaling
-- check Egho Grimer poser and scaling
-- check Egho Muk poser and scaling
-- check Female Llamarsh poser and scaling
 - check Slingray poser and scaling
-- check Egho Chansey poser and scaling
-- check Egho Blissey poser and scaling
-- check Egho Happiny poser and scaling
 - check Vectol poser and scaling
 - check Glachild poser and scaling
-- check Epoch Scorbunny poser and scaling
 - check Sabolt poser and scaling
 - check Terrestrial Sabolt poser and scaling
 - check Xenoversal Sabolt poser and scaling
 - check Peyero poser and scaling
 - check Electaburst poser and scaling
-- check Mega Flygon poser and scaling
-- check Delta Weezing poser and scaling
-- check Delta Gallade poser and scaling
-- check Delta Gardevoir poser and scaling
-- check Delta Kirlia poser and scaling
-- check Delta Ralts poser and scaling
 - check Berry Delta Dwebble poser and scaling
-- check Delta Munchlax poser and scaling
 - check Cake Delta Dwebble poser and scaling
-- check Delta Growlithe poser and scaling
-- check Armiran Hippopotas poser and scaling
 - check Baoby poser and scaling
-- check Epoch Charmeleon poser and scaling
 - check Smore poser and scaling
 - check Meadew poser and scaling
 - check Ninfae poser and scaling
@@ -105,3 +58,21 @@
 - check Kwiklik poser and scaling
 - check S51 poser and scaling
 - check Seviian Clauncher poser and scaling
+
+Add procedural walk animations to
+- Kokipound
+- Yemin
+- Kungfur
+- Gachigachoo
+- Pepequeno
+- Scovile
+- Shyleon Astral
+- Trishout Astral
+- Shulong Astral
+- Absol Epoch
+- Glameow Epoch
+- Purugly Epoch
+- Swanna Epoch
+- Grookey Ayreian
+- Thwackey Ayreian
+- Rillaboom
