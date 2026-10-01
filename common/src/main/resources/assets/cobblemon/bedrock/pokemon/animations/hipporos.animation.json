@@ -1,0 +1,114 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hipporos.render": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [12.5, 0, 0]
+				},
+				"tail": {
+					"rotation": [32.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": [5, 0, 0]
+				},
+				"tail3": {
+					"rotation": [41.22846, -12.94868, -12.16294]
+				},
+				"tail4": {
+					"rotation": [15, 0, 0]
+				},
+				"fin_left": {
+					"rotation": [22.5, 0, 30]
+				},
+				"neck": {
+					"rotation": [5, 0, 0]
+				},
+				"head": {
+					"rotation": [-11.82185, -9.54385, -8.11019]
+				},
+				"ear_left": {
+					"rotation": [-3.8872, -27.2451, 8.4424]
+				},
+				"ear_left2": {
+					"rotation": [0, 27.5, 0]
+				},
+				"mouth": {
+					"rotation": [20, 0, 0]
+				},
+				"fin_left2": {
+					"rotation": [0, 0, 15]
+				},
+				"eyelid_left": {
+					"position": [0, 0, 0]
+				},
+				"eyelid_right": {
+					"position": [0, 0, 0]
+				},
+				"ear_right": {
+					"rotation": [-3.5804, 15.173, 5.7225]
+				},
+				"ear_right2": {
+					"rotation": [0, -30, 0]
+				},
+				"fin_right": {
+					"rotation": [59.3275, -4.7486, -34.0533]
+				},
+				"fin_right2": {
+					"rotation": [0, 0, -15]
+				}
+			}
+		},
+		"animation.hipporos.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"tail": {
+					"rotation": [7.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": [10, 0, 0]
+				},
+				"tail3": {
+					"rotation": [25, 0, 0]
+				},
+				"fin_left": {
+					"rotation": [15, 0, 37.5]
+				},
+				"fin_left2": {
+					"rotation": [0, 0, -27.5]
+				},
+				"neck": {
+					"rotation": [-7.5, 0, 0]
+				},
+				"head": {
+					"rotation": [17.5, 0, 0]
+				},
+				"ear_left": {
+					"rotation": [17.5, -22.5, 0]
+				},
+				"ear_left2": {
+					"rotation": [0, 20, 0]
+				},
+				"mouth": {
+					"rotation": [2.5, 0, 0]
+				},
+				"ear_right": {
+					"rotation": [17.5, 22.5, 0]
+				},
+				"ear_right2": {
+					"rotation": [0, -20, 0]
+				},
+				"fin_right": {
+					"rotation": [15, 0, -37.5]
+				},
+				"fin_right2": {
+					"rotation": [0, 0, 27.5]
+				}
+			}
+		}
+	}
+}
