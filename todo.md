@@ -77,3 +77,4 @@ Add procedural walk animations to
 - Thwackey Ayreian
 - Rillaboom
 - check Peppit poser and scaling
+- check Epoch Lanturn poser and scaling
