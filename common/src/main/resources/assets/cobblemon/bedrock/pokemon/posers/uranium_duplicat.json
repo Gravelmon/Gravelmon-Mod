@@ -1,15 +1,11 @@
 {
-  "portraitScale": 1,
+  "portraitScale": 2.029999,
   "portraitTranslation": [
-    0,
-    0,
-    0
+    -0.11999999999999998, -0.5700000000000003, 0.0
   ],
   "profileScale": 1,
   "profileTranslation": [
-    0,
-    0,
-    0
+    0.00, 0.25, 0.00
   ],
   "rootBone": "duplicat",
   "poses": {
@@ -39,7 +35,7 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('uranium_duplicat_placeholder_walk', 'ground_walk')"
+        "q.biped_walk(0.5, 0.9, 'leg_left', 'leg_right')"
       ]
     }
   }

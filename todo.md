@@ -1,19 +1,3 @@
-- check Duplicat poser and scaling
-- check Antarki poser and scaling
-- check Dearewl poser and scaling
-- check Oreon poser and scaling
-- check Xenoversal Trishout poser and scaling
-- check Trishout poser and scaling
-- check Terrestrial Trishout poser and scaling
-- check Shulong poser and scaling
-- check Terrestrial Shulong poser and scaling
-- check Xenoversal Shulong poser and scaling
-- check Shyleon poser and scaling
-- check Terrestrial Shyleon poser and scaling
-- check Xenoversal Shyleon poser and scaling
-- check Chyinmunk poser and scaling
-- check Iceros poser and scaling
-- check Kirgicia poser and scaling
 - check Slingray poser and scaling
 - check Vectol poser and scaling
 - check Glachild poser and scaling
@@ -41,6 +25,19 @@
 - check S51 poser and scaling
 - check Seviian Clauncher poser and scaling
 - check Hipporos poser and scaling
+- check Epochtwo Sceptile poser and scaling
+- check Epoch Sceptile poser and scaling
+- check Epoch Grovyle poser and scaling
+- check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
+- check Epoch Dedenne poser and scaling
+- check Equxic poser and scaling
+- check Frozaiden poser and scaling
+- check Hoennian Tynamo poser and scaling
+- check Hoennian Tentacool poser and scaling
+- check Hoennian Tentacruel poser and scaling
+- check Nostan Diglett poser and scaling
+- check Aurostice poser and scaling
 
 Add procedural walk animations to
 - Kokipound
@@ -59,17 +56,3 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom
-- check Epochtwo Sceptile poser and scaling
-- check Epoch Sceptile poser and scaling
-- check Epoch Grovyle poser and scaling
-- check Epoch Lanturn poser and scaling
-- check Cefiran Vibrava poser and scaling
-- check Epoch Dedenne poser and scaling
-- check Equxic poser and scaling
-- check Glacieros poser and scaling
-- check Frozaiden poser and scaling
-- check Hoennian Tynamo poser and scaling
-- check Hoennian Tentacool poser and scaling
-- check Hoennian Tentacruel poser and scaling
-- check Nostan Diglett poser and scaling
-- check Aurostice poser and scaling
