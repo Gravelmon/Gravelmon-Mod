@@ -1,0 +1,40 @@
+{
+  "game": "pokemon",
+  "pokemon": "tynamo",
+  "entries": [
+    {
+      "formAspects": [
+        "hoennian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "tynamo",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "burgorton"
+      },
+      "contributors": [
+        {
+          "login": "burgorton"
+        }
+      ],
+      "submittedAt": "2026-10-01T22:28:41.959Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoenniantynamo.geo.json",
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/tynamo_hoennian.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/tynamo.animation.json",
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/tynamo_hoennian.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/tynamo_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantynamo/tynamo_hoennian.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantynamo/tynamo_hoennian_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantynamo/tynamo_hoennian_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantynamo.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
