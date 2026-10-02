@@ -72,3 +72,4 @@ Add procedural walk animations to
 - check Hoennian Tentacool poser and scaling
 - check Hoennian Tentacruel poser and scaling
 - check Nostan Diglett poser and scaling
+- check Aurostice poser and scaling
