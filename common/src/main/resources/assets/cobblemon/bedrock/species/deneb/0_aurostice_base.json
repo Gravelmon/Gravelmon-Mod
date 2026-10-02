@@ -4,8 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_aurostice",
-      "model": "cobblemon:deneb_aurostice.geo",
+      "model": "cobblemon:aurostice.geo",
       "texture": "cobblemon:textures/pokemon/deneb/aurostice/aurostice.png",
       "layers": [
         {
@@ -31,24 +30,6 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/deneb/aurostice/aurostice_shiny.png"
-    },
-    {
-      "aspects": [
-        "alpha_eyes"
-      ],
-      "layers": [
-        {
-          "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/deneb/aurostice/aurostice_alpha.png",
-          "emissive": true
         }
       ]
     }
