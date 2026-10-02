@@ -18,7 +18,8 @@
         "stand",
         "none",
         "portrait",
-        "profile"
+        "profile",
+        "float"
       ],
       "quirks": [
         "q.bedrock_quirk('eelektross_hoennian', 'blink')"
@@ -30,7 +31,8 @@
     },
     "walking": {
       "poseTypes": [
-        "walk"
+        "walk",
+        "swim"
       ],
       "quirks": [
         "q.bedrock_quirk('eelektross_hoennian', 'blink')"

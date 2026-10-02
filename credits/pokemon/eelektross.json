@@ -15,11 +15,36 @@
         }
       ],
       "submittedAt": "2026-10-01T22:46:33.666Z",
+      "models": [],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/eelektross_hoennian.animation.json"
+      ],
+      "textures": [],
+      "sounds": []
+    },
+    {
+      "formAspects": [
+        "hoennian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "eelektross",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "burgorton"
+      },
+      "contributors": [
+        {
+          "login": "burgorton"
+        }
+      ],
+      "pullRequestNumber": 210,
+      "submittedAt": "2026-10-02T14:00:13.334Z",
       "models": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoennianeelektross.geo.json"
       ],
       "animations": [
-        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/eelektross_hoennian.animation.json"
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/blazing_emerald_hoennianeelektross.animation.json"
       ],
       "textures": [
         "common/src/main/resources/assets/cobblemon/eelektross_alpha.png",
