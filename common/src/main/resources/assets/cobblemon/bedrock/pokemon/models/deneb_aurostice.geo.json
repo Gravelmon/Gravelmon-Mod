@@ -37,8 +37,8 @@
           "parent": "body",
           "pivot": [
             0,
-            10,
-            0
+            0,
+            0.4
           ],
           "cubes": [
             {
@@ -64,7 +64,7 @@
           "parent": "dress",
           "pivot": [
             0,
-            14.7,
+            10,
             0
           ],
           "cubes": [
@@ -91,7 +91,7 @@
           "parent": "dress2",
           "pivot": [
             0,
-            17.4,
+            14.7,
             0
           ],
           "cubes": [
@@ -535,8 +535,8 @@
           "parent": "head",
           "pivot": [
             0,
-            24,
-            0
+            26,
+            -3
           ]
         },
         {
@@ -928,11 +928,6 @@
             23,
             0
           ],
-          "rotation": [
-            0,
-            0,
-            32.5
-          ],
           "cubes": [
             {
               "origin": [
@@ -1127,11 +1122,6 @@
             -15.2,
             23,
             0
-          ],
-          "rotation": [
-            0,
-            0,
-            -32.5
           ],
           "cubes": [
             {
@@ -1351,8 +1341,40 @@
           ]
         },
         {
+          "name": "locator_middle",
+          "parent": "body",
+          "pivot": [
+            0,
+            17,
+            0
+          ],
+          "locators": {
+            "middle": [
+              0,
+              17,
+              0
+            ]
+          }
+        },
+        {
+          "name": "locator_target",
+          "parent": "body",
+          "pivot": [
+            0,
+            26,
+            -6
+          ],
+          "locators": {
+            "target": [
+              0,
+              26,
+              -6
+            ]
+          }
+        },
+        {
           "name": "dress_bottom",
-          "parent": "dress",
+          "parent": "body",
           "pivot": [
             0,
             0,
@@ -1404,38 +1426,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "locator_middle",
-          "parent": "body",
-          "pivot": [
-            0,
-            17,
-            0
-          ],
-          "locators": {
-            "middle": [
-              0,
-              17,
-              0
-            ]
-          }
-        },
-        {
-          "name": "locator_target",
-          "parent": "body",
-          "pivot": [
-            0,
-            26,
-            -6
-          ],
-          "locators": {
-            "target": [
-              0,
-              26,
-              -6
-            ]
-          }
         },
         {
           "name": "locator_root",
