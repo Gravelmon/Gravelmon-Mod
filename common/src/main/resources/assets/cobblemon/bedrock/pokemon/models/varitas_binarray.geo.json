@@ -122,8 +122,8 @@
                 9
               ],
               "uv": [
-                19,
-                34
+                28,
+                23
               ],
               "mirror": true
             }
@@ -150,8 +150,8 @@
                 6
               ],
               "uv": [
-                32,
-                19
+                12,
+                0
               ],
               "mirror": true
             }
@@ -206,7 +206,7 @@
                 2
               ],
               "uv": [
-                11,
+                30,
                 0
               ],
               "mirror": true
@@ -234,7 +234,7 @@
                 2
               ],
               "uv": [
-                17,
+                36,
                 0
               ],
               "mirror": true
@@ -512,7 +512,7 @@
           "parent": "neck",
           "pivot": [
             0,
-            1.75,
+            3.75,
             -30
           ],
           "cubes": [
@@ -525,11 +525,11 @@
               "size": [
                 1,
                 15,
-                8
+                12.5
               ],
               "uv": [
-                20,
-                0
+                0,
+                37
               ],
               "mirror": true
             }
@@ -556,35 +556,7 @@
           "parent": "segment1",
           "pivot": [
             0,
-            1.75,
-            -22
-          ],
-          "cubes": [
-            {
-              "origin": [
-                -0.5,
-                1.75,
-                -22
-              ],
-              "size": [
-                1,
-                15,
-                4
-              ],
-              "uv": [
-                38,
-                0
-              ],
-              "mirror": true
-            }
-          ]
-        },
-        {
-          "name": "segment3",
-          "parent": "segment2",
-          "pivot": [
-            0,
-            1.75,
+            3.75,
             -18
           ],
           "cubes": [
@@ -597,7 +569,7 @@
               "size": [
                 1,
                 15,
-                8
+                8.5
               ],
               "uv": [
                 20,
@@ -608,11 +580,11 @@
           ]
         },
         {
-          "name": "segment4",
-          "parent": "segment3",
+          "name": "segment3",
+          "parent": "segment2",
           "pivot": [
             0,
-            1.75,
+            3.75,
             -10
           ],
           "cubes": [
@@ -625,22 +597,22 @@
               "size": [
                 1,
                 15,
-                4
+                4.5
               ],
               "uv": [
                 38,
-                0
+                1
               ],
               "mirror": true
             }
           ]
         },
         {
-          "name": "segment5",
-          "parent": "segment4",
+          "name": "segment4",
+          "parent": "segment3",
           "pivot": [
             0,
-            1.75,
+            3.75,
             -6
           ],
           "cubes": [
@@ -653,7 +625,7 @@
               "size": [
                 1,
                 15,
-                8
+                8.5
               ],
               "uv": [
                 20,
@@ -664,11 +636,11 @@
           ]
         },
         {
-          "name": "segment6",
-          "parent": "segment5",
+          "name": "segment5",
+          "parent": "segment4",
           "pivot": [
             0,
-            1.75,
+            3.75,
             2
           ],
           "cubes": [
@@ -681,22 +653,22 @@
               "size": [
                 1,
                 15,
-                4
+                4.5
               ],
               "uv": [
                 38,
-                0
+                1
               ],
               "mirror": true
             }
           ]
         },
         {
-          "name": "segment7",
-          "parent": "segment6",
+          "name": "segment6",
+          "parent": "segment5",
           "pivot": [
             0,
-            1.75,
+            3.75,
             6
           ],
           "cubes": [
@@ -709,7 +681,7 @@
               "size": [
                 1,
                 15,
-                8
+                8.5
               ],
               "uv": [
                 20,
@@ -720,11 +692,11 @@
           ]
         },
         {
-          "name": "segment8",
-          "parent": "segment7",
+          "name": "segment7",
+          "parent": "segment6",
           "pivot": [
             0.5,
-            1.75,
+            3.75,
             14
           ],
           "cubes": [
@@ -737,22 +709,22 @@
               "size": [
                 1,
                 15,
-                4
+                4.5
               ],
               "uv": [
                 38,
-                0
+                1
               ],
               "mirror": true
             }
           ]
         },
         {
-          "name": "segment9",
-          "parent": "segment8",
+          "name": "segment8",
+          "parent": "segment7",
           "pivot": [
             0,
-            1.75,
+            3.75,
             18
           ],
           "cubes": [
@@ -765,7 +737,7 @@
               "size": [
                 1,
                 15,
-                8
+                8.5
               ],
               "uv": [
                 20,
@@ -776,11 +748,11 @@
           ]
         },
         {
-          "name": "segment10",
-          "parent": "segment9",
+          "name": "segment9",
+          "parent": "segment8",
           "pivot": [
             0,
-            2,
+            4,
             26
           ],
           "cubes": [
@@ -793,7 +765,7 @@
               "size": [
                 1,
                 14.5,
-                5
+                5.5
               ],
               "uv": [
                 0,
@@ -805,7 +777,7 @@
         },
         {
           "name": "tail",
-          "parent": "segment10",
+          "parent": "segment9",
           "pivot": [
             0,
             9.25,
@@ -868,8 +840,8 @@
                 12
               ],
               "uv": [
-                0,
-                40
+                18,
+                30
               ]
             },
             {
@@ -884,8 +856,8 @@
                 4
               ],
               "uv": [
-                0,
-                44
+                34,
+                46
               ]
             },
             {
@@ -900,8 +872,8 @@
                 8
               ],
               "uv": [
-                0,
-                36
+                26,
+                38
               ]
             }
           ]
