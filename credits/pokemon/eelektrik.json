@@ -15,9 +15,7 @@
         }
       ],
       "submittedAt": "2026-10-01T22:44:54.219Z",
-      "models": [
-        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/eelektrik_hoennian.geo.json"
-      ],
+      "models": [],
       "animations": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/eelektrik_hoennian.animation.json"
       ],
@@ -28,6 +26,10 @@
       "formAspects": [
         "hoennian"
       ],
+      "inheritsFrom": {
+        "pokemon": "eelektrik",
+        "game": "pokemon"
+      },
       "contributor": {
         "login": "burgorton"
       },
@@ -37,10 +39,10 @@
         }
       ],
       "pullRequestNumber": 209,
-      "submittedAt": "2026-10-02T13:58:07.134Z",
+      "submittedAt": "2026-10-03T17:19:41.055Z",
       "models": [
-        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/eelektrik.geo.json",
-        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoennianeelektrik.geo.json"
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoennianeelektrik.geo.json",
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/eelektrik_hoennian.geo.json"
       ],
       "animations": [
         "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/blazing_emerald_hoennianeelektrik.animation.json"
