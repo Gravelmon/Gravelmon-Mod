@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_62_by_75.geo",
-      "poser": "cobblemon:cutout_gravelmon_62_by_75",
-      "texture": "cobblemon:textures/pokemon/varitas/binarray.png",
+      "poser": "cobblemon:varitas_binarray",
+      "model": "cobblemon:varitas_binarray.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/binarray/binarray.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/binarray/binarray_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/varitas/binarray/binarray_alpha.png",
+          "emissive": true
         }
       ]
     }

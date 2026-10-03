@@ -57,3 +57,4 @@ Add procedural walk animations to
 - Thwackey Ayreian
 - Rillaboom
 - check Hoennian Drakloak poser and scaling
+- check Binarray poser and scaling
