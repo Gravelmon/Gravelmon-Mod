@@ -3,12 +3,12 @@
   "primaryType": "ice",
   "secondaryType": "fairy",
   "catchRate": 235,
-  "maleRatio": 0.0,
+  "maleRatio": 0,
   "baseExperienceYield": 68,
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.85,
   "cannotDynamax": false,
   "abilities": [
     "clearbody",
@@ -114,8 +114,7 @@
     "egg:waterpulse"
   ],
   "labels": [
-    "deneb",
-    "not_modeled"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.glachild.desc"
@@ -140,8 +139,8 @@
   "nationalPokedexNumber": 2659,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 2.25,
-    "height": 2.25,
+    "width": 1,
+    "height": 1,
     "fixed": false
   },
   "features": [],

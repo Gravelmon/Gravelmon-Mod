@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_73_by_67.geo",
-      "poser": "cobblemon:cutout_gravelmon_73_by_67",
-      "texture": "cobblemon:textures/pokemon/africanus/equxic.png",
+      "poser": "cobblemon:africanus_equxic",
+      "model": "cobblemon:africanus_equxic.geo",
+      "texture": "cobblemon:textures/pokemon/africanus/equxic/equxic.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/africanus/equxic/equxic_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/africanus/equxic/equxic_alpha.png",
+          "emissive": true
         }
       ]
     }

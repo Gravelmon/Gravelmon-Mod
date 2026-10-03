@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_35_by_40.geo",
-      "poser": "cobblemon:cutout_gravelmon_35_by_40",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/metunn.png",
+      "poser": "cobblemon:blazing_emerald_metunn",
+      "model": "cobblemon:blazing_emerald_metunn.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/metunn/metunn.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/metunn/metunn_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/metunn/metunn_alpha.png",
+          "emissive": true
         }
       ]
     }

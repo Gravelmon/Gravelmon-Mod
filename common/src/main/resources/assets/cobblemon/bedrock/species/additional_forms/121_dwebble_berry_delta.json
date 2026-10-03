@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 121,
+  "variations": [
+    {
+      "aspects": [
+        "berry",
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltaberrydwebble",
+      "model": "cobblemon:insurgence_deltaberrydwebble.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "berry",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "berry",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltaberrydwebble/deltaberry_dwebble_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

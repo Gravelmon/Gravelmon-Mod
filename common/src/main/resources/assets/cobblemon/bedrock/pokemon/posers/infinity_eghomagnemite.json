@@ -1,0 +1,60 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [
+    -0.1,
+    -1.5,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0.18,
+    0
+  ],
+  "rootBone": "magnemite",
+  "poses": {
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('magnemite', 'sleep')"
+      ]
+    },
+    "hover": {
+      "poseTypes": [
+        "stand",
+        "float",
+        "hover",
+        "portrait",
+        "profile",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('magnemite', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('magnemite', 'air_idle')"
+      ],
+      "transformTicks": 10
+    },
+    "fly": {
+      "poseTypes": [
+        "fly",
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('magnemite', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('magnemite', 'air_fly')"
+      ],
+      "transformTicks": 10
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('magnemite', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('magnemite', 'cry')"
+  }
+}

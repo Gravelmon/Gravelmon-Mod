@@ -1,0 +1,79 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [
+    -0.6,
+    0.9,
+    0
+  ],
+  "profileScale": 0.7,
+  "profileTranslation": [
+    0,
+    0.7,
+    0
+  ],
+  "rootBone": "blissey",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blissey', 'blink')"
+      ],
+      "animations": [
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.look('egg_torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('blissey', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blissey', 'blink')"
+      ],
+      "animations": [
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('blissey', 'battle_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blissey', 'blink')"
+      ],
+      "animations": [
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('blissey', 'ground_walk')"
+      ]
+    },
+    "run": {
+      "condition": "q.is_sprinting",
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('blissey', 'blink')"
+      ],
+      "animations": [
+        "q.look('torso', 1, 1, 10, -5, 0, 0)",
+        "q.bedrock('blissey', 'ground_run')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('blissey', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('blissey', 'cry')"
+  }
+}

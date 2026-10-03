@@ -1,31 +1,56 @@
 {
-  "portraitScale": 1.899999976158142,
+  "portraitScale": 1,
   "portraitTranslation": [
-    -0.3,
-    0.0,
-    0.0
+    0,
+    0,
+    0
   ],
-  "profileScale": 0.6000000238418579,
+  "profileScale": 1,
   "profileTranslation": [
-    0.0,
-    0.9,
-    0.0
+    0,
+    0,
+    0
   ],
+  "rootBone": "electivire",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('electaburst', q.look('head_ai'))"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('electivire', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('electivire', 'ground_walk')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "condition": "q.in_battle",
+      "poseTypes": [
+        "stand"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('electivire', 'battle_idle')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('electivire', 'cry')",
+    "faint": "q.bedrock_primary('electivire', 'faint', q.curve('one'))"
   }
 }

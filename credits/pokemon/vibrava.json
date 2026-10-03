@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "vibrava",
+  "entries": [
+    {
+      "formAspects": [
+        "cefiran"
+      ],
+      "inheritsFrom": {
+        "pokemon": "vibrava",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-10-01T15:57:36.623Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/opalo_cefiranvibrava.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/vibrava_cefiran.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefiranvibrava/vibrava_cefiran.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefiranvibrava/vibrava_cefiran_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefiranvibrava/vibrava_cefiran_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/opalo/cefiranvibrava.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

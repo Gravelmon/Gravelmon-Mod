@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "drakloak",
+  "entries": [
+    {
+      "formAspects": [
+        "hoennian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "drakloak",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "Neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-10-03T03:43:45.924Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoenniandrakloak.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/blazing_emerald_hoenniandrakloak.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniandrakloak.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

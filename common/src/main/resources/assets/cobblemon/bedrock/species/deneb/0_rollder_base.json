@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_43_by_32.geo",
-      "poser": "cobblemon:cutout_gravelmon_43_by_32",
-      "texture": "cobblemon:textures/pokemon/deneb/rollder.png",
+      "poser": "cobblemon:deneb_rollder",
+      "model": "cobblemon:deneb_rollder.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/rollder/rollder.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/rollder/rollder_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/deneb/rollder/rollder_alpha.png",
+          "emissive": true
         }
       ]
     }

@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:growlithe",
-  "order": 127,
+  "order": 118,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_114_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_114_by_96",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltagrowlithe.png",
+      "poser": "cobblemon:insurgence_deltagrowlithe",
+      "model": "cobblemon:insurgence_deltagrowlithe.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagrowlithe/growlithe_delta.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagrowlithe/growlithe_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltagrowlithe/growlithe_delta_alpha.png",
+          "emissive": true
         }
       ]
     }

@@ -1,0 +1,56 @@
+{
+  "portraitScale": 2.03,
+  "portraitTranslation": [
+    -0.28,
+    -1.11,
+    0
+  ],
+  "profileScale": 0.59,
+  "profileTranslation": [
+    0,
+    0.82,
+    0
+  ],
+  "rootBone": "dwebble",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "float",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaberrydwebble', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltaberrydwebble', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "condition": "q.has_entity ? !q.is_sprinting : 1.0",
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaberrydwebble', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltaberrydwebble', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('deltaberrydwebble', 'sleep')"
+      ]
+    }
+  }
+}

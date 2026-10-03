@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "chansey",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "chansey",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "Neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-26T18:34:55.714Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghochansey.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/chansey_egho.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghochansey/chansey_egho.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghochansey/chansey_egho_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghochansey/chansey_egho_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghochansey.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

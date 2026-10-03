@@ -1,0 +1,56 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "tentacool_hoennian",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool_hoennian', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentacool_hoennian', 'ground_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool_hoennian', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentacool_hoennian', 'water_swim')"
+      ]
+    },
+    "float": {
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tentacool_hoennian', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tentacool_hoennian', 'water_idle')"
+      ]
+    }
+  }
+}

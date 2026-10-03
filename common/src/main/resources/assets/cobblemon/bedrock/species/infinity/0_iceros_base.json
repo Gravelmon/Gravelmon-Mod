@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_84_by_108.geo",
-      "poser": "cobblemon:cutout_gravelmon_84_by_108",
-      "texture": "cobblemon:textures/pokemon/infinity/iceros.png",
+      "poser": "cobblemon:infinity_iceros",
+      "model": "cobblemon:infinity_iceros.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/iceros/iceros.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/iceros/iceros_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/iceros/iceros_alpha.png",
+          "emissive": true
         }
       ]
     }

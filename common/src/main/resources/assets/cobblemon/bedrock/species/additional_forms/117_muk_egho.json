@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:muk",
-  "order": 126,
+  "order": 117,
   "variations": [
     {
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_113.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_113",
-      "texture": "cobblemon:textures/pokemon/infinity/eghomuk.png",
+      "poser": "cobblemon:infinity_eghomuk",
+      "model": "cobblemon:infinity_eghomuk.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/eghomuk/muk.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/eghomuk/muk_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/eghomuk/muk_alpha.png",
+          "emissive": true
         }
       ]
     }

@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_86_by_98.geo",
-      "poser": "cobblemon:cutout_gravelmon_86_by_98",
-      "texture": "cobblemon:textures/pokemon/opalo/descargot.png",
+      "poser": "cobblemon:opalo_descargot",
+      "model": "cobblemon:opalo_descargot.geo",
+      "texture": "cobblemon:textures/pokemon/opalo/descargot/descargot.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opalo/descargot/descargot_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/opalo/descargot/descargot_alpha.png",
+          "emissive": true
         }
       ]
     }

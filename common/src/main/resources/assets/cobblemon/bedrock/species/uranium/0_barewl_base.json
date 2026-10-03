@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_37_by_48.geo",
-      "poser": "cobblemon:cutout_gravelmon_37_by_48",
-      "texture": "cobblemon:textures/pokemon/uranium/barewl.png",
+      "poser": "cobblemon:uranium_barewl",
+      "model": "cobblemon:uranium_barewl.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/barewl/barewl.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/barewl/barewl_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/barewl/barewl_alpha.png",
+          "emissive": true
         }
       ]
     }

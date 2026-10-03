@@ -1,0 +1,147 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.slingray.water_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [15, 0, 0]
+				},
+				"torso": {
+					"rotation": [7.5, 0, 0]
+				},
+				"torso2": {
+					"rotation": [-37.5, 0, 0]
+				},
+				"left_fin": {
+					"rotation": [20, -15, 67.5]
+				},
+				"left_fin2": {
+					"rotation": [0, 0, -32.5]
+				},
+				"left_fin3": {
+					"rotation": [0, 0, -10]
+				},
+				"right_fin": {
+					"rotation": [20, 15, -67.5]
+				},
+				"right_fin2": {
+					"rotation": [0, 0, 32.5]
+				},
+				"right_fin3": {
+					"rotation": [0, 0, 10]
+				},
+				"torso3": {
+					"rotation": [-25, 0, 0]
+				},
+				"torso4": {
+					"rotation": [-25, 0, 0]
+				},
+				"torso5": {
+					"rotation": [-25, 0, 0]
+				},
+				"torso6": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"belly_fin": {
+					"rotation": [0, 0, "0+17*math.sin(q.anim_time*90*2)"]
+				},
+				"belly_fin3": {
+					"rotation": [-25, 0, 0]
+				},
+				"belly_fin2": {
+					"rotation": [-37.5, 0, 0]
+				},
+				"dorsal_fin2": {
+					"rotation": [-25, 0, 0]
+				},
+				"dorsal_fin3": {
+					"rotation": [0, 0, 0]
+				},
+				"tail": {
+					"rotation": [-50, 0, 0]
+				},
+				"sling_right": {
+					"rotation": [0, 37.5, -25]
+				},
+				"sling_right2": {
+					"rotation": [0, 0, -37.5]
+				},
+				"sling_right4": {
+					"rotation": [0, 20, 0]
+				},
+				"tail_right": {
+					"rotation": [-30.5, 0, 0]
+				},
+				"tail_right2": {
+					"rotation": [-2, 0, 0]
+				},
+				"tail_right3": {
+					"rotation": [-2, 0, 0]
+				},
+				"tail_right4": {
+					"rotation": [-4, 0, 0]
+				},
+				"tail_right5": {
+					"rotation": [-9, 0, 0]
+				},
+				"sling_right5": {
+					"rotation": [37.8187, -30.022, 10.9543]
+				},
+				"sling_right6": {
+					"rotation": [0, 0, 16]
+				},
+				"sling_right7": {
+					"scale": 0
+				},
+				"tail_left": {
+					"rotation": [-18, 0, 0]
+				},
+				"tail_left2": {
+					"rotation": [-2, 0, 0]
+				},
+				"tail_left3": {
+					"rotation": [-2, 0, 0]
+				},
+				"tail_left4": {
+					"rotation": [-4, 0, 0]
+				},
+				"tail_left5": {
+					"rotation": [-9, 0, 0]
+				},
+				"sling_left": {
+					"rotation": [0, -22.5, 40]
+				},
+				"sling_left5": {
+					"rotation": [0, 10, -25]
+				},
+				"sling_left7": {
+					"scale": 0
+				},
+				"body": {
+					"position": [0, 66, 62]
+				}
+			}
+		},
+		"animation.slingray.test": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"torso": {
+					"rotation": [0, 0, "0+5*math.sin(q.anim_time*180+90)"],
+					"position": ["-0-2*math.cos(q.anim_time*180+0)", "0+1*math.cos(q.anim_time*180-90)", 0]
+				},
+				"left_fin": {
+					"rotation": [
+						"-16.6 - 13.4 * math.cos(q.anim_time * 180+90)",
+						"-7.815 - 7.815 * math.sin(q.anim_time * 180+90)",
+						"-5.65+5.65*math.cos(q.anim_time*180+90)"
+					]
+				},
+				"right_fin": {
+					"rotation": ["-16.6 - 13.4 * math.cos(q.anim_time * 180)", "-7.815 - 7.815 * math.sin(q.anim_time * 180)", "-5.65+5.65*math.cos(q.anim_time*180)"]
+				}
+			}
+		}
+	}
+}

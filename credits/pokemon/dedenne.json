@@ -1,0 +1,39 @@
+{
+  "game": "pokemon",
+  "pokemon": "dedenne",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "dedenne",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-10-01T16:46:37.973Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochdedenne.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/dedenne_epoch.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochdedenne/dedenne_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochdedenne/dedenne_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/dedenne_epoch_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochdedenne/dedenne_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/dedenne_epoch_shiny_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochdedenne.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

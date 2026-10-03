@@ -4,10 +4,22 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_95_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_95_by_128",
-      "texture": "cobblemon:textures/pokemon/sage/scovalope.png",
+      "poser": "cobblemon:sage_scovalope",
+      "model": "cobblemon:sage_scovalope.geo",
+      "texture": "cobblemon:textures/pokemon/sage/scovalope/scovalope.png",
       "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/sage/scovalope/scovalope_flame/scovalope_flame1.png",
+              "cobblemon:textures/pokemon/sage/scovalope/scovalope_flame/scovalope_flame2.png",
+              "cobblemon:textures/pokemon/sage/scovalope/scovalope_flame/scovalope_flame3.png"
+            ],
+            "loop": true
+          },
+          "emissive": true
+        },
         {
           "name": "emissive"
         },
@@ -24,13 +36,28 @@
           "name": "emissive2"
         },
         {
-          "name": "flame"
-        },
-        {
           "name": "glow"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/scovalope/scovalope_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/sage/scovalope/scovalope_alpha.png",
+          "emissive": true
         }
       ]
     }

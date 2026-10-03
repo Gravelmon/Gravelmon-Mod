@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [
+    -0.03, 0.35, 0.0
+  ],
+  "profileScale": 0.73,
+  "profileTranslation": [
+    -0.03, 0.64, 0.0
+  ],
+  "rootBone": "machop_epoch",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('machop_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('machop_epoch', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('machop_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('machop_epoch', 'ground_walk')"
+      ]
+    }
+  }
+}

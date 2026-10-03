@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.blink": {
+			"bones": {
+				"eye_right": {
+					"position": [1, 0, 1]
+				},
+				"eye_left": {
+					"position": [-1, 0, 1]
+				},
+				"eyelid_right": {
+					"position": [-1, 0, -1]
+				},
+				"eyelid_left": {
+					"position": [1, 0, -1]
+				}
+			}
+		}
+	}
+}

@@ -1,1 +1,88 @@
-{"species":"cobblemon:charmander","order":132,"variations":[{"aspects":["egho"],"model":"cobblemon:infinity_eghocharmander.geo","poser":"cobblemon:infinity_eghocharmander","texture":"cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["egho","shiny"],"model":"cobblemon:infinity_eghocharmander.geo","poser":"cobblemon:infinity_eghocharmander","texture":"cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:charmander",
+  "order": 117,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "poser": "cobblemon:infinity_eghocharmander",
+      "model": "cobblemon:infinity_eghocharmander.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_flame/eghocharmander_flame1.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_flame/eghocharmander_flame2.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_flame/eghocharmander_flame3.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_flame/eghocharmander_flame4.png"
+            ],
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "alpha_eyes"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny_flame1.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny_flame2.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny_flame3.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_shiny_flame4.png"
+            ],
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/eghocharmander/eghocharmander_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_123_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_123_by_128",
-      "texture": "cobblemon:textures/pokemon/sage/silkinder.png",
+      "poser": "cobblemon:sage_silkinder",
+      "model": "cobblemon:sage_silkinder.geo",
+      "texture": "cobblemon:textures/pokemon/sage/silkinder/silkinder_male.png",
       "layers": [
         {
           "name": "emissive"
@@ -36,35 +36,19 @@
     },
     {
       "aspects": [
-        "female"
+        "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon_127_by_128.geo",
-      "poser": "cobblemon:cutout_gravelmon_127_by_128",
-      "texture": "cobblemon:textures/pokemon/sage/silkinder_female.png",
+      "texture": "cobblemon:textures/pokemon/sage/silkinder/silkinder_male_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/sage/silkinder/silkinder_male_alpha.png",
+          "emissive": true
         }
       ]
     }

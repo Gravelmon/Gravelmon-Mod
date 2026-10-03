@@ -1,0 +1,29 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "meadew",
+  "poses": {
+    "standing": {
+      "poseTypes": [],
+      "animations": []
+    },
+    "walking": {
+      "poseTypes": [
+        "walk"
+      ],
+      "animations": [
+        "q.biped_walk(0.6662, 1.4, 'foot_left', 'foot_right')"
+      ]
+    }
+  }
+}

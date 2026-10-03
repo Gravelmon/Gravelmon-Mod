@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "muk",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "muk",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "izetyxx"
+      },
+      "contributors": [
+        {
+          "login": "izetyxx"
+        }
+      ],
+      "submittedAt": "2026-09-26T17:52:27.949Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghomuk.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/muk.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomuk/muk.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomuk/muk_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomuk/muk_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghomuk.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_62_by_63.geo",
-      "poser": "cobblemon:cutout_gravelmon_62_by_63",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/slingray.png",
+      "poser": "cobblemon:blazing_emerald_slingray",
+      "model": "cobblemon:blazing_emerald_slingray.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/slingray/slingray.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/slingray/slingray_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/slingray/slingray_alpha.png",
+          "emissive": true
         }
       ]
     }

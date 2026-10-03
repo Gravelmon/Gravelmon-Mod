@@ -1,0 +1,76 @@
+{
+  "portraitScale": 1.45,
+  "portraitTranslation": [
+    -0.23,
+    -0.47,
+    0
+  ],
+  "profileScale": 0.9,
+  "profileTranslation": [
+    0,
+    0.37,
+    0
+  ],
+  "rootBone": "ivysaur",
+  "poses": {
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaivysaur_female', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('deltaivysaur_female', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaivysaur_female', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('deltaivysaur_female', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaivysaur_female', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('deltaivysaur_female', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('deltaivysaur_female', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('deltaivysaur_female', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('deltaivysaur_female', 'cry')",
+    "recoil": "q.bedrock_stateful('deltaivysaur_female', 'recoil')"
+  }
+}
