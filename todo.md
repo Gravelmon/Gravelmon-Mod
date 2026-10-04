@@ -58,5 +58,6 @@ Add procedural walk animations to
 - Rillaboom
 - check Hoennian Dreepy poser and scaling
 - check Hoennian Drakloak poser and scaling
+- check Binarray poser and scaling
 - check Seviian Clawitzer poser and scaling
 - check Seviian Feebas poser and scaling
