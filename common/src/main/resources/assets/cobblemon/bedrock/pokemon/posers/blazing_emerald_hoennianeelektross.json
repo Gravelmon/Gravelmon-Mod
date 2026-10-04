@@ -22,11 +22,11 @@
         "float"
       ],
       "quirks": [
-        "q.bedrock_quirk('eelektross_hoennian', 'blink')"
+        "q.bedrock_quirk('eelektrik_hoennian', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('eelektross_hoennian', 'ground_idle')"
+        "q.bedrock('eelektrik_hoennian', 'ground_idle')"
       ]
     },
     "walking": {
@@ -35,11 +35,11 @@
         "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('eelektross_hoennian', 'blink')"
+        "q.bedrock_quirk('eelektrik_hoennian', 'blink')"
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('eelektross_hoennian', 'ground_walk')"
+        "q.bedrock('eelektrik_hoennian', 'ground_walk')"
       ]
     }
   }
