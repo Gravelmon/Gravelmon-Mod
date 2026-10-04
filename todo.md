@@ -57,4 +57,5 @@ Add procedural walk animations to
 - Thwackey Ayreian
 - Rillaboom
 - check Hoennian Drakloak poser and scaling
+- check Seviian Clawitzer poser and scaling
 - check Seviian Feebas poser and scaling
