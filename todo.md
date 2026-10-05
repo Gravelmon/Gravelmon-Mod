@@ -74,3 +74,4 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom Ayreian
+- check Delta Noivern poser and scaling
