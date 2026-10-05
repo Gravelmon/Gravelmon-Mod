@@ -38,24 +38,6 @@
 - check Hoennian Tentacruel poser and scaling
 - check Nostan Diglett poser and scaling
 - check Aurostice poser and scaling
-
-Add procedural walk animations to
-- Kokipound
-- Yemin
-- Kungfur
-- Gachigachoo
-- Pepequeno
-- Scovile
-- Shyleon Astral
-- Trishout Astral
-- Shulong Astral
-- Absol Epoch
-- Glameow Epoch
-- Purugly Epoch
-- Swanna Epoch
-- Grookey Ayreian
-- Thwackey Ayreian
-- Rillaboom
 - check Epochtwo Sceptile poser and scaling
 - check Epoch Sceptile poser and scaling
 - check Epoch Grovyle poser and scaling
@@ -74,3 +56,21 @@ Add procedural walk animations to
 - check Seviian Feebas poser and scaling
 - check Duplicat poser and scaling
 - check Paramoth poser and scaling
+
+Add procedural walk animations to
+- Kokipound
+- Yemin
+- Kungfur
+- Gachigachoo
+- Pepequeno
+- Scovile
+- Shyleon Astral
+- Trishout Astral
+- Shulong Astral
+- Absol Epoch
+- Glameow Epoch
+- Purugly Epoch
+- Swanna Epoch
+- Grookey Ayreian
+- Thwackey Ayreian
+- Rillaboom Ayreian
