@@ -56,6 +56,16 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom
+- check Epochtwo Sceptile poser and scaling
+- check Epoch Sceptile poser and scaling
+- check Epoch Grovyle poser and scaling
+- check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
+- check Epoch Dedenne poser and scaling
+- check Equxic poser and scaling
+- check Glacieros poser and scaling
+- check Frozaiden poser and scaling
+- check Hoennian Eelektross poser and scaling
 - check Hoennian Dreepy poser and scaling
 - check Hoennian Drakloak poser and scaling
 - check Binarray poser and scaling
