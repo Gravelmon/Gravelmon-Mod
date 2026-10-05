@@ -4,7 +4,6 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:deneb_frozaiden",
       "model": "cobblemon:deneb_frozaiden.geo",
       "texture": "cobblemon:textures/pokemon/deneb/frozaiden/frozaiden.png",
       "layers": [
@@ -31,24 +30,6 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/deneb/frozaiden/frozaiden_shiny.png"
-    },
-    {
-      "aspects": [
-        "alpha_eyes"
-      ],
-      "layers": [
-        {
-          "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/deneb/frozaiden/frozaiden_alpha.png",
-          "emissive": true
         }
       ]
     }
