@@ -65,6 +65,7 @@ Add procedural walk animations to
 - check Equxic poser and scaling
 - check Glacieros poser and scaling
 - check Frozaiden poser and scaling
+- check Hoennian Eelektrik poser and scaling
 - check Hoennian Eelektross poser and scaling
 - check Hoennian Dreepy poser and scaling
 - check Hoennian Drakloak poser and scaling
