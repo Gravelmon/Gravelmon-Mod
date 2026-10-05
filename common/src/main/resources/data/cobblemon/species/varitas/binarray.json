@@ -3,7 +3,7 @@
   "primaryType": "normal",
   "secondaryType": "electric",
   "catchRate": 45,
-  "maleRatio": 0.0,
+  "maleRatio": 0,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
@@ -82,7 +82,6 @@
   ],
   "labels": [
     "varitas",
-    "not_modeled",
     "fakemon"
   ],
   "pokedex": [
@@ -94,8 +93,8 @@
   "nationalPokedexNumber": 1711,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.6875,
-    "height": 4.6875,
+    "width": 4.6,
+    "height": 4.6,
     "fixed": false
   },
   "features": [],

@@ -1,15 +1,11 @@
 {
-  "portraitScale": 3.5999999046325684,
+  "portraitScale": 1.7600017,
   "portraitTranslation": [
-    0,
-    -2.7,
-    0
+    -1.7500000000000013, 2.189999999999984, 0.0
   ],
-  "profileScale": 1.2000000476837158,
+  "profileScale": 0.41,
   "profileTranslation": [
-    0,
-    0,
-    0
+    -0.06, 1.05, 0.00
   ],
   "rootBone": "shulong_xenoversal",
   "poses": {
@@ -29,9 +25,6 @@
         "walk",
         "swim",
         "float"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('shulong', 'blink')"
       ],
       "animations": [
         "q.bedrock('shulong_xenoversal', 'ground_idle')"

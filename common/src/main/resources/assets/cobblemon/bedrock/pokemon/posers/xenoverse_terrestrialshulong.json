@@ -1,15 +1,11 @@
 {
-  "portraitScale": 3.5999999046325684,
+  "portraitScale": 3.0300004,
   "portraitTranslation": [
-    0,
-    -2.7,
-    0
+    -0.34000000000000014, 0.31999999999998663, 0.0
   ],
-  "profileScale": 1.2000000476837158,
+  "profileScale": 0.71,
   "profileTranslation": [
-    0,
-    0,
-    0
+    0.05, 0.76, 0.00
   ],
   "rootBone": "shulong_terrestrial",
   "poses": {
@@ -28,9 +24,6 @@
         "none",
         "float"
       ],
-      "quirks": [
-        "q.bedrock_quirk('shulong', 'blink')"
-      ],
       "animations": [
         "q.bedrock('shulong_terrestrial', 'ground_idle')"
       ]
@@ -39,9 +32,6 @@
       "poseTypes": [
         "walk",
         "swim"
-      ],
-      "quirks": [
-        "q.bedrock_quirk('shulong', 'blink')"
       ],
       "animations": [
         "q.bedrock('shulong_terrestrial', 'ground_idle')",
