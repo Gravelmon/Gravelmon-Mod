@@ -72,3 +72,4 @@ Add procedural walk animations to
 - check Binarray poser and scaling
 - check Seviian Clawitzer poser and scaling
 - check Seviian Feebas poser and scaling
+- check Duplicat poser and scaling
