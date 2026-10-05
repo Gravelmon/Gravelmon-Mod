@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:dreepy",
-  "order": 33,
+  "order": 24,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoenniandreepy.geo",
       "poser": "cobblemon:blazing_emerald_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/hoenniandreepy.png",
+      "model": "cobblemon:blazing_emerald_hoenniandreepy.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/dreepy_hoennian.png",
       "layers": [
         {
           "name": "emissive"
@@ -26,17 +26,7 @@
           "name": "emissive2"
         },
         {
-          "name": "flame",
-          "emissive": true,
-          "translucent": false,
-          "texture": {
-            "frames": [
-              "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/flame/flame1.png",
-              "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/flame/flame2.png"
-            ],
-            "fps": 4,
-            "loop": true
-          }
+          "name": "flame"
         },
         {
           "name": "glow"
@@ -48,46 +38,21 @@
     },
     {
       "aspects": [
-        "hoennian",
-        "shiny"
+        "shiny",
+        "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoenniandreepy.geo",
-      "poser": "cobblemon:blazing_emerald_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/hoenniandreepy_shiny.png",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/dreepy_hoennian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hoennian"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame",
-          "emissive": true,
-          "translucent": false,
-          "texture": {
-            "frames": [
-              "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/flame/flame1_shiny.png",
-              "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/flame/flame2_shiny.png"
-            ],
-            "fps": 4,
-            "loop": true
-          }
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandreepy/dreepy_hoennian_alpha.png",
+          "emissive": true
         }
       ]
     }

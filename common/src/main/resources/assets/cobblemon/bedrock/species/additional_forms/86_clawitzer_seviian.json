@@ -1,17 +1,19 @@
 {
   "species": "cobblemon:clawitzer",
-  "order": 95,
+  "order": 86,
   "variations": [
     {
       "aspects": [
         "seviian"
       ],
-      "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
-      "poser": "cobblemon:cutout_gravelmon_64_by_64",
-      "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer.png",
+      "poser": "cobblemon:radical_red_seviianclawitzer",
+      "model": "cobblemon:radical_red_seviianclawitzer.geo",
+      "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer/seviianclawitzer.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer/seviianclawitzer_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -33,6 +35,33 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "seviian"
+      ],
+      "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer/seviianclawitzer_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer/seviianclawitzer_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "seviian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/radical_red/seviianclawitzer/seviianclawitzer_alpha.png",
+          "emissive": true
         }
       ]
     }

@@ -39,11 +39,9 @@
 		"animation.shyleon_xenoversal.ground_idle": {
 			"loop": true,
 			"bones": {
-				"shyleon_xenoversal": {
-					"position": [-8, 24, -21]
-				},
 				"body": {
-					"rotation": [2.5, 0, 0]
+					"rotation": [2.5, 0, 0],
+					"position": [0, 0, 0]
 				},
 				"neck": {
 					"rotation": [35, 0, 0]
@@ -106,12 +104,9 @@
 		"animation.shyleon_xenoversal.ground_walk": {
 			"loop": true,
 			"bones": {
-				"shyleon_xenoversal": {
-					"rotation": [90, 0, 0]
-				},
 				"body": {
-					"rotation": [-45, 0, 0],
-					"position": [0, 0, 6]
+					"rotation": [45, 0, 0],
+					"position": [0, -20, 29]
 				},
 				"neck": {
 					"rotation": [-17.5, 0, 0]
