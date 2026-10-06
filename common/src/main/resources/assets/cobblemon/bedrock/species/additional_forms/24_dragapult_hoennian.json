@@ -1,23 +1,19 @@
 {
   "species": "cobblemon:dragapult",
-  "order": 33,
+  "order": 24,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoenniandragapult.geo",
       "poser": "cobblemon:blazing_emerald_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/hoenniandragapult.png",
+      "model": "cobblemon:blazing_emerald_hoenniandragapult.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_hoennian.png",
       "layers": [
         {
-          "name": "emmisive",
-          "emissive": true,
-          "translucent": false,
-          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_fire.png"
-        },
-        {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_hoennian_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -44,42 +40,28 @@
     },
     {
       "aspects": [
-        "hoennian",
-        "shiny"
+        "shiny",
+        "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoenniandragapult.geo",
-      "poser": "cobblemon:blazing_emerald_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/hoenniandragapult_shiny.png",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_hoennian_shiny.png",
       "layers": [
         {
-          "name": "emmisive",
-          "emissive": true,
-          "translucent": false,
-          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_fire_shiny.png"
-        },
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_hoennian_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hoennian"
+      ],
+      "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandragapult/dragapult_hoennian_alpha.png",
+          "emissive": true
         }
       ]
     }
