@@ -11,7 +11,6 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.12,
       "cannotDynamax": false,
       "abilities": [
         "harvest",
@@ -60,6 +59,7 @@
         "special_defence": 0,
         "speed": 0
       },
+      "baseScale": 0.12,
       "eggGroups": [
         "undiscovered"
       ],
@@ -148,8 +148,7 @@
       ],
       "labels": [
         "gen5",
-        "insurgence",
-        "not_modeled"
+        "insurgence"
       ],
       "pokedex": [
         "cobblemon.species.deltaberrydwebble.desc"
@@ -176,11 +175,6 @@
         }
       ],
       "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.0,
-        "height": 5.0,
-        "fixed": false
-      },
       "game": "insurgence"
     },
     {
@@ -193,7 +187,6 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.11707317073170731,
       "cannotDynamax": false,
       "abilities": [
         "owntempo",
@@ -331,8 +324,7 @@
       ],
       "labels": [
         "gen5",
-        "insurgence",
-        "not_modeled"
+        "insurgence"
       ],
       "pokedex": [
         "cobblemon.species.deltacakedwebble.desc"
@@ -359,11 +351,6 @@
         }
       ],
       "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.125,
-        "height": 5.125,
-        "fixed": false
-      },
       "game": "insurgence"
     },
     {
@@ -703,7 +690,8 @@
     }
   ],
   "features": [
-    "delta",
+    "berry",
+    "cake",
     "delta",
     "epoch",
     "ayreian"
