@@ -1,60 +1,246 @@
 {
-  "portraitScale": 1.0,
+  "portraitScale": 1.8,
   "portraitTranslation": [
-    0.0,
-    1.0,
-    0.0
+    -0.25,
+    3.3,
+    0
   ],
-  "profileScale": 1.0,
+  "profileScale": 0.45,
   "profileTranslation": [
-    0.0,
-    1.0,
-    0.0
+    0,
+    1.25,
+    0
   ],
-  "animations": {
-    "cry": "q.bedrock_stateful('hoenniandragapult', 'cry')",
-    "faint": "q.bedrock_primary('hoenniandragapult', 'faint', q.curve('one'))",
-    "recoil": "q.bedrock_stateful('hoenniandragapult', 'recoil')",
-    "status": "q.bedrock_primary('hoenniandragapult', 'status', q.curve('symmetrical_wide'))",
-    "physical": "q.bedrock_primary('hoenniandragapult', 'physical', q.curve('symmetrical_wide'))",
-    "special": "q.bedrock_primary('hoenniandragapult', 'special', q.curve('symmetrical_wide'))"
+  "rootBone": "dragapult",
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.25,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.25,
+      0
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [
+      0,
+      0.25,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.25,
+      0
+    ]
   },
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('hoenniandragapult', 'ground_idle')"
-      ],
+    "battle-standing": {
+      "isBattle": true,
       "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE",
-        "FLOAT",
-        "HOVER"
+        "stand",
+        "hover"
       ],
-      "isBattle": false,
       "quirks": [
-        "q.bedrock_quirk('hoenniandragapult', q.array('blink1', 'blink2', 'blink3'))"
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('head')",
+        "q.bedrock('dragapult', 'battle_idle')"
+      ]
+    },
+    "water-jump": {
+      "isTouchingWater": false,
+      "condition": "q.is_ridden",
+      "poseTypes": [
+        "float",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_glide')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('hoenniandragapult', 'ground_walk')"
-      ],
+      "condition": "!q.in_air && !q.is_sprinting",
       "poseTypes": [
-        "WALK",
-        "SWIM",
-        "FLY"
+        "walk"
       ],
       "quirks": [
-        "q.bedrock_quirk('hoenniandragapult', q.array('blink1', 'blink2', 'blink3'))"
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_walk')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('dragapult', 'ride_ground_walk')"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "running": {
+      "condition": "!q.in_air && q.is_sprinting",
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('dragapult', 'ride_ground_run')"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hover": {
+      "isBattle": false,
+      "poseTypes": [
+        "hover"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_idle')"
+      ]
+    },
+    "fly-fast": {
+      "isBattle": false,
+      "condition": "!q.in_air && q.horizontal_velocity > 0.75",
+      "poseTypes": [
+        "fly"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.bedrock('dragapult', 'air_glide')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('dragapult', 'ride_air_glide')"
+        }
+      ],
+      "transformTicks": 10,
+      "transformToTicks": 10
+    },
+    "fly": {
+      "isBattle": false,
+      "condition": "q.horizontal_velocity < 0.75",
+      "poseTypes": [
+        "fly"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('dragapult', 'ride_air_fly')"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "float": {
+      "isBattle": false,
+      "isTouchingWater": true,
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('dragapult', 'ground_walk')"
+      ]
+    },
+    "swim": {
+      "isBattle": false,
+      "isTouchingWater": true,
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dragapult', 'blink')",
+        "q.bedrock_quirk('dragapult', 'blink2')",
+        "q.bedrock_quirk('dragapult', 'blink3')"
+      ],
+      "animations": [
+        "q.pitch_tilt('body')",
+        "q.look('head')",
+        "q.bedrock('dragapult', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('dragapult', 'ride_air_fly')"
+        }
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dragapult', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('dragapult', 'sleep')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('dragapult', 'cry')",
+    "recoil": "q.bedrock_stateful('dragapult', 'recoil')"
   }
 }
