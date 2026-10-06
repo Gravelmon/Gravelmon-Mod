@@ -65,3 +65,4 @@ Add procedural walk animations to
 - Grookey Ayreian
 - Thwackey Ayreian
 - Rillaboom Ayreian
+- check Hoennian Dragapult poser and scaling
