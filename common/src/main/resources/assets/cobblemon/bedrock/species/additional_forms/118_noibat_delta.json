@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:noibat",
-  "order": 127,
+  "order": 118,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_126_by_106.geo",
-      "poser": "cobblemon:cutout_gravelmon_126_by_106",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltanoibat.png",
+      "poser": "cobblemon:insurgence_deltanoibat",
+      "model": "cobblemon:insurgence_deltanoibat.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltanoibat/noibat_delta.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltanoibat/noibat_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltanoibat/noibat_delta_alpha.png",
+          "emissive": true
         }
       ]
     }
