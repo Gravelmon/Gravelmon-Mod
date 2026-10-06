@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:teddiursa",
-  "order": 33,
+  "order": 24,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoennianteddiursa.geo",
       "poser": "cobblemon:blazing_emerald_hoennianteddiursa",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianteddiursa/hoennianteddiursa.png",
+      "model": "cobblemon:blazing_emerald_hoennianteddiursa.geo",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian.png",
       "layers": [
         {
           "name": "emissive"
@@ -38,36 +38,21 @@
     },
     {
       "aspects": [
-        "hoennian",
-        "shiny"
+        "shiny",
+        "hoennian"
       ],
-      "model": "cobblemon:blazing_emerald_hoennianteddiursa.geo",
-      "poser": "cobblemon:blazing_emerald_hoennianteddiursa",
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianteddiursa/hoennianteddiursa_shiny.png",
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hoennian"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian_alpha.png",
+          "emissive": true
         }
       ]
     }

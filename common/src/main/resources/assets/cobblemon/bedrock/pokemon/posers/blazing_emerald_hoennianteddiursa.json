@@ -1,64 +1,121 @@
 {
-  "portraitScale": 2.0999999046325684,
+  "portraitScale": 2,
   "portraitTranslation": [
     -0.2,
     -0.7,
-    0.0
+    0
   ],
-  "profileScale": 0.699999988079071,
+  "profileScale": 0.7,
   "profileTranslation": [
-    0.0,
+    0,
     0.7,
-    0.0
+    0
   ],
+  "rootBone": "teddiursa",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('teddiursa_hoennian', 'ground_idle')"
-      ],
-      "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE",
-        "SWIM",
-        "FLOAT",
-        "HOVER"
-      ],
       "isBattle": false,
-      "quirks": [
-        "q.bedrock_quirk('teddiursa_hoennian', 'blink')"
+      "poseTypes": [
+        "stand",
+        "float",
+        "profile",
+        "portrait",
+        "none"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('teddiursa', 'blink')",
+        "q.bedrock_quirk('teddiursa', 'quirk_ground_idle')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('teddiursa', 'ground_idle')"
+      ],
+      "transformTicks": 10
+    },
+    "battle_standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('teddiursa', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('teddiursa', 'battle_idle')"
+      ],
+      "transformTicks": 10
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('teddiursa_hoennian', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK",
-        "FLY"
+        "walk",
+        "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('teddiursa_hoennian', 'blink')"
+        "q.bedrock_quirk('teddiursa', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "sleeping": {
-      "poseName": "sleeping",
       "animations": [
-        "q.bedrock('teddiursa_hoennian', 'sleep')"
+        "q.look('head')",
+        "q.bedrock('teddiursa', 'ground_walk')"
       ],
+      "transformTicks": 10
+    },
+    "sleep": {
       "poseTypes": [
-        "SLEEP"
+        "sleep"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.bedrock('teddiursa', 'sleep')"
+      ],
+      "transformTicks": 10
+    },
+    "shoulder_left": {
+      "poseTypes": [
+        "shoulder_left"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            -2,
+            2,
+            3
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('teddiursa', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('teddiursa', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": [
+        "shoulder_right"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('teddiursa', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('teddiursa', 'shoulder_right')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('teddiursa', 'cry')",
+    "recoil": "q.bedrock_stateful('teddiursa', 'recoil')"
   }
 }
