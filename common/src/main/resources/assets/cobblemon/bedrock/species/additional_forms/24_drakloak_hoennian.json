@@ -11,7 +11,9 @@
       "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -41,7 +43,14 @@
         "shiny",
         "hoennian"
       ],
-      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_shiny.png"
+      "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/blazing_emerald/hoenniandrakloak/drakloak_hoennian_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
     },
     {
       "aspects": [
