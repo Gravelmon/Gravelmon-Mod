@@ -69,3 +69,4 @@ Add procedural walk animations to
 - check Delta Noibat poser and scaling
 - check Hoennian Dragapult poser and scaling
 - check Epoch Popplio poser and scaling
+- check Hoennian Teddiursa poser and scaling
