@@ -1,0 +1,97 @@
+{
+  "portraitScale": 2.5,
+  "portraitTranslation": [
+    -0.44,
+    -1.49,
+    0
+  ],
+  "profileScale": 0.96,
+  "profileTranslation": [
+    -0.04,
+    0.25,
+    0
+  ],
+  "rootBone": "popplio",
+  "poses": {
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('popplio_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('popplio_epoch', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('popplio_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('popplio_epoch', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('popplio_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('popplio_epoch', 'ground_walk')"
+      ]
+    },
+    "float": {
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('popplio_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('popplio_epoch', 'water_idle')"
+      ]
+    },
+    "swim": {
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('popplio_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('popplio_epoch', 'water_swim')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('popplio_epoch', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('popplio_epoch', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('popplio_epoch', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('popplio_epoch', 'cry')"
+  }
+}
