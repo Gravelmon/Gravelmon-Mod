@@ -48,6 +48,19 @@ jobs:
             core.setOutput('version', isVersion ? headRef : '');
             core.info(isVersion ? `Publishing version branch ${headRef}` : `Not a version-branch merge (${headRef || 'no PR'}), skipping.`);
 
+      - name: Require the models tag
+        if: steps.branch.outputs.version != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.branch.outputs.version }}
+          MODELS_REPOSITORY: ${{ vars.MODELS_REPOSITORY || 'Gravelmon/Gravelmon-Models' }}
+        run: |
+          # The release downloads the models for this version from the Models repository's tag, so the tag must exist first.
+          if ! gh api "repos/$MODELS_REPOSITORY/git/ref/tags/v$VERSION" --silent; then
+            echo "The tag v$VERSION does not exist in $MODELS_REPOSITORY. Publish the models first." >&2
+            exit 1
+          fi
+
       - uses: actions/checkout@v4
         if: steps.branch.outputs.version != ''
 
