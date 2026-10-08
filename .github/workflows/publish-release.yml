@@ -48,6 +48,22 @@ jobs:
             core.setOutput('version', isVersion ? headRef : '');
             core.info(isVersion ? `Publishing version branch ${headRef}` : `Not a version-branch merge (${headRef || 'no PR'}), skipping.`);
 
+      # A Mod release must never ship before its models exist: the Models repository has to carry the
+      # tag `v<version>` (created by its tag-version workflow when the same version branch merged).
+      - name: Require the models tag
+        if: steps.branch.outputs.version != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.branch.outputs.version }}
+          MODELS_REPOSITORY: ${{ vars.MODELS_REPOSITORY || 'Gravelmon/Gravelmon-Models' }}
+        run: |
+          status=$(curl -s -o /dev/null -w '%{http_code}'             -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json"             "https://api.github.com/repos/$MODELS_REPOSITORY/git/ref/tags/v$VERSION")
+          case "$status" in
+            200) echo "Found tag v$VERSION in $MODELS_REPOSITORY." ;;
+            404) echo "::error::$MODELS_REPOSITORY has no tag v$VERSION yet. Merge the version branch there first (its tag-version workflow creates the tag), then re-run." >&2; exit 1 ;;
+            *)   echo "::error::Could not check for tag v$VERSION in $MODELS_REPOSITORY (HTTP $status)." >&2; exit 1 ;;
+          esac
+
       - uses: actions/checkout@v4
         if: steps.branch.outputs.version != ''
 
