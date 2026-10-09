@@ -72,3 +72,4 @@ Add procedural walk animations to
 - check Epoch Brionne poser and scaling
 - check Epoch Popplio poser and scaling
 - check Hoennian Teddiursa poser and scaling
+- check Seviian Mantine poser and scaling
