@@ -1,0 +1,40 @@
+{
+  "game": "pokemon",
+  "pokemon": "flygon",
+  "entries": [
+    {
+      "formAspects": [
+        "mega"
+      ],
+      "inheritsFrom": {
+        "pokemon": "flygon",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DigitalRaikan"
+      },
+      "contributors": [
+        {
+          "login": "DigitalRaikan"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:14:51.509Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_flygon_mega.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_flygon_mega.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_alpha.png",
+        "common/src/main/resources/assets/cobblemon/flygon_insurgence_mega_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_shiny_transparency.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega/flygon_insurgence_mega_transparency.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/flygon_mega.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

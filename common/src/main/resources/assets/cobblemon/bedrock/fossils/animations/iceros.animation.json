@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.iceros_embryo.sleep": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [92.5, 0, 0],
+					"position": [0, 8.5, 2]
+				},
+				"body": {
+					"rotation": [-85, 0, 0],
+					"position": [0, 5, -2]
+				},
+				"frontleftleg": {
+					"rotation": [20, 0, 0]
+				},
+				"frontrightleg": {
+					"rotation": [25, 0, 0]
+				},
+				"backleftleg": {
+					"rotation": [-20, 0, 0]
+				},
+				"backrightleg": {
+					"rotation": [-22.5, 0, 0]
+				}
+			}
+		}
+	}
+}

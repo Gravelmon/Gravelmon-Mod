@@ -198,7 +198,8 @@ object GravelmonItems : PlatformRegistry<Registry<Item>, ResourceKey<Registry<It
         speciesName: String
     ): Item {
         val item = create(gravelmonResource(itemName), Item(Item.Properties()))
-        lootTables.forEach { GEBLootPoolManager.addUncommonItemToLootPool(it, item) }
+        // `lootTables` (the dig sites) is no longer queued here: where a fossil drops now comes from the site, in the downloaded pack's
+        // fossil_loot.json (GEBLootPoolManager). The argument stays only until the data has been moved to the site; it is then removed.
         GravelmonFossilItems.FOSSIL_MAP[itemName] = speciesName.lowercase(Locale.getDefault())
         GravelmonFossilItems.FOSSIL_ITEM_MAP[itemName] = item
         return item

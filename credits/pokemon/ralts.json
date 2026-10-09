@@ -32,6 +32,38 @@
         "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochralts.png"
       ],
       "sounds": []
+    },
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "ralts",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:56:32.113Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltaralts.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltaralts.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/delta_ralts_preview.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaralts/deltaralts.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaralts/deltaralts_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaralts/deltaralts_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaralts.png"
+      ],
+      "sounds": []
     }
   ]
 }

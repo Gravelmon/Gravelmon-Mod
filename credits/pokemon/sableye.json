@@ -1,0 +1,43 @@
+{
+  "game": "pokemon",
+  "pokemon": "sableye",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "sableye",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-09-23T20:29:06.272Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltasableye.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/sableye_delta.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame1.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame/sableye_delta_flame1_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame2.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame/sableye_delta_flame2_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame3.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_flame/sableye_delta_flame3_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye/sableye_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltasableye.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

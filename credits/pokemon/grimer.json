@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "grimer",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "grimer",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "izetyxx"
+      },
+      "contributors": [
+        {
+          "login": "izetyxx"
+        }
+      ],
+      "submittedAt": "2026-09-26T17:48:11.785Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghogrimer.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/grimer.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghogrimer/grimer.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghogrimer/grimer_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghogrimer/grimer_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghogrimer.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

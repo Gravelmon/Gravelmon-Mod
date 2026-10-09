@@ -1,0 +1,40 @@
+{
+  "game": "pokemon",
+  "pokemon": "tentacruel",
+  "entries": [
+    {
+      "formAspects": [
+        "hoennian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "tentacruel",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "burgorton"
+      },
+      "contributors": [
+        {
+          "login": "burgorton"
+        }
+      ],
+      "submittedAt": "2026-10-01T22:54:43.444Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoenniantentacruel.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/tentacruel.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/tentacruel_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantentacruel/tentacruel_hoennian.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantentacruel/tentacruel_hoennian_alpha.png",
+        "common/src/main/resources/assets/cobblemon/tentacruel_hoennian_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantentacruel/tentacruel_hoennian_shiny.png",
+        "common/src/main/resources/assets/cobblemon/tentacruel_hoennian_shiny_emissive.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoenniantentacruel.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "teddiursa",
+  "entries": [
+    {
+      "formAspects": [
+        "hoennian"
+      ],
+      "inheritsFrom": {
+        "pokemon": "teddiursa",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "Neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-10-06T18:25:10.604Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/blazing_emerald_hoennianteddiursa.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/blazing_emerald_hoennianteddiursa.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoennianteddiursa/teddiursa_hoennian_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/blazing_emerald/hoennianteddiursa.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

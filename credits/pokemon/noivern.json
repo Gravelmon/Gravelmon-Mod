@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "noivern",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "noivern",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "dylanteteras"
+      },
+      "contributors": [
+        {
+          "login": "dylanteteras"
+        }
+      ],
+      "submittedAt": "2026-10-05T11:07:39.923Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltanoivern.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/insurgence_deltanoivern.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltanoivern/noivern_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltanoivern/noivern_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltanoivern/noivern_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltanoivern.png"
+      ],
+      "sounds": []
+    }
+  ]
+}
