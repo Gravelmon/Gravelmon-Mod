@@ -1,1 +1,60 @@
-{"species":"cobblemon:squirtle","order":133,"variations":[{"aspects":["delta"],"model":"cobblemon:insurgence_deltasquirtle.geo","poser":"cobblemon:insurgence_deltasquirtle","texture":"cobblemon:textures/pokemon/insurgence/deltasquirtle/deltasquirtle.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["delta","shiny"],"model":"cobblemon:insurgence_deltasquirtle.geo","poser":"cobblemon:insurgence_deltasquirtle","texture":"cobblemon:textures/pokemon/insurgence/deltasquirtle/deltasquirtle_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:squirtle",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltasquirtle",
+      "model": "cobblemon:insurgence_deltasquirtle.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasquirtle/deltasquirtle.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasquirtle/deltasquirtle_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltasquirtle/deltasquirtle_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

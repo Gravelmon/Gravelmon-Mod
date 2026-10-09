@@ -6,12 +6,12 @@
       "primaryType": "fighting",
       "secondaryType": "fairy",
       "catchRate": 80,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 80,
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
-      "baseScale": 0.144,
+      "baseScale": 0.7,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -159,8 +159,7 @@
       ],
       "labels": [
         "infinity",
-        "gen4",
-        "not_modeled"
+        "gen4"
       ],
       "pokedex": [
         "cobblemon.species.eghohappiny.desc"
@@ -195,8 +194,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.25,
-        "height": 6.25,
+        "width": 0.6,
+        "height": 0.9,
         "fixed": false
       },
       "game": "infinity"
@@ -206,7 +205,7 @@
       "primaryType": "normal",
       "secondaryType": "steel",
       "catchRate": 130,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 110,
       "experienceGroup": "fast",
       "eggCycles": 50,
@@ -380,8 +379,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 6,
+        "height": 6,
         "fixed": false
       },
       "game": "soulstones"

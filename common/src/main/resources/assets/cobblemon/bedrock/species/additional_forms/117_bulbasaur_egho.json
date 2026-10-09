@@ -1,1 +1,60 @@
-{"species":"cobblemon:bulbasaur","order":132,"variations":[{"aspects":["egho"],"model":"cobblemon:infinity_eghobulbasaur.geo","poser":"cobblemon:infinity_eghobulbasaur","texture":"cobblemon:textures/pokemon/infinity/eghobulbasaur/eghobulbasaur.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["egho","shiny"],"model":"cobblemon:infinity_eghobulbasaur.geo","poser":"cobblemon:infinity_eghobulbasaur","texture":"cobblemon:textures/pokemon/infinity/eghobulbasaur/eghobulbasaur_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:bulbasaur",
+  "order": 117,
+  "variations": [
+    {
+      "aspects": [
+        "egho"
+      ],
+      "poser": "cobblemon:infinity_eghobulbasaur",
+      "model": "cobblemon:infinity_eghobulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "egho"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "egho"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/infinity/eghobulbasaur/bulbasaur_egho_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

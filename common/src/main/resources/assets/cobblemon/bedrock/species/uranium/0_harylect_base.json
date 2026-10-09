@@ -4,12 +4,14 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_60_by_50.geo",
-      "poser": "cobblemon:cutout_gravelmon_60_by_50",
-      "texture": "cobblemon:textures/pokemon/uranium/harylect.png",
+      "poser": "cobblemon:uranium_harylect",
+      "model": "cobblemon:uranium_harylect.geo",
+      "texture": "cobblemon:textures/pokemon/uranium/harylect/harylect.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/uranium/harylect/harylect_emissive.png",
+          "emissive": true
         },
         {
           "name": "transparentEmissive"
@@ -31,6 +33,31 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uranium/harylect/harylect_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/uranium/harylect/harylect_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/uranium/harylect/harylect_alpha.png",
+          "emissive": true
         }
       ]
     }

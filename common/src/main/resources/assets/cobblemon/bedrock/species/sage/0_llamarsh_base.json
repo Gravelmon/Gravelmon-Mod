@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_41_by_65.geo",
-      "poser": "cobblemon:cutout_gravelmon_41_by_65",
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh.png",
+      "poser": "cobblemon:sage_llamarsh",
+      "model": "cobblemon:sage_llamarsh.geo",
+      "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh.png",
       "layers": [
         {
           "name": "emissive"
@@ -36,35 +36,19 @@
     },
     {
       "aspects": [
-        "female"
+        "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon_41_by_63.geo",
-      "poser": "cobblemon:cutout_gravelmon_41_by_63",
-      "texture": "cobblemon:textures/pokemon/sage/llamarsh_female.png",
+      "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/sage/llamarsh/llamarsh_alpha.png",
+          "emissive": true
         }
       ]
     }

@@ -1,17 +1,24 @@
 {
   "species": "cobblemon:eternatus",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_94_by_91.geo",
-      "poser": "cobblemon:cutout_gravelmon_94_by_91",
-      "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus.png",
+      "poser": "cobblemon:soulstones_epocheternatus",
+      "model": "cobblemon:soulstones_epocheternatus.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch.png",
       "layers": [
         {
-          "name": "emissive"
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_transparency.png",
+          "translucent": true
         },
         {
           "name": "transparentEmissive"
@@ -33,6 +40,38 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epoch"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_shiny_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_transparency.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epoch"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus/eternatus_epoch_alpha.png",
+          "emissive": true
         }
       ]
     }

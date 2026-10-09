@@ -1,0 +1,54 @@
+{
+  "portraitScale": 2.4999986,
+  "portraitTranslation": [
+    -0.48000000000000026, -1.6600000000000013, 0.0
+  ],
+  "profileScale": 1.12,
+  "profileTranslation": [
+    0.00, 0.07, 0.00
+  ],
+  "rootBone": "peppit",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('peppit', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('peppit', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('peppit', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('peppit', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('peppit', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('peppit', 'cry')",
+    "faint": "q.bedrock_primary('peppit', 'faint', q.curve('one'))"
+  }
+}

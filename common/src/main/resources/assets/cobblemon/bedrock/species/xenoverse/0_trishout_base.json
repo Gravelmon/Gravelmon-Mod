@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:xenoverse_trishout.geo",
       "poser": "cobblemon:xenoverse_trishout",
+      "model": "cobblemon:xenoverse_trishout.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/trishout/trishout.png",
       "layers": [
         {
@@ -38,33 +38,17 @@
       "aspects": [
         "shiny"
       ],
-      "model": "cobblemon:xenoverse_trishout.geo",
-      "poser": "cobblemon:xenoverse_trishout",
-      "texture": "cobblemon:textures/pokemon/xenoverse/trishout/trishout_shiny.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/trishout/trishout_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
       "layers": [
         {
-          "name": "emissive"
-        },
-        {
-          "name": "transparentEmissive"
-        },
-        {
-          "name": "tail"
-        },
-        {
-          "name": "transparent_emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "glow"
-        },
-        {
-          "texture": "cobblemon:textures/empty_texture.png"
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/trishout/trishout_alpha.png",
+          "emissive": true
         }
       ]
     }

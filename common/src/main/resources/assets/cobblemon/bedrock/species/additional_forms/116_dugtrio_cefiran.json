@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:dugtrio",
-  "order": 125,
+  "order": 116,
   "variations": [
     {
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon_92_by_120.geo",
-      "poser": "cobblemon:cutout_gravelmon_92_by_120",
-      "texture": "cobblemon:textures/pokemon/opalo/cefirandugtrio.png",
+      "poser": "cobblemon:opalo_cefirandugtrio",
+      "model": "cobblemon:opalo_cefirandugtrio.geo",
+      "texture": "cobblemon:textures/pokemon/opalo/cefirandugtrio/dugtrio_cefiran.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cefiran"
+      ],
+      "texture": "cobblemon:textures/pokemon/opalo/cefirandugtrio/dugtrio_cefiran_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "cefiran"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/opalo/cefirandugtrio/dugtrio_cefiran_alpha.png",
+          "emissive": true
         }
       ]
     }

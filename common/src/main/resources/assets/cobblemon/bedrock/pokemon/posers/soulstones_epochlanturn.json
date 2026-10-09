@@ -1,0 +1,205 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [
+    -0.65,
+    -0.7,
+    0
+  ],
+  "profileScale": 0.6,
+  "profileTranslation": [
+    0,
+    0.7,
+    0
+  ],
+  "rootBone": "lanturn",
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.4,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [
+      0,
+      0.4,
+      0
+    ],
+    "seat_1_reverse": [
+      0,
+      0.4,
+      0
+    ]
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": [
+        "portrait",
+        "profile"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'ground_battle_idle')"
+      ]
+    },
+    "water-battle-standing": {
+      "isBattle": true,
+      "isTouchingWater": true,
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('lanturn_epoch', 'water_faint', q.curve('one'))"
+      },
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_battle_idle')"
+      ]
+    },
+    "jump": {
+      "condition": "q.in_air",
+      "poseTypes": [
+        "stand",
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_swim')"
+      ],
+      "transformTicks": 3,
+      "transformToTicks": 3
+    },
+    "standing": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand",
+        "none"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'ground_walk')"
+      ]
+    },
+    "surface-floating": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_idle')"
+      ]
+    },
+    "surface-swimming": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_swim')"
+      ]
+    },
+    "floating": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_idle')"
+      ]
+    },
+    "swimming": {
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "poseTypes": [
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lanturn_epoch', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_swim')"
+      ]
+    },
+    "water-sleeping": {
+      "isTouchingWater": true,
+      "poseTypes": [
+        "sleep"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('lanturn_epoch', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'water_sleep')"
+      ]
+    },
+    "sleeping": {
+      "isTouchingWater": false,
+      "poseTypes": [
+        "sleep"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('lanturn_epoch', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('lanturn_epoch', 'sleep')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('lanturn_epoch', 'cry')"
+  }
+}

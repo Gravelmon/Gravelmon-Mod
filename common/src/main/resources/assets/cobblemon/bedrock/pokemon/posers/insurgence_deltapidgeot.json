@@ -1,67 +1,457 @@
 {
-  "portraitScale": 3.0999999046325684,
+  "portraitScale": 1.93,
   "portraitTranslation": [
-    -0.4,
-    -1.0,
-    0.0
+    -0.63,
+    1.22,
+    0
   ],
-  "profileScale": 1.2000000476837158,
+  "profileScale": 0.75,
   "profileTranslation": [
-    0.1,
-    0.0,
-    0.0
+    0,
+    0.62,
+    0
   ],
+  "headBone": "head",
+  "rootBone": "pidgeot",
+  "firstPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.45,
+      0
+    ]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [
+      0,
+      0.4,
+      1
+    ],
+    "seat_1_reverse": [
+      0,
+      0.4,
+      1
+    ],
+    "seat_2": [
+      0,
+      0.4,
+      1
+    ],
+    "seat_2_reverse": [
+      0,
+      0.4,
+      1
+    ]
+  },
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltapidgeot', q.look('head_ai'))",
-        "q.bedrock('deltapidgeot', 'ground_idle')"
-      ],
+      "isBattle": false,
+      "condition": "!q.is_ridden",
       "poseTypes": [
-        "STAND",
-        "WALK",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "portrait",
+        "profile",
+        "stand",
+        "none"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "flying": {
-      "poseName": "flying",
-      "animations": [
-        "q.bedrock('deltapidgeot', q.look('head_ai'))",
-        "q.bedrock('deltapidgeot', 'air_fly')"
-      ],
-      "poseTypes": [
-        "FLY",
-        "HOVER"
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
       ],
       "quirks": [
-        "q.bedrock_quirk('deltapidgeot', 'blink')"
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "sleeping": {
-      "poseName": "sleeping",
       "animations": [
-        "q.bedrock('deltapidgeot', 'sleep')"
-      ],
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
       "poseTypes": [
-        "SLEEP"
+        "stand"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('pidgeot', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'battle_idle')"
+      ]
+    },
+    "walk": {
+      "condition": "!q.is_ridden",
+      "poseTypes": [
+        "walk"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'ground_walk')"
+      ]
+    },
+    "hover": {
+      "condition": "!q.is_ridden",
+      "poseTypes": [
+        "hover",
+        "float"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": false
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "condition": "!q.is_ridden",
+      "poseTypes": [
+        "fly",
+        "swim"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": false
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.bedrock('pidgeot_delta', 'air_fly')"
+      ]
+    },
+    "sleep": {
+      "isBattle": false,
+      "condition": "!q.is_flying",
+      "poseTypes": [
+        "sleep"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('pidgeot_delta', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('pidgeot_delta', 'sleep')"
+      ]
+    },
+    "air-sleep": {
+      "condition": "q.is_flying",
+      "poseTypes": [
+        "sleep"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": false
+        }
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('pidgeot_delta', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('pidgeot_delta', 'air_sleep')"
+      ]
+    },
+    "battle-sleep": {
+      "isBattle": true,
+      "condition": "!q.is_flying",
+      "poseTypes": [
+        "sleep"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('pidgeot_delta', 'cry')"
+      },
+      "animations": [
+        "q.bedrock('pidgeot_delta', 'battle_sleep')"
+      ]
+    },
+    "mount_idle": {
+      "isBattle": false,
+      "condition": "q.has_entity && q.is_ridden && !q.in_air",
+      "poseTypes": [
+        "stand"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'mount_ground_idle')"
+      ]
+    },
+    "mount_walk": {
+      "isBattle": false,
+      "condition": "q.is_ridden && !q.is_air && q.has_entity",
+      "poseTypes": [
+        "walk"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": true
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'ride_ground_walk')",
+        "q.bedrock('pidgeot_delta', 'mount_ground_walk')"
+      ]
+    },
+    "mount_hovering": {
+      "condition": "!q.is_gliding && q.is_ridden && q.has_entity",
+      "poseTypes": [
+        "hover"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": false
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'ride_air_idle')",
+        "q.bedrock('pidgeot_delta', 'mount_air_idle')"
+      ]
+    },
+    "mount_fly": {
+      "condition": "!q.is_gliding && q.is_ridden && q.has_entity",
+      "poseTypes": [
+        "fly"
+      ],
+      "transformedParts": [
+        {
+          "part": "wing_open_left",
+          "isVisible": true
+        },
+        {
+          "part": "wing_open_right",
+          "isVisible": true
+        },
+        {
+          "part": "wing_closed_left",
+          "isVisible": false
+        },
+        {
+          "part": "wing_closed_right",
+          "isVisible": false
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'ride_air_fly')",
+        "q.bedrock('pidgeot_delta', 'mount_air_fly')"
+      ]
+    },
+    "glide": {
+      "isBattle": false,
+      "condition": "q.is_gliding",
+      "poseTypes": [
+        "fly"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pidgeot_delta', 'blink')"
+      ],
+      "animations": [
+        "q.look('neck2', 1, 1, 12.5, -15, 10, -10)",
+        "q.look('head_ai', 1, 1, 1, -7.5, 2.5, -2.5)",
+        "q.look('hair3', -1, 1, 10, -20, 0, 0)",
+        "q.bedrock('pidgeot_delta', 'air_glide')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('pidgeot_delta', 'ride_air_glide')"
+        },
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('pidgeot_delta', 'ride_dive')"
+        }
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('pidgeot_delta', 'cry')",
+    "recoil": "q.bedrock_stateful('pidgeot_delta', 'recoil')"
   }
 }

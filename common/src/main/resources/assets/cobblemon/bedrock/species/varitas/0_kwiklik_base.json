@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_39_by_35.geo",
-      "poser": "cobblemon:cutout_gravelmon_39_by_35",
-      "texture": "cobblemon:textures/pokemon/varitas/kwiklik.png",
+      "poser": "cobblemon:varitas_kwiklik",
+      "model": "cobblemon:varitas_kwiklik.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/kwiklik/kwiklik.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,6 +31,24 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/kwiklik/kwiklik_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/varitas/kwiklik/kwiklik_alpha.png",
+          "emissive": true
         }
       ]
     }

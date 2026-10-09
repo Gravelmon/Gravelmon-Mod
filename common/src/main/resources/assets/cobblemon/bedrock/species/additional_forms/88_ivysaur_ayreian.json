@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:ivysaur",
-  "order": 97,
+  "order": 88,
   "variations": [
     {
       "aspects": [
         "ayreian"
       ],
-      "model": "cobblemon:cutout_gravelmon_66_by_51.geo",
-      "poser": "cobblemon:cutout_gravelmon_66_by_51",
-      "texture": "cobblemon:textures/pokemon/vanguard/ayreianivysaur.png",
+      "poser": "cobblemon:vanguard_ayreianivysaur",
+      "model": "cobblemon:vanguard_ayreianivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianivysaur/ivysaur_ayreian.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ayreian"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianivysaur/ivysaur_ayreian_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "ayreian"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/vanguard/ayreianivysaur/ivysaur_ayreian_alpha.png",
+          "emissive": true
         }
       ]
     }

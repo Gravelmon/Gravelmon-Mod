@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:sceptile",
-  "order": 173,
+  "order": 164,
   "variations": [
     {
       "aspects": [
         "epochtwo"
       ],
-      "model": "cobblemon:cutout_gravelmon_77_by_83.geo",
-      "poser": "cobblemon:cutout_gravelmon_77_by_83",
-      "texture": "cobblemon:textures/pokemon/soulstones/epochsceptileone.png",
+      "poser": "cobblemon:soulstones_epochsceptileone",
+      "model": "cobblemon:soulstones_epochsceptileone.geo",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsceptileone/sceptile_epochone.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "epochtwo"
+      ],
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsceptileone/sceptile_epochone_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "epochtwo"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/soulstones/epochsceptileone/sceptile_epochone_alpha.png",
+          "emissive": true
         }
       ]
     }

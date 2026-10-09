@@ -72,8 +72,18 @@
 					]
 				},
 				{
-					"name": "middleorb",
+					"name": "bone",
 					"parent": "body",
+					"pivot": [0, 14.6, -2.1]
+				},
+				{
+					"name": "orbs",
+					"parent": "bone",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "middleorb",
+					"parent": "orbs",
 					"pivot": [0, 30.45, 5.25],
 					"cubes": [
 						{"origin": [-7.5, 30.95, 8.25], "size": [15, 16, 0], "inflate": 0.02, "uv": [38, 50]},
@@ -99,7 +109,7 @@
 				},
 				{
 					"name": "leftorb",
-					"parent": "body",
+					"parent": "orbs",
 					"pivot": [5, -3, 0],
 					"cubes": [
 						{"origin": [15.5, 27.95, 2.75], "size": [5, 5, 5], "inflate": 0.02, "pivot": [18, 30.45, 5.25], "rotation": [0, 0, 22.5], "uv": [63, 61]},
@@ -125,7 +135,7 @@
 				},
 				{
 					"name": "rightorb",
-					"parent": "body",
+					"parent": "orbs",
 					"pivot": [-5, -3, 0],
 					"cubes": [
 						{"origin": [-20.5, 27.95, 2.75], "size": [5, 5, 5], "inflate": 0.02, "pivot": [-18, 30.45, 5.25], "rotation": [0, 0, -32.5], "uv": [63, 61], "mirror": true},
@@ -151,13 +161,13 @@
 				},
 				{
 					"name": "leftforearm",
-					"parent": "body",
+					"parent": "bone",
 					"pivot": [18.5, 14.25, -0.5]
 				},
 				{
 					"name": "topelectricity",
 					"parent": "leftforearm",
-					"pivot": [5, -3, 0],
+					"pivot": [20, 18, 0],
 					"cubes": [
 						{"origin": [19.55315, 12.22894, -0.7055], "size": [3, 11, 0], "pivot": [21.05315, 16.72894, -0.7055], "rotation": [-24.19006, -5.15794, -11.38697], "uv": [32, 72]}
 					]
@@ -165,7 +175,7 @@
 				{
 					"name": "bottomelectricity",
 					"parent": "leftforearm",
-					"pivot": [5, -3, 0],
+					"pivot": [21, 14, 0],
 					"cubes": [
 						{"origin": [19, -2.7, -0.75], "size": [9, 3, 0], "pivot": [7, 0, 0], "rotation": [0, 0, -50], "uv": [56, 71]}
 					]
@@ -213,13 +223,13 @@
 				},
 				{
 					"name": "rightforearm",
-					"parent": "body",
+					"parent": "bone",
 					"pivot": [-18.5, 14.25, -0.5]
 				},
 				{
 					"name": "topelectricity4",
 					"parent": "rightforearm",
-					"pivot": [-5, -3, 0],
+					"pivot": [-20, 18, 0],
 					"cubes": [
 						{"origin": [-22.55315, 12.22894, -0.7055], "size": [3, 11, 0], "pivot": [-21.05315, 16.72894, -0.7055], "rotation": [-24.19006, 5.15794, 11.38697], "uv": [32, 72], "mirror": true}
 					]
@@ -227,7 +237,7 @@
 				{
 					"name": "bottomelectricity2",
 					"parent": "rightforearm",
-					"pivot": [-5, -3, 0],
+					"pivot": [-21, 14, 0],
 					"cubes": [
 						{"origin": [-28, -2.7, -0.75], "size": [9, 3, 0], "pivot": [-7, 0, 0], "rotation": [0, 0, 50], "uv": [56, 71], "mirror": true}
 					]
@@ -275,7 +285,7 @@
 				},
 				{
 					"name": "leftfoot",
-					"parent": "body",
+					"parent": "bone",
 					"pivot": [11, 2, 0],
 					"cubes": [
 						{"origin": [8, 0, -3.75], "size": [5, 5, 5], "uv": [63, 28]},
@@ -302,7 +312,7 @@
 				},
 				{
 					"name": "rightfoot",
-					"parent": "body",
+					"parent": "bone",
 					"pivot": [-11, 2, 0],
 					"cubes": [
 						{"origin": [-13, 0, -3.75], "size": [5, 5, 5], "uv": [63, 28], "mirror": true},

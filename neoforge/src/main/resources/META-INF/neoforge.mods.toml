@@ -5,7 +5,7 @@ license = "All Rights Reserved"
 
 [[mods]]
 modId="gravelmon"
-version="4.0.0-Alpha.7"
+version="4.0.0-Alpha.9"
 displayName="Gravelmon"
 authors="Gravelmon Team"
 logoFile="icon.png"
@@ -31,6 +31,7 @@ ordering="AFTER"
 side="BOTH"
 [[dependencies.gravelmon]]
 modId = "mega_showdown"
+type = "optional"
 mandatory = false
 versionRange = "[1.0.2+1.8+1.21.,)"
 ordering = "AFTER"

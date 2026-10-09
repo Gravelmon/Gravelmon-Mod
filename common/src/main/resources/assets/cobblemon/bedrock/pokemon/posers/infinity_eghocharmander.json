@@ -1,68 +1,136 @@
 {
-  "portraitScale": 2.0,
+  "portraitScale": 1.94,
   "portraitTranslation": [
-    0.0,
-    0.0,
-    0.0
+    -0.07,
+    0.06,
+    0
   ],
-  "profileScale": 0.699999988079071,
+  "profileScale": 0.73,
   "profileTranslation": [
-    0.0,
-    0.75,
-    0.0
+    0,
+    0.66,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(charmander_egho, faint)"
-  },
+  "rootBone": "charmander",
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('charmander_egho', q.look('head_ai'))",
-        "q.bedrock('charmander_egho', 'ground_idle')"
-      ],
+    "portrait": {
+      "isBattle": false,
+      "isTouchingWater": false,
       "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE",
-        "FLOAT",
-        "HOVER"
+        "portrait",
+        "profile"
       ],
       "quirks": [
-        "q.bedrock_quirk('charmander_egho', 'blink')"
+        "q.bedrock_quirk('eghocharmander', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghocharmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghocharmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('charmander_egho', q.look('head_ai'))",
-        "q.bedrock('charmander_egho', 'ground_walk')"
-      ],
+      "isTouchingWater": false,
       "poseTypes": [
-        "WALK",
-        "SWIM",
-        "FLY"
+        "walk",
+        "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('charmander_egho', 'blink')"
+        "q.bedrock_quirk('eghocharmander', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "sleeping": {
-      "poseName": "sleeping",
       "animations": [
-        "q.bedrock('charmander_egho', 'sleep')"
-      ],
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "isTouchingWater": false,
       "poseTypes": [
-        "SLEEP"
+        "sleep"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.bedrock('eghocharmander', 'sleep')"
+      ]
+    },
+    "surface_idle": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "stand"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghocharmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'surfacewater_idle')"
+      ]
+    },
+    "surface_swim": {
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "poseTypes": [
+        "walk"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0,
+            3,
+            0
+          ]
+        }
+      ],
+      "quirks": [
+        "q.bedrock_quirk('eghocharmander', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('eghocharmander', 'surfacewater_swim')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('eghocharmander', 'cry')",
+    "special": "q.bedrock_primary('eghocharmander', 'special', q.curve('symmetrical_wide'))"
   }
 }

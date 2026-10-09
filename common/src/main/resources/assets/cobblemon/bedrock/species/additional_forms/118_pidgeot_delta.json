@@ -1,1 +1,63 @@
-{"species":"cobblemon:pidgeot","order":133,"variations":[{"aspects":["delta"],"model":"cobblemon:insurgence_deltapidgeot.geo","poser":"cobblemon:insurgence_deltapidgeot","texture":"cobblemon:textures/pokemon/insurgence/deltapidgeot/deltapidgeot.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]},{"aspects":["delta","shiny"],"model":"cobblemon:insurgence_deltapidgeot.geo","poser":"cobblemon:insurgence_deltapidgeot","texture":"cobblemon:textures/pokemon/insurgence/deltapidgeot/deltapidgeot_shiny.png","layers":[{"name":"emissive"},{"name":"transparentEmissive"},{"name":"tail"},{"name":"transparent_emissive"},{"name":"emissive2"},{"name":"flame"},{"name":"glow"},{"texture":"cobblemon:textures/empty_texture.png"}]}]}
+{
+  "species": "cobblemon:pidgeot",
+  "order": 118,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "poser": "cobblemon:insurgence_deltapidgeot",
+      "model": "cobblemon:insurgence_deltapidgeot.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltapidgeot/pidgeot_delta.png",
+      "layers": [
+        {
+          "name": "alpha_eyes"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltapidgeot/pidgeot_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltapidgeot/pidgeot_delta_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

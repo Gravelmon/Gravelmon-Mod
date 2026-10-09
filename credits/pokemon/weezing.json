@@ -1,0 +1,35 @@
+{
+  "game": "pokemon",
+  "pokemon": "weezing",
+  "entries": [
+    {
+      "formAspects": [
+        "delta"
+      ],
+      "inheritsFrom": {
+        "pokemon": "weezing",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "miner740"
+      },
+      "contributors": [
+        {
+          "login": "miner740"
+        }
+      ],
+      "submittedAt": "2026-09-27T11:20:23.843Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/insurgence_deltaweezing.geo.json"
+      ],
+      "animations": [],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaweezing/weezing_delta.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaweezing/weezing_delta_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaweezing/weezing_delta_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/insurgence/deltaweezing.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

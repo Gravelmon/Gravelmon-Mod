@@ -3,12 +3,12 @@
   "primaryType": "electric",
   "secondaryType": "dark",
   "catchRate": 45,
-  "maleRatio": -1.0,
+  "maleRatio": -1,
   "baseExperienceYield": 64,
   "experienceGroup": "slow",
   "eggCycles": 41,
   "baseFriendship": 70,
-  "baseScale": 0.21818181818181817,
+  "baseScale": 0.65,
   "cannotDynamax": false,
   "abilities": [
     "download"
@@ -128,8 +128,7 @@
     "tutor:snore"
   ],
   "labels": [
-    "xenoverse",
-    "not_modeled"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.sabolt.desc"
@@ -167,8 +166,8 @@
   "nationalPokedexNumber": 1524,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.4375,
-    "height": 3.4375,
+    "width": 1.3,
+    "height": 1,
     "fixed": false
   },
   "features": [],

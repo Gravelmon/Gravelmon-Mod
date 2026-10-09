@@ -1,0 +1,40 @@
+{
+  "portraitScale": 2.23,
+  "portraitTranslation": [
+    -0.4000000000000002, 0.8400000000000005, 0.0
+  ],
+  "profileScale": 0.73,
+  "profileTranslation": [
+    0.00, 0.72, 0.00
+  ],
+  "rootBone": "llamarsh",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "portrait",
+        "profile",
+        "hover",
+        "fly",
+        "float",
+        "glide",
+        "sleep",
+        "open",
+        "none"
+      ],
+      "animations": [
+        "q.look('head')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.quadruped_walk(0.6662, 1.4, 'frontleg_left', 'frontleg_right', 'backleg_left', 'backleg_right')"
+      ]
+    }
+  }
+}

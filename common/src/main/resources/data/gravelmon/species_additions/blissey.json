@@ -6,13 +6,13 @@
       "primaryType": "fighting",
       "secondaryType": "fairy",
       "catchRate": 30,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 320,
       "experienceGroup": "fast",
       "eggCycles": 100,
       "baseFriendship": 70,
       "preEvolution": "chansey egho",
-      "baseScale": 0.28125,
+      "baseScale": 1,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -163,8 +163,7 @@
       ],
       "labels": [
         "infinity",
-        "gen2",
-        "not_modeled"
+        "gen2"
       ],
       "pokedex": [
         "cobblemon.species.eghoblissey.desc"
@@ -177,8 +176,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 8.0,
-        "height": 8.0,
+        "width": 1.3,
+        "height": 1.7,
         "fixed": false
       },
       "game": "infinity"
@@ -188,7 +187,7 @@
       "primaryType": "normal",
       "secondaryType": "steel",
       "catchRate": 80,
-      "maleRatio": 0.0,
+      "maleRatio": 0,
       "baseExperienceYield": 608,
       "experienceGroup": "fast",
       "eggCycles": 50,

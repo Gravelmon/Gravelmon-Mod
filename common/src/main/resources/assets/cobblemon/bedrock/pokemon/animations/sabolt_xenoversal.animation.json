@@ -1,0 +1,296 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sabolt_xenoversal.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso2": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"fur_torso2_middle_right": {
+					"rotation": [0, 0, 2.5]
+				},
+				"fur_torso2_outer_right": {
+					"rotation": [0, 0, 7.5]
+				},
+				"fur_torso2_outest_right": {
+					"rotation": [0, 0, 10]
+				},
+				"chest": {
+					"rotation": [-20, 0, 0]
+				},
+				"fur_chest_middle_right": {
+					"rotation": [0, 0, 5]
+				},
+				"fur_chest_outer_right": {
+					"rotation": [0, 0, 10]
+				},
+				"fur_chest_outest_right": {
+					"rotation": [0, 0, 17.5]
+				},
+				"fur_chest_outest_left": {
+					"rotation": [0, 0, -15]
+				},
+				"fur_chest_middle_left": {
+					"rotation": [0, 0, -10]
+				},
+				"fur_chest_outer_left": {
+					"rotation": [0, 0, -12.5]
+				},
+				"neck": {
+					"rotation": [0, 0, 0]
+				},
+				"fur_neck_middle_right": {
+					"rotation": [0, 0, -5]
+				},
+				"fur_neck_outer_right": {
+					"rotation": [0, 0, -5]
+				},
+				"fur_neck_outest_right": {
+					"rotation": [0, 0, -10]
+				},
+				"fur_neck_middle_left": {
+					"rotation": [0, 0, 10]
+				},
+				"fur_neck_outer_left": {
+					"rotation": [0, 0, 15]
+				},
+				"fur_neck_outest_left": {
+					"rotation": [0, 0, 12.5]
+				},
+				"neck2": {
+					"rotation": [17.5, 0, 0]
+				},
+				"fur_neck2_middle_right": {
+					"rotation": [0, 0, 10]
+				},
+				"fur_neck2_outer_right": {
+					"rotation": [0, 0, 20]
+				},
+				"fur_neck2_middle_left": {
+					"rotation": [0, 0, -17.5]
+				},
+				"fur_neck2_outer_left": {
+					"rotation": [0, 0, -22.5]
+				},
+				"fur_neck_down": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"leg_front_left": {
+					"rotation": [22.41063, -2.7, 4.43745],
+					"position": [0, -3.5, 2]
+				},
+				"leg_front_left2": {
+					"rotation": [-5, 0, 0]
+				},
+				"foot_front_left": {
+					"rotation": [12.53018, -0.75774, -4.92677]
+				},
+				"fur_spines2": {
+					"rotation": [-4.55553, 1.7071, 3.82052],
+					"position": [0, 0, -3]
+				},
+				"leg_back_left": {
+					"rotation": [0, 0, 15],
+					"position": [-1, 0, 0]
+				},
+				"leg_back_left2": {
+					"rotation": [-5, 0, 0]
+				},
+				"leg_back_left3": {
+					"rotation": [2.5, 0, -10]
+				},
+				"foot_back_left": {
+					"rotation": [-2.5, 0, -5]
+				},
+				"fur_torso2_outer_left": {
+					"rotation": [0, -2.5, -7.5]
+				},
+				"fur_torso2_middle_left": {
+					"rotation": [0, 0, -10]
+				},
+				"fur_torso2_outest_left": {
+					"rotation": [0, -5, -12.5]
+				},
+				"leg_front_right": {
+					"rotation": [32.39455, 3.04137, -3.9705],
+					"position": [0, -4, 3]
+				},
+				"leg_front_right2": {
+					"rotation": [-20, 0, 0]
+				},
+				"foot_front_right": {
+					"rotation": [7.3876, -2.89328, 2.974]
+				},
+				"torso_fur_middle_right": {
+					"rotation": [0, 0, 2.5]
+				},
+				"torso_fur_outer_right": {
+					"rotation": [0, 0, 10]
+				},
+				"torso_fur_outest_right": {
+					"rotation": [0, 0, 10]
+				},
+				"torso_fur_outer_left": {
+					"rotation": [0, 0, -12.5]
+				},
+				"torso_fur_middle_left": {
+					"rotation": [0, 0, -7.5]
+				},
+				"torso_fur_outest_left": {
+					"rotation": [0, 0, -20]
+				},
+				"head": {
+					"rotation": [10, 0, 0]
+				},
+				"fur_torso2_middle_middle": {
+					"rotation": [-20, 0, 0]
+				},
+				"fur_torso2_right_middle": {
+					"rotation": [-19.89066, 8.10947, 7.70582]
+				},
+				"fur_torso2_left_middle": {
+					"rotation": [-28.48124, -9.84655, -17.49524]
+				},
+				"tail_fur_up": {
+					"rotation": [42.5, 0, 0]
+				},
+				"tail_fur_down": {
+					"rotation": [-30, 0, 0]
+				},
+				"tail_fur_right": {
+					"rotation": [10, 22.5, 0]
+				},
+				"tail_fur_left": {
+					"rotation": [7.5, -27.5, 0]
+				},
+				"fur_chest_right": {
+					"rotation": [-7.5, 0, 12.5]
+				},
+				"fur_chest_left": {
+					"rotation": [-5, 0, -20]
+				},
+				"fur_neck_right": {
+					"rotation": [-10, 0, -17.5]
+				},
+				"fur_neck_left": {
+					"rotation": [-12.5, 0, 12.5]
+				},
+				"torso": {
+					"rotation": [5, 0, 0]
+				},
+				"jaw": {
+					"rotation": [0, 0, 0]
+				},
+				"leg_back_right": {
+					"rotation": [0, 0, -5]
+				},
+				"foot_back_right": {
+					"rotation": [0, 0, 5]
+				}
+			}
+		},
+		"animation.sabolt_xenoversal.new2": {
+			"loop": true,
+			"bones": {
+				"leg_back_left": {
+					"position": [-42, 0, 0]
+				},
+				"leg_back_left2": {
+					"position": [-11, 0, 0]
+				},
+				"leg_back_left3": {
+					"position": [0, 0, 5]
+				},
+				"leg_front_left": {
+					"position": [-30, 0, 0]
+				},
+				"torso2": {
+					"position": [0, 0, -18]
+				},
+				"chest": {
+					"position": [0, 0, -12]
+				},
+				"neck": {
+					"position": [0, 0, -12]
+				},
+				"neck2": {
+					"position": [0, 0, -17]
+				},
+				"head": {
+					"position": [0, 0, 0]
+				},
+				"leg_front_right": {
+					"position": [20, 0, 0]
+				},
+				"leg_back_right": {
+					"position": [45, 0, 0]
+				}
+			}
+		},
+		"animation.sabolt_xenoversal.new3": {
+			"loop": true,
+			"bones": {
+				"tail_fur_up": {
+					"position": [0, 15, 0]
+				},
+				"tail_fur_down": {
+					"position": [0, 0, 18]
+				},
+				"tail_fur_right": {
+					"position": [8, 0, 0]
+				},
+				"tail_fur_left": {
+					"position": [-6, 0, 0]
+				},
+				"fur_spines": {
+					"position": [0, 3, 0]
+				},
+				"fur_torso2": {
+					"position": [-20, 0, 0]
+				},
+				"fur_torso2_left": {
+					"position": [-11, 0, 0]
+				},
+				"fur_chest": {
+					"position": [-16, 0, 0]
+				},
+				"fur_neck": {
+					"position": [36, 0, 0]
+				},
+				"fur_spines3": {
+					"position": [0, 8, 0]
+				},
+				"fur_neck2_right": {
+					"position": [9, 0, 0]
+				},
+				"fur_neck_down": {
+					"position": [0, 18, 0]
+				},
+				"fur_spines4": {
+					"position": [0, 17, 0]
+				},
+				"head": {
+					"position": [0, 0, -9]
+				},
+				"fur_spines2": {
+					"position": [0, 8, 0]
+				},
+				"torso_fur": {
+					"position": [22, 0, 0]
+				},
+				"leg_back_left": {
+					"position": [-9, 0, 0]
+				}
+			}
+		},
+		"animation.sabolt_xenoversal.new4": {
+			"loop": true,
+			"bones": {
+				"jaw": {
+					"rotation": [57.5, 0, 0]
+				}
+			}
+		}
+	}
+}

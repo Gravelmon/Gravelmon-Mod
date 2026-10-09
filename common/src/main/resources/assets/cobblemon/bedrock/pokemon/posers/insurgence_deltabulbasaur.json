@@ -1,68 +1,73 @@
 {
-  "portraitScale": 2.299999952316284,
+  "portraitScale": 1.66,
   "portraitTranslation": [
-    -0.3,
-    -1.4,
-    0.0
+    -0.14,
+    -0.74,
+    0
   ],
-  "profileScale": 0.8999999761581421,
+  "profileScale": 0.98,
   "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
+    0,
+    0.26,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(bulbasaur_egho, faint)"
-  },
+  "rootBone": "bulbasaur",
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('bulbasaur_egho', q.look('head_ai'))",
-        "q.bedrock('bulbasaur_egho', 'ground_idle')"
-      ],
+    "battle-standing": {
+      "isBattle": true,
       "poseTypes": [
-        "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE",
-        "FLOAT",
-        "HOVER"
+        "stand"
       ],
       "quirks": [
-        "q.bedrock_quirk('bulbasaur_egho', 'blink')"
+        "q.bedrock_quirk('deltabulbasaur', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltabulbasaur', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltabulbasaur', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltabulbasaur', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('bulbasaur_egho', q.look('head_ai'))",
-        "q.bedrock('bulbasaur_egho', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK",
-        "SWIM",
-        "FLY"
+        "walk",
+        "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('bulbasaur_egho', 'blink')"
+        "q.bedrock_quirk('deltabulbasaur', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
-    },
-    "sleeping": {
-      "poseName": "sleeping",
       "animations": [
-        "q.bedrock('bulbasaur_egho', 'sleep')"
-      ],
+        "q.look('head')",
+        "q.bedrock('deltabulbasaur', 'ground_walk')"
+      ]
+    },
+    "sleep": {
       "poseTypes": [
-        "SLEEP"
+        "sleep"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.bedrock('deltabulbasaur', 'sleep')"
+      ]
     }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('deltabulbasaur', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('deltabulbasaur', 'cry')",
+    "recoil": "q.bedrock_stateful('deltabulbasaur', 'recoil')"
   }
 }

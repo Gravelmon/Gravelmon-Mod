@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:sabolt",
-  "order": 154,
+  "order": 145,
   "variations": [
     {
       "aspects": [
         "terrestrial"
       ],
-      "model": "cobblemon:cutout_gravelmon_81_by_74.geo",
-      "poser": "cobblemon:cutout_gravelmon_81_by_74",
-      "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialsabolt.png",
+      "poser": "cobblemon:xenoverse_terrestrialsabolt",
+      "model": "cobblemon:xenoverse_terrestrialsabolt.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialsabolt/saboltterrestrial.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "terrestrial"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialsabolt/saboltterrestrial_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "terrestrial"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/xenoverse/terrestrialsabolt/saboltterrestrial_alpha.png",
+          "emissive": true
         }
       ]
     }

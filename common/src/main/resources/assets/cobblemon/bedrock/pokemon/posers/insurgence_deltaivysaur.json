@@ -1,61 +1,76 @@
 {
-  "portraitScale": 2.0999999046325684,
+  "portraitScale": 1.45,
   "portraitTranslation": [
-    -0.45,
-    -1.21,
-    0.0
+    -0.23,
+    -0.47,
+    0
   ],
-  "profileScale": 0.8999999761581421,
+  "profileScale": 0.9,
   "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
+    0,
+    0.37,
+    0
   ],
-  "animations": {
-    "faint": "bedrock(deltaivysaur, faint)"
-  },
+  "rootBone": "ivysaur",
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltaivysaur', q.look('head_ai'))",
-        "q.bedrock('deltaivysaur', 'ground_idle')"
-      ],
+    "battle-standing": {
+      "isBattle": true,
       "poseTypes": [
-        "STAND",
-        "SLEEP",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand"
       ],
       "quirks": [
-        "q.bedrock_quirk('deltaivysaur', 'blink')"
+        "q.bedrock_quirk('ivysaur', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('ivysaur', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ivysaur', 'blink')"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('ivysaur', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltaivysaur', q.look('head_ai'))",
-        "q.bedrock('deltaivysaur', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
       "quirks": [
-        "q.bedrock_quirk('deltaivysaur', 'blink')"
+        "q.bedrock_quirk('ivysaur', 'blink')"
       ],
-      "namedAnimations": {},
-      "transformedParts": []
+      "animations": [
+        "q.look('head', 1, 1, 10, -20, 0, 0)",
+        "q.look('leaf_front', 1, 0, 3, -13, 0, 0)",
+        "q.bedrock('ivysaur', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('ivysaur', 'sleep')"
+      ]
     }
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('ivysaur', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('ivysaur', 'cry')",
+    "recoil": "q.bedrock_stateful('ivysaur', 'recoil')"
   }
 }

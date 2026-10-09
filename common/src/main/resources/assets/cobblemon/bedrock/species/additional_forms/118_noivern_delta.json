@@ -1,14 +1,14 @@
 {
   "species": "cobblemon:noivern",
-  "order": 127,
+  "order": 118,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon_128_by_87.geo",
-      "poser": "cobblemon:cutout_gravelmon_128_by_87",
-      "texture": "cobblemon:textures/pokemon/insurgence/deltanoivern.png",
+      "poser": "cobblemon:insurgence_deltanoivern",
+      "model": "cobblemon:insurgence_deltanoivern.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltanoivern/noivern_delta.png",
       "layers": [
         {
           "name": "emissive"
@@ -33,6 +33,26 @@
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "delta"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/deltanoivern/noivern_delta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "delta"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/insurgence/deltanoivern/noivern_delta_alpha.png",
+          "emissive": true
         }
       ]
     }

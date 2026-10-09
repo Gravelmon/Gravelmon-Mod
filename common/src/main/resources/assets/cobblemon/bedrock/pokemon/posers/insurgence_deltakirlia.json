@@ -1,68 +1,67 @@
 {
-  "portraitScale": 2.6500000953674316,
+  "portraitScale": 2.6,
   "portraitTranslation": [
-    -0.2,
-    -0.4,
-    0.0
+    0.0, 0.0, 0.0
   ],
-  "profileScale": 0.800000011920929,
+  "profileScale": 0.8,
   "profileTranslation": [
-    0.0,
-    0.55,
-    0.0
+    0.0, 0.6, 0.0
   ],
-  "animations": {
-    "faint": "bedrock(deltakirlia, faint)"
-  },
+  "rootBone": "gardevoir",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltakirlia', q.look('head_ai'))",
-        "q.bedrock('deltakirlia', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltakirlia', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltakirlia', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltakirlia', q.look('head_ai'))",
-        "q.bedrock('deltakirlia', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltakirlia', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltakirlia', 'ground_walk')"
+      ]
     },
-    "sleeping": {
-      "poseName": "sleeping",
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltakirlia', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltakirlia', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
       "animations": [
         "q.bedrock('deltakirlia', 'sleep')"
-      ],
-      "poseTypes": [
-        "SLEEP"
-      ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('deltakirlia', 'cry')"
   }
 }

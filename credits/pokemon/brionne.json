@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "brionne",
+  "entries": [
+    {
+      "formAspects": [
+        "epoch"
+      ],
+      "inheritsFrom": {
+        "pokemon": "brionne",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "DreinDriu"
+      },
+      "contributors": [
+        {
+          "login": "DreinDriu"
+        }
+      ],
+      "submittedAt": "2026-10-06T23:00:42.533Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/soulstones_epochbrionne.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/soulstones_epochbrionne.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbrionne/brionne_epoch.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbrionne/brionne_epoch_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbrionne/brionne_epoch_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/soulstones/epochbrionne.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

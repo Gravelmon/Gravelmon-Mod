@@ -4,7 +4,8 @@
   "variations": [
     {
       "aspects": [
-        "mega"
+        "mega",
+        "epoch"
       ],
       "poser": "cobblemon:soulstones_gallade_epoch_mega",
       "model": "cobblemon:soulstones_gallade_epoch_mega.geo",
@@ -13,13 +14,38 @@
         {
           "name": "Emissive",
           "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_e.png"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
     {
       "aspects": [
         "shiny",
-        "mega"
+        "mega",
+        "epoch"
       ],
       "texture": "cobblemon:textures/pokemon/soulstones/gallade_epoch_mega/epochgalladeone_mega_shiny.png",
       "layers": [
@@ -32,7 +58,8 @@
     {
       "aspects": [
         "alpha_eyes",
-        "mega"
+        "mega",
+        "epoch"
       ],
       "layers": [
         {

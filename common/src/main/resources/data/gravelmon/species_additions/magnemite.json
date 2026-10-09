@@ -6,12 +6,12 @@
       "primaryType": "grass",
       "secondaryType": "steel",
       "catchRate": 65,
-      "maleRatio": -1.0,
+      "maleRatio": -1,
       "baseExperienceYield": 89,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
         "overgrow",
@@ -134,8 +134,7 @@
       ],
       "labels": [
         "infinity",
-        "gen1",
-        "not_modeled"
+        "gen1"
       ],
       "pokedex": [
         "cobblemon.species.eghomagnemite.desc"
@@ -162,8 +161,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.9,
+        "height": 0.6,
         "fixed": false
       },
       "game": "infinity"
@@ -173,7 +172,7 @@
       "primaryType": "cosmic",
       "secondaryType": "steel",
       "catchRate": 150,
-      "maleRatio": -1.0,
+      "maleRatio": -1,
       "baseExperienceYield": 65,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
@@ -331,7 +330,7 @@
       "primaryType": "rock",
       "secondaryType": "psychic",
       "catchRate": 65,
-      "maleRatio": -1.0,
+      "maleRatio": -1,
       "baseExperienceYield": 65,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
@@ -493,7 +492,7 @@
       "primaryType": "fire",
       "secondaryType": "steel",
       "catchRate": 65,
-      "maleRatio": -1.0,
+      "maleRatio": -1,
       "baseExperienceYield": 65,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,

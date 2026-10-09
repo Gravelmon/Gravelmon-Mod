@@ -1,0 +1,44 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [
+    0,
+    0,
+    0
+  ],
+  "profileScale": 1,
+  "profileTranslation": [
+    0,
+    0,
+    0
+  ],
+  "rootBone": "descargot",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('descargot', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('descargot', 'ground_walk')"
+      ]
+    }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('descargot', 'cry')",
+    "faint": "q.bedrock_primary('descargot', 'faint', q.curve('one'))"
+  }
+}

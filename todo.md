@@ -1,5 +1,81 @@
-- check Epoch Ralts poser and scaling, and Alpha Textures
-- check Epoch Kirlia poser and scaling, and Alpha Textures
-- check Epoch Gardevoir poser and scaling, and Alpha Textures
-- check Epoch Gallade poser and scaling, and Alpha Textures
-- check Epoch Mega Gallade poser and scaling, and Alpha Textures
+- check Electaburst poser and scaling
+- check Baoby poser and scaling
+- check Smore poser and scaling
+- check Meadew poser and scaling
+- check Ninfae poser and scaling
+- check Snampery poser and scaling
+- check Descargot poser and scaling
+- check Gastesla poser and scaling
+- check Urayne poser and scaling
+- check Kinetmunk poser and scaling
+- check Loafelon poser and scaling
+- check Cutelon poser and scaling
+- check Marecampus poser and scaling
+- check Caebelon poser and scaling
+- check Kwiklik poser and scaling
+- check S51 poser and scaling
+- check Seviian Clauncher poser and scaling
+- check Hipporos poser and scaling
+- check Epochtwo Sceptile poser and scaling
+- check Epoch Sceptile poser and scaling
+- check Epoch Grovyle poser and scaling
+- check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
+- check Epoch Dedenne poser and scaling
+- check Equxic poser and scaling
+- check Frozaiden poser and scaling
+- check Hoennian Tynamo poser and scaling
+- check Hoennian Tentacool poser and scaling
+- check Hoennian Tentacruel poser and scaling
+- check Nostan Diglett poser and scaling
+- check Aurostice poser and scaling
+- check Epochtwo Sceptile poser and scaling
+- check Epoch Sceptile poser and scaling
+- check Epoch Grovyle poser and scaling
+- check Epoch Lanturn poser and scaling
+- check Cefiran Vibrava poser and scaling
+- check Epoch Dedenne poser and scaling
+- check Equxic poser and scaling
+- check Glacieros poser and scaling
+- check Frozaiden poser and scaling
+- check Hoennian Eelektrik poser and scaling
+- check Hoennian Eelektross poser and scaling
+- check Hoennian Dreepy poser and scaling
+- check Hoennian Drakloak poser and scaling
+- check Binarray poser and scaling
+- check Seviian Clawitzer poser and scaling
+- check Seviian Feebas poser and scaling
+- check Duplicat poser and scaling
+- check Paramoth poser and scaling
+
+Add procedural walk animations to
+- Kokipound
+- Yemin
+- Kungfur
+- Gachigachoo
+- Pepequeno
+- Scovile
+- Shyleon Astral
+- Trishout Astral
+- Shulong Astral
+- Absol Epoch
+- Glameow Epoch
+- Purugly Epoch
+- Swanna Epoch
+- Grookey Ayreian
+- Thwackey Ayreian
+- Rillaboom Ayreian
+- check Delta Noivern poser and scaling
+- check Delta Noibat poser and scaling
+- check Hoennian Dragapult poser and scaling
+- check Epoch Primarina poser and scaling
+- check Epoch Brionne poser and scaling
+- check Epoch Popplio poser and scaling
+- check Hoennian Teddiursa poser and scaling
+- check Seviian Mantine poser and scaling
+- check Hoennian Ursaring poser and scaling
+- check Seviian Mantyke poser and scaling
+- check X Slurpuff poser and scaling
+- check X Swirlix poser and scaling
+- check Firoke poser and scaling
+- check Sponee poser and scaling

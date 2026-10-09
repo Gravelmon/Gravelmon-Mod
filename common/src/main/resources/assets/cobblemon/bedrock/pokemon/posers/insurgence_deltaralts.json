@@ -1,68 +1,67 @@
 {
-  "portraitScale": 2.700000047683716,
+  "portraitScale": 2.6,
   "portraitTranslation": [
-    0.1,
-    -1.8,
-    0.0
+    -0.1, -1.1, 0.0
   ],
-  "profileScale": 0.8999999761581421,
+  "profileScale": 0.8,
   "profileTranslation": [
-    0.0,
-    0.4,
-    0.0
+    0.0, 0.6, 0.0
   ],
-  "animations": {
-    "faint": "bedrock(deltaralts, faint)"
-  },
+  "rootBone": "ralts",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltaralts', q.look('head_ai'))",
-        "q.bedrock('deltaralts', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltaralts', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltaralts', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltaralts', q.look('head_ai'))",
-        "q.bedrock('deltaralts', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('deltaralts', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltaralts', 'ground_walk')"
+      ]
     },
-    "sleeping": {
-      "poseName": "sleeping",
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltaralts', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('deltaralts', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
       "animations": [
         "q.bedrock('deltaralts', 'sleep')"
-      ],
-      "poseTypes": [
-        "SLEEP"
-      ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('deltaralts', 'cry')"
   }
 }

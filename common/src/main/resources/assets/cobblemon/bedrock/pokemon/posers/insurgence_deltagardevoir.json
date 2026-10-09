@@ -1,68 +1,67 @@
 {
-  "portraitScale": 2.5999999046325684,
+  "portraitScale": 2.6,
   "portraitTranslation": [
-    -0.2,
-    1.6,
-    0.0
+    -0.1, 1.9, 0.0
   ],
-  "profileScale": 0.6499999761581421,
+  "profileScale": 0.65,
   "profileTranslation": [
-    0.0,
-    0.7,
-    0.0
+    0.0, 0.76, 0.0
   ],
-  "animations": {
-    "faint": "bedrock(deltagardevoir, faint)"
-  },
+  "rootBone": "gardevoir",
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "animations": [
-        "q.bedrock('deltagardevoir', q.look('head_ai'))",
-        "q.bedrock('deltagardevoir', 'ground_idle')"
-      ],
+      "isBattle": false,
       "poseTypes": [
-        "STAND",
-        "HOVER",
-        "FLY",
-        "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
-        "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('gardevoir', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gardevoir', 'ground_idle')"
+      ]
     },
     "walking": {
-      "poseName": "walking",
-      "animations": [
-        "q.bedrock('deltagardevoir', q.look('head_ai'))",
-        "q.bedrock('deltagardevoir', 'ground_walk')"
-      ],
       "poseTypes": [
-        "WALK"
+        "walk",
+        "swim"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('gardevoir', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gardevoir', 'ground_walk')"
+      ]
     },
-    "sleeping": {
-      "poseName": "sleeping",
-      "animations": [
-        "q.bedrock('deltagardevoir', 'sleep')"
-      ],
+    "battle-standing": {
+      "isBattle": true,
       "poseTypes": [
-        "SLEEP"
+        "stand"
       ],
-
-      "namedAnimations": {},
-      "transformedParts": []
+      "quirks": [
+        "q.bedrock_quirk('gardevoir', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gardevoir', 'battle_idle')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": [
+        "sleep"
+      ],
+      "animations": [
+        "q.bedrock('gardevoir', 'sleep')"
+      ]
     }
+  },
+  "animations": {
+    "cry": "q.bedrock_stateful('gardevoir', 'cry')"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "game": "pokemon",
+  "pokemon": "happiny",
+  "entries": [
+    {
+      "formAspects": [
+        "egho"
+      ],
+      "inheritsFrom": {
+        "pokemon": "happiny",
+        "game": "pokemon"
+      },
+      "contributor": {
+        "login": "Neoxaivus"
+      },
+      "contributors": [
+        {
+          "login": "Neoxaivus"
+        }
+      ],
+      "submittedAt": "2026-09-26T18:45:21.230Z",
+      "models": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/models/infinity_eghohappiny.geo.json"
+      ],
+      "animations": [
+        "common/src/main/resources/assets/cobblemon/bedrock/pokemon/animations/happiny_egho.animation.json"
+      ],
+      "textures": [
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghohappiny/happiny_egho.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghohappiny/happiny_egho_alpha.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghohappiny/happiny_egho_shiny.png",
+        "common/src/main/resources/assets/cobblemon/textures/pokemon/infinity/eghohappiny.png"
+      ],
+      "sounds": []
+    }
+  ]
+}

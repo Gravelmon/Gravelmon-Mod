@@ -1,0 +1,58 @@
+{
+  "portraitScale": 1.989999,
+  "portraitTranslation": [
+    -0.6900000000000004, -1.2100000000000009, 0.0
+  ],
+  "profileScale": 0.82,
+  "profileTranslation": [
+    0.07, 0.51, 0.00
+  ],
+  "rootBone": "harylect",
+  "poses": {
+    "standing": {
+      "isBattle": false,
+      "poseTypes": [
+        "stand",
+        "none",
+        "portrait",
+        "profile",
+        "float"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('harylect', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('harylect', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "isBattle": true,
+      "poseTypes": [
+        "stand"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('harylect', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('harylect', 'battle_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "walk",
+        "swim"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('harylect', 'blink')"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('harylect', 'ground_idle')",
+        "q.quadruped_walk(0.6662, 1.4, 'front_leg_left', 'front_leg_right', 'back_leg_left', 'back_leg_right')",
+        "q.biped_walk(0.6662, 1.4, 'middle_leg_left', 'middle_leg_right')"
+      ]
+    }
+  }
+}

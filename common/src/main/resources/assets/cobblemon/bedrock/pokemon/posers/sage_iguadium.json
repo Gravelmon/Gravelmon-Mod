@@ -17,28 +17,38 @@
   "poses": {
     "standing": {
       "poseName": "standing",
-      "animations": [
-        "q.bedrock('iguadium', q.look('head_ai'))",
-        "q.bedrock('iguadium', 'ground_idle')"
-      ],
       "poseTypes": [
         "STAND",
-        "WALK",
-        "HOVER",
-        "FLY",
         "FLOAT",
-        "SWIM",
-        "GLIDE",
-        "SHOULDER_LEFT",
-        "SHOULDER_RIGHT",
-        "PROFILE",
         "PORTRAIT",
-        "OPEN",
-        "NONE"
+        "PROFILE",
+        "SLEEP"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('iguadium', 'ground_idle')"
       ],
       "quirks": [
         "q.bedrock_quirk('iguadium', 'blink')"
       ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('iguadium', 'ground_idle')",
+        "q.biped_walk(0.5, 0.9, 'left_leg', 'right_leg')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('iguadium', 'blink')"
+      ],
+
       "namedAnimations": {},
       "transformedParts": []
     },
