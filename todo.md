@@ -76,3 +76,4 @@ Add procedural walk animations to
 - check Hoennian Ursaring poser and scaling
 - check Seviian Mantyke poser and scaling
 - check X Slurpuff poser and scaling
+- check X Swirlix poser and scaling
