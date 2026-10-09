@@ -74,3 +74,4 @@ Add procedural walk animations to
 - check Hoennian Teddiursa poser and scaling
 - check Seviian Mantine poser and scaling
 - check Hoennian Ursaring poser and scaling
+- check Seviian Mantyke poser and scaling
