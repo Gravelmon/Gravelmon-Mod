@@ -79,3 +79,4 @@ Add procedural walk animations to
 - check X Swirlix poser and scaling
 - check Firoke poser and scaling
 - check Sponee poser and scaling
+- check X Roserade poser and scaling
