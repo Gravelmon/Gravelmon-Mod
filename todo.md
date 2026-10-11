@@ -82,3 +82,4 @@ Add procedural walk animations to
 - check X Roserade poser and scaling
 - check Epoch Eevee poser and scaling
 - check Earth Unown poser and scaling
+- check Xenoverse Unown poser and scaling
