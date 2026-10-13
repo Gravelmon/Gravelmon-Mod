@@ -84,3 +84,4 @@ Add procedural walk animations to
 - check Earth Unown poser and scaling
 - check Xenoverse Unown poser and scaling
 - check Glidird poser and scaling
+- check Sponaree poser and scaling
