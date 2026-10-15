@@ -86,3 +86,4 @@ Add procedural walk animations to
 - check Glidird poser and scaling
 - check Sponaree poser and scaling
 - check Starphin poser and scaling
+- check Lunorca poser and scaling
