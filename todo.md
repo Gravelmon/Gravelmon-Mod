@@ -87,3 +87,4 @@ Add procedural walk animations to
 - check Sponaree poser and scaling
 - check Starphin poser and scaling
 - check Lunorca poser and scaling
+- check Nyashi poser and scaling
