@@ -91,3 +91,4 @@ Add procedural walk animations to
 - check Epoch Heliolisk poser and scaling
 - check Seviian Lokix poser and scaling
 - check Cachaleen poser and scaling
+- check Epoch Servine poser and scaling
