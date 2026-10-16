@@ -89,3 +89,4 @@ Add procedural walk animations to
 - check Lunorca poser and scaling
 - check Nyashi poser and scaling
 - check Epoch Heliolisk poser and scaling
+- check Seviian Lokix poser and scaling
