@@ -107,3 +107,4 @@ Add procedural walk animations to
 - check Ayreian Numel poser and scaling
 - check Epoch Cyndaquil poser and scaling
 - check Modra poser and scaling
+- check Ayreian Venusaur poser and scaling
