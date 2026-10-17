@@ -104,3 +104,4 @@ Add procedural walk animations to
 - check Epoch Mareep poser and scaling
 - check Epoch Abra poser and scaling
 - check Cefiran Slugma poser and scaling
+- check Ayreian Numel poser and scaling
