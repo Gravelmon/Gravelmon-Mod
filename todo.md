@@ -109,3 +109,4 @@ Add procedural walk animations to
 - check Modra poser and scaling
 - check Ayreian Venusaur poser and scaling
 - check Epochtwo Cyndaquil poser and scaling
+- check Porygona poser and scaling
