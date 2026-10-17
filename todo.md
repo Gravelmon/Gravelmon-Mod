@@ -99,3 +99,4 @@ Add procedural walk animations to
 - check Epoch Dragalge poser and scaling
 - check Epoch Komala poser and scaling
 - check Epoch Natu poser and scaling
+- check Epoch Chimecho poser and scaling
