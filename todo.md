@@ -100,3 +100,4 @@ Add procedural walk animations to
 - check Epoch Komala poser and scaling
 - check Epoch Natu poser and scaling
 - check Epoch Chimecho poser and scaling
+- check Ayreian Mudkip poser and scaling
