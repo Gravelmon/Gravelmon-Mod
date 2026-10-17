@@ -97,3 +97,4 @@ Add procedural walk animations to
 - check Epoch Elekid poser and scaling
 - check Epoch Trapinch poser and scaling
 - check Epoch Dragalge poser and scaling
+- check Epoch Komala poser and scaling
