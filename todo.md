@@ -111,3 +111,4 @@ Add procedural walk animations to
 - check Epochtwo Cyndaquil poser and scaling
 - check Porygona poser and scaling
 - check Hoennian Solosis poser and scaling
+- check Egho Trubbish poser and scaling
