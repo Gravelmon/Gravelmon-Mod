@@ -93,3 +93,4 @@ Add procedural walk animations to
 - check Cachaleen poser and scaling
 - check Epoch Servine poser and scaling
 - check Nostan Dugtrio poser and scaling
+- check Epoch Snivy poser and scaling
