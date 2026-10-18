@@ -113,3 +113,4 @@ Add procedural walk animations to
 - check Hoennian Solosis poser and scaling
 - check Egho Trubbish poser and scaling
 - check Epoch Lunatone poser and scaling
+- check Epoch Solrock poser and scaling
