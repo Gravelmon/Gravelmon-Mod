@@ -115,3 +115,4 @@ Add procedural walk animations to
 - check Epoch Lunatone poser and scaling
 - check Epoch Solrock poser and scaling
 - check Buttereef poser and scaling
+- check Oarful poser and scaling
