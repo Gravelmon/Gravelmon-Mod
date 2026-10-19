@@ -116,3 +116,4 @@ Add procedural walk animations to
 - check Epoch Solrock poser and scaling
 - check Buttereef poser and scaling
 - check Oarful poser and scaling
+- check Hoennian Mareanie poser and scaling
