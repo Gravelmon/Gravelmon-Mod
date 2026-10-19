@@ -117,3 +117,4 @@ Add procedural walk animations to
 - check Buttereef poser and scaling
 - check Oarful poser and scaling
 - check Hoennian Mareanie poser and scaling
+- check Hoennian Toxapex poser and scaling
