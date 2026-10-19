@@ -118,3 +118,4 @@ Add procedural walk animations to
 - check Oarful poser and scaling
 - check Hoennian Mareanie poser and scaling
 - check Hoennian Toxapex poser and scaling
+- check Seviian Nymble poser and scaling
