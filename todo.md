@@ -123,3 +123,4 @@ Add procedural walk animations to
 - check Felinshii poser and scaling
 - check Egho Oddish poser and scaling
 - check Epoch Cetoddle poser and scaling
+- check Egho Gloom poser and scaling
