@@ -121,3 +121,4 @@ Add procedural walk animations to
 - check Seviian Nymble poser and scaling
 - check Epoch Turtwig poser and scaling
 - check Felinshii poser and scaling
+- check Egho Oddish poser and scaling
