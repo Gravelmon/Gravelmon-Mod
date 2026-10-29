@@ -130,3 +130,4 @@ Add procedural walk animations to
 - check Epoch Fearow poser and scaling
 - check Ayreian Fearow poser and scaling
 - check Seviian Milotic poser and scaling
+- check Mortossum poser and scaling
