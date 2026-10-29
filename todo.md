@@ -128,3 +128,4 @@ Add procedural walk animations to
 - check Ayreian Spearow poser and scaling
 - check Epoch Spearow poser and scaling
 - check Epoch Fearow poser and scaling
+- check Ayreian Fearow poser and scaling
