@@ -132,3 +132,4 @@ Add procedural walk animations to
 - check Seviian Milotic poser and scaling
 - check Mortossum poser and scaling
 - check Viledoom poser and scaling
+- check Santhill poser and scaling
