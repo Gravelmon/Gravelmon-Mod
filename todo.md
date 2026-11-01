@@ -133,3 +133,4 @@ Add procedural walk animations to
 - check Mortossum poser and scaling
 - check Viledoom poser and scaling
 - check Santhill poser and scaling
+- check Sphertle poser and scaling
