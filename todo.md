@@ -134,3 +134,4 @@ Add procedural walk animations to
 - check Viledoom poser and scaling
 - check Santhill poser and scaling
 - check Sphertle poser and scaling
+- check Xenoqueen poser and scaling
