@@ -136,3 +136,4 @@ Add procedural walk animations to
 - check Sphertle poser and scaling
 - check Xenoqueen poser and scaling
 - check Africanusan Honedge poser and scaling
+- check Fabelian Pyukumuku poser and scaling
