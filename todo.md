@@ -135,3 +135,4 @@ Add procedural walk animations to
 - check Santhill poser and scaling
 - check Sphertle poser and scaling
 - check Xenoqueen poser and scaling
+- check Africanusan Honedge poser and scaling
