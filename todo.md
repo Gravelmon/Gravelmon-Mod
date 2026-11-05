@@ -139,3 +139,4 @@ Add procedural walk animations to
 - check Fabelian Pyukumuku poser and scaling
 - check Africanusan Doublade poser and scaling
 - check Africanusan Aegislash poser and scaling
+- check Linkite poser and scaling
