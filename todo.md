@@ -140,3 +140,4 @@ Add procedural walk animations to
 - check Africanusan Doublade poser and scaling
 - check Africanusan Aegislash poser and scaling
 - check Linkite poser and scaling
+- check Epoch Spinarak poser and scaling
