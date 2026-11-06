@@ -145,3 +145,4 @@ Add procedural walk animations to
 - check Egho Magnemite poser and scaling
 - check Egho Magneton poser and scaling
 - check Egho Magnezone poser and scaling
+- check Minyan poser and scaling
