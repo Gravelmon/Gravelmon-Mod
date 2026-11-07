@@ -147,3 +147,4 @@ Add procedural walk animations to
 - check Egho Magnezone poser and scaling
 - check Minyan poser and scaling
 - check Egho Spearow poser and scaling
+- check Vilucard poser and scaling
