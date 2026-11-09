@@ -149,3 +149,4 @@ Add procedural walk animations to
 - check Egho Spearow poser and scaling
 - check Vilucard poser and scaling
 - check Delta Yanma poser and scaling
+- check Xenomite poser and scaling
