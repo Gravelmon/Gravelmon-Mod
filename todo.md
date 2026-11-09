@@ -150,3 +150,4 @@ Add procedural walk animations to
 - check Vilucard poser and scaling
 - check Delta Yanma poser and scaling
 - check Xenomite poser and scaling
+- check Xenogen poser and scaling
