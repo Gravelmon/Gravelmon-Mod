@@ -151,3 +151,4 @@ Add procedural walk animations to
 - check Delta Yanma poser and scaling
 - check Xenomite poser and scaling
 - check Xenogen poser and scaling
+- check Candore poser and scaling
