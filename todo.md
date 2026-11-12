@@ -152,3 +152,4 @@ Add procedural walk animations to
 - check Xenomite poser and scaling
 - check Xenogen poser and scaling
 - check Candore poser and scaling
+- check Lunapup poser and scaling
