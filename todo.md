@@ -154,3 +154,4 @@ Add procedural walk animations to
 - check Candore poser and scaling
 - check Lunapup poser and scaling
 - check Wroomtoise poser and scaling
+- check Delta Yanmega poser and scaling
