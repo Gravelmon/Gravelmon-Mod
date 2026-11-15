@@ -156,3 +156,4 @@ Add procedural walk animations to
 - check Wroomtoise poser and scaling
 - check Delta Yanmega poser and scaling
 - check Plasduck poser and scaling
+- check Owten poser and scaling
