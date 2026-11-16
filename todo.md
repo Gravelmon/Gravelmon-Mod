@@ -160,3 +160,4 @@ Add procedural walk animations to
 - check Hoennian Goomy poser and scaling
 - check Eshouten poser and scaling
 - check Epoch Hoothoot poser and scaling
+- check Epoch Noctowl poser and scaling
