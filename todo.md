@@ -158,3 +158,4 @@ Add procedural walk animations to
 - check Plasduck poser and scaling
 - check Owten poser and scaling
 - check Hoennian Goomy poser and scaling
+- check Eshouten poser and scaling
