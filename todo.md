@@ -161,3 +161,4 @@ Add procedural walk animations to
 - check Eshouten poser and scaling
 - check Epoch Hoothoot poser and scaling
 - check Epoch Noctowl poser and scaling
+- check Delta Larvesta poser and scaling
